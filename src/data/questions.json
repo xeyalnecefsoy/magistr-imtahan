@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "type": "mcq",
+    "question": "Akademik yazıda 'plagiat' nədir?",
+    "options": ["Başqasının fikirini istinadsız istifadə etmək", "Öz fikirlərini yazmaq", "Mənbələri düzgün göstərmək", "Yalnız kitablardan istifadə etmək"],
+    "answer": "Başqasının fikirini istinadsız istifadə etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "2",
+    "type": "mcq",
+    "question": "Akademik məqalənin strukturuna hansı daxil deyil?",
+    "options": ["Giriş (Introduction)", "Metodologiya", "Şəxsi gündəlik qeydləri", "Nəticə (Conclusion)"],
+    "answer": "Şəxsi gündəlik qeydləri",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "3",
+    "type": "flashcard",
+    "question": "Mühəndis yaradıcılığında 'Brainstorming' metodunu izah edin.",
+    "answer": "Qrup şəklində ideyaların tənqidsiz və sərbəst şəkildə irəli sürüldüyü fikir mübadiləsi metodu.",
+    "category": "Mühəndis yaradıcılıq prinsipləri"
+  },
+  {
+    "id": "4",
+    "type": "flashcard",
+    "question": "TRIZ (İxtiraçılıq Məsələlərinin Həlli Nəzəriyyəsi) kim tərəfindən yaradılmışdır?",
+    "answer": "Genrix Altşuller tərəfindən.",
+    "category": "Mühəndis yaradıcılıq prinsipləri"
+  },
+  {
+    "id": "5",
+    "type": "flashcard",
+    "question": "Sənaye dizaynında əsas 3 prinsip hansılardır?",
+    "answer": "Funksionallıq, Estetika və Erqonomika.",
+    "category": "Sənaye dizaynında fəaliyyət sahələri"
+  },
+  {
+    "id": "6",
+    "type": "flashcard",
+    "question": "Erqonomika elmi nəyi öyrənir?",
+    "answer": "İnsan və istifadə etdiyi texnika/mühit arasındakı qarşılıqlı əlaqəni, rahatlığı və təhlükəsizliyi.",
+    "category": "Erqonomika və texniki dizayn"
+  },
+  {
+    "id": "7",
+    "type": "flashcard",
+    "question": "Antropometrik məlumatlar dizaynda niyə vacibdir?",
+    "answer": "Məhsulun insan bədən ölçülərinə uyğun hazırlanması üçün.",
+    "category": "Erqonomika və texniki dizayn"
+  },
+  {
+    "id": "8",
+    "type": "flashcard",
+    "question": "CAD (Computer-Aided Design) nədir?",
+    "answer": "Kompüter dəstəkli layihələndirmə - mühəndis və dizaynerlərin layihələri yaratmaq, dəyişdirmək və optimallaşdırmaq üçün istifadə etdiyi proqram təminatı.",
+    "category": "Sənaye dizaynında kompüter layihələndirilməsi-1"
+  },
+  {
+    "id": "9",
+    "type": "flashcard",
+    "question": "SolidWorks proqramının əsas təyinatı nədir?",
+    "answer": "3D modelləşdirmə və mühəndislik təhlilləri üçün istifadə olunan CAD proqramıdır.",
+    "category": "Sənaye dizaynında kompüter layihələndirilməsi-1"
+  }
+]

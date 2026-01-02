@@ -1,0 +1,394 @@
+{
+  "subject": "Erqonomika və texniki dizayn",
+  "totalQuestions": 60,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Erqonomikanın əsas anlayışı və məqsədi nədən ibarətdir?",
+      "answer": "Erqonomika (yunanca ergon – iş, nomos – qanun) – insanların əmək fəaliyyətini öyrənən elmdir. Məqsədi əmək alətlərini və ətraf mühiti insanın psixofizioloji imkanlarına uyğunlaşdırmaqla, əməyin səmərəliliyini artırmaq, yorğunluğu azaltmaq və təhlükəsizliyi təmin etməkdir.",
+      "category": "Erqonomika əsasları"
+    },
+    {
+      "id": 2,
+      "question": "\"İnsan-maşın-mühit\" sistemində erqonomik tələblər hansı xassələrlə nəticələnir və bu xassələr nələrdir?",
+      "answer": "Bu sistemdə erqonomik tələblər aşağıdakı xassələrlə nəticələnir:\n1. Antropometrik – insanın bədən ölçülərinə uyğunluq.\n2. Psixofizioloji – insanın hissi və zehni imkanlarına uyğunluq.\n3. Gigiyenik – mühitin (səs, işıq, temperatur) insan sağlamlığına təsiri.\n4. Estetik – formanın və rəngin insana emosional təsiri.",
+      "category": "Sistem analizi"
+    },
+    {
+      "id": 3,
+      "question": "Antropometrik faktorların (fiziki ölçülərin) erqonomik layihələndirmədə rolu nədir?",
+      "answer": "Antropometrik faktorlar (boy, çiyin eni, qol uzunluğu və s.) əşyaların, mebellərin və iş yerlərinin insan bədəninə uyğun ölçülərdə hazırlanmasını təmin edir. Məsələn, stulun hündürlüyü, masanın genişliyi insanın fiziki parametrlərinə əsaslanmalıdır ki, rahatlıq təmin edilsin.",
+      "category": "Antropometriya"
+    },
+    {
+      "id": 4,
+      "question": "Yaşayış mühitinin layihələndirilməsində erqodizaynın vəzifələri nələrdir?",
+      "answer": "Erqodizaynın əsas vəzifələri yaşayış mühitini insanın həyat tərzinə, fizioloji və psixoloji ehtiyaclarına uyğunlaşdırmaqdır. Buraya funksional zonalaşdırma (istirahət, iş, qida qəbulu), mebelin düzgün yerləşdirilməsi, işıqlandırma və rəng seçimi daxildir.",
+      "category": "Mühit dizaynı"
+    },
+    {
+      "id": 5,
+      "question": "Geyimin forması hansı faktorlardan asılıdır və onun əsas tələbləri nələrdir?",
+      "answer": "Geyimin forması insan bədəninin anatomik quruluşundan, hərəkət dinamikasından və iqlim şəraitindən asılıdır. Əsas tələblər:\n1. Gigiyenik – istilik və nəmlik mübadiləsini təmin etmək.\n2. Erqonomik – hərəkəti məhdudlaşdırmamaq.\n3. Estetik – gözəl və müasir görünüş.",
+      "category": "Geyim erqonomikası"
+    },
+    {
+      "id": 6,
+      "question": "Erqonomikanın predmeti və məqsədi haqqında ətraflı məlumat verin.",
+      "answer": "Erqonomikanın predmeti – insan, texnika və mühit arasındakı qarşılıqlı əlaqələrdir. Məqsədi isə bu əlaqələri elə optimallaşdırmaqdır ki, insan həm səmərəli işləsin, həm də sağlamlığını qorusun. Bu, iş yerlərinin, alətlərin və idarəetmə sistemlərinin insan faktoruna uyğunlaşdırılmasını əhatə edir.",
+      "category": "Erqonomika əsasları"
+    },
+    {
+      "id": 7,
+      "question": "Erqonomik tələblər-insan operator fəaliyyətinin optimallaşdırılması məqsədilə hansı imkanları nəzərə alır?",
+      "answer": "Erqonomik tələblər insan operatorun:\n1. Fiziki imkanlarını (güc, sürət, dözümlülük).\n2. Psixi imkanlarını (diqqət, yaddaş, reaksiya).\n3. Antropometrik ölçülərini nəzərə alır.\nBu, səhvlərin azalmasına və işin keyfiyyətinin artmasına xidmət edir.",
+      "category": "İnsan faktorları"
+    },
+    {
+      "id": 8,
+      "question": "Psixofizioloji faktorlar iş zamanı insanın hansı imkanlarını və mühitin xüsusiyyətlərini əhatə edir?",
+      "answer": "Psixofizioloji faktorlar insanın görmə, eşitmə, toxunma duyğularını, sinir sisteminin vəziyyətini və əzələ fəaliyyətini əhatə edir. Eyni zamanda mühitin rəngi, işıqlanması, səs səviyyəsi və temperaturu kimi xüsusiyyətlər də insanın psixofizioloji vəziyyətinə təsir edir.",
+      "category": "Psixologiya"
+    },
+    {
+      "id": 9,
+      "question": "Memarlıq mühitində işıq və rəngin qavranılması haqqında əsas nəzəriyyələr nədən bəhs edir?",
+      "answer": "İşıq və rəng nəzəriyyələri insanın məkanı necə qavradığını izah edir. İsti rənglər (qırmızı, sarı) aktivlik və yaxınlıq hissi yaradır, soyuq rənglər (mavi, yaşıl) isə sakitlik və genişlik hissi verir. İşıqlandırma isə formaları qabardır və mühitin emosional atmosferini formalaşdırır.",
+      "category": "Mühit dizaynı"
+    },
+    {
+      "id": 10,
+      "question": "\"Toxuculuq materialları\"nın toxucu xassələri, o cümlədən toxuculuq nəmlik udma qabiliyyəti (hidsroskopiklik) haqqında məlumat verin.",
+      "answer": "Toxuculuq xassələri materialın strukturu, sıxlığı və toxunma üsulu ilə müəyyən edilir. Hidroskopiklik – materialın havadan nəmliyi udma və saxlama qabiliyyətidir. Təbii liflər (pambıq, yun) yüksək hidroskopikliyə malikdir ki, bu da bədənin nəfəs almasını və tərin buxarlanmasını təmin edərək gigiyenik rahatlıq yaradır.",
+      "category": "Materialşünaslıq"
+    },
+    {
+      "id": 11,
+      "question": "Erqonomikanın qarşısında qoyulan məqsəd – təcrübə fəaliyyəti kimi layihələndirmə nəyi əhatə edir?",
+      "answer": "Layihələndirmə zamanı erqonomika aşağıdakıları əhatə edir:\n1. İnsan faktorunun analizi.\n2. İş yerinin və avadanlıqların modelləşdirilməsi.\n3. Prototipin sınaqdan keçirilməsi və qiymətləndirilməsi.\n4. Təhlükəsizlik və rahatlıq standartlarının tətbiqi.",
+      "category": "Layihələndirmə"
+    },
+    {
+      "id": 12,
+      "question": "Erqonomik tədqiqatların nəticələri nədir və sistemin layihələndirilməsi prosesində onların rolu nədir?",
+      "answer": "Tədqiqat nəticələri erqonomik standartlar, tövsiyələr və normativlər (məsələn, GOST, ISO) şəklində formalaşır. Layihələndirmədə bu nəticələr, məhsulun insan üçün optimal, təhlükəsiz və rahat olmasını təmin edən əsas meyar rolunu oynayır.",
+      "category": "Tədqiqat metodları"
+    },
+    {
+      "id": 13,
+      "question": "Diqqətin əsas psixi fəaliyyət xüsusiyyətləri hansılardır (cəmlənmə, yönəlmə, həcm, bölünmə, davamlılıq)?",
+      "answer": "Diqqətin xüsusiyyətləri:\n1. Cəmlənmə – diqqətin bir obyekt üzərində toplanması.\n2. Həcm – eyni anda qavranılan obyektlərin sayı (adətən 5-7).\n3. Bölünmə – eyni anda iki işi görmək qabiliyyəti.\n4. Davamlılıq – diqqətin uzun müddət saxlanması.\n5. Yönəlmə – diqqətin seçici xarakteri.",
+      "category": "Psixologiya"
+    },
+    {
+      "id": 14,
+      "question": "Mebelə qoyulan erqonomik tələblər və mebel növlərinin təsnifatı haqqında məlumat verin.",
+      "answer": "Erqonomik tələblər: Rahatlıq, təhlükəsizlik, davamlılıq və antropometrik uyğunluq. Təsnifat:\n1. Oturacaqlar (stullar, kreslolar).\n2. Səthlər (masalar, partalar).\n3. Saxlama sistemləri (şkaflar, rəflər).\n4. İstirahət mebelləri (divanlar, çarpayılar).",
+      "category": "Mebel dizaynı"
+    },
+    {
+      "id": 15,
+      "question": "Optik illüziyalar nədir və memarlıq abidələrinin layihələndirilməsində onların nəzərə alınmasının əhəmiyyəti nədən ibarətdir?",
+      "answer": "Optik illüziyalar – gözün obyekti reallıqdan fərqli qavramasıdır. Memarlıqda bu, binanın ölçülərini, hündürlüyünü və ya formasını korreksiya etmək üçün istifadə olunur. Məsələn, yunan məbədlərində sütunlar yuxarıya doğru nazikləşdirilir ki, uzaqdan düz görünsünlər (entazis).",
+      "category": "Vizual qavrayış"
+    },
+    {
+      "id": 16,
+      "question": "Erqonomika fəaliyyətin obyektləri olaraq nələri əhatə edir?",
+      "answer": "Erqonomika fəaliyyət obyekti kimi aşağıdakıları əhatə edir:\n1. İnsan (operator, istifadəçi).\n2. Texnika (maşınlar, alətlər, kompüterlər).\n3. Mühit (iş yeri, interyer, iqlim şəraiti).\n4. Fəaliyyət prosesi (işin təşkili, metodları).",
+      "category": "Erqonomika əsasları"
+    },
+    {
+      "id": 17,
+      "question": "Layihənin bütün erqonomik təminat prosesini təşkil edən mərhələlər hansılardır?",
+      "answer": "Mərhələlər:\n1. Erqonomik analız (problemin qoyuluşu).\n2. Erqonomik tələblərin işlənib hazırlanması.\n3. Modelləşdirilmə və prototipləşdirmə.\n4. Erqonomik ekspertiza və qiymətləndirmə.\n5. Tətbiq və istismar nəzarəti.",
+      "category": "Layihələndirmə"
+    },
+    {
+      "id": 18,
+      "question": "Erqonomik məsələlərin həlli üçün insanın həyat fəaliyyətinin kompleks faktorları hansılardır?",
+      "answer": "Kompleks faktorlar:\n1. Bioloji (anatomik, fizioloji).\n2. Psixoloji (koqnitiv, emosional).\n3. Sosial (kollektivdə münasibətlər, motivasiya).\n4. Mühit (ekoloji, texniki).",
+      "category": "İnsan faktorları"
+    },
+    {
+      "id": 19,
+      "question": "Rəngin psixofizioloji təsiri və rəngin emosional-estetik amili kimi həll olunan məsələlər nədən ibarətdir?",
+      "answer": "Rəng insanın qan təzyiqinə, nəbzinə və əhval-ruhiyyəsinə təsir edir. Qırmızı rəng həyəcanlandırır və aktivliyi artırır, yaşıl və mavi isə sakitləşdirir. Emosional-estetik amil kimi rəng, mühitin atmosferini yaradır, zövq verir və psixoloji komfortu təmin edir.",
+      "category": "Rəngşünaslıq"
+    },
+    {
+      "id": 20,
+      "question": "Geyimin geyilən materiallarla bağlı gigiyenik xassələrindən bədən tərəfindən buraxılan \"buxar\" və \"nəmlik keçiriciliyi\"nin fərqini izah edin.",
+      "answer": "Buxar keçiriciliyi – materialın tər buxarını bədəndən xaricə ötürmə qabiliyyətidir (nəfəs alma). Nəmlik keçiriciliyi isə materialın suyu (təri) maye halında udub, səthə çıxarmasıdır. Gigiyenik baxımdan hər ikisi vacibdir ki, bədən quru qalsın və istilik tənzimlənməsi pozulmasın.",
+      "category": "Geyim erqonomikası"
+    },
+    {
+      "id": 21,
+      "question": "Sistem – vahid məqsədlə birləşdirilmiş qarşılıqlı faktorların və komponentlərin uyğunlaşdırılması nə deməkdir?",
+      "answer": "Sistem, qarşılıqlı əlaqədə olan elementlərin (məsələn, insan və kompüter) vahid bir məqsəd (məsələn, işi yerinə yetirmək) üçün birləşməsidir. Erqonomikada bu uyğunlaşdırma, sistemin hər bir komponentinin digəri ilə effektiv və ahəngdar işləməsini təmin etmək deməkdir.",
+      "category": "Sistem analizi"
+    },
+    {
+      "id": 22,
+      "question": "\"Erqodizayn\" anlayışı nədir və o, nəyi vəhdətə birləşdirir?",
+      "answer": "Erqodizayn – erqonomika və dizaynın inteqrasiyasıdır. O, əşyaların yalnız xarici gözəlliyini deyil, həm də istifadə rahatlığını (funksionallığını) vəhdətə birləşdirir. Məqsəd həm estetik cəhətdən cəlbedici, həm də istifadəçi üçün maksimal dərəcədə rahat məhsullar yaratmaqdır.",
+      "category": "Dizayn nəzəriyyəsi"
+    },
+    {
+      "id": 23,
+      "question": "Diqqətin davamlılığı nədir və istehsalat şəraitində bu müddət nə qədərdir?",
+      "answer": "Diqqətin davamlılığı – insanın diqqətini uzun müddət bir obyekt və ya fəaliyyət üzərində saxlama qabiliyyətidir. İstehsalatda yüksək konsentrasiya adətən 15-20 dəqiqə davam edir, bundan sonra diqqət zəifləyir və qısa fasilə tələb olunur.",
+      "category": "Psixologiya"
+    },
+    {
+      "id": 24,
+      "question": "Yaşayış mühitini təkmilləşdirmə prosesində funksional zonalar hansı qruplara bölünür?",
+      "answer": "Funksional zonalar əsasən üç qrupa bölünür:\n1. İctimai zona (qonaq otağı, yemək otağı).\n2. Şəxsi zona (yataq otağı, kabinet).\n3. Təsərrüfat zonası (mətbəx, sanitar qovşağı, dəhliz).",
+      "category": "İnteryer dizaynı"
+    },
+    {
+      "id": 25,
+      "question": "İnsan fiqurunun qəbul edilmiş anatomik quruluş qanunları və bu qanunların sənətdə tətbiqi haqqında məlumat verin.",
+      "answer": "İnsan fiquru \"qızıl bölgü\" və proporsiya qanunlarına əsasən öyrənilir. Sənətdə (məsələn, Da Vinçinin Vitruvi adamı) bədən hissələrinin nisbəti (başın bədənlə nisbəti 1/7 və ya 1/8) harmoniya və gözəllik meyarı kimi tətbiq olunur.",
+      "category": "Anatomiya və sənət"
+    },
+    {
+      "id": 26,
+      "question": "Erqonomikanın əsas struktur elementləri (tədqiqat elmi haqqında nəzəriyyə, metodologiya və elmi biliklər) hansılardır?",
+      "answer": "Erqonomikanın strukturu üç əsas elementdən ibarətdir:\n1. Nəzəriyyə – əsas anlayışlar və qanunauyğunluqlar.\n2. Metodologiya – tədqiqat və analiz üsulları (müşahidə, eksperiment).\n3. Praktiki biliklər – erqonomik normalar, standartlar və onların layihələndirmədə tətbiqi.",
+      "category": "Erqonomika nəzəriyyəsi"
+    },
+    {
+      "id": 27,
+      "question": "Erqonomikanın inkişafının XX əsrin əvvəlində və sonrakı dövrlərdə (1920-ci illər, II Dünya müharibəsindən sonra) əsas istiqamətləri hansılar olmuşdur?",
+      "answer": "1920-ci illərdə (Teylorizm) əsas diqqət əmək məhsuldarlığına və fiziki işin optimallaşdırılmasına yönəlmişdi. II Dünya müharibəsindən sonra isə hərbi texnikanın (təyyarələr, radarlar) mürəkkəbləşməsi ilə \"mühəndis psixologiyası\" inkişaf etdi, diqqət idarəetmə sistemlərinə və insan-maşın qarşılıqlı əlaqəsinə yönəldi.",
+      "category": "Erqonomika tarixi"
+    },
+    {
+      "id": 28,
+      "question": "Həyat fəaliyyəti (istehsalatda, avtomobil idarə edəndə, məişət situasiyalarında və s.) ilə bağlı psixoloji hal olaraq diqqətin rolu nədir?",
+      "answer": "Diqqət, təhlükəsizlik və səmərəlilik üçün həlledici rola malikdir. Avtomobil idarə edərkən diqqətin yayılması qəzaya, istehsalatda isə xətaya səbəb ola bilər. Diqqət insanın ətraf mühitdən gələn vacib siqnalları seçib emal etməsinə imkan verir.",
+      "category": "Təhlükəsizlik"
+    },
+    {
+      "id": 29,
+      "question": "Müşahidə zamanı obyektlərin qavranılmasında obyektiv ölçülərin qeyri-düzgün qiymətləndirilməsinə səbəb olan hadisələr nələrdir?",
+      "answer": "Bu hadisələr optik illüziyalar, perspektiv təhrifləri və kontrast effektləridir. Məsələn, parlaq fon üzərindəki tünd obyekt daha kiçik, tünd fon üzərindəki açıq rəngli obyekt isə daha böyük görünə bilər.",
+      "category": "Vizual qavrayış"
+    },
+    {
+      "id": 30,
+      "question": "Müxtəlif yaş dövrlərində qadınların bədən hissələrinin (baş, çiyinlər, qollar, sinə, bel, çanaq, saçlar, üzlər) ardıcıllıqla böyüməsinin fərqləri hansı şəkildə ifadə olunur?",
+      "answer": "İnkişaf dövründə bədən proporsiyaları dəyişir. Uşaqlıqda baş bədənə nisbətən böyük olur. Yetkinlik dövründə ikincili cinsi əlamətlər (sinə, çanaq) formalaşır və çanaq sümükləri genişlənir. Yaşlandıqca isə əzələ kütləsi azalır, onurğa sütunu qısala bilər və dəri elastikliyini itirir.",
+      "category": "Antropometriya"
+    },
+    {
+      "id": 31,
+      "question": "Erqonomikanın elmi kimi nəyi əhatə edir (Nəzəriyyə, Metodologiya, Elmi biliklər və s.)?",
+      "answer": "Elmi kimi erqonomika:\n1. Nəzəriyyəni – insan fəaliyyətinin qanunlarını.\n2. Metodologiyanı – antropometrik, fizioloji və psixoloji tədqiqat metodlarını.\n3. Praktiki tətbiqi – əmək alətlərinin və mühitin layihələndirilməsini əhatə edir.",
+      "category": "Erqonomika nəzəriyyəsi"
+    },
+    {
+      "id": 32,
+      "question": "İnsan fəaliyyəti və fəaliyyətin gedişat amillərinin təhlili mərhələsi nəyi əhatə edir?",
+      "answer": "Bu mərhələ iş prosesinin alqoritmini, iş yükünü, işin tempini və səhvlərin ehtimalını analiz edir. Məqsəd işin ən səmərəli və az yorucu yerinə yetirilmə ardıcıllığını müəyyən etməkdir.",
+      "category": "İş analizi"
+    },
+    {
+      "id": 33,
+      "question": "Şəxsiyyətin psixoloji xüsusiyyətlərinin əsasları nədən ibarətdir?",
+      "answer": "Şəxsiyyətin psixoloji əsaslarına temperament (sinir sisteminin tipi), xarakter (davranış tərzi), qabiliyyətlər (bacarıqlar) və motivasiya (istək və məqsədlər) daxildir. Bu xüsusiyyətlər insanın iş üslubuna və mühitlə qarşılıqlı əlaqəsinə təsir edir.",
+      "category": "Psixologiya"
+    },
+    {
+      "id": 34,
+      "question": "Rəngin psixofizioloji və psixoloji təsiri nəticəsində yaranan \"rəng dayıları\" (qırmızı, yaşıl, sarı, bənövşəyi) hansılardır və xüsusiyyətləri nələrdir?",
+      "answer": "- Qırmızı: Aktivlik, təhlükə, həyəcan (nəbzi artırır).\n- Sarı: Sevinc, diqqət, günəş (zehni fəaliyyəti stimullaşdırır).\n- Yaşıl: Sakitlik, təbiət, təhlükəsizlik (gözləri dincəldir).\n- Bənövşəyi: Sirr, yaradıcılıq, bəzən kədər (daxili konsentrasiya yaradır).",
+      "category": "Rəng psixologiyası"
+    },
+    {
+      "id": 35,
+      "question": "Yaşlı insanların (60 yaşdan yuxarı) antropometrik parametrlərinin orta ölçülərinin müəyyən edilməsi nə üçün vacibdir?",
+      "answer": "Yaşlandıqca insanın boyu qısalır, hərəkət diapazonu məhdudlaşır və görmə qabiliyyəti zəifləyir. Bu parametrlərin bilinməsi yaşlı insanlar üçün təhlükəsiz və rahat mühitlərin, mebellərin və köməkçi vasitələrin layihələndirilməsi üçün vacibdir.",
+      "category": "Gerontoloji erqonomika"
+    },
+    {
+      "id": 36,
+      "question": "Erqonomikanın predmeti olaraq elmi kimi (sistemlik-sistemin xüsusiyyətləri) nəyi öyrənir?",
+      "answer": "Sistemli yanaşmada erqonomika elementi yox, elementlər arasındakı əlaqəni öyrənir. Yəni əsas diqqət ayrılıqda insana və ya maşına yox, \"İnsan-Maşın\" sisteminin bütövlükdə necə işlədiyinə, informasiya mübadiləsinə və idarəetmənin effektivliyinə yönəlir.",
+      "category": "Sistem analizi"
+    },
+    {
+      "id": 37,
+      "question": "Erqonomik tədqiqatların əsas istiqamətləri olan Analiz, Sintez (modelləşmə) və Obyektin Qiymətləndirilməsi nəyi əhatə edir?",
+      "answer": "1. Analiz: Mövcud problemlərin və iş şəraitinin öyrənilməsi.\n2. Sintez (Modelləşmə): Yeni, daha yaxşı iş yerlərinin və ya alətlərin layihələndirilməsi.\n3. Qiymətləndirmə: Hazırlanan layihənin insan rahatlığına və standartlara uyğunluğunun yoxlanılması.",
+      "category": "Tədqiqat metodları"
+    },
+    {
+      "id": 38,
+      "question": "Temperament tipləri (zəif, güclü xolerik, güclü sanqvinik, güclü fleqmatik) haqqında məlumat verin.",
+      "answer": "- Xolerik (güclü, qeyri-sabit): Cəld, enerjili, lakin tez qıcıqlanan.\n- Sanqvinik (güclü, sabit, hərəkətli): Ünsiyyətcil, işgüzar, tez uyğunlaşan.\n- Fleqmatik (güclü, sabit, ləng): Sakit, təmkinli, dözümlü.\n- Melandxolik (zəif): Həssas, tez yorulan, lakin dəqiq işləyən.",
+      "category": "Psixologiya"
+    },
+    {
+      "id": 39,
+      "question": "Uzaqlaşma dərəcəsinin qavranılmasında (konvergensiya/ divergensiya və büllurun dartılması) rol oynayan fizioloji mexanizmlər hansılardır?",
+      "answer": "- Konvergensiya: Gözlərin yaxın obyektə baxarkən bir-birinə yaxınlaşması.\n- Divergensiya: Uzaq obyektə baxarkən gözlərin paralelləşməsi.\n- Akkomodasiya (büllurun dartılması): Göz büllurunun əyriliyini dəyişərək fokus məsafəsini tənzimləməsi. Bu mexanizmlər bizə məsafəni və dərinliyi hiss etdirir.",
+      "category": "Fiziologiya"
+    },
+    {
+      "id": 40,
+      "question": "Materialların buxar keçiriciliyi nədir və onun sinetik lifli parçalarda yüksək olmamasının səbəbi nədir?",
+      "answer": "Buxar keçiriciliyi materialın su buxarını (təri) keçirmə qabiliyyətidir. Sintetik liflər (neylon, poliester) hamar və sıx struktura malik olduqları üçün nəm udmur və məsamələri azdır, bu da buxarın keçməsini çətinləşdirir, nəticədə insan tərləyir.",
+      "category": "Materialşünaslıq"
+    },
+    {
+      "id": 41,
+      "question": "Erqonomikanın məqsədlərindən biri olan – insanın maddi və mənəvi tələbatlarına cavab verən harmonik mühitin formalaşması nədən bəhs edir?",
+      "answer": "Bu, insanın yalnız fiziki rahatlığını deyil, həm də psixoloji və estetik məmnunluğunu təmin edən mühit yaratmaq deməkdir. Harmonik mühit insanın özünü yaxşı hiss etməsinə, yaradıcılıq qabiliyyətinin artmasına və stressin azalmasına kömək edir.",
+      "category": "Mühit dizaynı"
+    },
+    {
+      "id": 42,
+      "question": "Erqonomik tədqiqat işləri hansı kollektivlər tərəfindən yerinə yetirilir?",
+      "answer": "Erqonomika multidissiplinar sahə olduğu üçün tədqiqatlar kompleks qruplar tərəfindən aparılır: mühəndislər, dizaynerlər, həkimlər (fizioloqlar, gigiyenistlər), psixoloqlar və sosioloqlar.",
+      "category": "Təşkilat"
+    },
+    {
+      "id": 43,
+      "question": "Diqqətin davamlılığına təsir edən səbəblər nələrdir?",
+      "answer": "Səbəblər:\n1. Obyektiv: Səs-küy, işıqlanma, temperatur, işin monotonluğu.\n2. Subyektiv: Yorgunluq, maraq, motivasiya, sağlamlıq vəziyyəti, emosional hal.",
+      "category": "Psixologiya"
+    },
+    {
+      "id": 44,
+      "question": "İnteryerin rəngləndirilməsində rəngin psixikaya olan güclü və zəif təsirindən (ağır/yüngül tonlar) hansı şəkildə istifadə olunur?",
+      "answer": "Ağır (tünd) tonlar aşağı hissələrdə (döşəmə) istifadə olunur ki, sabitlik hissi yaratsın. Yüngül (açıq) tonlar yuxarıda (tavan, divarlar) istifadə olunur ki, məkanı geniş və havalı göstərsin. Güclü rənglər vurğu (aksent) kimi, zəif (pastel) rənglər isə fon kimi istifadə edilir.",
+      "category": "İnteryer dizaynı"
+    },
+    {
+      "id": 45,
+      "question": "Bədənin müxtəlif ölçülərinin (Boy, Çiyin, Bel, Çanaq və s.) dolğunluqdan asılı olaraq yaşlara (29-a kimi, 30-45 yaş, 45-dən yuxarı) görə dəyişməsi haqqında məlumat verin.",
+      "answer": "Gənc yaşlarda (29-a kimi) bədən daha incə və əzələli olur. Orta yaşda (30-45) maddələr mübadiləsi yavaşlayır, bədən çəkisi və dolğunluq artmağa meylli olur. 45-dən yuxarı yaşlarda isə boy bir qədər qısalır, piy qatı artır və bədən konturları dəyişir.",
+      "category": "Antropometriya"
+    },
+    {
+      "id": 46,
+      "question": "Erqonomikanın elmi kimi nəzəriyyə, metodologiya və elmi biliklər arasındakı qarşılıqlı əlaqəsinin strukturunu izah edin.",
+      "answer": "Bu struktur zəncirvari bağlıdır: Nəzəriyyə əsas qanunları və fərziyyələri verir. Metodologiya bu fərziyyələri yoxlamaq üçün alətlər (təcrübələr) təqdim edir. Təcrübələr nəticəsində əldə olunan Elmi Biliklər isə yenidən nəzəriyyəni zənginləşdirir və praktikada (standartlarda) tətbiq olunur.",
+      "category": "Erqonomika nəzəriyyəsi"
+    },
+    {
+      "id": 47,
+      "question": "Gigiyenik faktorlar nəyi əhatə edir?",
+      "answer": "Gigiyenik faktorlar iş mühitinin insan sağlamlığına təsir edən fiziki, kimyəvi və bioloji amilləridir:\n1. Mikrobiqlim (temperatur, rütubət).\n2. İşıqlanma.\n3. Səs-küy və vibrasiya.\n4. Havanın təmizliyi (toz, qazlar).",
+      "category": "Əməyin mühafizəsi"
+    },
+    {
+      "id": 48,
+      "question": "Diqqətin bölünməsi prosesi nədir və insanın psixikasının bütün proses və xassələri baxımından rolu nədir?",
+      "answer": "Diqqətin bölünməsi eyni zamanda iki və ya daha çox fəaliyyəti yerinə yetirmək qabiliyyətidir (məsələn, maşın sürərkən söhbət etmək). Bu, psixikanın çevikliyini göstərir və mürəkkəb işlərin idarə olunmasında vacib rol oynayır, lakin yorucudur.",
+      "category": "Psixologiya"
+    },
+    {
+      "id": 49,
+      "question": "Rənglərin emosional-estetik təsirinin (sarı, bənövşəyi, qırmızı, yaşıl-mavi) hansı hissi reaksiyalara səbəb olduğunu izah edin.",
+      "answer": "- Sarı: Optimzm, enerji, istilik.\n- Bənövşəyi: Kübarlıq, mistika, bəzən kədər.\n- Qırmızı: Ehtiras, aqressiya, güc.\n- Yaşıl-Mavi (Firuzəyi): Sərinlik, təmizlik, rahatlıq.",
+      "category": "Rəng psixologiyası"
+    },
+    {
+      "id": 50,
+      "question": "Əşyaların real ölçülərini görmək üçün əlavə komponent olaraq nəyin qiymətləndirilməsi vacibdir?",
+      "answer": "Məsafənin və ətrafdakı digər obyektlərin (miqyasın) qiymətləndirilməsi vacibdir. Beyin bir əşyanın ölçüsünü təyin edərkən onu ətrafındakı tanış əşyalarla müqayisə edir (müqayisəli qavrayış).",
+      "category": "Vizual qavrayış"
+    },
+    {
+      "id": 51,
+      "question": "\"İnsan-maşın-mühit\" sistemində erqonomik tələblər hansı xüsusiyyətləri əhatə edir?",
+      "answer": "Erqonomik tələblər:\n1. İdarəetmə orqanlarının əlçatanlığını və rahatlığını.\n2. İnformasiya indikatorlarının oxunaqlığını.\n3. İş yerinin təhlükəsizliyini.\n4. Mühitin komfortunu (səs, işıq, temperatur) əhatə edir.",
+      "category": "Sistem analizi"
+    },
+    {
+      "id": 52,
+      "question": "Müasir layihələndirmədə istifadə edilən \"İnsan faktorları\" və dizayn arasında formanın əmələ gəlməsinə təsir edən faktorlar hansılardır?",
+      "answer": "Formaya təsir edən faktorlar:\n1. Anatomiya (əl tutumu, bədən forması).\n2. Fiziologiya (rahatlıq, güc tətbiqi).\n3. Psixologiya (formanın anlaşılan olması, estetika).\n4. Texnologiya (materialın imkanları).",
+      "category": "Dizayn metodologiyası"
+    },
+    {
+      "id": 53,
+      "question": "Şəxsiyyətin sinir sisteminin növləri (zəif, güclü xolerik, güclü sanqvinik, güclü fleqmatik) və xüsusiyyətləri haqqında məlumat verin.",
+      "answer": "İ.P. Pavlovun təsnifatına görə:\n1. Zəif (Melanxolik) – yüksək həssaslıq, aşağı dözümlülük.\n2. Güclü, Balanssız (Xolerik) – yüksək enerji, partlayışlı reaksiya.\n3. Güclü, Balanslı, Çevik (Sanqvinik) – aktiv, tez uyğunlaşan.\n4. Güclü, Balanslı, Ləng (Fleqmatik) – sakit, dözümlü, gec reaksiya verən.",
+      "category": "Psixologiya"
+    },
+    {
+      "id": 54,
+      "question": "Optik korreksiya üsullarının memarlıqda tətbiqinin məqsədi nədən ibarətdir?",
+      "answer": "Məqsəd vizual təhrifləri (perspektiv, illüziya) düzəltmək və binanın insan gözünə daha düzgün, stabil və harmonik görünməsini təmin etməkdir. Məsələn, uzun üfüqi xətlərin \"əyilməməsi\" üçün onlara cüzi əyrilik verilir.",
+      "category": "Memarlıq"
+    },
+    {
+      "id": 55,
+      "question": "Geyimin geyilən materiallarla bağlı gigiyenik xassələrindən istilik keçiriciliyinin əhəmiyyəti nədən ibarətdir?",
+      "answer": "İstilik keçiriciliyi materialın istiliyi bədəndən ətrafa ötürmə qabiliyyətidir. Qış geyimləri aşağı istilik keçiriciliyinə malik olmalıdır ki, bədən istiliyini saxlasın. Yay geyimləri isə yüksək keçiriciliyə malik olmalıdır ki, bədən qızmasın və sərin qalsın.",
+      "category": "Geyim erqonomikası"
+    },
+    {
+      "id": 56,
+      "question": "Erqonomikanın əsas məqsədi insan-maşın fəaliyyəti-obyektin-məskunluq mühitinin insan-maşın sistemində fəaliyyətin səmərəliliyinin yüksəldilməsi və keyfiyyətinin artırılması ilə bağlıdır.",
+      "answer": "Bəli, əsas məqsəd optimallaşdırmadır. Bu üç amilin (İnsan, Maşın, Mühit) inteqrasiyası nəticəsində:\n1. Əmək məhsuldarlığı artır.\n2. Səhvlər və qəzalar azalır.\n3. İşçinin sağlamlığı qorunur və yorğunluq minimuma endirilir.",
+      "category": "Erqonomika əsasları"
+    },
+    {
+      "id": 57,
+      "question": "Müxtəlif mühitlərin erqonomikasının əsas vektorları (mühit komponentlərinin erqonomik həllində səhvlər, mühitin emosional vəziyyətinə təsir) nələrdir?",
+      "answer": "Əsas vektorlar:\n1. Fiziki vektor: Səs, işıq, temperaturun normada saxlanması.\n2. Psixoloji vektor: Rəng və dizayn vasitəsilə stressin azaldılması.\n3. Təhlükəsizlik vektoru: Travmatizmin qarşısının alınması. Səhvlər (məsələn, zəif işıq, narahat oturacaq) işçinin tez yorulmasına və emosional gərginliyə səbəb olur.",
+      "category": "Mühit dizaynı"
+    },
+    {
+      "id": 58,
+      "question": "Şəxsiyyətin psixoloji xüsusiyyətlərindən \"Maraqlar\" və \"Xarakter cəhətləri\"nin əsasları nədən ibarətdir?",
+      "answer": "Maraqlar – insanın diqqətini müəyyən obyektlərə yönəldən idrak tələbatıdır. Xarakter cəhətləri isə insanın davranışında sabitləşmiş xüsusiyyətlərdir (məsələn, məsuliyyət, tənbəllik, cəsarət). İş yerində maraq motivasiyanı artırır, xarakter isə işin keyfiyyətinə təsir edir.",
+      "category": "Psixologiya"
+    },
+    {
+      "id": 59,
+      "question": "Somatoqrafiya metodunun əsas məqsədi və texniki vasitələri nələrdir?",
+      "answer": "Somatoqrafiya – insan bədəninin hərəkət trayektoriyasının və iş zonasının qrafik təsviri metodudur. Məqsədi iş yerinin ölçülərini insanın hərəkət imkanlarına uyğunlaşdırmaqdır. Texniki vasitələr: sxemlər, manekenlər, 3D modelləşdirmə proqramları.",
+      "category": "Tədqiqat metodları"
+    },
+    {
+      "id": 60,
+      "question": "Uzaq məsafədə obyektlərin qavranılması və məsafənin qeyri-düzgün qiymətləndirilməsi haqqında danışın (100 metr, 500 metr məsafə örnəkləri ilə)",
+      "answer": "Uzaq məsafələrdə (məsələn, 500m) hava perspektivi (dumanlılıq) obyektlərin rəngini və konturunu solğunlaşdırır, bu da onların daha uzaq görünməsinə səbəb ola bilər. 100 metr məsafədə isə ölçülər daha dəqiq qavranılır, lakin fonun xarakteri (məsələn, boş sahə və ya dolu sahə) məsafəni olduğundan fərqli (qısa və ya uzun) göstərə bilər.",
+      "category": "Vizual qavrayış"
+    }
+  ],
+  "categories": [
+    "Erqonomika əsasları",
+    "Sistem analizi",
+    "Antropometriya",
+    "Mühit dizaynı",
+    "Geyim erqonomikası",
+    "İnsan faktorları",
+    "Psixologiya",
+    "Materialşünaslıq",
+    "Layihələndirmə",
+    "Tədqiqat metodları",
+    "Mebel dizaynı",
+    "Vizual qavrayış",
+    "Rəngşünaslıq",
+    "Dizayn nəzəriyyəsi",
+    "İnteryer dizaynı",
+    "Anatomiya və sənət",
+    "Erqonomika tarixi",
+    "Təhlükəsizlik",
+    "Erqonomika nəzəriyyəsi",
+    "İş analizi",
+    "Rəng psixologiyası",
+    "Gerontoloji erqonomika",
+    "Fiziologiya",
+    "Təşkilat",
+    "Əməyin mühafizəsi",
+    "Dizayn metodologiyası"
+  ]
+}

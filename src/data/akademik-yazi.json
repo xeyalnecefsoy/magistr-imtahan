@@ -1,0 +1,6476 @@
+[
+  {
+    "id": "1",
+    "type": "mcq",
+    "question": "Variantlardan hansı plagiat anlayışını daha yaxşı müəyyənləşdirir?",
+    "options": [
+      "Mənbəyə istinad etmədən başqasının fikirlərini, mətnini və ya nəticələrini mənimsəmə",
+      "Başqa müəlliflərin ideyalarını dəyişdirmədən istifadə etmək",
+      "İctimaiyyətə açıq məlumatlardan istifadə",
+      "Başqa dildən mətnin tərcüməsi"
+    ],
+    "answer": "Mənbəyə istinad etmədən başqasının fikirlərini, mətnini və ya nəticələrini mənimsəmə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "2",
+    "type": "mcq",
+    "question": "Mətn yenidən işlənilib, lakin mənbə göstərilmədikdə, gizli plagiat necə adlanır?",
+    "options": [
+      "Parafraz edilmiş plagiat",
+      "Öz-özünə plagiatlıq",
+      "Mozaika plagiatı",
+      "Dublikat nəşr"
+    ],
+    "answer": "Parafraz edilmiş plagiat",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "3",
+    "type": "mcq",
+    "question": "Tələbə əvvəllər təqdim etdiyi mətndən sitat gətirmədən istifadə edərsə, plagiatın hansı növü baş verir?",
+    "options": [
+      "Özünü plagiat",
+      "Texniki plagiat",
+      "Mozaika plagiatı",
+      "Tərcümə yolu ilə plagiatlıq"
+    ],
+    "answer": "Özünü plagiat",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "4",
+    "type": "mcq",
+    "question": "Nümunələrdən hansı plagiat hesab edilmir?",
+    "options": [
+      "Məlum məlumatlardan istinadla istifadə",
+      "İstinadsız söz sırasının dəyişdirilməsi ilə parafraza",
+      "Paraqrafın dırnaq və keçid olmadan surətinin çıxarılması",
+      "Mənbəni göstərmədən başqa müəllifin cədvəlini köçürmək"
+    ],
+    "answer": "Məlum məlumatlardan istinadla istifadə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "5",
+    "type": "mcq",
+    "question": "Plagiatın qarşısını almağın əsas yolu hansıdır?",
+    "options": [
+      "İstinadların düzgün formatlaşdırılması və mənbələrə istinad edilməsi",
+      "Daha mürəkkəb ifadələrdən istifadə etmək",
+      "Sitatların sayının azaldılması",
+      "Mətni öz sözlərinizlə yenidən yazmaq"
+    ],
+    "answer": "İstinadların düzgün formatlaşdırılması və mənbələrə istinad edilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "6",
+    "type": "mcq",
+    "question": "Orijinala keçid olmadan tərcümə edilmiş fraqmentdən istifadə edərkən hansı növ plagiat baş verir?",
+    "options": [
+      "Tərcümə",
+      "Gizli",
+      "Mozaika",
+      "Öz-özünə plagiatlıq"
+    ],
+    "answer": "Tərcümə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "7",
+    "type": "mcq",
+    "question": "Aşağıdakı hallardan hansı mozaik plagiat hesab olunur?",
+    "options": [
+      "Müxtəlif müəlliflərin ifadələrini istinadsız qarışdırmaq",
+      "Tam mətnin surətinin çıxarılması",
+      "Köhnə işinizdən istifadə etmək",
+      "Mətnin istinadsız tərcüməsi"
+    ],
+    "answer": "Müxtəlif müəlliflərin ifadələrini istinadsız qarışdırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "8",
+    "type": "mcq",
+    "question": "Digər tədqiqatçıların fikirlərindən istifadə edərkən aşağıdakılardan hansı etik hesab olunur?",
+    "options": [
+      "Orijinal mənbə göstərilməklə sitat",
+      "Cümlədə bir neçə sözün dəyişdirilməsi",
+      "Mətni yenidən yazmaq və sitat gətirmədən işinizə yapışdırmaq",
+      "Başqasının təsvirindən icazəsiz istifadə etmək"
+    ],
+    "answer": "Orijinal mənbə göstərilməklə sitat",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "9",
+    "type": "mcq",
+    "question": "Akademik mətnlərin plagiat olub olmadığını yoxlamaq üçün Azərbaycanda ən çox hansı proqramdan istifadə olunur?",
+    "options": [
+      "StrikePlagiarism",
+      "EndNote",
+      "SPSS",
+      "Qrammatika"
+    ],
+    "answer": "StrikePlagiarism",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "10",
+    "type": "mcq",
+    "question": "Akademik məqalədə plagiatın aşkarlanması nə ilə nəticələnir?",
+    "options": [
+      "İntizam tənbehi, dərəcənin aşağı salınması və ya işin ləğvi",
+      "Pozuntuya məhəl qoymamaq",
+      "Reytinqin artırılması",
+      "İşin çapa avtomatik qəbulu"
+    ],
+    "answer": "İntizam tənbehi, dərəcənin aşağı salınması və ya işin ləğvi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "11",
+    "type": "mcq",
+    "question": "Mətndə mənbə göstərilmədən məşhur alimdən şüuraltı olaraq saxlanılan məlumatların verilməsi ilə gizli plagiat növü necə adlanır?",
+    "options": [
+      "Kriptomneziya",
+      "Öz-özünə plagiatlıq",
+      "Parafraz edilmiş plagiat",
+      "Dublikat nəşr"
+    ],
+    "answer": "Kriptomneziya",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "12",
+    "type": "mcq",
+    "question": "Verilənlərdən biri akademik yazı nümunəsi deyil:",
+    "options": [
+      "bədii ədəbiyyat",
+      "dissertasiya",
+      "monoqrafiya",
+      "tezis"
+    ],
+    "answer": "bədii ədəbiyyat",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "13",
+    "type": "mcq",
+    "question": "Bu üslubda yığcamlıq, konkretlik, dəqiqlik gözlənilməlidir, çoxmənalılığa yol verilə bilməz:",
+    "options": [
+      "elmi",
+      "bədii",
+      "rəsmi-işgüzar",
+      "məişət"
+    ],
+    "answer": "elmi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "14",
+    "type": "mcq",
+    "question": "Mətndə arqumentləri oxucunun diqqətini ən çox cəlb edərək ardıcıllığa uyğun olaraq yerləşdirilməsi akademik yazının hansı əsas xarakterik xüsusiyyətidir?",
+    "options": [
+      "məntiqi ardıcıllıq",
+      "ideyaların dəstəklənməsi",
+      "məzmun bütövlüyü",
+      "düşünmə və ünsiyyət qurma"
+    ],
+    "answer": "məntiqi ardıcıllıq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "15",
+    "type": "mcq",
+    "question": "Mətndə əvvəldən sonadək yalnız bir ideyanı müzakirə etmək akademik yazının hansı əsas xarakterik xüsusiyyətidir?",
+    "options": [
+      "məzmun bütövlüyü",
+      "yüksək oxu bacarığı",
+      "məntiqi ardıcıllıq",
+      "ideyaların dəstəklənməsi"
+    ],
+    "answer": "məzmun bütövlüyü",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "16",
+    "type": "mcq",
+    "question": "Akademik yazının növlərinə aid deyil:",
+    "options": [
+      "bülleten",
+      "referat",
+      "məqalə",
+      "tezis"
+    ],
+    "answer": "bülleten",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "17",
+    "type": "mcq",
+    "question": "Akademik yazının strukturuna aid deyil:",
+    "options": [
+      "metod",
+      "giriş",
+      "əsas hissə",
+      "nəticə"
+    ],
+    "answer": "metod",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "18",
+    "type": "mcq",
+    "question": "Plagiat anlayışı açıqlandığı Azərbaycan Respublikasının qanununun adı və tarixi:",
+    "options": [
+      "05.06.1996-cı ildə qəbul olunmuş № 115-IQ “Müəlliflik hüququ və əlaqəli hüquqlar haqqında”",
+      "15.12.1992-ci ildə qəbul olunmuş № 405 “Sahibkarlıq fəaliyyəti haqqında”",
+      "2018-ci il, Azərbaycan Respublikasının Əqli Mülkiyyət Agentliyi",
+      "2016-cı il, Azərbaycan Respublikasının Müəllif Hüquqları Agentliyi"
+    ],
+    "answer": "05.06.1996-cı ildə qəbul olunmuş № 115-IQ “Müəlliflik hüququ və əlaqəli hüquqlar haqqında”",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "19",
+    "type": "mcq",
+    "question": "Plagiatın əsas elementləri hansılardır:",
+    "options": [
+      "intellektual oğurluq, mənbə göstərilməməsi, özününküləşdirmə",
+      "kitab, məqalə, musiqi",
+      "ideya və mətn",
+      "şəkil və kompüter faylı"
+    ],
+    "answer": "intellektual oğurluq, mənbə göstərilməməsi, özününküləşdirmə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "20",
+    "type": "mcq",
+    "question": "Plagiatın əsas növləri:",
+    "options": [
+      "bilərəkdən və bilməyərəkdən",
+      "təsadüfi, istinadın düzgün verilməməsi",
+      "birbaşa və dolayısı",
+      "akademik və bədii"
+    ],
+    "answer": "bilərəkdən və bilməyərəkdən",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "21",
+    "type": "mcq",
+    "question": "Plagiatın növləri hansılardır:",
+    "options": [
+      "birbaşa, sərbəst, mozaik, təsadüfi",
+      "sitat və kriptomneziya",
+      "reraytinq və sərbəst",
+      "mozaik və təsadüfi"
+    ],
+    "answer": "birbaşa, sərbəst, mozaik, təsadüfi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "22",
+    "type": "mcq",
+    "question": "Plagiat sözünün mənşəyi:",
+    "options": [
+      "plagium - oğurluq",
+      "plaga – xəstəlik",
+      "plag - yastı",
+      "plagi - çıxış"
+    ],
+    "answer": "plagium - oğurluq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "23",
+    "type": "mcq",
+    "question": "© işarəsinin mənası nədir?",
+    "options": [
+      "copyright – müəllif hüququ",
+      "kommersiya \"et\", qeyri-rəsmi olaraq - it",
+      "və - ampersand",
+      "düzdür"
+    ],
+    "answer": "copyright – müəllif hüququ",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "24",
+    "type": "mcq",
+    "question": "Plagiat hallarını onun köməyi ilə aşkarlamaq olar:",
+    "options": [
+      "Antiplagiat proqramı",
+      "ChatGPT",
+      "Süni intellekt",
+      "Müəllif hüququ"
+    ],
+    "answer": "Antiplagiat proqramı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "25",
+    "type": "mcq",
+    "question": "Antiplagiat proqramının əsas məqsədi:",
+    "options": [
+      "İntellektual oğurluğun qarşısını almaq və müəllif hüquqlarına hörmət etməyə kömək etməkdir",
+      "Tələbələrin işlərini yoxlamaqdır",
+      "Daxil edilən mətn sənədlərini mövcud mətnlərlə müqayisə etməkdir",
+      "Mənbələrdən istifadə etmək"
+    ],
+    "answer": "İntellektual oğurluğun qarşısını almaq və müəllif hüquqlarına hörmət etməyə kömək etməkdir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "26",
+    "type": "mcq",
+    "question": "İstinad sözünün hərfi mənası:",
+    "options": [
+      "ingilis dilindən citation – əsaslanmaq",
+      "yunan dilindən citation – dayanmaq",
+      "latın dilindən citation – söykənmək",
+      "ərəb dilindən citation – götürmək"
+    ],
+    "answer": "ingilis dilindən citation – əsaslanmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "27",
+    "type": "mcq",
+    "question": "DOI nədir?",
+    "options": [
+      "Rəqəmsal Obyekt Tanımlayıcısı – elektron mühitdə olan obyektlərə (məsələn, elmi məqalələr, kitablar, şəkillər) daimi və unikal bir identifikasiya nömrəsi verən sistemdir.",
+      "ing. Uniform Resource Locator – faylın və ya resursun Veb-də yerləşdiyi ünvanı və ya yeri göstərir",
+      "Universal Onluq Təsnifatı – dünyada bütün bilik və informasiya sahələrini vahid sistemdə təsnif etmək üçün istifadə edilən beynəlxalq bir sistemdir.",
+      "Kitabxana-Biblioqrafiya Təsnifatı – kitabxanaçılıq sahəsi"
+    ],
+    "answer": "Rəqəmsal Obyekt Tanımlayıcısı – elektron mühitdə olan obyektlərə (məsələn, elmi məqalələr, kitablar, şəkillər) daimi və unikal bir identifikasiya nömrəsi verən sistemdir.",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "28",
+    "type": "mcq",
+    "question": "URL nədir?",
+    "options": [
+      "ing. Uniform Resource Locator – faylın və ya resursun Veb-də yerləşdiyi ünvanı və ya yeri göstərir",
+      "Rəqəmsal Obyekt Tanımlayıcısı - elektron mühitdə olan obyektlərə (məsələn, elmi məqalələr, kitablar, şəkillər) daimi və unikal bir identifikasiya nömrəsi verən sistemdir.",
+      "Universal Onluq Təsnifatı – dünyada bütün bilik və informasiya sahələrini vahid sistemdə təsnif etmək üçün istifadə edilən beynəlxalq bir sistemdir.",
+      "Kitabxana-Biblioqrafiya Təsnifatı – kitabxanaçılıq sahəsində"
+    ],
+    "answer": "ing. Uniform Resource Locator – faylın və ya resursun Veb-də yerləşdiyi ünvanı və ya yeri göstərir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "29",
+    "type": "mcq",
+    "question": "UOT nədir?",
+    "options": [
+      "Universal Onluq Təsnifatı – dünyada bütün bilik və informasiya sahələrini vahid sistemdə təsnif etmək üçün istifadə edilən beynəlxalq bir sistemdir.",
+      "Rəqəmsal Obyekt Tanımlayıcısı - elektron mühitdə olan obyektlərə (məsələn, elmi məqalələr, kitablar, şəkillər) daimi və unikal bir identifikasiya nömrəsi verən sistemdir.",
+      "ing. Uniform Resource Locator – faylın və ya resursun Veb-də yerləşdiyi ünvanı və ya yeri göstərir",
+      "Kitabxana-Biblioqrafiya Təsnifatı – kitabxanaçılıq sahəsində"
+    ],
+    "answer": "Universal Onluq Təsnifatı – dünyada bütün bilik və informasiya sahələrini vahid sistemdə təsnif etmək üçün istifadə edilən beynəlxalq bir sistemdir.",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "30",
+    "type": "mcq",
+    "question": "Aşağıdakılardan hansı öz-özünə plagiat hesab olunur?",
+    "options": [
+      "Öz əvvəlki işini yenisi kimi təqdim etmək",
+      "Başqa müəllifi istinad vermədən sitat gətirmək",
+      "Başqasının məqaləsini mənbə göstərmədən tərcümə etmək",
+      "Ümumi məlumatlardan istifadə etmək"
+    ],
+    "answer": "Öz əvvəlki işini yenisi kimi təqdim etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "31",
+    "type": "mcq",
+    "question": "Aşağıdakılardan hansı başqasının materialından düzgün istifadə nümunəsidir?",
+    "options": [
+      "Sitatı dırnaq içində və düzgün istinadla göstərmək",
+      "Mənbə göstərmədən mətnin məzmununu öz sözləri ilə yazmaq",
+      "Müəllifin mətnini əlavə edib yalnız bir neçə sözü dəyişmək",
+      "Başqasının cədvəlini mənbə qeyd etmədən daxil etmək"
+    ],
+    "answer": "Sitatı dırnaq içində və düzgün istinadla göstərmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "32",
+    "type": "mcq",
+    "question": "Müəllif müxtəlif mənbələrdən fraqmentləri istinadsız birləşdirəndə bu hansı plagiat növüdür?",
+    "options": [
+      "Mozaik plagiat",
+      "Gizli plagiat",
+      "Avtomatik plagiat",
+      "Təkrarlanan nəşr"
+    ],
+    "answer": "Mozaik plagiat",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "33",
+    "type": "mcq",
+    "question": "Aşağıdakılardan hansı qeyri-iradi (səhlənkarlıqdan yaranan) plagiata aiddir?",
+    "options": [
+      "İstinadların düzgün verilməməsi, lakin qəsd olmadan",
+      "Mətnin bilərəkdən tam şəkildə köçürülməsi",
+      "Başqasının qrafikini müəllif adı olmadan istifadə etmək",
+      "İnternetdən hazır iş yükləmək"
+    ],
+    "answer": "İstinadların düzgün verilməməsi, lakin qəsd olmadan",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "34",
+    "type": "mcq",
+    "question": "Birbaşa sitat gətirilərkən hansı əməl mütləqdir?",
+    "options": [
+      "Sitatı dırnaq içində göstərmək və mənbəyə istinad vermək",
+      "Yalnız müəllifin soyadını qeyd etmək",
+      "Sitatı dırnaqsız öz mətni ilə birləşdirmək",
+      "Sitatı başqa dilə tərcümə edib mənbə göstərməmək"
+    ],
+    "answer": "Sitatı dırnaq içində göstərmək və mənbəyə istinad vermək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "35",
+    "type": "mcq",
+    "question": "Aşağıdakılardan hansı plagiat əlaməti deyil?",
+    "options": [
+      "İstifadə olunan ideyaya düzgün istinad verilməsi",
+      "Götürülmüş materialın göstərilməməsi",
+      "Parafrazı sitatla əvəz etmək",
+      "Mətnin bir mənbədən sözbəsöz köçürülməsi"
+    ],
+    "answer": "İstifadə olunan ideyaya düzgün istinad verilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "36",
+    "type": "mcq",
+    "question": "Parafraz zamanı plagiat nə zaman yaranır?",
+    "options": [
+      "Mənbə göstərilmədən mətn yalnız yenidən ifadə olunur",
+      "Fikir öz sözləri ilə yazılır və müəllifə istinad verilir",
+      "Mətn tam şəkildə yenidən qurulur və mənbə göstərilir",
+      "Ümumi biliklərdən istifadə olunur"
+    ],
+    "answer": "Mənbə göstərilmədən mətn yalnız yenidən ifadə olunur",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "37",
+    "type": "mcq",
+    "question": "Texniki plagiatın nümunəsi hansıdır?",
+    "options": [
+      "Mənbələr haqqında yalnış və ya uydurma məlumat vermək",
+      "Başqasının işinin tam şəkildə köçürülməsi",
+      "Ədəbiyyat siyahısının düzgün tərtib edilməməsi",
+      "Mətndən istifadə etmədən fikrin götürülməsi"
+    ],
+    "answer": "Mənbələr haqqında yalnış və ya uydurma məlumat vermək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "38",
+    "type": "mcq",
+    "question": "Aşağıdakılardan hansı akademik etikanın ən ciddi pozuntusu sayılır?",
+    "options": [
+      "Başqasının elmi nəticələrini bilərəkdən mənimsəmək",
+      "Həddindən artıq sitat gətirilməsi",
+      "İstinadda təsadüfi formatlaşdırma xətası",
+      "Köhnə məlumatlardan mənbə göstərməklə istifadə etmək"
+    ],
+    "answer": "Başqasının elmi nəticələrini bilərəkdən mənimsəmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "39",
+    "type": "mcq",
+    "question": "Niyə başqa müəllifə aid sxemi və ya diaqramı istinadsız istifadə etmək olmaz?",
+    "options": [
+      "Onlar intellektual mülkiyyət hesab olunur",
+      "Onları tərtib etmək çətindir",
+      "Onlar müəlliflik hüququ ilə qorunmur",
+      "Onlar avtomatik olaraq ümumi informasiya sayılır"
+    ],
+    "answer": "Onlar intellektual mülkiyyət hesab olunur",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "40",
+    "type": "mcq",
+    "question": "Plagiatın qarşısını almaq üçün yaxşı strategiya hansıdır?",
+    "options": [
+      "Bütün mənbələr haqqında dəqiq qeydlər aparmaq",
+      "Yalnız bir mənbədən istifadə etmək",
+      "Mətnə yalnız sinonimlər əlavə edib mənbə göstərməmək",
+      "Ümumiyyətlə sitat gətirməkdən qaçmaq"
+    ],
+    "answer": "Bütün mənbələr haqqında dəqiq qeydlər aparmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "41",
+    "type": "mcq",
+    "question": "Sitat nədir?",
+    "options": [
+      "Başqasının sözlərinin dəqiq verilməsi və mənbə göstərilməsi",
+      "Başqasının fikrinin mənbəsiz yazılması",
+      "Mövzunun xülasəsi",
+      "Təxminən ideyanın ötürülməsi"
+    ],
+    "answer": "Başqasının sözlərinin dəqiq verilməsi və mənbə göstərilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "42",
+    "type": "mcq",
+    "question": "Sitatın həcmi necə olmalıdır ki, plagiat sayılmasın?",
+    "options": [
+      "İstənilən qədər, mənbə göstərilirsə",
+      "1-2 söz",
+      "100 söz",
+      "5 səhifə"
+    ],
+    "answer": "İstənilən qədər, mənbə göstərilirsə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "43",
+    "type": "mcq",
+    "question": "Plagiatın hüquqi tərəfi nəyə aiddir?",
+    "options": [
+      "Müəllif hüquqlarına",
+      "Reklam hüququna",
+      "Ailə hüququna",
+      "Vergi hüququna"
+    ],
+    "answer": "Müəllif hüquqlarına",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "44",
+    "type": "mcq",
+    "question": "Tərcümə plagiatı nədir?",
+    "options": [
+      "Mətni başqa dilə çevirib öz elmi işi kimi göstərmək",
+      "Mətnin orijinalını silmək",
+      "Parafraz etmək",
+      "Mənbəni dəyişdirmək"
+    ],
+    "answer": "Mətni başqa dilə çevirib öz elmi işi kimi göstərmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "45",
+    "type": "mcq",
+    "question": "Akademik yazıda mənbənin göstərilməsi necə adlanır?",
+    "options": [
+      "İstinad (referans)",
+      "Annotation",
+      "Format",
+      "Struktur"
+    ],
+    "answer": "İstinad (referans)",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "46",
+    "type": "mcq",
+    "question": "Akademik dürüstlük nə deməkdir?",
+    "options": [
+      "Orijinal düşüncəni və düzgün istinadı qorumaq",
+      "Başqasının işindən istifadə etmək",
+      "Sadəcə akademik mətn yazmaq",
+      "Yalnız internetdən məlumat götürmək"
+    ],
+    "answer": "Orijinal düşüncəni və düzgün istinadı qorumaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "47",
+    "type": "mcq",
+    "question": "“Bibliografiya” nədir?",
+    "options": [
+      "İstinad edilmiş bütün mənbələrin siyahısı",
+      "Mətnin giriş hissəsi",
+      "Yazının ümumi planı",
+      "Yalnız internet linkləri"
+    ],
+    "answer": "İstinad edilmiş bütün mənbələrin siyahısı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "48",
+    "type": "mcq",
+    "question": "Akademik yazıda “etik davranış” nədir?",
+    "options": [
+      "Mənbə göstərmək və intellektual mülkiyyətə hörmət",
+      "Plagiat etmək",
+      "Başqasının işini gizlətmək",
+      "Məlumatı dəyişdirmək"
+    ],
+    "answer": "Mənbə göstərmək və intellektual mülkiyyətə hörmət",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "49",
+    "type": "mcq",
+    "question": "Akademik yazının əsas məqsədi nədir?",
+    "options": [
+      "Məlumatı elmi və obyektiv şəkildə təqdim etmək",
+      "Subyektiv fikri sübut etmək",
+      "Oxucunu maraqlandırmaq",
+      "Qısa yazmaq"
+    ],
+    "answer": "Məlumatı elmi və obyektiv şəkildə təqdim etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "50",
+    "type": "mcq",
+    "question": "Akademik mətnin tonu necə olmalıdır?",
+    "options": [
+      "Rəsmi və obyektiv",
+      "Emosional və şəxsi",
+      "Zarafatlı",
+      "Sərt və aqressiv"
+    ],
+    "answer": "Rəsmi və obyektiv",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "51",
+    "type": "mcq",
+    "question": "Akademik dürüstlük nəyi tələb edir?",
+    "options": [
+      "Sitat və istinad verməyi",
+      "Faktları dəyişdirməyi",
+      "Başqasından köçürməyi",
+      "Tək mənbədən istifadəni"
+    ],
+    "answer": "Sitat və istinad verməyi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "52",
+    "type": "mcq",
+    "question": "Akademik yazının strukturu hansıdır?",
+    "options": [
+      "Giriş–Əsas hissə–Nəticə",
+      "Ekspozisiya–Kulminasiya",
+      "Başlıq–Dialoq–Final",
+      "İnfoqrafik–Təsvir–Nəticə"
+    ],
+    "answer": "Giriş–Əsas hissə–Nəticə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "53",
+    "type": "mcq",
+    "question": "Akademik etikaya zidd olan davranış hansıdır?",
+    "options": [
+      "Məlumatı qəsdən saxtalaşdırmaq",
+      "Məlumatı yoxlamaq",
+      "Düzgün istinad vermək",
+      "Müəllif hüququna hörmət"
+    ],
+    "answer": "Məlumatı qəsdən saxtalaşdırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "54",
+    "type": "mcq",
+    "question": "Elmi üslub nəyi ifadə edir?",
+    "options": [
+      "Elmi təfəkkürü",
+      "Bədii təsvirləri",
+      "Emosional hissləri",
+      "Məişət danışığını"
+    ],
+    "answer": "Elmi təfəkkürü",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "55",
+    "type": "mcq",
+    "question": "Türk dillərində elmi üslubun formalaşması hansı əsrdən hesab olunur?",
+    "options": [
+      "XIV",
+      "XII",
+      "XI",
+      "XVIII"
+    ],
+    "answer": "XIV",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "56",
+    "type": "mcq",
+    "question": "Hansı elmi üslubda yazılmalıdır?",
+    "options": [
+      "Monoqrafiya",
+      "Roman",
+      "Poema",
+      "Oçerk"
+    ],
+    "answer": "Monoqrafiya",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "57",
+    "type": "mcq",
+    "question": "“Monoqrafiya” sözünün mənası nədir?",
+    "options": [
+      "Tək mövzu – tək yazı",
+      "Çox mövzu",
+      "Çox müəllif",
+      "Qısa xəbər"
+    ],
+    "answer": "Tək mövzu – tək yazı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "58",
+    "type": "mcq",
+    "question": "Dərsliyin əsas xüsusiyyəti nədir?",
+    "options": [
+      "Elm və Təhsil Nazirliyi tərəfindən təsdiqlənir",
+      "Proqramsız yazılır",
+      "Qeyri-rəsmi materialdır",
+      "Bədii üslubda yazılır"
+    ],
+    "answer": "Elm və Təhsil Nazirliyi tərəfindən təsdiqlənir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "59",
+    "type": "mcq",
+    "question": "Dərs vəsaiti dərslikdən nə ilə fərqlənir?",
+    "options": [
+      "Proqramı tam əhatə edir",
+      "Bədii elementlidir",
+      "Mövzunu daha geniş şərh edir",
+      "Termin istifadə olunmur"
+    ],
+    "answer": "Proqramı tam əhatə edir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "60",
+    "type": "mcq",
+    "question": "Tezis nədir?",
+    "options": [
+      "Elmi məqalənin qısa forması",
+      "Geniş elmi kitab",
+      "Roman",
+      "Şeir"
+    ],
+    "answer": "Elmi məqalənin qısa forması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "61",
+    "type": "mcq",
+    "question": "Elmi rəy nədir?",
+    "options": [
+      "Elmi əsər haqqında mütəxəssis fikri",
+      "Məqalənin sonunda qeyd",
+      "Bədii təsvir",
+      "Reklam yazısı"
+    ],
+    "answer": "Elmi əsər haqqında mütəxəssis fikri",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "62",
+    "type": "mcq",
+    "question": "Üslubun əsas vəzifələrindən biri hansıdır?",
+    "options": [
+      "Məzmunu müəyyən strukturda ifadə etmək",
+      "Emosional danışığa söykənmək",
+      "Tamaşa göstərmək",
+      "Musiqi tərzini seçmək"
+    ],
+    "answer": "Məzmunu müəyyən strukturda ifadə etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "63",
+    "type": "mcq",
+    "question": "Hipoteza nədir?",
+    "options": [
+      "Ehtimal - ilkin elmi izahat",
+      "Qəti sübut",
+      "Məktub forması",
+      "Emosional təsvir"
+    ],
+    "answer": "Ehtimal - ilkin elmi izahat",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "64",
+    "type": "mcq",
+    "question": "Elmi üslubda terminlər…",
+    "options": [
+      "Əsas rol oynayır",
+      "Az işlənir",
+      "İşlənmir",
+      "Yalnız şifahidir"
+    ],
+    "answer": "Əsas rol oynayır",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "65",
+    "type": "mcq",
+    "question": "Elmi üslubda məcazi ifadələrin olmaması nəyi təmin edir?",
+    "options": [
+      "Dəqiqliyi",
+      "Anlaşılmazlığı",
+      "Emosionallığı",
+      "Əyləncəliliyi"
+    ],
+    "answer": "Dəqiqliyi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "66",
+    "type": "mcq",
+    "question": "Multilinqual və ya poliqlot kimə deyilir?",
+    "options": [
+      "Birdən artıq dil bilənə",
+      "Yalnız bir dil bilənə",
+      "Yalnız texniki dili bilənə",
+      "Səssiz danışana"
+    ],
+    "answer": "Birdən artıq dil bilənə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "67",
+    "type": "mcq",
+    "question": "Elektron sənəd idarəetməsi nəyi nəzərdə tutur?",
+    "options": [
+      "Yaranma, ötürülmə, qəbul, saxlanma",
+      "Yalnız yazını",
+      "Yalnız sənədin çapını",
+      "Sənədin yaranmasını"
+    ],
+    "answer": "Yaranma, ötürülmə, qəbul, saxlanma",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "68",
+    "type": "mcq",
+    "question": "Elmi üslubun əsas funksiyası hansıdır?",
+    "options": [
+      "Məlumat vermək və izah etmək",
+      "Emosionallıq yaratmaq",
+      "Əyləndirmək",
+      "Danışıq dilini əvəz etmək"
+    ],
+    "answer": "Məlumat vermək və izah etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "69",
+    "type": "mcq",
+    "question": "Elmi üslubun əsas tələbi hansıdır?",
+    "options": [
+      "Məntiqilik və dəqiqlik",
+      "Obrazlılıq",
+      "Emosional ifadə",
+      "Metaforalar"
+    ],
+    "answer": "Məntiqilik və dəqiqlik",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "70",
+    "type": "mcq",
+    "question": "Hansı xüsusiyyət elmi üsluba aid deyil?",
+    "options": [
+      "Emosionallıq",
+      "Dəqiqlik",
+      "Məntiqilik",
+      "Terminlərdən istifadə"
+    ],
+    "answer": "Emosionallıq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "71",
+    "type": "mcq",
+    "question": "Elmi üslubun əsas leksik göstəricisi nədir?",
+    "options": [
+      "Terminlər",
+      "Metaforalar",
+      "Atalar sözləri",
+      "Arxaizmlər"
+    ],
+    "answer": "Terminlər",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "72",
+    "type": "mcq",
+    "question": "Elmi üslubda “obyektivlik” nəyi tələb edir?",
+    "options": [
+      "Faktlara dayanmağı",
+      "Bədii təsvirləri",
+      "Müəllifin şəxsi hisslərini",
+      "Emosional rəngliliyi"
+    ],
+    "answer": "Faktlara dayanmağı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "73",
+    "type": "mcq",
+    "question": "Elmi üslubda əsasən hansı cümlələr işlədilir?",
+    "options": [
+      "Xəbər cümlələri",
+      "Dialoqlu cümlələr",
+      "Nida cümlələri",
+      "Suallar"
+    ],
+    "answer": "Xəbər cümlələri",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "74",
+    "type": "mcq",
+    "question": "Termin nədir?",
+    "options": [
+      "Elm sahəsinə aid ixtisaslaşmış söz",
+      "Danışıq sözü",
+      "Köhnəlmiş söz",
+      "Məcazi ifadə"
+    ],
+    "answer": "Elm sahəsinə aid ixtisaslaşmış söz",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "75",
+    "type": "mcq",
+    "question": "Elmi üslubda istifadə olunan sözlərin əsas xüsusiyyəti nədir?",
+    "options": [
+      "Neytrallıq",
+      "Obrazlılıq",
+      "Emosionallıq",
+      "Yumor"
+    ],
+    "answer": "Neytrallıq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "76",
+    "type": "mcq",
+    "question": "Elmi üslubda hansı sözlərdən qaçılır?",
+    "options": [
+      "Emosional-ekspressiv sözlərdən",
+      "Terminlərdən",
+      "Beynəlxalq sözlərdən",
+      "Neytral sözlərdən"
+    ],
+    "answer": "Emosional-ekspressiv sözlərdən",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "77",
+    "type": "mcq",
+    "question": "Elmi üslubun leksik xüsusiyyəti hansıdır?",
+    "options": [
+      "Terminlərin çoxluğu",
+      "Atalar sözləri",
+      "Zarafatlar",
+      "Arxaizmlər"
+    ],
+    "answer": "Terminlərin çoxluğu",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "78",
+    "type": "mcq",
+    "question": "Elmi üslubda obrazlılıqdan niyə çəkinilir?",
+    "options": [
+      "Faktların obyektiv təqdimatı üçün",
+      "Vaxt çatmadığı üçün",
+      "Oxucuya maraqlı olsun deyə",
+      "Bədii üsluba yaxınlaşsın deyə"
+    ],
+    "answer": "Faktların obyektiv təqdimatı üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "79",
+    "type": "mcq",
+    "question": "Elmi üslubun əsas mətn tipi hansıdır?",
+    "options": [
+      "Təhliledici",
+      "Təsviri",
+      "Bədii",
+      "Satirik"
+    ],
+    "answer": "Təhliledici",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "80",
+    "type": "mcq",
+    "question": "Elmi üslubun məqsədi hansıdır?",
+    "options": [
+      "Faktları dəlillərlə izah etmək",
+      "Əyləndirmək",
+      "Metaforalar yaratmaq",
+      "Hekayə danışmaq"
+    ],
+    "answer": "Faktları dəlillərlə izah etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "81",
+    "type": "mcq",
+    "question": "Elmi üslubun bir növü hansıdır?",
+    "options": [
+      "Elmi-populyar üslub",
+      "Hekayə üslubu",
+      "Bədii üslub",
+      "Söhbətsayağı üslub"
+    ],
+    "answer": "Elmi-populyar üslub",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "82",
+    "type": "mcq",
+    "question": "Elmi üslubda dəlillər necə verilir?",
+    "options": [
+      "Məntiqi ardıcıllıqla",
+      "Emosional yanaşma ilə",
+      "Obrazlı şəkildə",
+      "Şifahi izahla"
+    ],
+    "answer": "Məntiqi ardıcıllıqla",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "83",
+    "type": "mcq",
+    "question": "Müəllif münasibəti elmi üslubda necə olur?",
+    "options": [
+      "Neytral",
+      "Emosional",
+      "Açıqlayıcı",
+      "Məcazi"
+    ],
+    "answer": "Neytral",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "84",
+    "type": "mcq",
+    "question": "Elmi üslub hansı üsluba daha yaxındır?",
+    "options": [
+      "Rəsmi-işgüzar üslub",
+      "Danışıq üslubu",
+      "Bədii üslub",
+      "Publisistik üslub"
+    ],
+    "answer": "Rəsmi-işgüzar üslub",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "85",
+    "type": "mcq",
+    "question": "Elmi üslubda “biz” formasının istifadə olunması nəyə xidmət edir?",
+    "options": [
+      "Obyektivliyi qorumağa",
+      "Mətnə bədii çalar verməyə",
+      "Emosiyanı artırmağa",
+      "Dialekt yaratmağa"
+    ],
+    "answer": "Obyektivliyi qorumağa",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "86",
+    "type": "mcq",
+    "question": "Elmi mətnlərdə üstünlük təşkil edən isimlər hansılardır?",
+    "options": [
+      "Terminoloji isimlər",
+      "Şifahi sözlər",
+      "Arxaizmlər",
+      "Dialekt sözlər"
+    ],
+    "answer": "Terminoloji isimlər",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "87",
+    "type": "mcq",
+    "question": "Elmi üslubun sintaktik xüsusiyyəti hansıdır?",
+    "options": [
+      "Uzun və mürəkkəb cümlələr",
+      "Sadə və qısa cümlələr",
+      "Ritmik cümlələr",
+      "Dialoji cümlələr"
+    ],
+    "answer": "Uzun və mürəkkəb cümlələr",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "88",
+    "type": "mcq",
+    "question": "“Hipotez” nə deməkdir?",
+    "options": [
+      "Elmi fərziyyə",
+      "Hazır nəticə",
+      "Şübhəli fikir",
+      "Arxaik bilik"
+    ],
+    "answer": "Elmi fərziyyə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "89",
+    "type": "mcq",
+    "question": "Elmi nitqin əsas keyfiyyətlərindən biri hansıdır?",
+    "options": [
+      "Məntiqilik",
+      "Emosionallıq",
+      "Şifahi ton",
+      "Yumor"
+    ],
+    "answer": "Məntiqilik",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "90",
+    "type": "mcq",
+    "question": "Elmi üslubu xarakterizə edən əsas xüsusiyyət hansıdır?",
+    "options": [
+      "Terminlər və obyektivlik",
+      "Metaforalar",
+      "Zarafatlar",
+      "Dialekt sözləri"
+    ],
+    "answer": "Terminlər və obyektivlik",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "91",
+    "type": "mcq",
+    "question": "“Metod” nədir?",
+    "options": [
+      "Yanaşma üsulu",
+      "Məcazi izah",
+      "Bədii təsvir",
+      "Şifahi danışıq forması"
+    ],
+    "answer": "Yanaşma üsulu",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "92",
+    "type": "mcq",
+    "question": "Elmi üslubda hansı nitq vahidləri geniş istifadə olunur?",
+    "options": [
+      "Termin birləşmələri",
+      "Atalar sözləri",
+      "Dialekt sözləri",
+      "Şeir parçaları"
+    ],
+    "answer": "Termin birləşmələri",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "93",
+    "type": "mcq",
+    "question": "Nəticə çıxarma prosesi elmi mətnin hansı hissəsində olur?",
+    "options": [
+      "Son hissə",
+      "Aralıq hissə",
+      "Giriş",
+      "Başlıq altında"
+    ],
+    "answer": "Son hissə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "94",
+    "type": "mcq",
+    "question": "Elmi üslubda ən çox hansı bağlayıcılar istifadə olunur?",
+    "options": [
+      "Məntiqi əlaqə sözləri",
+      "Şifahi keçidlər",
+      "Obrazlı bağlayıcılar",
+      "Dialekt bağlayıcıları"
+    ],
+    "answer": "Məntiqi əlaqə sözləri",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "95",
+    "type": "mcq",
+    "question": "Hansi üslubda dəqiqlik ən yüksək tələb kimi qoyulur?",
+    "options": [
+      "Elmi",
+      "Danışıq",
+      "Publisistik",
+      "Bədii"
+    ],
+    "answer": "Elmi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "96",
+    "type": "mcq",
+    "question": "“Analiz” sözünün elmi mənası nədir?",
+    "options": [
+      "Təhlil etmək",
+      "Hadisələrin izahı",
+      "Bədii təsvir",
+      "Məcazi oxşatma"
+    ],
+    "answer": "Təhlil etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "97",
+    "type": "mcq",
+    "question": "Elmi üslubda rast gəlinən janrlardan biri hansıdır?",
+    "options": [
+      "Məqalə",
+      "Roman",
+      "Hekayə",
+      "Poema"
+    ],
+    "answer": "Məqalə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "98",
+    "type": "mcq",
+    "question": "Elmi üslubda faktlar necə təqdim olunur?",
+    "options": [
+      "Dəqiq və əsaslandırılmış şəkildə",
+      "Emosional şəkildə",
+      "Mübahisə şəklində",
+      "Zarafatla"
+    ],
+    "answer": "Dəqiq və əsaslandırılmış şəkildə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "99",
+    "type": "mcq",
+    "question": "“Teorem” nədir?",
+    "options": [
+      "Sübut tələb edən elmi fikir",
+      "Hekayəvari izah",
+      "Eksperimental nəticə",
+      "Satirik yanaşma"
+    ],
+    "answer": "Sübut tələb edən elmi fikir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "100",
+    "type": "mcq",
+    "question": "Elmi-populyar üslubun əsas üstünlüyü nədir?",
+    "options": [
+      "Sadə dildə izah",
+      "Terminlərin çoxluğu",
+      "Məcazi təsvir",
+      "Şeir elementləri"
+    ],
+    "answer": "Sadə dildə izah",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "101",
+    "type": "mcq",
+    "question": "Elmi üslubda şəkil və qrafiklərin istifadəsi nə üçündür?",
+    "options": [
+      "Məlumatı aydın göstərmək üçün",
+      "Oxucunu əyləndirmək üçün",
+      "Mətnə bədii çalar vermək üçün",
+      "Mətnin həcmini artırmaq üçün"
+    ],
+    "answer": "Məlumatı aydın göstərmək üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "102",
+    "type": "mcq",
+    "question": "Elmi mətnlərdə sitatlar nə üçün verilir?",
+    "options": [
+      "Etibarlılığı artırmaq üçün",
+      "Mübahisə yaratmaq üçün",
+      "Emosiyalılığı artırmaq üçün",
+      "Şeir yaratmaq üçün"
+    ],
+    "answer": "Etibarlılığı artırmaq üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "103",
+    "type": "mcq",
+    "question": "Elmi üslubda “nəzəriyyə” nə deməkdir?",
+    "options": [
+      "Empirik təcrübə",
+      "Elmi əsaslı fikir sistemi",
+      "Bədii təsvir",
+      "Şifahi mətn"
+    ],
+    "answer": "Empirik təcrübə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "104",
+    "type": "mcq",
+    "question": "Elmi mətnlərdə istifadə olunan cədvəllər nə məqsədlə verilir?",
+    "options": [
+      "Məlumatı sistemləşdirmək üçün",
+      "Hekayəni maraqlı etmək üçün",
+      "Metafora yaratmaq üçün",
+      "Sadəcə bəzək üçün"
+    ],
+    "answer": "Məlumatı sistemləşdirmək üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "105",
+    "type": "mcq",
+    "question": "Elmi üslubda “problem qoyuluşu” nə deməkdir?",
+    "options": [
+      "Araşdırılacaq məsələnin göstərilməsi",
+      "Hekayənin başlanğıcı",
+      "Bədii obraz yaratmaq",
+      "Şeir qurmaq"
+    ],
+    "answer": "Araşdırılacaq məsələnin göstərilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "106",
+    "type": "mcq",
+    "question": "Elmi mətnlərdə əsas əlaqə növü hansıdır?",
+    "options": [
+      "Məntiqi-semantik əlaqə",
+      "Poetika",
+      "Ritmik əlaqə",
+      "Satirik əlaqə"
+    ],
+    "answer": "Məntiqi-semantik əlaqə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "107",
+    "type": "mcq",
+    "question": "Elmi üslubda emosional vahidlər niyə işlədilmir?",
+    "options": [
+      "Obyektivliyi pozduğu üçün",
+      "Çətin yazıldığı üçün",
+      "Oxucu anlamaz deyə",
+      "Qaydalar icazə vermir deyə"
+    ],
+    "answer": "Obyektivliyi pozduğu üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "108",
+    "type": "mcq",
+    "question": "Hipotezanın sübutu nədir?",
+    "options": [
+      "Fərziyyənin faktlarla təsdiqi",
+      "Məcazın izahı",
+      "Mübahisə yaratmaq",
+      "Bədii təsvir"
+    ],
+    "answer": "Fərziyyənin faktlarla təsdiqi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "109",
+    "type": "mcq",
+    "question": "Elmi üslubun əsas məqsədlərindən biri hansıdır?",
+    "options": [
+      "Məlumatı dəqiq çatdırmaq",
+      "Poetik təsvir yaratmaq",
+      "Oxucunu əyləndirmək",
+      "Dialoq yaratmaq"
+    ],
+    "answer": "Məlumatı dəqiq çatdırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "110",
+    "type": "mcq",
+    "question": "Publisistik yazının əsas məqsədi nədir?",
+    "options": [
+      "Cəmiyyətə aktual məlumatları çatdırmaq",
+      "Roman yazmaq",
+      "Elmi formulları izah etmək",
+      "Yalnız təsviri obraz yaratmaq"
+    ],
+    "answer": "Cəmiyyətə aktual məlumatları çatdırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "111",
+    "type": "mcq",
+    "question": "Bədii yazının əsas xüsusiyyəti hansıdır?",
+    "options": [
+      "Obrazlılıq və bədii təsvir",
+      "Rəsmi dil",
+      "Yalnız faktlar",
+      "Elmi terminlər"
+    ],
+    "answer": "Obrazlılıq və bədii təsvir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "112",
+    "type": "mcq",
+    "question": "Akademik yazının əsas tələbi nədir?",
+    "options": [
+      "Elmi və məntiqi ardıcıllıq",
+      "Şeir dili ilə yazmaq",
+      "Emosional təsvirlərdən istifadə",
+      "Qərəzli fikir vermək"
+    ],
+    "answer": "Elmi və məntiqi ardıcıllıq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "113",
+    "type": "mcq",
+    "question": "Publisistik yazıda ən çox istifadə olunan vasitə hansıdır?",
+    "options": [
+      "Fakt və rəqəmlərin təqdimatı",
+      "Süjet",
+      "Monoloq",
+      "Elmi təcrübə"
+    ],
+    "answer": "Fakt və rəqəmlərin təqdimatı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "114",
+    "type": "mcq",
+    "question": "Bədii yazı nümunəsi hansıdır?",
+    "options": [
+      "Roman",
+      "Reportaj",
+      "Elmi məqalə",
+      "Təlimat"
+    ],
+    "answer": "Roman",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "115",
+    "type": "mcq",
+    "question": "Akademik yazıda şəxsi fikir necə verilir?",
+    "options": [
+      "Elmi arqumentlərə əsaslanaraq",
+      "Emosional təsvirlərlə",
+      "Şeir kimi",
+      "Publisistik pafosla"
+    ],
+    "answer": "Elmi arqumentlərə əsaslanaraq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "116",
+    "type": "mcq",
+    "question": "Publisistik yazının üstün xüsusiyyəti hansıdır?",
+    "options": [
+      "İnandırıcılıq və təsiredicilik",
+      "Süjetin qurulması",
+      "Poetik dil",
+      "Elmi dərinlik"
+    ],
+    "answer": "İnandırıcılıq və təsiredicilik",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "117",
+    "type": "mcq",
+    "question": "Bədii yazının janrı hansıdır?",
+    "options": [
+      "Roman",
+      "Referat",
+      "Məqalə",
+      "Analitik icmal"
+    ],
+    "answer": "Roman",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "118",
+    "type": "mcq",
+    "question": "Akademik yazıda plagiatdan yayınmağın əsas yolu hansıdır:",
+    "options": [
+      "Sitat və istinadlardan düzgün istifadə",
+      "Mətni dəyişdirib mənanı saxlayıb göstərməmək",
+      "Təsviri dillə izah etmək",
+      "Sərbəst şəkildə yazmaq"
+    ],
+    "answer": "Sitat və istinadlardan düzgün istifadə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "119",
+    "type": "mcq",
+    "question": "Publisistik yazının dili necə olur?",
+    "options": [
+      "Aydın, təsirli və anlaşıqlı",
+      "Tam akademik",
+      "Tam bədii",
+      "Poetika ilə dolu"
+    ],
+    "answer": "Aydın, təsirli və anlaşıqlı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "120",
+    "type": "mcq",
+    "question": "Bədii yazının əsas elementi hansıdır?",
+    "options": [
+      "Obraz və təsvir",
+      "Cədvəl",
+      "Qrafik",
+      "Sitat"
+    ],
+    "answer": "Obraz və təsvir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "121",
+    "type": "mcq",
+    "question": "Akademik yazıya aid olan nümunə hansıdır?",
+    "options": [
+      "Elmi məruzə",
+      "Hekayə",
+      "Reportaj",
+      "Felyeton"
+    ],
+    "answer": "Elmi məruzə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "122",
+    "type": "mcq",
+    "question": "Publisistik yazı daha çox hansı sahəyə aiddir?",
+    "options": [
+      "Kütləvi informasiya",
+      "Poeziya",
+      "Elmi tədqiqat",
+      "Protokol"
+    ],
+    "answer": "Kütləvi informasiya",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "123",
+    "type": "mcq",
+    "question": "Bədii yazının əsas məqsədi nədir?",
+    "options": [
+      "Estetik təsir yaratmaq",
+      "Elmi hipoteza qurmaq",
+      "Rəsmi məlumat vermək",
+      "Statistik təhlil aparmaq"
+    ],
+    "answer": "Estetik təsir yaratmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "124",
+    "type": "mcq",
+    "question": "Akademik yazıda hansı üslub yolverilməzdir?",
+    "options": [
+      "Emosional-bədii üslub",
+      "Formal üslub",
+      "Tədqiqat üslubu",
+      "Analitik təqdimat"
+    ],
+    "answer": "Emosional-bədii üslub",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "125",
+    "type": "mcq",
+    "question": "Publisistik yazının forması hansıdır?",
+    "options": [
+      "Qəzet məqaləsi",
+      "Roman",
+      "Monoqrafiya",
+      "Dram"
+    ],
+    "answer": "Qəzet məqaləsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "126",
+    "type": "mcq",
+    "question": "Bədii yazıda vacib element hansıdır?",
+    "options": [
+      "Süjet",
+      "Qrafik",
+      "Sxem",
+      "Analitik plan"
+    ],
+    "answer": "Süjet",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "127",
+    "type": "mcq",
+    "question": "Publisistik yazının əsas xüsusiyyəti hansıdır?",
+    "options": [
+      "Məlumatın operativliyi və aktuallığı",
+      "Obrazlı təsvir yaratmaq",
+      "Mütləq elmi terminlərdən ibarət olmaq",
+      "Yalnız təcrübələrə əsaslanmaq"
+    ],
+    "answer": "Məlumatın operativliyi və aktuallığı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "128",
+    "type": "mcq",
+    "question": "Akademik yazının əsas prinsipi hansıdır?",
+    "options": [
+      "Obyektivlik və dəqiqlik",
+      "Əyləndirmək",
+      "Poetik təsvirlərdən istifadə",
+      "Jurnalist pafosu"
+    ],
+    "answer": "Obyektivlik və dəqiqlik",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "129",
+    "type": "mcq",
+    "question": "Akademik essenin əsas məqsədi nədir?",
+    "options": [
+      "Müəllifin fikir və arqumentlərini əsaslandırmaq",
+      "Hadisələri bədii təsvirlə canlandırmaq",
+      "Statistik məlumatları toplamaq",
+      "Yalnız sitatların siyahısını vermək"
+    ],
+    "answer": "Müəllifin fikir və arqumentlərini əsaslandırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "130",
+    "type": "mcq",
+    "question": "Referatın əsas xüsusiyyəti hansıdır?",
+    "options": [
+      "Mövzunun mənbələr əsasında obyektiv xülasəsi",
+      "Müəllifin şəxsi hisslərini ifadə etməsi",
+      "Bədii təsvirlərin geniş işlədilməsi",
+      "Şeir formasında yazılması"
+    ],
+    "answer": "Mövzunun mənbələr əsasında obyektiv xülasəsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "131",
+    "type": "mcq",
+    "question": "Akademik essedə giriş hissəsinin funksiyası hansıdır?",
+    "options": [
+      "Mövzunu təqdim etmək və əsas məğzi formalaşdırmaq",
+      "Nəticələri geniş izah etmək",
+      "Sitatları ardıcıl sadalamaq",
+      "Yalnız faktları vermək"
+    ],
+    "answer": "Mövzunu təqdim etmək və əsas məğzi formalaşdırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "132",
+    "type": "mcq",
+    "question": "Referatda istifadə olunan mənbələr necə göstərilməlidir?",
+    "options": [
+      "Düzgün istinadlarla",
+      "Şərti işarələrlə",
+      "Qısa qeydlərlə",
+      "Yalnız mətn daxilində"
+    ],
+    "answer": "Düzgün istinadlarla",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "133",
+    "type": "mcq",
+    "question": "Akademik essedə əsas hissə nəyi ehtiva edir?",
+    "options": [
+      "Dəlillər və arqumentlərin analitik təqdimatı",
+      "Bədii təsvir və obrazlar",
+      "Şəxsi hiss və emosiyalar",
+      "Sadə xülasə"
+    ],
+    "answer": "Dəlillər və arqumentlərin analitik təqdimatı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "134",
+    "type": "mcq",
+    "question": "Referatın tələbi nədir?",
+    "options": [
+      "Məlumatın neytral, obyektiv və qısa təqdimatı",
+      "Emosional açıqlama",
+      "Müəllifin yaradıcılıq üslubu",
+      "İradə və hisslərin təsviri"
+    ],
+    "answer": "Məlumatın neytral, obyektiv və qısa təqdimatı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "135",
+    "type": "mcq",
+    "question": "Akademik essenin nəticə hissəsində nə edilməlidir?",
+    "options": [
+      "Məğzin yenidən təsdiqi və ümumiləşdirmə",
+      "Yeni mövzu açmaq",
+      "Sitatların siyahısını artırmaq",
+      "Mənbələri təkrar sadalamaq"
+    ],
+    "answer": "Məğzin yenidən təsdiqi və ümumiləşdirmə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "136",
+    "type": "mcq",
+    "question": "Referat yazarkən müəllifin şəxsi fikri necə verilir?",
+    "options": [
+      "Nəticədə qısa nəticələr və dəyərləndirmə ilə",
+      "Emosional şəkildə ifadə olunur",
+      "Bədii təsvirlərlə yazılır",
+      "Şərti işarələr daxil edilir"
+    ],
+    "answer": "Nəticədə qısa nəticələr və dəyərləndirmə ilə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "137",
+    "type": "mcq",
+    "question": "Referat üçün mənbələr seçilərkən əsas tələb nədir?",
+    "options": [
+      "Etibarlı və elmi mənbələrdən istifadə",
+      "Yalnız internetdən istifadə",
+      "Tətbiqi eksperimentlərdən istifadə",
+      "Şifahi mənbələrdən ibarət olmaq"
+    ],
+    "answer": "Etibarlı və elmi mənbələrdən istifadə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "138",
+    "type": "mcq",
+    "question": "Akademik essedə hansı üslubdan istifadə olunur?",
+    "options": [
+      "Formal, elmi-analitik üslub",
+      "Bədii üslub",
+      "Dialoq üslubu",
+      "Poeziya üslubu"
+    ],
+    "answer": "Formal, elmi-analitik üslub",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "139",
+    "type": "mcq",
+    "question": "Referatın strukturu hansıdır?",
+    "options": [
+      "Giriş – əsas hissə – nəticə",
+      "Süjet – kulminasiya – final",
+      "Dialoq – təsvir – konflikt",
+      "Reklam – təsvir – çağırış"
+    ],
+    "answer": "Giriş – əsas hissə – nəticə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "140",
+    "type": "mcq",
+    "question": "Akademik essedə istinadların rolu nədir?",
+    "options": [
+      "Fikrin elmi əsaslandırılmasına xidmət edir",
+      "Mətnin həcmini artırır",
+      "Oxucunu əyləndirir",
+      "Bədii təsviri gücləndirir"
+    ],
+    "answer": "Fikrin elmi əsaslandırılmasına xidmət edir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "141",
+    "type": "mcq",
+    "question": "Referatın dili necə olmalıdır?",
+    "options": [
+      "Səliqəli, dəqiq və obyektiv",
+      "Bədii və obrazlı",
+      "Emosional və pafoslu",
+      "Şeirvari"
+    ],
+    "answer": "Səliqəli, dəqiq və obyektiv",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "142",
+    "type": "mcq",
+    "question": "Akademik essedə plagiatdan qorunmağın yolu hansıdır?",
+    "options": [
+      "İstinadlardan düzgün istifadə",
+      "Mənbələri göstərməmək",
+      "İstinad olmadan öz fikrini yazmaq",
+      "Başqa müəllifin mətnini dəyişmədən yazmaq"
+    ],
+    "answer": "İstinadlardan düzgün istifadə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "143",
+    "type": "mcq",
+    "question": "Referatın əsas fərqləndirici cəhəti hansıdır?",
+    "options": [
+      "Yalnız mövcud elmi məlumatları xülasə edir",
+      "Müəllif barədə məlumat verir",
+      "Yeni elmi ideyalar irəli sürür",
+      "Bədii təsvirlərlə zəngin olur"
+    ],
+    "answer": "Yalnız mövcud elmi məlumatları xülasə edir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "144",
+    "type": "mcq",
+    "question": "Analitik düşünmənin əsas xüsusiyyəti hansıdır?",
+    "options": [
+      "Məlumatları hissələrə ayırıb əlaqələri müəyyən etmək",
+      "Yalnız emosiyalarla qərar vermək",
+      "Məntiqsiz qənaətlər çıxarmaq",
+      "Məlumatları əzbərləmək"
+    ],
+    "answer": "Məlumatları hissələrə ayırıb əlaqələri müəyyən etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "145",
+    "type": "mcq",
+    "question": "Analitik düşüncə hansı prosesi tələb edir?",
+    "options": [
+      "Məlumatların müqayisəsi və təhlili",
+      "Yalnız təsviri izah",
+      "Fikrin emosional təqdimatı",
+      "Əvvəlcədən hazır cavablar"
+    ],
+    "answer": "Məlumatların müqayisəsi və təhlili",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "146",
+    "type": "mcq",
+    "question": "Analitik düşünmənin nəticəsi nədir?",
+    "options": [
+      "Məntiqi, əsaslandırılmış qərar",
+      "Təsadüfi seçim",
+      "Tam bədii təsvir",
+      "Qeyri-müəyyən fikir"
+    ],
+    "answer": "Məntiqi, əsaslandırılmış qərar",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "147",
+    "type": "mcq",
+    "question": "Analitik düşünmə problemi necə həll edir?",
+    "options": [
+      "Məlumatı sistemləşdirərək",
+      "Problemi təsadüfi seçərək",
+      "Emosiyalarla qiymətləndirərək",
+      "Mövzunu yarımçıq qoyaraq"
+    ],
+    "answer": "Məlumatı sistemləşdirərək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "148",
+    "type": "mcq",
+    "question": "Analitik düşünсənin birinci mərhələsi adətən nədir?",
+    "options": [
+      "Problemin müəyyənləşdirilməsi",
+      "Yekun nəticə çıxarmaq",
+      "Məlumatı görməməzliyə vurmaq",
+      "Cavabları əzbərləmək"
+    ],
+    "answer": "Problemin müəyyənləşdirilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "149",
+    "type": "mcq",
+    "question": "Aşağıdakılardan hansı analitik düşünməyə misaldır?",
+    "options": [
+      "Fikrin səbəb-nəticə əlaqəsini qurmaq",
+      "Məlumatdan uzaqlaşmaq",
+      "Qətiyyətsiz fikir bildirmək",
+      "Yalnız hisslərə əsaslanmaq"
+    ],
+    "answer": "Fikrin səbəb-nəticə əlaqəsini qurmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "150",
+    "type": "mcq",
+    "question": "Analitik düşünmədə əsas bacarıqlardan biri hansıdır?",
+    "options": [
+      "Məlumatları müqayisə etmək",
+      "Məlumatı gizlətmək",
+      "Yalnız bir mənbəyə güvənmək",
+      "Təsadüfi nəticə çıxarmaq"
+    ],
+    "answer": "Məlumatları müqayisə etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "151",
+    "type": "mcq",
+    "question": "Analitik düşünmə prosesində hansı sual vacibdir?",
+    "options": [
+      "“Nə olsun?”",
+      "“Kim daha yaxşıdır?”",
+      "“Necə hiss edirəm?”",
+      "“Təsvir necə görünür?”"
+    ],
+    "answer": "“Nə olsun?”",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "152",
+    "type": "mcq",
+    "question": "Analitik düşünmə zamanı hansı vərdiş zəruridir?",
+    "options": [
+      "Faktları yoxlamaq",
+      "Nəticələri tələsik vermək",
+      "Məlumatı şişirtmək",
+      "Təhlilsiz fikir bildirmək"
+    ],
+    "answer": "Faktları yoxlamaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "153",
+    "type": "mcq",
+    "question": "Analitik düşüncəyə mane olan amil hansıdır?",
+    "options": [
+      "Qərəzli yanaşma",
+      "Məlumatı araşdırmaq",
+      "Faktları müqayisə etmək",
+      "Məlumat toplamaq"
+    ],
+    "answer": "Qərəzli yanaşma",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "154",
+    "type": "mcq",
+    "question": "Analitik düşünmə tələb edir ki…",
+    "options": [
+      "Fikirlər dəlillərlə əsaslandırılsın",
+      "Nəticələr hisslərdən asılı olsun",
+      "Mövzuya səthi yanaşılsın",
+      "Tək tərəfli qiymətləndirmə aparılsın"
+    ],
+    "answer": "Fikirlər dəlillərlə əsaslandırılsın",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "155",
+    "type": "mcq",
+    "question": "Analitik düşünmə üçün ən uyğun strategiya hansıdır?",
+    "options": [
+      "Problemi mərhələlərə bölmək",
+      "Mövzunu emosional izah etmək",
+      "Çətinlikləri gizlətmək",
+      "Subyektiv qərar vermək"
+    ],
+    "answer": "Problemi mərhələlərə bölmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "156",
+    "type": "mcq",
+    "question": "Analitik düşünmə zamanı hansı bacarıq vacibdir?",
+    "options": [
+      "Məlumatı obyektiv qiymətləndirmək",
+      "Səbəbsiz rəylər bildirmək",
+      "Tək faktla kifayətlənmək",
+      "Yalnız şəxsi fikirləri əsas götürmək"
+    ],
+    "answer": "Məlumatı obyektiv qiymətləndirmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "157",
+    "type": "mcq",
+    "question": "Analitik təhlilin məqsədi nədir?",
+    "options": [
+      "Problemin mahiyyətini daha dərindən anlamaq",
+      "Mövzunu emosional təqdim etmək",
+      "Məlumatı təsadüfi seçmək",
+      "Yalnız bir tərəfi göstərmək"
+    ],
+    "answer": "Problemin mahiyyətini daha dərindən anlamaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "158",
+    "type": "mcq",
+    "question": "Analitik düşüncənin tərkib hissəsi hansıdır?",
+    "options": [
+      "Məntiqi nəticə çıxarmaq",
+      "Təsadüfi suallar vermək",
+      "Əlaqəsiz məlumat toplamaq",
+      "Hisslərə əsaslanmaq"
+    ],
+    "answer": "Məntiqi nəticə çıxarmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "159",
+    "type": "mcq",
+    "question": "Analitik düşüncə hansı bacarığı gücləndirir?",
+    "options": [
+      "Problem həll etmə bacarığını",
+      "Çətinlikdən qaçmağı",
+      "Səthi analiz etməyi",
+      "Yalnız bir perspektivi görməyi"
+    ],
+    "answer": "Problem həll etmə bacarığını",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "160",
+    "type": "mcq",
+    "question": "Analitik düşünmə prosesi necə tamamlanır?",
+    "options": [
+      "Məntiqi nəticə ilə",
+      "Emosional şərhlə",
+      "Təsadüfi fikirlə",
+      "Yarımçıq qənaətlə"
+    ],
+    "answer": "Məntiqi nəticə ilə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "161",
+    "type": "mcq",
+    "question": "Struktur problemlərin işlənməsi\n\nBu mərhələlərin ardıcıllığı necə olmalıdır?",
+    "options": [
+      "1 → 2 → 3",
+      "2 → 1 → 3",
+      "1 → 3 → 2",
+      "3 → 2 → 1"
+    ],
+    "answer": "1 → 2 → 3",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "162",
+    "type": "mcq",
+    "question": "Fərdi və kollektiv tədqiqatın işində aşağıda verilmiş mülahizələrdən hansı yalnışdır?",
+    "options": [
+      "Fərdi tədqiqat daha sistemli və çoxşaxəlidir, kollektiv tədqiqat isə daha çevikdir",
+      "Fərdi yanaşma subyektivliyə, kollektiv yanaşma isə koordinasiya çətinliklərinə meyillidir",
+      "Hər iki yanaşma elmi prosesdə bir-birini tamamlayır",
+      "Fərdi tədqiqat yaradıcı dərinlik, kollektiv tədqiqat isə geniş miqyas və müxtəliflikdir"
+    ],
+    "answer": "Fərdi tədqiqat daha sistemli və çoxşaxəlidir, kollektiv tədqiqat isə daha çevikdir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "163",
+    "type": "mcq",
+    "question": "Elmi məqalə nədir?",
+    "options": [
+      "Elmi tədqiqatın nəticələrini təqdim edən yazı",
+      "İxtira haqqında yazı",
+      "Roman",
+      "Şeir"
+    ],
+    "answer": "Elmi tədqiqatın nəticələrini təqdim edən yazı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "164",
+    "type": "mcq",
+    "question": "Elmi məqalənin əsas hissələri hansılardır?",
+    "options": [
+      "Giriş, əsas hissə, nəticə",
+      "Metodologiya, nəticə, ədəbiyyat siyahısı",
+      "Başlıq, müəllif, mətn",
+      "Heç biri"
+    ],
+    "answer": "Giriş, əsas hissə, nəticə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "165",
+    "type": "mcq",
+    "question": "Elmi məqalənin əsas məqsədi nədir?",
+    "options": [
+      "Yeni elmi nəticələrin ictimaiyyətə çatdırılması",
+      "Oxucunu əyləndirmək",
+      "Reklam xarakterli məlumat vermək",
+      "Ədəbiyyat siyahısını artırmaq"
+    ],
+    "answer": "Yeni elmi nəticələrin ictimaiyyətə çatdırılması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "166",
+    "type": "mcq",
+    "question": "Sitat verməyin düzgün üsulu hansıdır?",
+    "options": [
+      "Orijinal mətndən dəyişdirilmədən götürülməli",
+      "Öz sözlərinizlə ifadə etməli",
+      "Qeyd etməmək",
+      "İstənilən formada"
+    ],
+    "answer": "Orijinal mətndən dəyişdirilmədən götürülməli",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "167",
+    "type": "mcq",
+    "question": "Məqalədə materialın şərh edilməsi nə deməkdir?",
+    "options": [
+      "Məlumatları təhlil etmək və nəticə çıxarmaq",
+      "Mətni köçürmək",
+      "Rəy bildirmək",
+      "Tərcümə etmək"
+    ],
+    "answer": "Məlumatları təhlil etmək və nəticə çıxarmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "168",
+    "type": "mcq",
+    "question": "Akademik yazıda cədvəllər necə təqdim olunmalıdır?",
+    "options": [
+      "Başlıqlı və ardıcıl nömrələnmiş olmalıdır",
+      "Sərbəst şəkildə",
+      "Yalnız mətndə",
+      "Heç biri"
+    ],
+    "answer": "Başlıqlı və ardıcıl nömrələnmiş olmalıdır",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "169",
+    "type": "mcq",
+    "question": "Düsturlar necə təqdim olunmalıdır?",
+    "options": [
+      "Ardıcıl nömrələnmiş",
+      "Sərbəst şəkildə",
+      "Yalnız mətndə",
+      "Heç biri"
+    ],
+    "answer": "Ardıcıl nömrələnmiş",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "170",
+    "type": "mcq",
+    "question": "Məruzə hazırlayarkən ən vacib məqam nədir?",
+    "options": [
+      "Auditoriyanı nəzərə almaq",
+      "Çox rəngli slaydlar hazırlamaq",
+      "Uzun mətn yazmaq",
+      "Musiqi əlavə etmək"
+    ],
+    "answer": "Auditoriyanı nəzərə almaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "171",
+    "type": "mcq",
+    "question": "Elmi məqalədə xülasə hansı məqsəd daşıyır?",
+    "options": [
+      "Məqalənin bütöv məzmununu qısa şəkildə təqdim etmək",
+      "Müəllif haqqında məlumat vermək",
+      "Rəyləri göstərmək",
+      "Ədəbiyyat siyahısını təqdim etmək"
+    ],
+    "answer": "Məqalənin bütöv məzmununu qısa şəkildə təqdim etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "172",
+    "type": "mcq",
+    "question": "Açar sözlər nə üçün istifadə olunur?",
+    "options": [
+      "Məqalənin indeksləşdirilməsi və axtarışda asanlıq üçün",
+      "Məqaləni gözəlləşdirmək",
+      "Məqalənin uzunluğunu artırmaq",
+      "Qeyd etmək üçün"
+    ],
+    "answer": "Məqalənin indeksləşdirilməsi və axtarışda asanlıq üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "173",
+    "type": "mcq",
+    "question": "İqtibas nədir?",
+    "options": [
+      "Sitat",
+      "Başqasının əsərini öz kimi təqdim etmək",
+      "Tərcümə etmək",
+      "Şərh etmək"
+    ],
+    "answer": "Sitat",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "174",
+    "type": "mcq",
+    "question": "Elmi məqalələrdə \"müzakirə\" hissəsi nəyi əhatə edir?",
+    "options": [
+      "Nəticələrin şərhini və əhəmiyyətini",
+      "Metodologiyanı təkrarlayır",
+      "Girişi təkrarlayır",
+      "Ədəbiyyat siyahısını verir"
+    ],
+    "answer": "Nəticələrin şərhini və əhəmiyyətini",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "175",
+    "type": "mcq",
+    "question": "Akademik yazıda hansı dil üslubundan istifadə olunmalıdır?",
+    "options": [
+      "Rəsmi və obyektiv",
+      "Şəxsi və subyektiv",
+      "Ədəbi",
+      "Danışıq dili"
+    ],
+    "answer": "Rəsmi və obyektiv",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "176",
+    "type": "mcq",
+    "question": "Məruzə zamanı təqdimat vasitələri necə olmalıdır?",
+    "options": [
+      "Sadə və aydın",
+      "Çox mürəkkəb",
+      "Rəngarəng",
+      "Çox şəkilli"
+    ],
+    "answer": "Sadə və aydın",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "177",
+    "type": "mcq",
+    "question": "Məruzə zamanı suallara cavab vermək nə üçün vacibdir?",
+    "options": [
+      "Auditoriya ilə qarşılıqlı əlaqəni artırmaq",
+      "Vaxtı uzatmaq",
+      "Çətinlik yaratmaq",
+      "Heç biri"
+    ],
+    "answer": "Auditoriya ilə qarşılıqlı əlaqəni artırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "178",
+    "type": "mcq",
+    "question": "Elmi məqalədə \"metodologiya\" hissəsi nəyi təsvir edir?",
+    "options": [
+      "Tədqiqatın necə aparıldığını",
+      "Nəticələri",
+      "Müzakirəni",
+      "Girişi"
+    ],
+    "answer": "Tədqiqatın necə aparıldığını",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "179",
+    "type": "mcq",
+    "question": "\"Ədəbiyyat siyahısı\" nə üçün lazımdır?",
+    "options": [
+      "İstifadə olunan mənbələri göstərmək",
+      "Məqaləni uzatmaq",
+      "Müəllifin bilik səviyyəsini göstərmək",
+      "Qanunla tələb"
+    ],
+    "answer": "İstifadə olunan mənbələri göstərmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "180",
+    "type": "mcq",
+    "question": "Elmi məqalələrdə qısaltmalar (abbreviaturalar) necə istifadə olunur?",
+    "options": [
+      "İlk dəfə istifadədə tam forması verilir, sonra qısaldılır",
+      "Həmişə qısaldılmış formada",
+      "Yalnız tam formada",
+      "İstənilən formada"
+    ],
+    "answer": "İlk dəfə istifadədə tam forması verilir, sonra qısaldılır",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "181",
+    "type": "mcq",
+    "question": "Elmi məqalədə \"nəticə\" hissəsi nəyi əhatə edir?",
+    "options": [
+      "Tədqiqatın əsas nəticələrini ümumiləşdirir",
+      "Gələcək tədqiqatları təklif edir",
+      "Hər biri",
+      "Heç biri"
+    ],
+    "answer": "Tədqiqatın əsas nəticələrini ümumiləşdirir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "182",
+    "type": "mcq",
+    "question": "Məruzə hazırlayarkən slaydların sayı necə olmalıdır?",
+    "options": [
+      "Vaxta uyğun olaraq və mahiyyəti tam açıqlamaqla məhdud sayda",
+      "Nə qədər çox o qədər yaxşı",
+      "Az sayda",
+      "Çox sayda"
+    ],
+    "answer": "Vaxta uyğun olaraq və mahiyyəti tam açıqlamaqla məhdud sayda",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "183",
+    "type": "mcq",
+    "question": "Məruzə zamanı səs tonu necə olmalıdır?",
+    "options": [
+      "Aydın və səlis",
+      "Səssiz",
+      "Yüksək",
+      "Kəsik"
+    ],
+    "answer": "Aydın və səlis",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "184",
+    "type": "mcq",
+    "question": "Məqalə yazarkən mənbələri necə qeyd etmək lazımdır?",
+    "options": [
+      "Müəyyən bibliografik standarta uyğun",
+      "Öz istədiyimiz kimi",
+      "Yalnız adını yazmaq",
+      "Heç qeyd etməmək"
+    ],
+    "answer": "Müəyyən bibliografik standarta uyğun",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "185",
+    "type": "mcq",
+    "question": "Məruzə zamanı göz əlaqəsi nə üçün vacibdir?",
+    "options": [
+      "Auditoriya ilə əlaqəni qurmaq",
+      "Səhnədəki digər obyektlərə baxmaq",
+      "Yalnız slaydlara baxmaq",
+      "Heç biri"
+    ],
+    "answer": "Auditoriya ilə əlaqəni qurmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "186",
+    "type": "mcq",
+    "question": "Elmi məqalənin başlığı necə olmalıdır?",
+    "options": [
+      "Qısa və tam məzmunu əhatə etməklə",
+      "Uzun və ətraflı izahla",
+      "Sirli",
+      "Əyləncəli"
+    ],
+    "answer": "Qısa və tam məzmunu əhatə etməklə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "187",
+    "type": "mcq",
+    "question": "Məruzə hazırlayarkən əsas diqqət nəyə yönəldilməlidir?",
+    "options": [
+      "Məruzənin məqsədinə",
+      "Slaydların gözəlliyinə",
+      "Vaxta",
+      "Geyimə"
+    ],
+    "answer": "Məruzənin məqsədinə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "188",
+    "type": "mcq",
+    "question": "Məruzə zamanı vizual vasitələrdən (slaydlar) istifadə nə üçün vacibdir?",
+    "options": [
+      "Məlumatın daha yaxşı başa düşülməsi üçün",
+      "Vaxtı doldurmaq üçün",
+      "Göz oxşaması üçün",
+      "Məcburiyyətdir"
+    ],
+    "answer": "Məlumatın daha yaxşı başa düşülməsi üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "189",
+    "type": "mcq",
+    "question": "Məruzə hazırlayarkən məruzənin müddəti necə olmalıdır?",
+    "options": [
+      "Təyin olunmuş vaxta uyğun",
+      "Nə qədər uzun olsa, o qədər yaxşıdır",
+      "Qısa olmalıdır",
+      "Fərqi yoxdur"
+    ],
+    "answer": "Təyin olunmuş vaxta uyğun",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "190",
+    "type": "mcq",
+    "question": "İnteraktiv məruzə zamanı sual vermək üçün vaxt ayrılmalıdırmı və hansı səbəbə?",
+    "options": [
+      "Bəli, auditoriya ilə qarşılıqlı əlaqə üçün",
+      "Xeyr, vaxt çoxdur",
+      "Yalnız məruzədən sonra",
+      "Heç vaxt"
+    ],
+    "answer": "Bəli, auditoriya ilə qarşılıqlı əlaqə üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "191",
+    "type": "mcq",
+    "question": "Elmi məqalənin redaktəsi nə üçün vacibdir?",
+    "options": [
+      "Səhvləri aradan qaldırmaq və mətnin keyfiyyətini yaxşılaşdırmaq",
+      "Məqaləni uzatmaq",
+      "Müəllifi sınamaq",
+      "Rəsmi tələb"
+    ],
+    "answer": "Səhvləri aradan qaldırmaq və mətnin keyfiyyətini yaxşılaşdırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "192",
+    "type": "mcq",
+    "question": "Məruzə zamanı bədən dilindən necə istifadə etmək lazımdır?",
+    "options": [
+      "Təbii və ifadəli olmalıdır",
+      "Hərəkətsiz durmaq",
+      "Çox hərəkət etmək",
+      "Heç biri"
+    ],
+    "answer": "Təbii və ifadəli olmalıdır",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "193",
+    "type": "mcq",
+    "question": "Başqasının ideyasını müəllif göstərmədən mənimsəmək necə adlanır?",
+    "options": [
+      "Plagiat",
+      "Parafraz",
+      "Redaktə",
+      "Adaptasiya"
+    ],
+    "answer": "Plagiat",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "194",
+    "type": "mcq",
+    "question": "Hansı xüsusiyyət akademik yazıya aid DEYİL?",
+    "options": [
+      "Danışıq və jarqon ifadələr",
+      "Məntiqilik",
+      "Dürüstlük",
+      "Dəqiqlik"
+    ],
+    "answer": "Danışıq və jarqon ifadələr",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "195",
+    "type": "mcq",
+    "question": "Mətnin sistemliliyi nə deməkdir?",
+    "options": [
+      "Məntiqi quruluş",
+      "Eyni fikirlərin təkrarı",
+      "Bədii elementlərin çoxluğu",
+      "Ətraflı izah"
+    ],
+    "answer": "Məntiqi quruluş",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "196",
+    "type": "mcq",
+    "question": "Mənbələrin düzgün tərtibatı nə adlanır?",
+    "options": [
+      "Biblioqrafik tərtibat",
+      "Kreativ yazı",
+      "Ədəbiyyat tənqidi",
+      "Anotasiya"
+    ],
+    "answer": "Biblioqrafik tərtibat",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "197",
+    "type": "mcq",
+    "question": "Akademik etikanın əsas prinsipi:",
+    "options": [
+      "Dürüstlük",
+      "Anonimlik",
+      "Rəqabət",
+      "Emosionallıq"
+    ],
+    "answer": "Dürüstlük",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "198",
+    "type": "mcq",
+    "question": "Tədqiqat etikası nəyi əhatə edir?",
+    "options": [
+      "Tədqiqat aparma normaları",
+      "İşlərin tərtibi",
+      "Müzakirə qaydaları",
+      "Müəlliflərin bioqrafiyası"
+    ],
+    "answer": "Tədqiqat aparma normaları",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "199",
+    "type": "mcq",
+    "question": "Biblioqrafiya nədir?",
+    "options": [
+      "İstifadə olunmuş mənbələr",
+      "Cədvəl",
+      "Lüğət",
+      "Əlavə"
+    ],
+    "answer": "İstifadə olunmuş mənbələr",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "200",
+    "type": "mcq",
+    "question": "Elmi arqument nədir?",
+    "options": [
+      "Faktlar və sübutlar",
+      "Emosiya",
+      "Şəxsi hekayə",
+      "Təxmin"
+    ],
+    "answer": "Faktlar və sübutlar",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "201",
+    "type": "mcq",
+    "question": "Akademik yazıya rəy nədir?",
+    "options": [
+      "Mütəxəssislər tərəfindən qiymətləndirmə",
+      "Yenidən yazmaq",
+      "Nəşr",
+      "Redaktə"
+    ],
+    "answer": "Mütəxəssislər tərəfindən qiymətləndirmə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "202",
+    "type": "mcq",
+    "question": "Elmi üslubun leksik xüsusiyyətləri hansılardır?",
+    "options": [
+      "Terminlər, elmi anlayışlar",
+      "Yumor",
+      "Lirika",
+      "Hekayə"
+    ],
+    "answer": "Terminlər, elmi anlayışlar",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "203",
+    "type": "mcq",
+    "question": "Elmi məruzə hansı məqsədlə təqdim edilir?",
+    "options": [
+      "Tədqiqat nəticələrini auditoriyaya şifahi çatdırmaq",
+      "Yalnız müəllifin tanıdılması üçün",
+      "Əyləncə məqsədilə",
+      "Qeyri-elmi müzakirə aparmaq üçün"
+    ],
+    "answer": "Tədqiqat nəticələrini auditoriyaya şifahi çatdırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "204",
+    "type": "mcq",
+    "question": "Tədqiqatın aktuallığı hansı bölmədə qeyd olunur?",
+    "options": [
+      "Girişdə",
+      "Nəticədə",
+      "Əlavələrdə",
+      "Metodologiyada"
+    ],
+    "answer": "Girişdə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "205",
+    "type": "mcq",
+    "question": "Elmi məqalədə nəticələr necə təqdim olunur?",
+    "options": [
+      "Dəqiq və əsaslandırılmış şəkildə",
+      "Təxmini formada",
+      "Emosional cümlələrlə",
+      "Yalnız qrafiklərlə"
+    ],
+    "answer": "Dəqiq və əsaslandırılmış şəkildə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "206",
+    "type": "mcq",
+    "question": "Elmi məqalənin sonunda hansı hissə verilir?",
+    "options": [
+      "Ədəbiyyat siyahısı",
+      "Giriş",
+      "Metodologiya",
+      "Tədqiqatın aktuallığı"
+    ],
+    "answer": "Ədəbiyyat siyahısı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "207",
+    "type": "mcq",
+    "question": "Məruzəçinin səs tonu necə olmalıdır?",
+    "options": [
+      "Aydın və sabit",
+      "Çox yüksək",
+      "Çox yavaş",
+      "Emosional və qeyri-sabit"
+    ],
+    "answer": "Aydın və sabit",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "208",
+    "type": "mcq",
+    "question": "Məqalədə istifadə olunan ədəbiyyat necə seçilməlidir?",
+    "options": [
+      "Etibarlı və elmi mənbələrdən",
+      "Təsadüfi internet səhifələrindən",
+      "Sosial şəbəkə statuslarından",
+      "Bədii kitabçalardan"
+    ],
+    "answer": "Etibarlı və elmi mənbələrdən",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "209",
+    "type": "mcq",
+    "question": "Elmi məqalədə hipoteza nədir?",
+    "options": [
+      "Tədqiqatın mümkün nəticəsi barədə fərziyyə",
+      "Son nəticə",
+      "Ədəbiyyat siyahısı",
+      "Qrafiklərin izahı"
+    ],
+    "answer": "Tədqiqatın mümkün nəticəsi barədə fərziyyə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "210",
+    "type": "mcq",
+    "question": "Elmi məqalədə cədvəllərin əsas funksiyası:",
+    "options": [
+      "Statistik məlumatları strukturlaşdırmaq",
+      "Mətnin həcmini artırmaq",
+      "Oxucunu çaşdırmaq",
+      "Dizayn yaratmaq"
+    ],
+    "answer": "Statistik məlumatları strukturlaşdırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "211",
+    "type": "mcq",
+    "question": "Məruzəçi təqdimatı necə başa vurmalıdır?",
+    "options": [
+      "Yekun nəticə və təşəkkürlə",
+      "Təsadüfi sözlərlə",
+      "Mövzu kənar fikirlərlə",
+      "Uzun pauzalarla"
+    ],
+    "answer": "Yekun nəticə və təşəkkürlə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "212",
+    "type": "mcq",
+    "question": "Hansı ifadə istinadın əsas məqsədini düzgün xarakterizə edir?",
+    "options": [
+      "Məlumatın mənbəyini göstərmək",
+      "Mətni uzun göstərmək",
+      "Oxucunu çaşdırmaq",
+      "Faktları gizlətmək"
+    ],
+    "answer": "Məlumatın mənbəyini göstərmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "213",
+    "type": "mcq",
+    "question": "APA stilində istinad necə verilir?",
+    "options": [
+      "(Müəllif, il)",
+      "Müəllif-il",
+      "[Müəllif; il]",
+      "<Müəllif, il>"
+    ],
+    "answer": "(Müəllif, il)",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "214",
+    "type": "mcq",
+    "question": "Ədəbiyyat siyahısı nə üçün tərtib edilir?",
+    "options": [
+      "İstifadə olunan mənbələri sistemləşdirmək üçün",
+      "Səhifə sayını artırmaq üçün",
+      "Mətnə dekorativ əlavələr etmək üçün",
+      "Oxucunu çaşdırmaq üçün"
+    ],
+    "answer": "İstifadə olunan mənbələri sistemləşdirmək üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "215",
+    "type": "mcq",
+    "question": "Hansı istinad stili humanitar elmlərdə daha çox istifadə olunur?",
+    "options": [
+      "MLA",
+      "Chicago",
+      "IEEE",
+      "Vancouver"
+    ],
+    "answer": "MLA",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "216",
+    "type": "mcq",
+    "question": "APA-da elektron mənbə üçün DOI necə göstərilir?",
+    "options": [
+      "https://doi.org/…",
+      "doi[…]",
+      "DOI",
+      "link"
+    ],
+    "answer": "https://doi.org/…",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "217",
+    "type": "mcq",
+    "question": "Mənbəyə istinad etməməyin nəticəsi nə ola bilər?",
+    "options": [
+      "Plagiat",
+      "Səhifə artımı",
+      "Qiymətin yüksəlməsi",
+      "Mətndə boşluqlar"
+    ],
+    "answer": "Plagiat",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "218",
+    "type": "mcq",
+    "question": "Hansı variant biblioqrafik təsvirin tələb olunan elementlərindən biridir?",
+    "options": [
+      "Müəllifin soyadı",
+      "Müəllifin hobbisi",
+      "Müəllifin ailə vəziyyəti",
+      "Müəllifin sosial şəbəkəsi"
+    ],
+    "answer": "Müəllifin soyadı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "219",
+    "type": "mcq",
+    "question": "APA-da 3-dən çox müəllif olduqda mətndaxili istinad necə göstərilir?",
+    "options": [
+      "Birinci müəllif və s.",
+      "İlk iki müəllif",
+      "Hamısı yazılır",
+      "Son müəllif yazılır"
+    ],
+    "answer": "Birinci müəllif və s.",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "220",
+    "type": "mcq",
+    "question": "Hansı mənbələr ədəbiyyat siyahısına daxil edilmir?",
+    "options": [
+      "Mətnə istinad olunmayanlar",
+      "Kitablar",
+      "Məqalələr",
+      "Elektron mənbələr"
+    ],
+    "answer": "Mətnə istinad olunmayanlar",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "221",
+    "type": "mcq",
+    "question": "İstinad siyahısında mənbələr necə sıralanmalıdır?",
+    "options": [
+      "Müəllif soyadına görə əlifba ilə",
+      "Yazılma tarixinə görə",
+      "Səhifə sayına görə",
+      "Formatına görə"
+    ],
+    "answer": "Müəllif soyadına görə əlifba ilə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "222",
+    "type": "mcq",
+    "question": "URL ədəbiyyat siyahısında necə göstərilir?",
+    "options": [
+      "Tam link şəklində",
+      "Qısaldılmış formada",
+      "Kodlaşdırılmış",
+      "Gizli şəkildə"
+    ],
+    "answer": "Tam link şəklində",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "223",
+    "type": "mcq",
+    "question": "Sitat üçün hansı hal tələb olunur?",
+    "options": [
+      "Mənbənin dəqiq göstərilməsi",
+      "Mətnin dəyişdirilməsi",
+      "Səhifənin gizlədilməsi",
+      "Öz adınla qeyd etmək"
+    ],
+    "answer": "Mənbənin dəqiq göstərilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "224",
+    "type": "mcq",
+    "question": "Ali Attestasiya Komissiyasının əsas funksiyalarından biri hansıdır?",
+    "options": [
+      "Elmi dərəcə və elmi adların verilməsinə nəzarət etmək",
+      "Universitetlərin reytinqini müəyyənləşdirmək",
+      "Məktəblərdə kurikulum hazırlamaq",
+      "Magistr qəbullarını təşkil etmək"
+    ],
+    "answer": "Elmi dərəcə və elmi adların verilməsinə nəzarət etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "225",
+    "type": "mcq",
+    "question": "AAK hansı dövlət orqanı yanında fəaliyyət göstərir?",
+    "options": [
+      "Azərbaycan Respublikası Prezidentinin yanında",
+      "Milli Məclisin yanında",
+      "Nazirlər Kabinetinin yanında",
+      "Təhsil Nazirliyinin yanında"
+    ],
+    "answer": "Azərbaycan Respublikası Prezidentinin yanında",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "226",
+    "type": "mcq",
+    "question": "Elmi dərəcələrin verilməsində dissertasiyanın müdafiəsi hansı orqanın təsdiq etdiyi şurada həyata keçirilir?",
+    "options": [
+      "AAK tərəfindən təsdiqlənmiş dissertasiya şurasında",
+      "Universitet tərəfindən təsdiqlənmiş şurada",
+      "Nazirlik daxilində yaradılan şurada",
+      "Bölmə rəhbərinin yanında şurada"
+    ],
+    "answer": "AAK tərəfindən təsdiqlənmiş dissertasiya şurasında",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "227",
+    "type": "mcq",
+    "question": "AAK-ın tələbinə görə dissertasiya işində istinadlar necə olmalıdır?",
+    "options": [
+      "Elmi standartlara uyğun",
+      "Yalnız müəllif istədiyi kimi",
+      "Anonim mənbələrlə",
+      "Qeyri-akademik formada"
+    ],
+    "answer": "Elmi standartlara uyğun",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "228",
+    "type": "mcq",
+    "question": "AAK hansı elmi dərəcələri təsdiq edir?",
+    "options": [
+      "Fəlsəfə doktoru və elmlər doktoru",
+      "Magistr və bakalavr",
+      "Professor və müəllim",
+      "Akademik və dosent"
+    ],
+    "answer": "Fəlsəfə doktoru və elmlər doktoru",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "229",
+    "type": "mcq",
+    "question": "Elmi adların verilməsi (dosent, professor) hansı orqanın qərarı əsasında rəsmiləşdirilir?",
+    "options": [
+      "AAK-ın kollegiyasının qərarı",
+      "Universitet rektorunun fərmanı",
+      "Şura sədrinin arayışı",
+      "Təhsil Nazirliyinin məktubu"
+    ],
+    "answer": "AAK-ın kollegiyasının qərarı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "230",
+    "type": "mcq",
+    "question": "AAK elmi işlərin orijinallığını necə qiymətləndirir?",
+    "options": [
+      "Antiplagiat yoxlaması aparmaqla",
+      "Sadəcə müəllifin bəyannaməsi ilə",
+      "Universitetlərin arayışı ilə",
+      "Əlyazma nüsxələrinə baxmaqla"
+    ],
+    "answer": "Antiplagiat yoxlaması aparmaqla",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "231",
+    "type": "mcq",
+    "question": "AAK-ın elmi dərəcə almaq üçün tələb etdiyi minimum şərtlərdən biri hansıdır?",
+    "options": [
+      "Müəyyən sayda elmi məqalənin nəşri",
+      "Xaricdə təhsil almaq",
+      "Müəllimin razılığı",
+      "Universitet dəyişdirmək"
+    ],
+    "answer": "Müəyyən sayda elmi məqalənin nəşri",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "232",
+    "type": "mcq",
+    "question": "İstinad idarəetmə proqramlarının əsas funksiyası nədir?",
+    "options": [
+      "Mənbələri toplamaq, saxlamaq və avtomatik istinad yaratmaq",
+      "PDF fayllarını sıxmaq",
+      "Video montajı aparmaq",
+      "Şəkilləri redaktə etmək"
+    ],
+    "answer": "Mənbələri toplamaq, saxlamaq və avtomatik istinad yaratmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "233",
+    "type": "mcq",
+    "question": "Mendeley proqramının əsas üstünlüyü hansıdır?",
+    "options": [
+      "PDF fayllarından avtomatik məlumat çıxarma bacarığı",
+      "Yalnız offline işləməsi",
+      "Təkcə kitablar üçün istifadə olunması",
+      "Yalnız mobil versiyasının olması"
+    ],
+    "answer": "PDF fayllarından avtomatik məlumat çıxarma bacarığı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "234",
+    "type": "mcq",
+    "question": "Zotero hansı xüsusiyyəti ilə seçilir?",
+    "options": [
+      "Açıq mənbə (open-source) olması",
+      "Yalnız iOS üçün olması",
+      "Sitat üslublarının olmaması",
+      "Brauzerlərdə işləməməsi"
+    ],
+    "answer": "Açıq mənbə (open-source) olması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "235",
+    "type": "mcq",
+    "question": "EndNote proqramı daha çox hansı istifadəçilər üçün nəzərdə tutulur?",
+    "options": [
+      "Akademik tədqiqatçılar və elm adamları üçün",
+      "Video dizaynerlər üçün",
+      "Fotoqraflar üçün",
+      "Oyun proqramçıları üçün"
+    ],
+    "answer": "Akademik tədqiqatçılar və elm adamları üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "236",
+    "type": "mcq",
+    "question": "Mendeley-in “Insert Citation” funksiyası nə edir?",
+    "options": [
+      "Mətnə avtomatik istinad əlavə edir",
+      "Sənədi PDF-ə çevirir",
+      "Sitatı şəkilə çevirir",
+      "Faylı audioya çevirir"
+    ],
+    "answer": "Mətnə avtomatik istinad əlavə edir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "237",
+    "type": "mcq",
+    "question": "Zotero-nun brauzer əlavəsi hansı imkanı yaradır?",
+    "options": [
+      "Mənbələri bir kliklə kitabxanaya əlavə etməyi",
+      "Faylları video formatına çevirməyi",
+      "Şəkilləri avtomatik adlandırmağı",
+      "Mənbələri şifrələməyi"
+    ],
+    "answer": "Mənbələri bir kliklə kitabxanaya əlavə etməyi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "238",
+    "type": "mcq",
+    "question": "EndNote-da “Library” nə deməkdir?",
+    "options": [
+      "İstifadəçinin topladığı mənbələrin saxlandığı baza",
+      "Şəxsi fayl qovluğu",
+      "Video arxivi",
+      "Audio siyahısı"
+    ],
+    "answer": "İstifadəçinin topladığı mənbələrin saxlandığı baza",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "239",
+    "type": "mcq",
+    "question": "İstinad proqramlarının istifadə üçün əsas üstünlüklərindən biri hansıdır?",
+    "options": [
+      "Bibliografiyanın avtomatik və düzgün formalaşdırılması",
+      "Sənədin dizaynını yaratmaq",
+      "Mənbələri yalnız əl ilə yazmaq",
+      "Tədqiqatı qısaltmaq"
+    ],
+    "answer": "Bibliografiyanın avtomatik və düzgün formalaşdırılması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "240",
+    "type": "mcq",
+    "question": "Mendeley, Zotero və EndNote-un ortaq xüsusiyyəti hansıdır?",
+    "options": [
+      "Müxtəlif sitat üslublarını dəstəkləməsi",
+      "Yalnız bir dildə işləməsi",
+      "Foto filtrlərinin olması",
+      "Video montaj imkanı"
+    ],
+    "answer": "Müxtəlif sitat üslublarını dəstəkləməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "241",
+    "type": "mcq",
+    "question": "Müasir istinad idarəetmə proqramlarının tədqiqatçılar üçün əsas faydası nədir?",
+    "options": [
+      "Vaxta qənaət və istinad səhvlərinin azalması",
+      "Sənədləri daha ağır etmək",
+      "Mənbələri qarışdırmaq",
+      "Elmi işin strukturunu pozmaq"
+    ],
+    "answer": "Vaxta qənaət və istinad səhvlərinin azalması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "242",
+    "type": "mcq",
+    "question": "Mendeley proqramının əsas funksiyalarından biri hansıdır?",
+    "options": [
+      "Mənbələrin avtomatik idarə edilməsi və istinadların yaradılması",
+      "Yalnız mətn redaktəsi",
+      "PDF sənədlərinin şifrələnməsi",
+      "Video montajı"
+    ],
+    "answer": "Mənbələrin avtomatik idarə edilməsi və istinadların yaradılması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "243",
+    "type": "mcq",
+    "question": "Zotero əsasən hansı məqsədlə istifadə olunur?",
+    "options": [
+      "Ədəbiyyat mənbələrinin toplanması və sitatların formalaşdırılması",
+      "Qrafik dizayn hazırlamaq",
+      "Səs fayllarını redaktə etmək",
+      "Kodlaşdırma aparmaq"
+    ],
+    "answer": "Ədəbiyyat mənbələrinin toplanması və sitatların formalaşdırılması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "244",
+    "type": "mcq",
+    "question": "EndNote proqramı nə üçün məşhurdur?",
+    "options": [
+      "Elmi məqalələrdə geniş sitat və bibliografiya idarəetməsi üçün",
+      "Jurnalların dizaynını dəyişmək üçün",
+      "Cədvəllər yaratmaq üçün",
+      "Statistik hesablama aparmaq üçün"
+    ],
+    "answer": "Elmi məqalələrdə geniş sitat və bibliografiya idarəetməsi üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "245",
+    "type": "mcq",
+    "question": "Mendeley hansı fayl formatları ilə işləyə bilir?",
+    "options": [
+      "PDF və Word sənədləri ilə",
+      "Yalnız JPEG faylları ilə",
+      "Yalnız PowerPoint formatı ilə",
+      "Yalnız HTML sənədləri ilə"
+    ],
+    "answer": "PDF və Word sənədləri ilə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "246",
+    "type": "mcq",
+    "question": "Zotero-nun brauzer əlavəsi istifadəçiyə nə imkanı verir?",
+    "options": [
+      "Mənbəni bir kliklə yaddaş bazasına əlavə etmək",
+      "Sosial şəbəkələrdə paylaşım etmək",
+      "Mənbələri audioya çevirmək",
+      "Sənədləri avtomatik tərcümə etmək"
+    ],
+    "answer": "Mənbəni bir kliklə yaddaş bazasına əlavə etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "247",
+    "type": "mcq",
+    "question": "EndNote proqramında istinad üslubları necə tətbiq olunur?",
+    "options": [
+      "Kitabxanadakı izlənən üslub seçilir və avtomatik tətbiq edilir",
+      "İstifadəçi bütün sitatları əl ilə yazır",
+      "Üslub yalnız PDF kimi yüklənir",
+      "Üslub Excel vasitəsilə yüklənir"
+    ],
+    "answer": "Kitabxanadakı izlənən üslub seçilir və avtomatik tətbiq edilir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "248",
+    "type": "mcq",
+    "question": "Mendeley hansı əlavə funksiyanı da dəstəkləyir?",
+    "options": [
+      "Tədqiqatçılar üçün sosial şəbəkə platforması",
+      "Fotoqrafiya filtrləri",
+      "Video kəsim modulu",
+      "Musiqi faylları idarəetməsi"
+    ],
+    "answer": "Tədqiqatçılar üçün sosial şəbəkə platforması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "249",
+    "type": "mcq",
+    "question": "Zotero-nun üstünlüklərindən biri nədir?",
+    "options": [
+      "Açıq mənbə (open-source) olması",
+      "Yalnız ödənişli olması",
+      "Yalnız MacOS-da işləməsi",
+      "Yalnız offline rejimdə işləməsi"
+    ],
+    "answer": "Açıq mənbə (open-source) olması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "250",
+    "type": "mcq",
+    "question": "EndNote proqramında “Library” nədir?",
+    "options": [
+      "İstifadəçinin mənbələrini saxladığı məlumat bazası",
+      "Video fayllarının toplandığı qovluq",
+      "Musiqi siyahısı",
+      "Foto albomu"
+    ],
+    "answer": "İstifadəçinin mənbələrini saxladığı məlumat bazası",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "251",
+    "type": "mcq",
+    "question": "Mendeleydə istinad yaratmaq üçün hansı funksiya istifadə olunur?",
+    "options": [
+      "“Insert Citation”",
+      "“Insert Image”",
+      "“Add Animation”",
+      "“Create Header”"
+    ],
+    "answer": "“Insert Citation”",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "252",
+    "type": "mcq",
+    "question": "EndNote-un əsas üstünlüklərindən biri nədir?",
+    "options": [
+      "Minlərlə beynəlxalq jurnal üslubunun hazır şəkildə daxil edilməsi",
+      "Yalnız bir üslub dəstəkləməsi",
+      "Offline işləmək imkanı olmaması",
+      "Mənbə ixracını qəbul etməməsi"
+    ],
+    "answer": "Minlərlə beynəlxalq jurnal üslubunun hazır şəkildə daxil edilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "253",
+    "type": "mcq",
+    "question": "Ədəbiyyat siyahısının kifayət qədər geniş olması elmi işə necə təsir edir?",
+    "options": [
+      "Mövzunun daha hərtərəfli araşdırıldığını göstərir",
+      "İşin həcmini formal şəkildə artırır",
+      "Mövzudan uzaqlaşmaya səbəb olur",
+      "Lazımsız məlumat yığımı yaradır"
+    ],
+    "answer": "Mövzunun daha hərtərəfli araşdırıldığını göstərir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "254",
+    "type": "mcq",
+    "question": "Ədəbiyyat siyahısının məzmunu nə üçün vacibdir?",
+    "options": [
+      "Elmi mənbələrin keyfiyyətini və etibarlılığını müəyyən edir",
+      "Sənədlərin vizual görünüşünü yaxşılaşdırır",
+      "Müəllifin yazı üslubunu müəyyən edir",
+      "Səhvlərin daha çox olmasına gətirib çıxarır"
+    ],
+    "answer": "Elmi mənbələrin keyfiyyətini və etibarlılığını müəyyən edir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "255",
+    "type": "mcq",
+    "question": "Keyfiyyətli ədəbiyyat siyahısı elmi işdə hansı funksiyanı yerinə yetirir?",
+    "options": [
+      "Tədqiqatın elmi əsaslara söykəndiyini sübut edir",
+      "İşin həcmini süni şəkildə çoxaldır",
+      "Mövzudan uzaq ədəbiyyatları toplayır",
+      "Elmi işin müzakirə hissəsini qısaldır"
+    ],
+    "answer": "Tədqiqatın elmi əsaslara söykəndiyini sübut edir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "256",
+    "type": "mcq",
+    "question": "Ədəbiyyat siyahısının həcmi çox olduqda hansı üstünlük yaranır?",
+    "options": [
+      "Müxtəlif mövqelərdən yanaşmaların müqayisəsi",
+      "Mövzunun mənasız şəkildə genişləndirilməsi",
+      "Elmi faktların azalması",
+      "Sitatların məhdudlaşdırılması"
+    ],
+    "answer": "Müxtəlif mövqelərdən yanaşmaların müqayisəsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "257",
+    "type": "mcq",
+    "question": "Keyfiyyətsiz mənbələrdən istifadə elmi işə necə təsir edir?",
+    "options": [
+      "Elmi işin etibarlılığını azaldır",
+      "Nəticələrin daha güclü olmasına səbəb olur",
+      "Daha çox sitat imkanı yaradır",
+      "Tədqiqatın obyektivliyini artırır"
+    ],
+    "answer": "Elmi işin etibarlılığını azaldır",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "258",
+    "type": "mcq",
+    "question": "Akademik mənbələrin üstün tutulmasının səbəbi nədir?",
+    "options": [
+      "Elmi işin daha etibarlı, əsaslı və peşəkar görünməsi",
+      "Sitatların daha az olması",
+      "Məzmunun təsadüfi seçilməsi",
+      "Məlumatın qeyri-rəsmi mənbələrdən götürülməsi"
+    ],
+    "answer": "Elmi işin daha etibarlı, əsaslı və peşəkar görünməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "259",
+    "type": "mcq",
+    "question": "Ədəbiyyat siyahısında köhnəlmiş mənbələrin çoxluğu nə ilə nəticələnə bilər?",
+    "options": [
+      "Tədqiqatın aktuallığının azalması",
+      "Mövzunun daha yaxşı izahı",
+      "Elmi yeniliyin artması",
+      "İşin daha obyektiv olması"
+    ],
+    "answer": "Tədqiqatın aktuallığının azalması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "260",
+    "type": "mcq",
+    "question": "Mənbələrin müxtəlifliyi elmi işə necə təsir edir?",
+    "options": [
+      "Mövzunun çoxşaxəli təhlilini təmin edir",
+      "İşin daha çətin oxunmasına səbəb olur",
+      "Nəticələrin dar çərçivədə qalmasına gətirir",
+      "Diskussiyanı zəiflədir"
+    ],
+    "answer": "Mövzunun çoxşaxəli təhlilini təmin edir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "261",
+    "type": "mcq",
+    "question": "Ədəbiyyat siyahısının düzgün seçilməsi elmi nəticələrə necə təsir edir?",
+    "options": [
+      "Nəticələrin elmi əsaslarla dəstəklənməsini təmin edir",
+      "Elmi işin strukturunu pozur",
+      "Tədqiqatı mövzudan uzaqlaşdırır",
+      "Faktların azalmasına səbəb olur"
+    ],
+    "answer": "Nəticələrin elmi əsaslarla dəstəklənməsini təmin edir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "262",
+    "type": "mcq",
+    "question": "Ədəbiyyat siyahısı elmi işdə nə üçün tərtib edilir?",
+    "options": [
+      "İstifadə olunan mənbələri oxucuya təqdim etmək üçün",
+      "İşin həcmini artırmaq üçün",
+      "Sitatların yerini gizlətmək üçün",
+      "Elmi işin strukturunu dəyişmək üçün"
+    ],
+    "answer": "İstifadə olunan mənbələri oxucuya təqdim etmək üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "263",
+    "type": "mcq",
+    "question": "Ədəbiyyat siyahısında mənbələr necə yerləşdirilir?",
+    "options": [
+      "Adətən müəlliflərin soyadına görə əlifba ardıcıllığı ilə",
+      "Rənglərinə görə qruplaşdırılaraq",
+      "Rastgələ ardıcıllıqla",
+      "Yazılma tarixinə görə tərsinə düzülmüş formada"
+    ],
+    "answer": "Adətən müəlliflərin soyadına görə əlifba ardıcıllığı ilə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "264",
+    "type": "mcq",
+    "question": "Ədəbiyyat siyahısına hansı mənbələr daxil edilir?",
+    "options": [
+      "Elmi işdə istifadə olunan bütün istinad edilmiş mənbələr",
+      "Yalnız müəllifin xoşuna gələn kitablar",
+      "Yalnız internet səhifələrinin linkləri",
+      "Yalnız ən yeni mənbələr"
+    ],
+    "answer": "Elmi işdə istifadə olunan bütün istinad edilmiş mənbələr",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "265",
+    "type": "mcq",
+    "question": "Ədəbiyyat siyahısında elektron mənbələrin göstərilməsində əsas tələb nədir?",
+    "options": [
+      "Dəqiq URL və giriş tarixi göstərilməlidir",
+      "Yalnız saytın adı qeyd olunur",
+      "URL tam yazılmaya bilər",
+      "Giriş tarixi lazım deyil"
+    ],
+    "answer": "Dəqiq URL və giriş tarixi göstərilməlidir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "266",
+    "type": "mcq",
+    "question": "Mənbənin biblioqrafik təsvirində müəllif adı necə yazılır?",
+    "options": [
+      "Əvvəl soyad, sonra adın baş hərfi",
+      "Əvvəl ad, sonra soyad",
+      "Yalnız ad yazılır",
+      "Yalnız soyad yazılır"
+    ],
+    "answer": "Əvvəl soyad, sonra adın baş hərfi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "267",
+    "type": "mcq",
+    "question": "Kitab üçün ədəbiyyat siyahısında hansı məlumat mütləqdir?",
+    "options": [
+      "Müəllif adı, kitabın adı, nəşriyyat, nəşr ili",
+      "Təkcə müəllif adı",
+      "Təkcə kitabın adı",
+      "Yalnız nəşriyyatın adı"
+    ],
+    "answer": "Müəllif adı, kitabın adı, nəşriyyat, nəşr ili",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "268",
+    "type": "mcq",
+    "question": "Ədəbiyyat siyahısında mənbələr hansı dildə göstərilməlidir?",
+    "options": [
+      "Mənbə hansı dildədirsə, həmin dildə",
+      "Hamısı ingilis dilində",
+      "Hamısı Azərbaycan dilində",
+      "Tərtib edənin istəyinə görə"
+    ],
+    "answer": "Mənbə hansı dildədirsə, həmin dildə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "269",
+    "type": "mcq",
+    "question": "Jurnal məqaləsinin təsvirində hansı məlumat mütləqdir?",
+    "options": [
+      "Jurnalın adı, cild, nömrə, səhifələr",
+      "Yalnız məqalənin adı",
+      "Jurnalın yalnız cildi",
+      "Yalnız nəşr ili"
+    ],
+    "answer": "Jurnalın adı, cild, nömrə, səhifələr",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "270",
+    "type": "mcq",
+    "question": "Ədəbiyyat siyahısında ardıcıllığın düzgün seçilməsi nə üçün vacibdir?",
+    "options": [
+      "Oxucunun mənbələri rahat tapması üçün",
+      "İşin həcmini artırmaq üçün",
+      "Sitatların azaldılması üçün",
+      "Mənbələrin təsadüfi görünməsi üçün"
+    ],
+    "answer": "Oxucunun mənbələri rahat tapması üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "271",
+    "type": "mcq",
+    "question": "Elmi işdə istinad edilməyən mənbə ədəbiyyat siyahısına daxil edilə bilərmi?",
+    "options": [
+      "Xeyr, yalnız istinad edilmiş mənbələr daxil edilir",
+      "Bəli, nə qədər istəsəniz",
+      "Yalnız internet mənbələri ola bilər",
+      "Yalnız müəllimin tövsiyəsi ilə"
+    ],
+    "answer": "Xeyr, yalnız istinad edilmiş mənbələr daxil edilir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "272",
+    "type": "mcq",
+    "question": "Bir mənbənin bir neçə dəfə sitat gətirilməsi ədəbiyyat siyahısında necə göstərilir?",
+    "options": [
+      "Mənbə yalnız bir dəfə ümumi siyahıda qeyd olunur",
+      "Mənbə hər dəfə ayrıca yazılır",
+      "Sitatlar siyahıya əlavə edilmir",
+      "Hər dəfə URL dəyişdirilir"
+    ],
+    "answer": "Mənbə yalnız bir dəfə ümumi siyahıda qeyd olunur",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "273",
+    "type": "mcq",
+    "question": "Ədəbiyyat siyahısının formatı necə müəyyən edilir?",
+    "options": [
+      "İş üzrə seçilmiş sitat üslubunun qaydaları ilə",
+      "Müəllifin şəxsi zövqünə görə",
+      "İşin mövzusuna görə təsadüfi",
+      "Sitatların sayına görə"
+    ],
+    "answer": "İş üzrə seçilmiş sitat üslubunun qaydaları ilə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "274",
+    "type": "mcq",
+    "question": "Etikanın əsas tədqiqat obyekti nədir?",
+    "options": [
+      "Mənəvi davranış və əxlaqi dəyərlər",
+      "Təbiət qanunları",
+      "İqtisadi proseslər",
+      "Hüquqi sanksiyalar"
+    ],
+    "answer": "Mənəvi davranış və əxlaqi dəyərlər",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "275",
+    "type": "mcq",
+    "question": "Etikanın əsas funksiyalarından biri hansıdır?",
+    "options": [
+      "Davranışa istiqamət verən normalar yaratmaq",
+      "Fiziki prosesləri təsvir etmək",
+      "Maliyyə bazarlarını tənzimləmək",
+      "Anatomik quruluşları izah etmək"
+    ],
+    "answer": "Davranışa istiqamət verən normalar yaratmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "276",
+    "type": "mcq",
+    "question": "Etik normaların formalaşmasının əsas mənbələrindən biri nədir?",
+    "options": [
+      "Sosial-mədəni ənənələr",
+      "Planetar hərəkətlər",
+      "Hidroloji proseslər",
+      "Texniki mexanizmlər"
+    ],
+    "answer": "Sosial-mədəni ənənələr",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "277",
+    "type": "mcq",
+    "question": "Akademik yazıda etikanın əsas məqsədi nədir?",
+    "options": [
+      "Elmi dürüstlük və obyektivliyin qorunması",
+      "Mətnin bədii tərzində yazılması",
+      "Daha çox istinad toplanması",
+      "Yazının həcmcə böyük olması"
+    ],
+    "answer": "Elmi dürüstlük və obyektivliyin qorunması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "278",
+    "type": "mcq",
+    "question": "Akademik dürüstlüyün əsas tələblərindən biri hansıdır?",
+    "options": [
+      "Məlumatların təhrif edilmədən təqdim olunması",
+      "Məlumatların şişirdilməsi",
+      "Oxucuya xoş görünməsi üçün faktların dəyişdirilməsi",
+      "Digər müəlliflərin fikirlərinin gizlədilməsi"
+    ],
+    "answer": "Məlumatların təhrif edilmədən təqdim olunması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "279",
+    "type": "mcq",
+    "question": "Etik akademik yazıda hansı davranış qəbuledilməzdir?",
+    "options": [
+      "Başqasının fikrini mənbə göstərmədən istifadə etmək",
+      "Sitatları qaydalara uyğun qeyd etmək",
+      "Parafraz edilmiş mətnə istinad vermək",
+      "Müxtəlif akademik mənbələrdən istifadə etmək"
+    ],
+    "answer": "Başqasının fikrini mənbə göstərmədən istifadə etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "280",
+    "type": "mcq",
+    "question": "Akademik yazıda obyektivlik nəyi tələb edir?",
+    "options": [
+      "Şəxsi fikirlərin faktlardan ayrılması",
+      "Yalnız şəxsi düşüncələrin yazılması",
+      "Emosional arqumentlərin üstünlük təşkil etməsi",
+      "Yalnız müsbət mənbələrdən istifadə"
+    ],
+    "answer": "Şəxsi fikirlərin faktlardan ayrılması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "281",
+    "type": "mcq",
+    "question": "Akademik yazıda müəlliflik hüququnun əsas qoruma prinsipi nədir?",
+    "options": [
+      "Başqasının intellektual məhsuluna düzgün istinad etmək",
+      "Mənbəni yalnız sonunda qeyd etmək",
+      "Mətnin gizli şəkildə dəyişdirilməsi",
+      "Müəllif adını çıxarmaq"
+    ],
+    "answer": "Başqasının intellektual məhsuluna düzgün istinad etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "282",
+    "type": "mcq",
+    "question": "Özünü-plagiat (self-plagiarism) nə deməkdir?",
+    "options": [
+      "Öz əvvəlki işlərini yenidən istifadə edib yeni kimi təqdim etmək",
+      "Başqasının işini olduğu kimi köçürmək",
+      "Eyni mövzuda yeni təhlil aparmaq",
+      "Başqa müəllifin işini genişləndirmək"
+    ],
+    "answer": "Öz əvvəlki işlərini yenidən istifadə edib yeni kimi təqdim etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "283",
+    "type": "mcq",
+    "question": "Akademik yazıda etik tələblərdən biri olan “şəffaflıq” nəyi nəzərdə tutur?",
+    "options": [
+      "Mənbələrin aydın və tam şəkildə göstərilməsi",
+      "Yalnız nəticələrin yazılması",
+      "Mənbələrin gizlı saxlanılması",
+      "Tək bir mənbəyə əsaslanma"
+    ],
+    "answer": "Mənbələrin aydın və tam şəkildə göstərilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "284",
+    "type": "mcq",
+    "question": "Akademik yazıda “təhrif” hansı halı ifadə edir?",
+    "options": [
+      "Faktların dəyişdirilərək təqdim edilməsi",
+      "Mənbələrin dəqiq yazılması",
+      "Düzgün sitat gətirilməsi",
+      "Təlqin və sübutların əsaslandırılması"
+    ],
+    "answer": "Faktların dəyişdirilərək təqdim edilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "285",
+    "type": "mcq",
+    "question": "Etik akademik yazının əsas xüsusiyyətlərindən biri hansıdır?",
+    "options": [
+      "Tədqiqat prosesinin dürüst şəkildə təsviri",
+      "Mövzunun emosional şəkildə təqdimatı",
+      "Statistik məlumatların gizlədilməsi",
+      "Tək bir fikrin məcburi müdafiəsi"
+    ],
+    "answer": "Tədqiqat prosesinin dürüst şəkildə təsviri",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "286",
+    "type": "mcq",
+    "question": "Akademik yazıda etik məsuliyyət nəyə aiddir?",
+    "options": [
+      "Oxucuya doğru və etibarlı məlumat təqdim etmək",
+      "Oxucunu çaşdırmaq",
+      "Mətnə süni məlumat əlavə etmək",
+      "Mənbələri gizlətmək"
+    ],
+    "answer": "Oxucuya doğru və etibarlı məlumat təqdim etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "287",
+    "type": "mcq",
+    "question": "Elm etikasının akademik yazıdakı əsas məqsədi nədir?",
+    "options": [
+      "Elmi dürüstlüyü və etibarlılığı təmin etmək",
+      "Mətnin həcmini artırmaq",
+      "Yazını daha emosional etmək",
+      "Mənbələrin sayını süni artırmaq"
+    ],
+    "answer": "Elmi dürüstlüyü və etibarlılığı təmin etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "288",
+    "type": "mcq",
+    "question": "Elm etikasına görə tədqiqatda hansı davranış qadağandır?",
+    "options": [
+      "Məlumatları saxtalaşdırmaq və ya təhrif etmək",
+      "Tədqiqatın məqsədini göstərmək",
+      "Etibarlı statistikadan istifadə etmək",
+      "Müxtəlif mənbələri müqayisə etmək"
+    ],
+    "answer": "Məlumatları saxtalaşdırmaq və ya təhrif etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "289",
+    "type": "mcq",
+    "question": "Elm etikasında “məsuliyyətlilik” nəyi tələb edir?",
+    "options": [
+      "Dəqiq, düzgün və əsaslandırılmış məlumat verməyi",
+      "Oxucunu çaşdırmağı",
+      "Statistik göstəriciləri gizlətməyi",
+      "Saxta nəticə çıxarmağı"
+    ],
+    "answer": "Dəqiq, düzgün və əsaslandırılmış məlumat verməyi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "290",
+    "type": "mcq",
+    "question": "Elmi nəticələrin qərəzsiz təqdim olunması nə üçündür?",
+    "options": [
+      "Tədqiqatın etibarlılığını təmin etmək üçün",
+      "Oxucunu razı salmaq üçün",
+      "Nəticələrin daha cəlbedici görünməsi üçün",
+      "Məlumatların daha az nəzərə çarpması üçün"
+    ],
+    "answer": "Tədqiqatın etibarlılığını təmin etmək üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "291",
+    "type": "mcq",
+    "question": "Akademik etikanın formalaşmasına birinci növbədə təsir edən amil hansıdır?",
+    "options": [
+      "Elmi dürüstlük və obyektivlik",
+      "Mənbələrin çoxluğu",
+      "Mətnin həcmi",
+      "Mövzunun populyarlığı"
+    ],
+    "answer": "Elmi dürüstlük və obyektivlik",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "292",
+    "type": "mcq",
+    "question": "Etik prinsiplərin qorunmasında hansı amil mühüm rol oynayır?",
+    "options": [
+      "Mənbələrə düzgün istinadetmə bacarığı",
+      "Emosional dildə yazmaq",
+      "Mövzunun şəxsi marağa uyğun seçilməsi",
+      "Tək mənbəyə əsaslanmaq"
+    ],
+    "answer": "Mənbələrə düzgün istinadetmə bacarığı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "293",
+    "type": "mcq",
+    "question": "Etik yazının formalaşmasında tədqiqatçının hansı xüsusiyyəti əsasdır?",
+    "options": [
+      "Tədqiqat məsuliyyəti və şəffaflığı",
+      "Mənbələri seçmə təqdim etmək",
+      "Faktları dəyişdirmək",
+      "Emosional arqumentlərə üstünlük vermək"
+    ],
+    "answer": "Tədqiqat məsuliyyəti və şəffaflığı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "294",
+    "type": "mcq",
+    "question": "Akademik etikanı müəyyən edən amillərdən biri hansıdır?",
+    "options": [
+      "İntellektual mülkiyyətə hörmət",
+      "Sitatlardan az istifadə",
+      "Faktların emosional təqdimatı",
+      "Qeyri-elmi mənbələrə üstünlük"
+    ],
+    "answer": "İntellektual mülkiyyətə hörmət",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "295",
+    "type": "mcq",
+    "question": "Etik prinsiplərin əsas formalaşdırıcı amillərindən biri nədir?",
+    "options": [
+      "Məlumatların dəqiqliyinə riayət etmək",
+      "Məlumatları şişirtmək",
+      "Faktları gizlətmək",
+      "Mənbələri göstərməmək"
+    ],
+    "answer": "Məlumatların dəqiqliyinə riayət etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "296",
+    "type": "mcq",
+    "question": "Etik davranışın formalaşmasında hansı amil vacibdir?",
+    "options": [
+      "Peşəkar məsuliyyət və hesabatlılıq",
+      "Subyektiv dəyərləndirmə",
+      "Qeyri-sabit istinad sistemi",
+      "Yalnız müsbət faktların yazılması"
+    ],
+    "answer": "Peşəkar məsuliyyət və hesabatlılıq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "297",
+    "type": "mcq",
+    "question": "Akademik yazıda etikanı təmin edən əsas metodoloji amil hansıdır?",
+    "options": [
+      "Etibarlı və akademik mənbələrin seçilməsi",
+      "İnformasiyanı qeyri-rəsmi şəkildə vermək",
+      "Tədqiqatı şəxsi fikrə əsaslandırmaq",
+      "Mənbələri gizlətmək"
+    ],
+    "answer": "Etibarlı və akademik mənbələrin seçilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "298",
+    "type": "mcq",
+    "question": "Etik prinsiplərin formalaşmasına təsir edən sosial amil hansıdır?",
+    "options": [
+      "Elmi ictimaiyyətin qəbul etdiyi standartlara əməl etmək",
+      "Fərdi yanaşmanı üstün tutmaq",
+      "Akademik qaydalardan yayınmaq",
+      "Subyektiv fikirləri əsas götürmək"
+    ],
+    "answer": "Elmi ictimaiyyətin qəbul etdiyi standartlara əməl etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "299",
+    "type": "mcq",
+    "question": "Tədqiqatın etibarlılığını təmin edən etik amil hansıdır?",
+    "options": [
+      "Məlumatların təhrif olunmadan verilməsi",
+      "Faktların dəyişdirilməsi",
+      "Mənbələrin gizlədilməsi",
+      "Yalnız nəticələrin təqdim olunması"
+    ],
+    "answer": "Məlumatların təhrif olunmadan verilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "300",
+    "type": "mcq",
+    "question": "Etik prinsiplərin əsasını təşkil edən şəxsi amil hansıdır?",
+    "options": [
+      "Tədqiqatçının vicdanlı və qərəzsiz olması",
+      "Tədqiqatçının şəxsi maraqları",
+      "Mövzunun xoşagələn olması",
+      "Çətin faktların gizlədilməsi"
+    ],
+    "answer": "Tədqiqatçının vicdanlı və qərəzsiz olması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "301",
+    "type": "mcq",
+    "question": "Etik prinsiplərin formalaşmasını təmin edən ümumi amillərdən biri hansıdır?",
+    "options": [
+      "Qaydaların, standartların və metodologiyanın düzgün tətbiqi",
+      "Emosional arqumentlərin artırılması",
+      "Tədqiqatın yalnız pozitiv nəticələrinin verilməsi",
+      "Subyektiv yanaşmanın qorunması"
+    ],
+    "answer": "Qaydaların, standartların və metodologiyanın düzgün tətbiqi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "302",
+    "type": "mcq",
+    "question": "Akademik yazıda bütövlük prinsipi nəyi tələb edir?",
+    "options": [
+      "Mətndə ideyaların ardıcıllığını və əlaqəliliyini",
+      "Mətndə müxtəlif mövzulara keçidlərin çoxluğunu",
+      "Fikir təkrarlığının çoxluğunu",
+      "Təsadüfi məlumatların daxil edilməsini"
+    ],
+    "answer": "Mətndə ideyaların ardıcıllığını və əlaqəliliyini",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "303",
+    "type": "mcq",
+    "question": "Akademik yazıda məqsəd nə üçün konkretləşdirilməlidir?",
+    "options": [
+      "Araşdırma istiqamətini müəyyən etmək üçün",
+      "Oxucunu çaşdırmaq üçün",
+      "Yazını uzatmaq üçün",
+      "Fikirləri qarışdırmaq üçün"
+    ],
+    "answer": "Araşdırma istiqamətini müəyyən etmək üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "304",
+    "type": "mcq",
+    "question": "Akademik yazıda “metodologiya” hissəsi nəyi açıqlayır?",
+    "options": [
+      "Araşdırmada istifadə olunan metodları",
+      "Nəticələri",
+      "Giriş məqsədini",
+      "Ədəbiyyat siyahısını"
+    ],
+    "answer": "Araşdırmada istifadə olunan metodları",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "305",
+    "type": "mcq",
+    "question": "Akademik yazıda məlumatların ardıcıllığı necə olmalıdır?",
+    "options": [
+      "Məntiqi və sistemli",
+      "Təsadüfi",
+      "Emosional",
+      "Bədii"
+    ],
+    "answer": "Məntiqi və sistemli",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "306",
+    "type": "mcq",
+    "question": "Akademik yazı üçün düzgün üslub nümunəsini göstərin:",
+    "options": [
+      "“Tədqiqat nəticələri göstərir ki…”",
+      "“Mən belə düşünürəm ki…”",
+      "“Əsər mənim üçün çox təsirlidir…”",
+      "“Əgər istəsəniz, fikirlərimi əlavə edə bilərəm…”"
+    ],
+    "answer": "“Tədqiqat nəticələri göstərir ki…”",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "307",
+    "type": "mcq",
+    "question": "Akademik yazıda hansı tip arqumentlər üstünlük təşkil etməlidir?",
+    "options": [
+      "Elmi faktlar və tədqiqat nəticələri",
+      "Şəxsi təcrübə və fikirlər",
+      "Təsadüfi məlumatlar",
+      "Emosional təsir yaradan fikirlər"
+    ],
+    "answer": "Elmi faktlar və tədqiqat nəticələri",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "308",
+    "type": "mcq",
+    "question": "Məntiqi təfəkkür akademik yazıda nə üçün vacibdir?",
+    "options": [
+      "Arqumentlərin ardıcıllığını və dəqiqliyini təmin etmək",
+      "Fikirləri təsadüfi yerləşdirmək",
+      "Yazını uzatmaq",
+      "Oxucuya emosional təsir yaratmaq"
+    ],
+    "answer": "Arqumentlərin ardıcıllığını və dəqiqliyini təmin etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "309",
+    "type": "mcq",
+    "question": "Güclü arqument nümunəsi hansıdır?",
+    "options": [
+      "Mövzuya uyğun və elmi dəlillərlə əsaslandırılmış fikir",
+      "Subyektiv fikir",
+      "Təsadüfi məlumat",
+      "Bədii təsvir"
+    ],
+    "answer": "Mövzuya uyğun və elmi dəlillərlə əsaslandırılmış fikir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "310",
+    "type": "mcq",
+    "question": "APA və MLA istinad sistemləri nəyi müəyyən edir?",
+    "options": [
+      "Mənbələrin qeyd olunma qaydasını",
+      "Yazının uzunluğunu",
+      "Bədii təsvirlərin yerləşməsini",
+      "Fikirlərin ardıcıllığını"
+    ],
+    "answer": "Mənbələrin qeyd olunma qaydasını",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "311",
+    "type": "mcq",
+    "question": "Xülasə (abstrakt) hissəsinin rolu nədir?",
+    "options": [
+      "Yazının qısa, aydın və sistemli icmalı",
+      "Təsadüfi məlumatları göstərmək",
+      "Bədii təsvir əlavə etmək",
+      "Oxucunu əyləndirmək"
+    ],
+    "answer": "Yazının qısa, aydın və sistemli icmalı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "312",
+    "type": "mcq",
+    "question": "Nəticə hissəsində hansı məlumatlar olmalıdır?",
+    "options": [
+      "Araşdırmanın əsas tapıntıları və nəticələri",
+      "Yalnız şəxsi təəssüratlar",
+      "Təsadüfi məlumatlar",
+      "Bədii təsvirlər"
+    ],
+    "answer": "Araşdırmanın əsas tapıntıları və nəticələri",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "313",
+    "type": "mcq",
+    "question": "Nəticə hissəsində təkliflər nə üçün verilir?",
+    "options": [
+      "Gələcək tədqiqatlar üçün istiqamət göstərmək",
+      "Yazını uzatmaq",
+      "Emosional təsir yaratmaq",
+      "Oxucunu əyləndirmək"
+    ],
+    "answer": "Gələcək tədqiqatlar üçün istiqamət göstərmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "314",
+    "type": "mcq",
+    "question": "Giriş hissəsində mövcud ədəbiyyatın icmalı niyə vacibdir?",
+    "options": [
+      "Araşdırmanın kontekstini göstərmək üçün",
+      "Yazını uzatmaq üçün",
+      "Subyektiv fikir əlavə etmək",
+      "Bədii təsvir yaratmaq"
+    ],
+    "answer": "Araşdırmanın kontekstini göstərmək üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "315",
+    "type": "mcq",
+    "question": "Nəticə hissəsində hansı üslub səhvdir?",
+    "options": [
+      "Subyektiv və emosional",
+      "Elmi və obyektiv",
+      "Sistemli və ardıcıl",
+      "Dəlillərə əsaslanan"
+    ],
+    "answer": "Subyektiv və emosional",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "316",
+    "type": "mcq",
+    "question": "Məqalədə başlıq nə üçün vacibdir?",
+    "options": [
+      "Oxucunun diqqətini cəlb etmək və mövzunu aydın göstərmək",
+      "Yazını uzatmaq",
+      "Subyektiv fikri ifadə etmək",
+      "Bədii təsir yaratmaq"
+    ],
+    "answer": "Oxucunun diqqətini cəlb etmək və mövzunu aydın göstərmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "317",
+    "type": "mcq",
+    "question": "Məqalədə cədvəl və qrafiklər hansı məqsəd üçün istifadə olunur?",
+    "options": [
+      "Fikirləri vizual şəkildə göstərmək və nəticələri dəstəkləmək",
+      "Yazını gözəlləşdirmək",
+      "Subyektiv fikir əlavə etmək",
+      "Oxucunu əyləndirmək"
+    ],
+    "answer": "Fikirləri vizual şəkildə göstərmək və nəticələri dəstəkləmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "318",
+    "type": "mcq",
+    "question": "Məqalədə ədəbiyyat siyahısı hansı ardıcıllıqla verilməlidir?",
+    "options": [
+      "İstinad sisteminə uyğun (APA, MLA və s.)",
+      "Təsadüfi",
+      "Subyektiv seçim",
+      "Bədii təsvirlərlə"
+    ],
+    "answer": "İstinad sisteminə uyğun (APA, MLA və s.)",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "319",
+    "type": "mcq",
+    "question": "Məqalədə başlıq necə olmalıdır?",
+    "options": [
+      "Mövzunu qısa və aydın göstərən",
+      "Uzun və qarışıq",
+      "Subyektiv",
+      "Bədii"
+    ],
+    "answer": "Mövzunu qısa və aydın göstərən",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "320",
+    "type": "mcq",
+    "question": "Elmi məqalənin qiymətləndirilməsində peer review nədir?",
+    "options": [
+      "Eyni sahədə ekspertlərin əsəri qiymətləndirməsi",
+      "Yazını uzatmaq",
+      "Oxucunu əyləndirmək",
+      "Subyektiv şərh əlavə etmək"
+    ],
+    "answer": "Eyni sahədə ekspertlərin əsəri qiymətləndirməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "321",
+    "type": "mcq",
+    "question": "Elmi əsərin qiymətləndirilməsi kim tərəfindən aparılır?",
+    "options": [
+      "Eyni sahədə ekspertlər və redaktorlar",
+      "Hər hansı bir oxucu",
+      "Subyektiv şərhçilər",
+      "Bədii yazarlar"
+    ],
+    "answer": "Eyni sahədə ekspertlər və redaktorlar",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "322",
+    "type": "mcq",
+    "question": "Peer review prosesi necə işləyir?",
+    "options": [
+      "Ekspertlər əsəri oxuyur, təhlil edir və rəy verir",
+      "Yazını uzadır",
+      "Emosional təsir yaratmaq üçün oxuyur",
+      "Subyektiv fikirlər yazır"
+    ],
+    "answer": "Ekspertlər əsəri oxuyur, təhlil edir və rəy verir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "323",
+    "type": "mcq",
+    "question": "Qiymətləndirmədə əsərin qəbul olunması üçün əsas meyar hansıdır?",
+    "options": [
+      "Elmi etibarlılıq, obyektivlik və metodologiyanın düzgünlüyü",
+      "Yazının uzunluğu",
+      "Bədii təsvirlərin sayı",
+      "Emosional təsir"
+    ],
+    "answer": "Elmi etibarlılıq, obyektivlik və metodologiyanın düzgünlüyü",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "324",
+    "type": "mcq",
+    "question": "Beynəlxalq jurnalda məqalə nəşr etdirməyin əsas məqsədi nədir?",
+    "options": [
+      "Araşdırma nəticələrini qlobal elmi ictimaiyyətlə paylaşmaq",
+      "Yazını uzatmaq",
+      "Oxucunu əyləndirmək",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Araşdırma nəticələrini qlobal elmi ictimaiyyətlə paylaşmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "325",
+    "type": "mcq",
+    "question": "Süni intellekt vasitəsilə ədəbiyyat araşdırması necə aparıla bilər?",
+    "options": [
+      "Avtomatlaşdırılmış axtarış və uyğun mənbələrin müəyyən edilməsi",
+      "Yazını uzatmaq",
+      "Subyektiv fikir əlavə etmək",
+      "Bədii təsvir yaratmaq"
+    ],
+    "answer": "Avtomatlaşdırılmış axtarış və uyğun mənbələrin müəyyən edilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "326",
+    "type": "mcq",
+    "question": "Süni intellekt alətləri akademik yazıda nəyi sürətləndirə bilər?",
+    "options": [
+      "Məlumatların emalı və təhlilini",
+      "Yazının uzadılmasını",
+      "Subyektiv fikirlərin əlavə olunmasını",
+      "Bədii təsvirin artırılmasını"
+    ],
+    "answer": "Məlumatların emalı və təhlilini",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "327",
+    "type": "mcq",
+    "question": "Süni intellektin istifadəsi müəllifin hansı işini asanlaşdırır?",
+    "options": [
+      "Məlumatların sürətli emalı və təhlili",
+      "Yazını uzatmaq",
+      "Subyektiv fikir əlavə etmək",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Məlumatların sürətli emalı və təhlili",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "328",
+    "type": "mcq",
+    "question": "Akademik yazıda məntiqi təfəkkürün rolu nədən ibarətdir:",
+    "options": [
+      "Nəticələrin düzgün əsaslandırılması və ardıcıllığın təmin edilməsi",
+      "Yazını uzatmaq",
+      "Subyektiv təsir yaratmaq",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Nəticələrin düzgün əsaslandırılması və ardıcıllığın təmin edilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "329",
+    "type": "mcq",
+    "question": "Hansı istinad sistemi akademik yazılarda daha geniş istifadə olunur?",
+    "options": [
+      "APA, MLA, Chicago",
+      "Emosional sitatlar",
+      "Subyektiv istinadlar",
+      "Bədii sitatlar"
+    ],
+    "answer": "APA, MLA, Chicago",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "330",
+    "type": "mcq",
+    "question": "Akademik yazıda istinad və ədəbiyyat siyahısı necə hazırlanmalıdır?",
+    "options": [
+      "Müvafiq istinad sistemi və akademik qaydalara uyğun",
+      "Təsadüfi",
+      "Subyektiv",
+      "Bədii"
+    ],
+    "answer": "Müvafiq istinad sistemi və akademik qaydalara uyğun",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "331",
+    "type": "mcq",
+    "question": "Tədqiqat problemi nədir?",
+    "options": [
+      "Araşdırmada cavab axtarılan elmi sual və ya məsələ",
+      "Yazının uzunluğu",
+      "Subyektiv fikir",
+      "Bədii təsvir"
+    ],
+    "answer": "Araşdırmada cavab axtarılan elmi sual və ya məsələ",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "332",
+    "type": "mcq",
+    "question": "Tədqiqat probleminin düzgün müəyyənləşdirilməsi niyə vacibdir?",
+    "options": [
+      "Tədqiqatın məqsəd və nəticələrini dəqiq müəyyən etmək üçün",
+      "Yazını uzatmaq",
+      "Subyektiv təsir yaratmaq",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Tədqiqatın məqsəd və nəticələrini dəqiq müəyyən etmək üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "333",
+    "type": "mcq",
+    "question": "Yazılı elmi nəticələr hansı xüsusiyyətlərə malik olmalıdır?",
+    "options": [
+      "Aydın, dəqiq və məntiqi ardıcıllığa malik",
+      "Uzun və qarışıq",
+      "Subyektiv",
+      "Bədii"
+    ],
+    "answer": "Aydın, dəqiq və məntiqi ardıcıllığa malik",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "334",
+    "type": "mcq",
+    "question": "Hipotez yoxlanarkən hansı üsullar istifadə olunur?",
+    "options": [
+      "Eksperiment, müşahidə və statistik təhlil",
+      "Subyektiv şərh",
+      "Emosional təsir",
+      "Bədii təsvir"
+    ],
+    "answer": "Eksperiment, müşahidə və statistik təhlil",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "335",
+    "type": "mcq",
+    "question": "Hipotezin doğruluğu necə qiymətləndirilir?",
+    "options": [
+      "Təcrübə və məlumat analizi ilə",
+      "Subyektiv fikir",
+      "Emosional təsir",
+      "Bədii təsvir"
+    ],
+    "answer": "Təcrübə və məlumat analizi ilə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "336",
+    "type": "mcq",
+    "question": "Tədqiqat problemi və hipotez arasında əlaqə nədir?",
+    "options": [
+      "Hipotez tədqiqat probleminin cavabını proqnozlaşdırır",
+      "Yazını uzadır",
+      "Subyektiv təsir",
+      "Bədii təsvir artır"
+    ],
+    "answer": "Hipotez tədqiqat probleminin cavabını proqnozlaşdırır",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "337",
+    "type": "mcq",
+    "question": "Tədqiqat probleminin müəyyən edilməsi hansı mərhələdə vacibdir?",
+    "options": [
+      "Tədqiqatın başlanğıcında",
+      "Yazının sonunda",
+      "Subyektiv şərhlərdə",
+      "Bədii təsvir əlavə edərkən"
+    ],
+    "answer": "Tədqiqatın başlanğıcında",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "338",
+    "type": "mcq",
+    "question": "Analitik yazı bacarığı nəyi əhatə edir?",
+    "options": [
+      "Məlumatları təhlil etmək, nəticələr çıxarmaq və arqumentləri məntiqi ardıcıllıqla təqdim etmək",
+      "Subyektiv şərh",
+      "Emosional təsir",
+      "Bədii təsvir"
+    ],
+    "answer": "Məlumatları təhlil etmək, nəticələr çıxarmaq və arqumentləri məntiqi ardıcıllıqla təqdim etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "339",
+    "type": "mcq",
+    "question": "Akademik yazıda tənqidi düşüncənin rolu nədir?",
+    "options": [
+      "Nəticələrin obyektiv və elmi əsaslı olmasını təmin etmək",
+      "Yazını uzatmaq",
+      "Subyektiv təsir yaratmaq",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Nəticələrin obyektiv və elmi əsaslı olmasını təmin etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "340",
+    "type": "mcq",
+    "question": "Tənqidi düşüncə və analitik yazı bacarıqları hansı sahələrdə vacibdir?",
+    "options": [
+      "Elmi tədqiqat, akademik yazı və qərar qəbuletmə",
+      "Yalnız bədii yazı",
+      "Subyektiv şərh",
+      "Emosional təsir"
+    ],
+    "answer": "Elmi tədqiqat, akademik yazı və qərar qəbuletmə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "341",
+    "type": "mcq",
+    "question": "Akademik yazıda müasir çağırışlardan biri hansıdır?",
+    "options": [
+      "Süni intellektin istifadə olunması və etik qaydalara əməl etmək",
+      "Yazını uzatmaq",
+      "Subyektiv təsir",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Süni intellektin istifadə olunması və etik qaydalara əməl etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "342",
+    "type": "mcq",
+    "question": "Akademik yazıda müasir çağırışlar hansı aspektləri əhatə edir?",
+    "options": [
+      "Etik dəyərlər, plagiatın qarşısının alınması, süni intellektin istifadəsi",
+      "Yazını uzatmaq",
+      "Subyektiv təsir",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Etik dəyərlər, plagiatın qarşısının alınması, süni intellektin istifadəsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "343",
+    "type": "mcq",
+    "question": "Tənqidi düşüncə bacarıqlarının inkişaf etdirilməsi hansı üsulla mümkündür?",
+    "options": [
+      "Müxtəlif mənbələri analiz etmək və arqumentləri qiymətləndirmək",
+      "Yazını uzatmaq",
+      "Subyektiv təsir",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Müxtəlif mənbələri analiz etmək və arqumentləri qiymətləndirmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "344",
+    "type": "mcq",
+    "question": "Müasir çağırışlarda etik davranışın rolu nədir?",
+    "options": [
+      "Akademik dürüstlük və müəllif hüquqlarının qorunmasını təmin etmək",
+      "Yazını uzatmaq",
+      "Subyektiv təsir yaratmaq",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Akademik dürüstlük və müəllif hüquqlarının qorunmasını təmin etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "345",
+    "type": "mcq",
+    "question": "Analitik yazıda məlumatları qiymətləndirmək üçün hansı üsullar istifadə olunur?",
+    "options": [
+      "Müqayisə, təhlil, sintez və dəlillərə əsaslanmaq",
+      "Subyektiv şərh",
+      "Emosional təsir",
+      "Bədii təsvir"
+    ],
+    "answer": "Müqayisə, təhlil, sintez və dəlillərə əsaslanmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "346",
+    "type": "mcq",
+    "question": "Tənqidi düşüncənin akademik yazıya təsiri nədir?",
+    "options": [
+      "Nəticələrin obyektiv və əsaslı olmasını təmin edir",
+      "Yazını uzadır",
+      "Subyektiv təsir yaradır",
+      "Bədii təsvir əlavə edir"
+    ],
+    "answer": "Nəticələrin obyektiv və əsaslı olmasını təmin edir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "347",
+    "type": "mcq",
+    "question": "Tənqidi düşüncə və analitik bacarıqlar hansı mərhələdə tətbiq olunur?",
+    "options": [
+      "Tədqiqatın bütün mərhələlərində",
+      "Yalnız nəticə yazarkən",
+      "Yalnız giriş yazarkən",
+      "Bədii təsvir əlavə edərkən"
+    ],
+    "answer": "Tədqiqatın bütün mərhələlərində",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "348",
+    "type": "mcq",
+    "question": "Tənqidi düşüncənin inkişaf etdirilməsi hansı fəaliyyətlə mümkündür?",
+    "options": [
+      "Müxtəlif mənbələri müqayisə etmək və arqumentləri qiymətləndirmək",
+      "Yazını uzatmaq",
+      "Subyektiv təsir",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Müxtəlif mənbələri müqayisə etmək və arqumentləri qiymətləndirmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "349",
+    "type": "mcq",
+    "question": "Arqumentasiya nədir?",
+    "options": [
+      "Mövzunu əsaslandırmaq üçün faktlar və arqumentlər təqdim etmək",
+      "Subyektiv fikir yazmaq",
+      "Emosional təsir yaratmaq",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Mövzunu əsaslandırmaq üçün faktlar və arqumentlər təqdim etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "350",
+    "type": "mcq",
+    "question": "Beynəlxalq jurnallarda məqalə nəşr etdirilməsinin əsas şərti nədir?",
+    "options": [
+      "Orijinallıq, etibarlılıq və düzgün istinad",
+      "Yazını uzatmaq",
+      "Subyektiv təsir",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Orijinallıq, etibarlılıq və düzgün istinad",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "351",
+    "type": "mcq",
+    "question": "İstinad sistemləri akademik yazıda hansı məqsədi daşıyır?",
+    "options": [
+      "Mənbələri düzgün göstərmək və plagiatın qarşısını almaq",
+      "Yazını uzatmaq",
+      "Subyektiv təsir yaratmaq",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Mənbələri düzgün göstərmək və plagiatın qarşısını almaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "352",
+    "type": "mcq",
+    "question": "Açıq elmi resursların istifadəsi nəyi təmin edir?",
+    "options": [
+      "Elmi nəticələrin şəffaflığını və əlçatanlığını",
+      "Yazını uzatmaq",
+      "Subyektiv təsir yaratmaq",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Elmi nəticələrin şəffaflığını və əlçatanlığını",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "353",
+    "type": "mcq",
+    "question": "Müasir çağırışlar akademik yazıda hansı yeni imkanları təqdim edir?",
+    "options": [
+      "Süni intellekt, açıq elmi resurslar və rəqəmsal nəşr imkanları",
+      "Yazını uzatmaq",
+      "Subyektiv təsir",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Süni intellekt, açıq elmi resurslar və rəqəmsal nəşr imkanları",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "354",
+    "type": "mcq",
+    "question": "Analitik yazıda məlumatların təhlili hansı üsullarla aparılır?",
+    "options": [
+      "Müqayisə, sintez, dəlillərə əsaslanma",
+      "Subyektiv şərh",
+      "Emosional təsir",
+      "Bədii təsvir"
+    ],
+    "answer": "Müqayisə, sintez, dəlillərə əsaslanma",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "355",
+    "type": "mcq",
+    "question": "Tənqidi düşüncənin inkişaf etdirilməsi hansı bacarıqları artırır?",
+    "options": [
+      "Analitik düşüncə və obyektiv qiymətləndirmə",
+      "Yazını uzatmaq",
+      "Subyektiv təsir",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Analitik düşüncə və obyektiv qiymətləndirmə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "356",
+    "type": "mcq",
+    "question": "Akademik yazıda müasir çağırışlar və perspektivlərin əsas məqsədi nədir?",
+    "options": [
+      "Elmi işin keyfiyyətini artırmaq və nəticələrin etibarlılığını təmin etmək",
+      "Yazını uzatmaq",
+      "Subyektiv təsir yaratmaq",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Elmi işin keyfiyyətini artırmaq və nəticələrin etibarlılığını təmin etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "357",
+    "type": "mcq",
+    "question": "Süni intellekt akademik yazıda məlumatların hansı aspektini yaxşılaşdırır?",
+    "options": [
+      "Təhlil və məntiqi ardıcıllıq",
+      "Uzunluq",
+      "Subyektiv təsir",
+      "Bədii təsvir"
+    ],
+    "answer": "Təhlil və məntiqi ardıcıllıq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "358",
+    "type": "mcq",
+    "question": "Müasir yanaşmalar akademik yazıda hansı üstünlükləri təmin edir?",
+    "options": [
+      "Etik və elmi prinsiplərə əməl etməklə nəticələrin keyfiyyətini artırmaq",
+      "Yazını uzatmaq",
+      "Subyektiv təsir yaratmaq",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Etik və elmi prinsiplərə əməl etməklə nəticələrin keyfiyyətini artırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "359",
+    "type": "mcq",
+    "question": "Süni intellektin istifadəsi hansı riskləri daşıyır?",
+    "options": [
+      "Plagiat və etik pozuntular",
+      "Yazının uzanması",
+      "Subyektiv təsir",
+      "Bədii təsvir"
+    ],
+    "answer": "Plagiat və etik pozuntular",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "360",
+    "type": "mcq",
+    "question": "Akademik yazının yekunlaşdırılması hansı məqsədə xidmət edir?",
+    "options": [
+      "Araşdırmanın əsas nəticələrini ümumiləşdirmək və oxucuya aydın təqdim etmək",
+      "Yazını uzatmaq",
+      "Subyektiv təsir yaratmaq",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Araşdırmanın əsas nəticələrini ümumiləşdirmək və oxucuya aydın təqdim etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "361",
+    "type": "mcq",
+    "question": "Şifahi təqdimatda hansı amillər əsasdır?",
+    "options": [
+      "Sadə dil, aydın izah və auditoriya ilə əlaqə",
+      "Yazını uzatmaq",
+      "Subyektiv təsir",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Sadə dil, aydın izah və auditoriya ilə əlaqə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "362",
+    "type": "mcq",
+    "question": "Akademik etikada çağırışların məqsədi nədir?",
+    "options": [
+      "Plagiatın qarşısını almaq və müəllif hüquqlarını qorumaq",
+      "Yazını uzatmaq",
+      "Subyektiv təsir",
+      "Bədii təsvir əlavə etmək"
+    ],
+    "answer": "Plagiatın qarşısını almaq və müəllif hüquqlarını qorumaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "363",
+    "type": "mcq",
+    "question": "Akademik mətnin ən geniş hissəsi hansıdır?",
+    "options": [
+      "Əsas hissə",
+      "Nəticə",
+      "Giriş",
+      "Qeyd hissəsi"
+    ],
+    "answer": "Əsas hissə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "364",
+    "type": "mcq",
+    "question": "Akademik yazının giriş hissəsində hansı məlumatın olması mütləqdir?",
+    "options": [
+      "Mövzunun aktuallığı",
+      "Təhlilin nəticələri",
+      "Tədqiqat qrafikləri",
+      "Ədəbiyyat siyahısı"
+    ],
+    "answer": "Mövzunun aktuallığı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "365",
+    "type": "mcq",
+    "question": "Əsas hissənin funksiyası nədir?",
+    "options": [
+      "Mövzunu şərh etmək, faktları təhlil etmək",
+      "Mövzuya maraq yaratmaq",
+      "Yekun fikri təqdim etmək",
+      "İstinadları vermək"
+    ],
+    "answer": "Mövzunu şərh etmək, faktları təhlil etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "366",
+    "type": "mcq",
+    "question": "Akademik mətndə nəticə hissəsində nə verilir?",
+    "options": [
+      "Ümumiləşdirmə və yekun fikir",
+      "Mövzunun giriş izahı",
+      "Faktların geniş tətbiqi",
+      "Əsas terminlərin siyahısı"
+    ],
+    "answer": "Ümumiləşdirmə və yekun fikir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "367",
+    "type": "mcq",
+    "question": "Akademik yazının giriş hissəsi necə olmalıdır?",
+    "options": [
+      "Aydın və mövzunun aktuallığını əsaslandıran",
+      "Yalnız qrafiklərdən ibarət",
+      "Çox uzun və təkrarlı",
+      "Sadəcə nəticələrdən ibarət"
+    ],
+    "answer": "Aydın və mövzunun aktuallığını əsaslandıran",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "368",
+    "type": "mcq",
+    "question": "Əsas hissədə nəyə xüsusi yer verilir?",
+    "options": [
+      "Tədqiqatın əsas dəlillərinə",
+      "Mövzunun təqdimatına",
+      "Yekun nəticələrə",
+      "İstinadlara"
+    ],
+    "answer": "Tədqiqatın əsas dəlillərinə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "369",
+    "type": "mcq",
+    "question": "Akademik yazının giriş hissəsində hansı sual cavablandırılmalıdır?",
+    "options": [
+      "Araşdırma nə üçündür?",
+      "Araşdırmanın nəticələri nədir?",
+      "Hansı metoddan istifadə olunub?",
+      "Hansı ədəbiyyat istifadə olunub?"
+    ],
+    "answer": "Araşdırma nə üçündür?",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "370",
+    "type": "mcq",
+    "question": "Nəticə hissəsində hansı məlumat verilməməlidir?",
+    "options": [
+      "Yeni, əvvəl qeyd olunmamış faktlar",
+      "Yekun ümumiləşmə",
+      "Tövsiyələr",
+      "Təkliflər"
+    ],
+    "answer": "Yeni, əvvəl qeyd olunmamış faktlar",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "371",
+    "type": "mcq",
+    "question": "Akademik mətnin quruluşu əsasən neçə hissədən ibarətdir?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "answer": "3",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "372",
+    "type": "mcq",
+    "question": "Akademik yazının giriş hissəsində hansının verilməsi mütləqdir:",
+    "options": [
+      "Problemin qoyuluşu",
+      "Nəticələrin ümumiləşməsi",
+      "Əsas dəlillərin təhlili",
+      "Məlumat qrafikləri"
+    ],
+    "answer": "Problemin qoyuluşu",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "373",
+    "type": "mcq",
+    "question": "Akademik yazıda əsas hissə necə qurulur?",
+    "options": [
+      "Məntiqi ardıcıllıqla",
+      "Sadəcə sitatlarla",
+      "Yalnız nəticələrlə",
+      "Qarışıq strukturlarla"
+    ],
+    "answer": "Məntiqi ardıcıllıqla",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "374",
+    "type": "mcq",
+    "question": "Akademik yazının nəticə hissəsinin sonunda nə ola bilər?",
+    "options": [
+      "Tövsiyələr",
+      "Mövzunun izahı",
+      "Girişin xülasəsi",
+      "Əsas hissənin detalları"
+    ],
+    "answer": "Tövsiyələr",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "375",
+    "type": "mcq",
+    "question": "Akademik mətnin sonunda nə olmalıdır?",
+    "options": [
+      "Nəticə",
+      "Giriş",
+      "Faktların təqdimatı",
+      "Terminlər"
+    ],
+    "answer": "Nəticə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "376",
+    "type": "mcq",
+    "question": "Müəlliflik prezumpsiyası nəyi ifadə edir?",
+    "options": [
+      "Hər bir elmi işin müəllifinin həmin işi özü yazmış hesab olunmasını",
+      "Müəllifin adının təsadüfi seçilməsini",
+      "Mətnin bir neçə şəxs tərəfindən gizli yazılmasını",
+      "Tədqiqatın kim tərəfindən yazıldığının əhəmiyyətsiz olmasını"
+    ],
+    "answer": "Hər bir elmi işin müəllifinin həmin işi özü yazmış hesab olunmasını",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "377",
+    "type": "mcq",
+    "question": "Müəlliflik prezumpsiyasına görə elmi işə imza atan şəxs nə etməlidir?",
+    "options": [
+      "İşin bütün hissələrinə görə məsuliyyət daşımalıdır",
+      "Yalnız nəticələrə cavabdeh olmalıdır",
+      "İstinadların doğruluğuna görə cavabdeh olmamalıdır",
+      "Yalnız giriş hissəsinə görə cavabdehdir"
+    ],
+    "answer": "İşin bütün hissələrinə görə məsuliyyət daşımalıdır",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "378",
+    "type": "mcq",
+    "question": "Müəlliflik prezumpsiyasının əsas məqsədi nədir?",
+    "options": [
+      "Elmi işin mənşəyini və müəllif məsuliyyətini müəyyənləşdirmək",
+      "Mətnin bədii keyfiyyətini artırmaq",
+      "Sitatların sayını azaltmaq",
+      "Tədqiqatın həcmini müəyyənləşdirmək"
+    ],
+    "answer": "Elmi işin mənşəyini və müəllif məsuliyyətini müəyyənləşdirmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "379",
+    "type": "mcq",
+    "question": "Müəlliflik prezumpsiyasına görə elmi işdə hansı davranış tələb olunur?",
+    "options": [
+      "Başqasının fikrindən istifadə edilərkən mütləq istinad vermək",
+      "Mənbələri azaltmaq",
+      "Mənbə göstərişindən qaçmaq",
+      "Faktları gizlətmək"
+    ],
+    "answer": "Başqasının fikrindən istifadə edilərkən mütləq istinad vermək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "380",
+    "type": "mcq",
+    "question": "Müəlliflik hüququnun qorunması üçün əsas şərt hansıdır?",
+    "options": [
+      "Orijinallığın və intellektual mülkiyyətin tanınması",
+      "Mənbələrin təsadüfi seçilməsi",
+      "Başqasının mətnini dəyişərək istifadə etmək",
+      "Məqaləni anonim dərc etmək"
+    ],
+    "answer": "Orijinallığın və intellektual mülkiyyətin tanınması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "381",
+    "type": "mcq",
+    "question": "Müəlliflik prezumpsiyasına əsasən elmi işdə plagiat nə deməkdir?",
+    "options": [
+      "Başqasının əsərini və ya fikrini öz adına çıxarmaq",
+      "Eyni fikri fərqli sözlərlə yazmaq",
+      "Öz işinə istinad etmək",
+      "Açıq mənbədən ümumi məlumat vermək"
+    ],
+    "answer": "Başqasının əsərini və ya fikrini öz adına çıxarmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "382",
+    "type": "mcq",
+    "question": "Müəlliflik prezumpsiyası hansı etik prinsipə əsaslanır?",
+    "options": [
+      "Məsuliyyətlilik və şəffaflıq",
+      "Subyektivlik",
+      "Emosionallıq",
+      "Qeyri-formal yazı"
+    ],
+    "answer": "Məsuliyyətlilik və şəffaflıq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "383",
+    "type": "mcq",
+    "question": "Müəlliflik prezumpsiyasına görə elmi işdə dəqiqlik hansı halda təmin olunur?",
+    "options": [
+      "Müəllif istifadə etdiyi bütün mənbələri düzgün qeyd etdikdə",
+      "Müəllif yalnız əsas mənbələri yazdıqda",
+      "Mənbələrdən seçmə istifadə etdikdə",
+      "Köhnə mənbələr silindikdə"
+    ],
+    "answer": "Müəllif istifadə etdiyi bütün mənbələri düzgün qeyd etdikdə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "384",
+    "type": "mcq",
+    "question": "Akademik yazıda müəlliflik prezumpsiyasının pozulması nə ilə nəticələnir?",
+    "options": [
+      "Plagiat və etik pozuntu hesab olunur",
+      "İşin qiymətləndirilməsi artır",
+      "Tədqiqatın daha populyar olması ilə",
+      "Müəllifin hüquqlarının genişlənməsi ilə"
+    ],
+    "answer": "Plagiat və etik pozuntu hesab olunur",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "385",
+    "type": "mcq",
+    "question": "Müəlliflik prezumpsiyasına görə birgə müəlliflik hansı halda mümkündür?",
+    "options": [
+      "Hər bir müəllifin işə real töhfəsinin olması halında",
+      "Müəlliflərdən birinin rəsmi tələb etməsi halında",
+      "Adı sadəcə siyahıya yazmaqla",
+      "Yalnız rəhbərin göstərişi ilə"
+    ],
+    "answer": "Hər bir müəllifin işə real töhfəsinin olması halında",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "386",
+    "type": "mcq",
+    "question": "Müəlliflik prezumpsiyasının təmin edilməsi üçün hansı şərt vacibdir?",
+    "options": [
+      "İşin hansı hissəsinin kim tərəfindən yazıldığının aydın olması",
+      "Müəllif adlarının çox olması",
+      "İşin kütləvi şəkildə hazırlanması",
+      "İstinadlardan istifadə edilməməsi"
+    ],
+    "answer": "İşin hansı hissəsinin kim tərəfindən yazıldığının aydın olması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "387",
+    "type": "mcq",
+    "question": "Müəlliflik prezumpsiyasında “hesabatlılıq” nə deməkdir?",
+    "options": [
+      "Hər bir müəllifin öz yazdığı məzmuna cavabdeh olması",
+      "Nəticələrin təsadüfi seçilməsi",
+      "Mənbələrin gizlədilməsi",
+      "Faktların dəyişdirilməsi"
+    ],
+    "answer": "Hər bir müəllifin öz yazdığı məzmuna cavabdeh olması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "388",
+    "type": "mcq",
+    "question": "Müəlliflik hüququ akademik yazıda nəyi qoruyur?",
+    "options": [
+      "Müəllifin yaratdığı orijinal mətn və ideyaların mülkiyyətini",
+      "Mənbələrin təsadüfi seçilməsini",
+      "Mətnin yalnız həcmini",
+      "Tədqiqatın anonimliyini"
+    ],
+    "answer": "Müəllifin yaratdığı orijinal mətn və ideyaların mülkiyyətini",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "389",
+    "type": "mcq",
+    "question": "Akademik yazıda müəlliflik hüququnun əsas məqsədi nədir?",
+    "options": [
+      "Müəllifin intellektual məhsulunun qanuni şəkildə tanınmasını təmin etmək",
+      "Mətnin daha sürətli yazılmasını təmin etmək",
+      "İstinadların azaldılmasını təşviq etmək",
+      "Yalnız nəticələri qorumaq"
+    ],
+    "answer": "Müəllifin intellektual məhsulunun qanuni şəkildə tanınmasını təmin etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "390",
+    "type": "mcq",
+    "question": "Müəlliflik hüququnun pozulması hansı hal hesab olunur?",
+    "options": [
+      "Başqasının əsərindən icazəsiz və istinadsız istifadə",
+      "Müəllifin öz fikrinə əlavə izah verməsi",
+      "Eyni mənbəyə bir neçə dəfə istinad",
+      "Müəllifin öz məqaləsindən sitat gətirməsi"
+    ],
+    "answer": "Başqasının əsərindən icazəsiz və istinadsız istifadə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "391",
+    "type": "mcq",
+    "question": "Akademik yazıda müəlliflik hüququna hörmətin əsas şərtlərindən biri hansıdır?",
+    "options": [
+      "İstifadə olunan mənbələrin tam və düzgün göstərilməsi",
+      "Mənbələrin ixtisarla verilməsi",
+      "Mənbələrin yalnız bir qismini yazmaq",
+      "Alternativ fikirlərin çıxarılması"
+    ],
+    "answer": "İstifadə olunan mənbələrin tam və düzgün göstərilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "392",
+    "type": "mcq",
+    "question": "Müəlliflik hüququna görə “orijinallıq” nəyi ifadə edir?",
+    "options": [
+      "İşin müəllif tərəfindən yaradılmış yeni məzmun olması",
+      "Mənbələrin köhnə olması",
+      "Məqalənin həcminin böyük olması",
+      "Yazının emosional tonda olması"
+    ],
+    "answer": "İşin müəllif tərəfindən yaradılmış yeni məzmun olması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "393",
+    "type": "mcq",
+    "question": "Plagiat müəlliflik hüququ baxımından nə deməkdir?",
+    "options": [
+      "Başqasının fikrini və mətnini öz adına çıxarmaq",
+      "Öz fikirlərini genişləndirərək yazmaq",
+      "Mənbəyə uyğun parafraz etmək",
+      "Aydın sitat gətirmək"
+    ],
+    "answer": "Başqasının fikrini və mətnini öz adına çıxarmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "394",
+    "type": "mcq",
+    "question": "Müəlliflik hüququnun qorunması üçün hansı texniki amil vacibdir?",
+    "options": [
+      "Uyğun sitat və istinad formatlarına əməl etmək",
+      "Sitatları ixtisar etmək",
+      "Mənbələri qarışıq şəkildə vermək",
+      "Yalnız internet mənbələrindən istifadə etmək"
+    ],
+    "answer": "Uyğun sitat və istinad formatlarına əməl etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "395",
+    "type": "mcq",
+    "question": "Birgə müəlliflik hüququ hansı halda tətbiq oluna bilər?",
+    "options": [
+      "İşə real elmi töhfə verən bütün şəxslər müəllif kimi göstərildikdə",
+      "Adın əlavə edilməsi istək əsasında olduqda",
+      "Mövzu eyni olduqda",
+      "Rəhbər tələb etsə"
+    ],
+    "answer": "İşə real elmi töhfə verən bütün şəxslər müəllif kimi göstərildikdə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "396",
+    "type": "mcq",
+    "question": "Müəlliflik hüququna uyğun yazıda hansı davranış qadağandır?",
+    "options": [
+      "Mənbəni göstərmədən başqasının fikrindən istifadə",
+      "Parafraz edilmiş fikrə istinad vermək",
+      "Açıq mənbədən ümumi fakt yazmaq",
+      "Öz əsərinə istinad etmək"
+    ],
+    "answer": "Mənbəni göstərmədən başqasının fikrindən istifadə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "397",
+    "type": "mcq",
+    "question": "Akademik yazıda müəlliflik hüququnun qorunması hansı nəticəni verir?",
+    "options": [
+      "Tədqiqatın etibarlılığı və şəffaflığını artırır",
+      "Yazının həcmi azalır",
+      "Mənbələr azalır",
+      "Tədqiqatın subyektivliyi artır"
+    ],
+    "answer": "Tədqiqatın etibarlılığı və şəffaflığını artırır",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "398",
+    "type": "mcq",
+    "question": "Müəlliflik hüququnun əsas etik elementi hansıdır?",
+    "options": [
+      "Ədalətlilik və intellektual mülkiyyətə hörmət",
+      "Mənbələrin gizlədilməsi",
+      "Tədqiqatın yalnız bir hissəsini göstərmək",
+      "Fikirləri dəyişdirərək təqdim etmək"
+    ],
+    "answer": "Ədalətlilik və intellektual mülkiyyətə hörmət",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "399",
+    "type": "mcq",
+    "question": "Müasir akademik yazıda rəqəmsal alətlərin geniş istifadəsi hansı problemi yarada bilər?",
+    "options": [
+      "Məlumatların manipulyasiyası riski",
+      "Araşdırmanın sadələşməsi",
+      "Mənbələrin əlçatanlığının azalması",
+      "Tələbələrin marağının artması"
+    ],
+    "answer": "Məlumatların manipulyasiyası riski",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "400",
+    "type": "mcq",
+    "question": "Müasir çağırışlardan biri olan süni intellektdən (Sİ) istifadədə etik pozuntu nə ola bilər?",
+    "options": [
+      "Sİ yaratdığı məzmunu öz adına çıxarmaq",
+      "Sİ məqsədəuyğun şəkildə tətbiqi",
+      "Mənbələrin düzgün göstərilməsi",
+      "İnsan nəzarəti ilə işləmək"
+    ],
+    "answer": "Sİ yaratdığı məzmunu öz adına çıxarmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "401",
+    "type": "mcq",
+    "question": "Akademik yazıda obyektivliyin qorunması üçün hansı tələb vacibdir?",
+    "options": [
+      "Şəxsi fikri faktlardan ayırmaq",
+      "Hissiyyata əsaslamaq",
+      "Tək mənbədən istifadə etmək",
+      "Subyektiv mülahizələri artırmaq"
+    ],
+    "answer": "Şəxsi fikri faktlardan ayırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "402",
+    "type": "mcq",
+    "question": "Akademik yazıda strukturlaşdırılmış təqdimatın üstünlüyü nədir?",
+    "options": [
+      "Mətnin aydın və anlaşıqlı olması",
+      "Mövzudan uzaqlaşmaq",
+      "Faktları qarışdırmaq",
+      "Oxucunu çaşdırmaq"
+    ],
+    "answer": "Mətnin aydın və anlaşıqlı olması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "403",
+    "type": "mcq",
+    "question": "İlk yazı nümunələri hansı tarixə malikdir?",
+    "options": [
+      "7000 ilə yaxın",
+      "100 il",
+      "1 əsrə yaxın",
+      "3000 ilə yaxın"
+    ],
+    "answer": "7000 ilə yaxın",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "404",
+    "type": "mcq",
+    "question": "Dil nədir?",
+    "options": [
+      "məzmun və səslənmə qaydaları daşıyan şərti bir sistemdir, ünsiyyət vasitəsi və dünya haqqında təsəvvür yaradan intellektual bir sistemdir",
+      "dilin xüsusi qaydalarla təyin olunmuş yazılı formasıdır, yəni dilin qeyd edilən formasıdır",
+      "səsli dilin norma ilə qavrayışını təmin edən işarələr qrupu",
+      "bəşəriyyətin ən böyük kəşflərindən biri hesab olunur"
+    ],
+    "answer": "məzmun və səslənmə qaydaları daşıyan şərti bir sistemdir, ünsiyyət vasitəsi və dünya haqqında təsəvvür yaradan intellektual bir sistemdir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "405",
+    "type": "mcq",
+    "question": "Yazı nədir?",
+    "options": [
+      "səsli dilin norma ilə qavrayışını təmin edən işarələr qrupu",
+      "dilin xüsusi qaydalarla təyin olunmuş şifahi formasıdır",
+      "məzmun və səslənmə qaydaları daşıyan şərti bir sistemdir, ünsiyyət vasitəsi və dünya haqqında təsəvvür yaradan intellektual bir sistemdir",
+      "bəşəriyyətin ən böyük kəşflərindən biri hesab olunur"
+    ],
+    "answer": "səsli dilin norma ilə qavrayışını təmin edən işarələr qrupu",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "406",
+    "type": "mcq",
+    "question": "Məlumatların şəkillər vasitəsilə ifadə edildiyi yazıya nə deyilir?",
+    "options": [
+      "Piktoqrafik və ya şəkli yazı",
+      "Fikri yazı",
+      "Heca yazısı",
+      "Fonoqrafik yazı"
+    ],
+    "answer": "Piktoqrafik və ya şəkli yazı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "407",
+    "type": "mcq",
+    "question": "Piktoqrafik yazı hansıdır:",
+    "options": [
+      "məlumatların şəkillər vasitəsilə ifadə edildiyi yazı",
+      "nitqdəki sözlərin şəkillər vasitəsilə deyil, ideoqramlarla əks olunması",
+      "şərti işarələrlə göstərilən Şumerlərin yazısı",
+      "şərti işarələrlə dilin səslərini əsk etdirən yazı"
+    ],
+    "answer": "məlumatların şəkillər vasitəsilə ifadə edildiyi yazı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "408",
+    "type": "mcq",
+    "question": "Piktoqrafiya sözünün hərfi mənası:",
+    "options": [
+      "piktus – lat. sözü \"şəkli çəkilmiş\", ikincisi grapho – yun. sözü \"yazıram\"",
+      "pikter – ing. sözü \"şəkil\", ikincisi grapho - ərəb sözü \"çəkirəm\"",
+      "pukt - fars sözü \"müddəa\", ikincisi graf - rus sözü \"xan\"",
+      "pikto - türk sözü \"zirvə\", ikincisi raph – ing. sözü \"rəf\""
+    ],
+    "answer": "piktus – lat. sözü \"şəkli çəkilmiş\", ikincisi grapho – yun. sözü \"yazıram\"",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "409",
+    "type": "mcq",
+    "question": "Nitqdəki sözlərin şəkillər vasitəsilə deyil, ideoqramlarla əks olunmasına nə deyilir?",
+    "options": [
+      "İdeoqrafik və ya fikri yazı",
+      "Şəkli yazı",
+      "Heca yazısı",
+      "Fonoqrafik yazı"
+    ],
+    "answer": "İdeoqrafik və ya fikri yazı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "410",
+    "type": "mcq",
+    "question": "Heroqlif və digər işarələr hansı yazı sisteminə daxildir?",
+    "options": [
+      "İdeoqrafik və ya fikri yazı",
+      "Şəkli yazı",
+      "Heca yazısı",
+      "Fonoqrafik yazı"
+    ],
+    "answer": "İdeoqrafik və ya fikri yazı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "411",
+    "type": "mcq",
+    "question": "İdeoqrafiya sözünün hərfi mənası:",
+    "options": [
+      "2 yunan sözü - ideya \"anlayış\" və grapho \"yazıram\"",
+      "2 ing. sözü – ideology \"şəkil\" və grapho \"çəkirəm\"",
+      "2 rus sözü – ideya \"fikir\" və graf \"xan\"",
+      "ideal - türk sözü \"əlçatmaz\", ikincisi raph – ing. sözü \"rəf\""
+    ],
+    "answer": "2 yunan sözü - ideya \"anlayış\" və grapho \"yazıram\"",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "412",
+    "type": "mcq",
+    "question": "Kalliqrafik sözünün hərfi mənası:",
+    "options": [
+      "yunanca \"kallos\" gözəllik, \"grapho\" yazı",
+      "türk \"kal\" yetişməmiş, \"grapho\" şəkil",
+      "ing. \"kale\" kələm, \"grapho\" şəkil",
+      "fransız \"kaliémie\", ing. \"graph\" cədvəl"
+    ],
+    "answer": "yunanca \"kallos\" gözəllik, \"grapho\" yazı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "413",
+    "type": "mcq",
+    "question": "Azərbaycanda piktoqrafik yazı nümunələrinə harda rast gəlmək olar?",
+    "options": [
+      "Qobustan, Qazax, Gədəbəy",
+      "Qəbələ, Gəncə, Goran",
+      "Qusar, Gədəbəy, Gəncə",
+      "Goranboy və Quba"
+    ],
+    "answer": "Qobustan, Qazax, Gədəbəy",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "414",
+    "type": "mcq",
+    "question": "Sillaboqrafik yazı hansıdır:",
+    "options": [
+      "şərti işarələrlə göstərilən yazı",
+      "nitqdəki sözlərin şəkillər vasitəsilə deyil, ideoqramlarla əks olunması",
+      "şərti işarələrlə göstərilən Şumerlərin yazısı",
+      "şərti işarələrlə dilin səslərini əsk etdirən yazı"
+    ],
+    "answer": "şərti işarələrlə göstərilən yazı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "415",
+    "type": "mcq",
+    "question": "Heca yazısının tələbinə görə:",
+    "options": [
+      "dildə nə qədər heca varsa, bir o qədər də işarə olmalıdır",
+      "nitqdəki sözlər şəkillər vasitəsilə deyil, ideoqramlarla əks olunmalıdır",
+      "şərti işarələr dilin səslərini əsk etdirməlidir",
+      "məlumatların şəkillər vasitəsilə ifadə edilməlidir"
+    ],
+    "answer": "dildə nə qədər heca varsa, bir o qədər də işarə olmalıdır",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "416",
+    "type": "mcq",
+    "question": "Qədim heca işarələri nə vaxt və necə əmələ gəlmişdir?",
+    "options": [
+      "eramızdan əvvəl üçüncü minilliyin əvvəlində Şumer yazısında",
+      "üçüncü minilliyin sonunda Manna yazısında",
+      "beşinci minillikdə Midia yazısında",
+      "yeddinci minilliyin əvvəlində Urartu yazısında"
+    ],
+    "answer": "eramızdan əvvəl üçüncü minilliyin əvvəlində Şumer yazısında",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "417",
+    "type": "mcq",
+    "question": "Heca yazısının səs yazısı ilə müqayisədə mənfi cəhəti hansıdır:",
+    "options": [
+      "işarələrinin çox olması",
+      "işarələrin az olması",
+      "işarələrin olmaması",
+      "mənfi cəhət yoxdur"
+    ],
+    "answer": "işarələrinin çox olması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "418",
+    "type": "mcq",
+    "question": "Şərti işarələrlə dilin səslərini əsk etdirən yazıya nə deyilir?",
+    "options": [
+      "fonoqrafik yaxud səs yazısı",
+      "piktoqrafik yaxud şəkli yazı",
+      "ideoqrafik və ya fikri yazı",
+      "kalliqrafik yazı"
+    ],
+    "answer": "fonoqrafik yaxud səs yazısı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "419",
+    "type": "mcq",
+    "question": "Fonoqrafik yaxud səs yazısı hansıdır:",
+    "options": [
+      "şərti işarələrlə dilin səslərini əsk etdirən yazı",
+      "şərti işarələrlə göstərilən yazı",
+      "nitqdəki sözlərin şəkillər vasitəsilə deyil, ideoqramlarla əks olunması",
+      "məlumatların şəkillər vasitəsilə ifadə edildiyi yazı"
+    ],
+    "answer": "şərti işarələrlə dilin səslərini əsk etdirən yazı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "420",
+    "type": "mcq",
+    "question": "Yazının ən başlıca xüsusiyyəti hansıdır:",
+    "options": [
+      "qalıcı və sənəd xarakterli olması",
+      "silinə bilməsi",
+      "istənilən zaman dəyişdirilməsi",
+      "danışmağa ehtiyacın qalmaması"
+    ],
+    "answer": "qalıcı və sənəd xarakterli olması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "421",
+    "type": "mcq",
+    "question": "Korotkinaya görə 7P yanaşması hansıdır:",
+    "options": [
+      "proses (процесс – process), məhsul (продукт – product), təcrübə (практика – practice), yazı (письмо – writing), yazmaq (писать – to write), şəxsi (персональный – personal), ictimai (публичный – public)",
+      "məhsul (продукт – product), təcrübə (практика – practice), yazı (письмо – writing), yazmaq (писать – to write), şəxsi (персональный – personal), ictimai (публичный – public)",
+      "sadə (просто – simple), məhsul (продукт – product), təcrübə (практика – practice), yazı (письмо – writing), yazmaq (писать – to write), şəxsi (персональный – personal), ictimai (публичный – public)",
+      "proses (процесс – process), məhsul (продукт – product), təcrübə (практика – practice), şəxsi (персональный – personal), ictimai (публичный – public)"
+    ],
+    "answer": "proses (процесс – process), məhsul (продукт – product), təcrübə (практика – practice), yazı (письмо – writing), yazmaq (писать – to write), şəxsi (персональный – personal), ictimai (публичный – public)",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "422",
+    "type": "mcq",
+    "question": "“Üslub” sözünün mənşəyi və mənası hansıdır:",
+    "options": [
+      "ərəb mənşəlidir; yol, istiqamət, təqdim etmə tərzi, ifadə üsulu mənalarını bildirir",
+      "rus mənşəlidir; xidmət, qulluq mənalarını bildirir",
+      "fars mənşəlidir; yola düşmək mənasını bildirir",
+      "ing. mənşəlidir; qələm istifadə edin mənasını bildirir"
+    ],
+    "answer": "ərəb mənşəlidir; yol, istiqamət, təqdim etmə tərzi, ifadə üsulu mənalarını bildirir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "423",
+    "type": "mcq",
+    "question": "Yazı növləri arasında akademik yazının əsas xüsusiyyəti hansıdır?",
+    "options": [
+      "Obyektivlik və elmi üslubun qorunması",
+      "Hadisələrin emosional təsviri",
+      "Oxucunu əyləndirməyə yönəlməsi",
+      "Danışıq dilindən geniş istifadə"
+    ],
+    "answer": "Obyektivlik və elmi üslubun qorunması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "424",
+    "type": "mcq",
+    "question": "Publisistik yazının əsas məqsədi nədir?",
+    "options": [
+      "Cəmiyyətə informasiya və ictimai fikir çatdırmaq",
+      "Elmi konsepsiyaları sübut etmək",
+      "Bədii obrazlar yaratmaq",
+      "Statistik məlumatları təsvir etmək"
+    ],
+    "answer": "Cəmiyyətə informasiya və ictimai fikir çatdırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "425",
+    "type": "mcq",
+    "question": "Bədii yazının fərqləndirici cəhəti nədir?",
+    "options": [
+      "Təsviri vasitələr və obrazlılıq",
+      "Terminoloji dəqiqlik",
+      "Mənbələrə istinad",
+      "Qrafik məlumatların verilməsi"
+    ],
+    "answer": "Təsviri vasitələr və obrazlılıq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "426",
+    "type": "mcq",
+    "question": "Akademik esse hansı xüsusiyyətə malikdir?",
+    "options": [
+      "Yazı müəllif mövqeyini elmi arqumentlərlə əsaslandırır",
+      "Oxucuda emosional təsir yaradır",
+      "Xronoloji hadisə ardıcıllığına söykənir",
+      "Qısa bədii təsvirlərdən ibarət olur"
+    ],
+    "answer": "Yazı müəllif mövqeyini elmi arqumentlərlə əsaslandırır",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "427",
+    "type": "mcq",
+    "question": "Referat yazısının əsas funksiyası nədir?",
+    "options": [
+      "Mövzu üzrə mövcud mənbələrin xülasəsini təqdim etmək",
+      "Yeni elmi nəticə əldə etmək",
+      "Fəlsəfi yanaşma formalaşdırmaq",
+      "Oxucuda estetik təsir yaratmaq"
+    ],
+    "answer": "Mövzu üzrə mövcud mənbələrin xülasəsini təqdim etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "428",
+    "type": "mcq",
+    "question": "Analitik yazının strukturunda əsas tələb hansıdır?",
+    "options": [
+      "Məlumatın təhlili və nəticələrin əsaslandırılması",
+      "Müəllifin şəxsi hisslərinin təsviri",
+      "Hadisələrin bədii şəkildə təqdimatı",
+      "Təsviri vasitələrdən geniş istifadə"
+    ],
+    "answer": "Məlumatın təhlili və nəticələrin əsaslandırılması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "429",
+    "type": "mcq",
+    "question": "Akademik yazıda obyektivliyin təmin olunması üçün nə vacibdir?",
+    "options": [
+      "Etibarlı mənbələrə istinad",
+      "Emosional dil işlətmək",
+      "Təxəyyülə əsaslanmaq",
+      "Üslubu maksimum sərbəst saxlamaq"
+    ],
+    "answer": "Etibarlı mənbələrə istinad",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "430",
+    "type": "mcq",
+    "question": "Jurnalistik yazıların ən səciyyəvi xüsusiyyəti nədir?",
+    "options": [
+      "Operativlik və aktual mövzuların işıqlandırılması",
+      "Elmi dəlillərin sübut edilməsi",
+      "Obrazlı bədii təsvir",
+      "Mətnin rəsmi üslubda yazılması"
+    ],
+    "answer": "Operativlik və aktual mövzuların işıqlandırılması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "431",
+    "type": "mcq",
+    "question": "Akademik yazıda nəticə bölməsinin əsas funksiyası nədir?",
+    "options": [
+      "Əsas tapıntıların ümumiləşdirilməsi",
+      "Əlavə bədii təsvirlərin daxil edilməsi",
+      "Emosional çağırış etmək",
+      "Məlumatı təkrar açıqlamaq"
+    ],
+    "answer": "Əsas tapıntıların ümumiləşdirilməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "432",
+    "type": "mcq",
+    "question": "Bədii-publisistik yazı hansı üslubların sintezidir?",
+    "options": [
+      "Bədii və publisistik",
+      "Akademik və texniki",
+      "Rəsmi və elmi",
+      "Publisistik və tədris"
+    ],
+    "answer": "Bədii və publisistik",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "433",
+    "type": "mcq",
+    "question": "Akademik yazının əsas dili necə olmalıdır?",
+    "options": [
+      "Dəqiq, aydın və neytral",
+      "Emosional və bəzəkli",
+      "Yumoristik və sərbəst",
+      "Lirik və təsviri"
+    ],
+    "answer": "Dəqiq, aydın və neytral",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "434",
+    "type": "mcq",
+    "question": "Elmi məqalə yazısının əsas tələbi nədir?",
+    "options": [
+      "Yeni elmi nəticənin əsaslandırılması",
+      "Mövzunun sadəcə ümumi təsviri",
+      "Oxucunun emosional təsirlənməsi",
+      "Mətnin informasiya xarakterli olması"
+    ],
+    "answer": "Yeni elmi nəticənin əsaslandırılması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "435",
+    "type": "mcq",
+    "question": "Akademik yazıda ən çox istifadə olunan yazı növü hansıdır?",
+    "options": [
+      "Analitik yazı",
+      "Bədii təsviri yazı",
+      "Reklam mətni",
+      "Publisistik esse"
+    ],
+    "answer": "Analitik yazı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "436",
+    "type": "mcq",
+    "question": "Tədqiqat nəticələrinin obyektiv şəkildə təqdim olunduğu yazı növü hansıdır?",
+    "options": [
+      "Elmi məqalə",
+      "CV",
+      "Rəy",
+      "Xəbər mətni"
+    ],
+    "answer": "Elmi məqalə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "437",
+    "type": "mcq",
+    "question": "Tədqiqat mövzusunun qısa xülasəsini verən yazı növü hansıdır?",
+    "options": [
+      "Xülasə",
+      "Resenziya",
+      "Təqdimat mətni",
+      "Analitik icmal"
+    ],
+    "answer": "Xülasə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "438",
+    "type": "mcq",
+    "question": "Mənbələrin müqayisəli şəkildə təhlil olunduğu yazı növü hansıdır?",
+    "options": [
+      "İcmal (literature review)",
+      "Esse",
+      "Xülasə",
+      "Məqalə planı"
+    ],
+    "answer": "İcmal (literature review)",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "439",
+    "type": "mcq",
+    "question": "Elmi əsərə tənqidi qiymət verən yazı növü hansıdır?",
+    "options": [
+      "Rəy",
+      "Esse",
+      "Tezis",
+      "Annotasiya"
+    ],
+    "answer": "Rəy",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "440",
+    "type": "mcq",
+    "question": "Müəllifin fikirlərini ardıcıl şəkildə əsaslandırdığı strukturlaşdırılmış yazı növü hansıdır?",
+    "options": [
+      "Analitik yazı",
+      "Bədii yazı",
+      "İnformativ mətni",
+      "Reklam yazısı"
+    ],
+    "answer": "Analitik yazı",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "441",
+    "type": "mcq",
+    "question": "Tədqiqat işinin əvvəlində verilən, məqsəd və metodları qısa şəkildə açıqlayan akademik yazının hansı bölməsinə aiddir?",
+    "options": [
+      "Giriş",
+      "Nəticə",
+      "Ədəbiyyat siyahısı",
+      "Təkliflər"
+    ],
+    "answer": "Giriş",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "442",
+    "type": "mcq",
+    "question": "Müəyyən mövzunu geniş şəkildə araşdırıb arqumentlərlə izah edən yazı növü hansıdır?",
+    "options": [
+      "Elmi-analitik məqalə",
+      "Təsviri yazı",
+      "Məktub",
+      "Press-reliz"
+    ],
+    "answer": "Elmi-analitik məqalə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "443",
+    "type": "mcq",
+    "question": "Akademik yazıda terminologiyanın əsas funksiyası nədir?",
+    "options": [
+      "Fikirlərin elmi dəqiqliklə ifadə olunması",
+      "Mətni bədii göstərmək",
+      "Oxucuya emosional təsir artırmaq",
+      "Mətnin həcmini böyütmək"
+    ],
+    "answer": "Fikirlərin elmi dəqiqliklə ifadə olunması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "444",
+    "type": "mcq",
+    "question": "Termin yenidirsə və mətnə ilk dəfə daxil edilirsə, müəllif nə etməlidir?",
+    "options": [
+      "Onu qısa şəkildə izah etməlidir",
+      "Terminlərdən ümumiyyətlə istifadə etməməlidir",
+      "Termin əvəzinə sinonim yazmalıdır",
+      "Termin yalnız nəticədə verilməlidir"
+    ],
+    "answer": "Onu qısa şəkildə izah etməlidir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "445",
+    "type": "mcq",
+    "question": "Akademik yazıda terminlərlə bağlı hansı istifadə düzgün hesab olunur?",
+    "options": [
+      "Terminlərin ardıcıl və sabit şəkildə tətbiqi",
+      "Terminləri tez-tez dəyişdirmək",
+      "Terminləri hissə-hissə izah etmək",
+      "Terminləri fərqli mənalarda işlətmək"
+    ],
+    "answer": "Terminlərin ardıcıl və sabit şəkildə tətbiqi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "446",
+    "type": "mcq",
+    "question": "Terminologiyanın qarışmasının qarşısını almaq üçün nə vacibdir?",
+    "options": [
+      "Eyni anlayış üçün eyni terminlərdən istifadə",
+      "Hər hissədə fərqli termin seçmək",
+      "Terminlərin sinonimlərini tez-tez dəyişmək",
+      "Oxucunu çaşdıracaq sözlərdən istifadə"
+    ],
+    "answer": "Eyni anlayış üçün eyni terminlərdən istifadə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "447",
+    "type": "mcq",
+    "question": "Akademik yazıda çox geniş, mürəkkəb və qeyri-müəyyən sözlər niyə uyğun deyil?",
+    "options": [
+      "Çünki elmi dəqiqliyi azaldır",
+      "Oxucuya daha rahat görünür",
+      "Yazını emosional edir",
+      "Terminlərin yerini tutur"
+    ],
+    "answer": "Çünki elmi dəqiqliyi azaldır",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "448",
+    "type": "mcq",
+    "question": "Müəllif üçün yeni olan termini mətndə istifadə etməzdən əvvəl nə edilməlidir?",
+    "options": [
+      "Termini tam öyrənilməli və mənbə ilə yoxlamalıdır",
+      "Termin fərziyyə kimi təqdim olunmalıdır",
+      "Terminin tərcüməsi müəllif tərəfindən uydurulmalıdır",
+      "Termindən sadəcə hissə-hissə istifadə olunmalıdır"
+    ],
+    "answer": "Termini tam öyrənilməli və mənbə ilə yoxlamalıdır",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "449",
+    "type": "mcq",
+    "question": "Terminologiyada ardıcıllığın pozulması hansı nəticəyə gətirib çıxarır?",
+    "options": [
+      "Mətnin anlaşılmasını çətinləşdirir",
+      "Yazını daha maraqlı edir",
+      "Oxucuya geniş seçim imkanı yaradır",
+      "Tədqiqatın həcmini artırır"
+    ],
+    "answer": "Mətnin anlaşılmasını çətinləşdirir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "450",
+    "type": "mcq",
+    "question": "Terminologiyanın düzgün istifadəsində hansı prinsip əsasdır?",
+    "options": [
+      "Dəqiqlik və aydınlıq",
+      "Bədii təsvir",
+      "Şəxsi münasibət",
+      "Emosional vurğu"
+    ],
+    "answer": "Dəqiqlik və aydınlıq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "451",
+    "type": "mcq",
+    "question": "Terminlə bağlı qeyri-müəyyənlik yarandıqda müəllif nə etməlidir?",
+    "options": [
+      "Əlavə izah verməlidir",
+      "Terminlərdən imtina etməlidir",
+      "Fikri tamamilə dəyişməlidir",
+      "Termin əvəzinə məcazi mənasını işlətməlidir"
+    ],
+    "answer": "Əlavə izah verməlidir",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "452",
+    "type": "mcq",
+    "question": "Beynəlxalq terminlərin istifadəsində ən mühüm tələb hansıdır?",
+    "options": [
+      "Dünyada qəbul edilmiş formaya sadiq qalmaq",
+      "Terminləri yerli dildə ixtisar etmək",
+      "Oxucuya uyğun formada dəyişdirmək",
+      "Terminləri emosionallaşdırmaq"
+    ],
+    "answer": "Dünyada qəbul edilmiş formaya sadiq qalmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "453",
+    "type": "mcq",
+    "question": "Terminlərin tərifini vermək nə üçün vacibdir?",
+    "options": [
+      "Oxucunun anlayışı düzgün qavraması üçün",
+      "Məqaləni uzatmaq üçün",
+      "Terminləri daha mürəkkəb göstərmək üçün",
+      "Xülasədə məlumat artırmaq üçün"
+    ],
+    "answer": "Oxucunun anlayışı düzgün qavraması üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "454",
+    "type": "mcq",
+    "question": "Akademik mətndə gündəlik dil ifadələrinin termin kimi işlədilməsi niyə yalnışdır?",
+    "options": [
+      "Elmi üsluba uyğun gəlmir və dəqiqlik pozulur",
+      "Yazını oxunaqlı edir",
+      "Oxucuya daha sərbəst görünür",
+      "Məqaləni emosional edir"
+    ],
+    "answer": "Elmi üsluba uyğun gəlmir və dəqiqlik pozulur",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "455",
+    "type": "mcq",
+    "question": "Ritorikanın əsas məqsədi nədir?",
+    "options": [
+      "Fikri inandırıcı və təsirli şəkildə çatdırmaq",
+      "Mətnin həcmini artırmaq",
+      "Müəllifin emosiyalarını göstərmək",
+      "Sitatların sayını artırmaq"
+    ],
+    "answer": "Fikri inandırıcı və təsirli şəkildə çatdırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "456",
+    "type": "mcq",
+    "question": "Ritorik sualın funksiyası nədir?",
+    "options": [
+      "Oxucunu düşündürmək və diqqəti möhkəmləndirmək",
+      "Cavab tələb etmək",
+      "Mövzunu dəyişmək",
+      "Sitata keçid yaratmaq"
+    ],
+    "answer": "Oxucunu düşündürmək və diqqəti möhkəmləndirmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "457",
+    "type": "mcq",
+    "question": "Ritorik strategiya dedikdə nə nəzərdə tutulur?",
+    "options": [
+      "Auditoriyaya təsir göstərmək üçün planlaşdırılmış üsullar",
+      "Sadəcə uzun cümlələr qurmaq",
+      "Terminləri çoxaltmaq",
+      "Faktları emosional etmək"
+    ],
+    "answer": "Auditoriyaya təsir göstərmək üçün planlaşdırılmış üsullar",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "458",
+    "type": "mcq",
+    "question": "Pafos (pathos) nəyi bildirir?",
+    "options": [
+      "Auditoriyanın emosiyalarına təsir göstərməyi",
+      "Məqalənin məntiqi əsasını",
+      "Müəllifin nüfuzunu",
+      "Faktların qruplaşdırılmasını"
+    ],
+    "answer": "Auditoriyanın emosiyalarına təsir göstərməyi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "459",
+    "type": "mcq",
+    "question": "Akademik yazıda ritorikanın tətbiqi hansı məqsədə xidmət edir?",
+    "options": [
+      "Fikrin inandırıcılığını artırmağa",
+      "Mətnə bədii çalar verməyə",
+      "Mövzunu şəxsi rəylərlə doldurmağa",
+      "Mənbələri gizlətməyə"
+    ],
+    "answer": "Fikrin inandırıcılığını artırmağa",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "460",
+    "type": "mcq",
+    "question": "Ritorik analiz nə deməkdir?",
+    "options": [
+      "Mətnin auditoriyaya necə təsir etdiyini və hansı vasitələrdən istifadə etdiyini araşdırmaq",
+      "Yalnız qrammatik quruluşu təhlil etmək",
+      "Mətn uzunluğunu hesablamaq",
+      "Sitatların sayını yoxlamaq"
+    ],
+    "answer": "Mətnin auditoriyaya necə təsir etdiyini və hansı vasitələrdən istifadə etdiyini araşdırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "461",
+    "type": "mcq",
+    "question": "Ritorik müqayisənin istifadəsi hansı məqsədə xidmət edir?",
+    "options": [
+      "Məsələnin daha aydın və anlaşılan təqdimatına",
+      "Mövzunu emosional etmək üçün",
+      "Sitat sayını artırmaq üçün",
+      "Anotasiya yaratmaq üçün"
+    ],
+    "answer": "Məsələnin daha aydın və anlaşılan təqdimatına",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "462",
+    "type": "mcq",
+    "question": "Akademik yazıda kompozisiya nəyi ifadə edir?",
+    "options": [
+      "Mətnin məntiqi və struktur quruluşunu",
+      "Yalnız giriş hissəsinin yazılmasını",
+      "Sadəcə istinadların verilməsini",
+      "Emosional təsvirlərin artırılmasını"
+    ],
+    "answer": "Mətnin məntiqi və struktur quruluşunu",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "463",
+    "type": "mcq",
+    "question": "Akademik yazının əsas hissələri hansılardır?",
+    "options": [
+      "Giriş, əsas hissə, nəticə",
+      "Başlıq, sitat, qeydlər",
+      "Giriş, sitat, müzakirə",
+      "Plan, qrafik, cədvəl"
+    ],
+    "answer": "Giriş, əsas hissə, nəticə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "464",
+    "type": "mcq",
+    "question": "Monoqrafiyada giriş hissəsinin əsas funksiyası nədir?",
+    "options": [
+      "Mövzunu təqdim etmək və tədqiqatın məqsədini göstərmək",
+      "Tədqiqatın nəticələrini müzakirə etmək",
+      "Sadəcə istifadə olunmuş mənbələri siyahıya salmaq",
+      "Terminləri təsnif etmək"
+    ],
+    "answer": "Mövzunu təqdim etmək və tədqiqatın məqsədini göstərmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "465",
+    "type": "mcq",
+    "question": "Monoqrafiyada nəticə hissəsinin əsas məqsədi nədir?",
+    "options": [
+      "Əsas fikirləri ümumiləşdirmək və yekun nəticələri təqdim etmək",
+      "Əlavə yeni məlumatlar daxil etmək",
+      "Yeni tədqiqat problemi irəli sürmək",
+      "Sadəcə sitatları təkrar etmək"
+    ],
+    "answer": "Əsas fikirləri ümumiləşdirmək və yekun nəticələri təqdim etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "466",
+    "type": "mcq",
+    "question": "Kompozisiya qaydalarına riayət etməmək nə ilə nəticələnə bilər?",
+    "options": [
+      "Mətnin məntiqi axınının pozulması ilə",
+      "Mətnin daha maraqlı olması ilə",
+      "Siyahıların çoxalması ilə",
+      "Sitatların azalması ilə"
+    ],
+    "answer": "Mətnin məntiqi axınının pozulması ilə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "467",
+    "type": "mcq",
+    "question": "Akademik yazıda abzas quruluşunda ən vacib prinsiplərdən biri hansıdır?",
+    "options": [
+      "Hər abzasın bir əsas fikir ətrafında qurulması",
+      "Abzasların mümkün qədər uzun olması",
+      "Bir abzasda çox mövzuya keçid etmək",
+      "Abzası sitatla bitirmək məcburiyyəti"
+    ],
+    "answer": "Hər abzasın bir əsas fikir ətrafında qurulması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "468",
+    "type": "mcq",
+    "question": "Kompozisiyanın tamlığı nə deməkdir?",
+    "options": [
+      "Mətnin hissələrinin bir-biri ilə məntiqi əlaqədə olması",
+      "Mətnin həcminin böyük olması",
+      "Sitatların çox işlənməsi",
+      "Dilin bədii olması"
+    ],
+    "answer": "Mətnin hissələrinin bir-biri ilə məntiqi əlaqədə olması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "469",
+    "type": "mcq",
+    "question": "Keçid cümlələrinin əsas funksiyası nədir?",
+    "options": [
+      "Abzaslar və fikirlər arasında əlaqə yaratmaq",
+      "Yeni terminlər təqdim etmək",
+      "Məlumatı təkrarlamaq",
+      "Məqalənin həcmini artırmaq"
+    ],
+    "answer": "Abzaslar və fikirlər arasında əlaqə yaratmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "470",
+    "type": "mcq",
+    "question": "Kompozisiyanın planlaşdırılması niyə vacibdir?",
+    "options": [
+      "Mətnin ardıcıllığını təmin etdiyi üçün",
+      "Yazını daha emosional etdiyi üçün",
+      "Mənbələrin sayını artırdığı üçün",
+      "Sitatların seçimini asanlaşdırdığı üçün"
+    ],
+    "answer": "Mətnin ardıcıllığını təmin etdiyi üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "471",
+    "type": "mcq",
+    "question": "Akademik kompozisiyada balanslı təqdimat nədir?",
+    "options": [
+      "Fikir və arqumentlərin bərabər və məntiqi şəkildə bölüşdürülməsi",
+      "Sadəcə sitatların artırılması",
+      "Tək tərəfli arqumentlərin seçilməsi",
+      "Mövzunu emosional müşayiət etmək"
+    ],
+    "answer": "Fikir və arqumentlərin bərabər və məntiqi şəkildə bölüşdürülməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "472",
+    "type": "mcq",
+    "question": "Akademik yazıda təfəkkürün əsas məqsədi nədir?",
+    "options": [
+      "Fikirlərin aydın, məntiqi və əsaslandırılmış şəkildə ifadəsi",
+      "Mətnin emosional təsirini artırmaq",
+      "Yalnız sitatlar təqdim etmək",
+      "Oxucunun diqqətini yayındırmaq"
+    ],
+    "answer": "Fikirlərin aydın, məntiqi və əsaslandırılmış şəkildə ifadəsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "473",
+    "type": "mcq",
+    "question": "Analitik təfəkkür akademik yazıda nəyi tələb edir?",
+    "options": [
+      "Faktların təhlili və məntiqi əlaqələrin qurulmasını",
+      "Əsasən bədii təsvirlərdən istifadəni",
+      "Fikir və hisslərin qarışıq təqdim olunmasını",
+      "Qeyri-müəyyən arqumentlər gətirməyi"
+    ],
+    "answer": "Faktların təhlili və məntiqi əlaqələrin qurulmasını",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "474",
+    "type": "mcq",
+    "question": "Kritik təfəkkürün əsas xüsusiyyəti hansıdır?",
+    "options": [
+      "Məlumatları təhlil etmək və qiymətləndirmək",
+      "Hər şeyi olduğu kimi qəbul etmək",
+      "Mənbələri müqayisə etməmək",
+      "Təhlilsiz nəticə çıxarmaq"
+    ],
+    "answer": "Məlumatları təhlil etmək və qiymətləndirmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "475",
+    "type": "mcq",
+    "question": "Akademik yazıda obyektivlik nə ifadə edir?",
+    "options": [
+      "Fikrini şəxsi emosiyalardan uzaq, faktlara əsaslanaraq təqdim etmək",
+      "Şəxsi münasibəti əsas götürmək",
+      "Oxucunu inandırmaq üçün emosiyaları istifadə etmək",
+      "Subyektiv fikirlərlə yazını zənginləşdirmək"
+    ],
+    "answer": "Fikrini şəxsi emosiyalardan uzaq, faktlara əsaslanaraq təqdim etmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "476",
+    "type": "mcq",
+    "question": "Akademik təfəkkürün əsas elementi hansıdır?",
+    "options": [
+      "Məntiqi ardıcıllıq",
+      "Təkrarlama",
+      "İfadələrin emosional olması",
+      "Fikir sıçrayışları"
+    ],
+    "answer": "Məntiqi ardıcıllıq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "477",
+    "type": "mcq",
+    "question": "Təfəkkürün yazılı formada düzgün ifadəsi üçün nə vacibdir?",
+    "options": [
+      "Dəqiq və aydın dil işlətmək",
+      "Çoxlu lirik təsvirlərdən istifadə etmək",
+      "Cümlələri mümkün qədər uzatmaq",
+      "Məlumatları qeyri-ardıcıl vermək"
+    ],
+    "answer": "Dəqiq və aydın dil işlətmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "478",
+    "type": "mcq",
+    "question": "Təfəkkürün sistemliliyi nə deməkdir?",
+    "options": [
+      "Fikirlərin qarşılıqlı əlaqədə və strukturlaşdırılmış şəkildə təqdim olunması",
+      "Mövzunun sərbəst şəkildə dəyişdirilməsi",
+      "Düşüncələrin ardıcılsız verilməsi",
+      "Tək tərəfli yanaşma"
+    ],
+    "answer": "Fikirlərin qarşılıqlı əlaqədə və strukturlaşdırılmış şəkildə təqdim olunması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "479",
+    "type": "mcq",
+    "question": "Akademik yazıda arqumentasiya niyə vacibdir?",
+    "options": [
+      "Fikri əsaslandırmaq və oxucunu inandırmaq üçün",
+      "Mətni daha uzun göstərmək üçün",
+      "Mövzunu emosional etmək üçün",
+      "Sitatların sayını çoxaltmaq üçün"
+    ],
+    "answer": "Fikri əsaslandırmaq və oxucunu inandırmaq üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "480",
+    "type": "mcq",
+    "question": "Analitik düşüncə hansı suala cavab tapmağa çalışır?",
+    "options": [
+      "Niyə və necə?",
+      "Kim?",
+      "Harada?",
+      "Nə vaxt?"
+    ],
+    "answer": "Niyə və necə?",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "481",
+    "type": "mcq",
+    "question": "Akademik yazıda çoxmənalılıqdan qaçmaq nə üçün vacibdir?",
+    "options": [
+      "Fikirlərin səhv başa düşülməsinin qarşısını almaq üçün",
+      "Mətnin bədii təsirini artırmaq üçün",
+      "Cümlələri daha mürəkkəb etmək üçün",
+      "Tədqiqat həcmini artırmaq üçün"
+    ],
+    "answer": "Fikirlərin səhv başa düşülməsinin qarşısını almaq üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "482",
+    "type": "mcq",
+    "question": "Akademik yazıda məntiqi əlaqələndiricilərin əsas rolu nədir?",
+    "options": [
+      "Fikirlər arasında əlaqə yaratmaq və düşüncə axınını aydınlaşdırmaq",
+      "Cümlələri uzatmaq",
+      "Mövzunu dəyişmək",
+      "Sitatları artırmaq"
+    ],
+    "answer": "Fikirlər arasında əlaqə yaratmaq və düşüncə axınını aydınlaşdırmaq",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "483",
+    "type": "mcq",
+    "question": "Beynəlxalq peşəkar kommunikasiyada əsas məqsəd nədir?",
+    "options": [
+      "Məlumatın dəqiq, aydın və mədəniyyətlərarası uyğun formada ötürülməsi",
+      "Danışıqların yalnız formal qaydalar üzrə aparılması",
+      "Qarşı tərəfin arqumentlərini minimuma endirmək",
+      "Çoxsaylı qeyri-rəsmi ifadələrdən istifadə etmək"
+    ],
+    "answer": "Məlumatın dəqiq, aydın və mədəniyyətlərarası uyğun formada ötürülməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "484",
+    "type": "mcq",
+    "question": "Mədəniyyətlərarası kommunikasiya zamanı ən vacib strateji element hansıdır?",
+    "options": [
+      "Qarşı tərəfin mədəni kontekstinin nəzərə alınması",
+      "Yalnız texniki terminlərin tətbiqi",
+      "Ünsiyyət zamanı ritorikadan istifadə",
+      "Emosional vurğuların artırılması"
+    ],
+    "answer": "Qarşı tərəfin mədəni kontekstinin nəzərə alınması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "485",
+    "type": "mcq",
+    "question": "Beynəlxalq mühitdə rəsmi yazışmaların əsas xüsusiyyəti nədir?",
+    "options": [
+      "Standartlaşdırılmış, obyektiv və diplomatik tərzdə qurulması",
+      "Qeyri-standart ifadələrlə zəngin olması",
+      "Şəxsi fikirlərin üstünlük təşkil etməsi",
+      "Üslubun dəyişkən və qeyri-sabit olması"
+    ],
+    "answer": "Standartlaşdırılmış, obyektiv və diplomatik tərzdə qurulması",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "486",
+    "type": "mcq",
+    "question": "Peşəkar kommunikasiya etikası nəyi nəzərdə tutur?",
+    "options": [
+      "Hörmət, şəffaflıq və məsuliyyət prinsiplərinə əsaslanan ünsiyyəti",
+      "Qarşı tərəfi inandırmaq üçün manipulyativ üsulları",
+      "Mübahisələrdə emosional üstünlük əldə etməyi",
+      "Formal qaydaların tamamilə istisna edilməsi"
+    ],
+    "answer": "Hörmət, şəffaflıq və məsuliyyət prinsiplərinə əsaslanan ünsiyyəti",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "487",
+    "type": "mcq",
+    "question": "E-mail vasitəsilə beynəlxalq kommunikasiya zamanı başlıca tələb nədir?",
+    "options": [
+      "Dəqiqlik, strukturlaşdırılmış məzmun və etik dillə ifadə",
+      "Uzun giriş hissəsi yazmaq",
+      "Qeyri-rəsmi abbreviaturalardan istifadə",
+      "Şəxsi məlumatların geniş təqdimatı"
+    ],
+    "answer": "Dəqiqlik, strukturlaşdırılmış məzmun və etik dillə ifadə",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "488",
+    "type": "mcq",
+    "question": "Beynəlxalq danışıqlarda neytral üslubdan istifadə etməyin səbəbi nədir?",
+    "options": [
+      "Mədəniyyətlərarası anlaşılmazlıqları minimuma endirmək",
+      "Danışıqları sürətləndirmək",
+      "Formalizmi tamamilə aradan qaldırmaq",
+      "Emosional təsiri artırmaq"
+    ],
+    "answer": "Mədəniyyətlərarası anlaşılmazlıqları minimuma endirmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "489",
+    "type": "mcq",
+    "question": "Akademik və peşəkar kommunikasiya standartlarında “etik davranış” nəyi tələb edir?",
+    "options": [
+      "Məlumatın düzgünlüyü, mənbələrin düzgün göstərilməsi və hörmətli üslub",
+      "Öz mövqeyini üstün tutmaq üçün hissi ifadələr",
+      "Ardıcıl olmayan arqumentasiya",
+      "Bütün qeyri-rəsmi üslubların tətbiqi"
+    ],
+    "answer": "Məlumatın düzgünlüyü, mənbələrin düzgün göstərilməsi və hörmətli üslub",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "490",
+    "type": "mcq",
+    "question": "Transmilli əməkdaşlıqda yazılı kommunikasiya niyə prioritet hesab olunur?",
+    "options": [
+      "Dəqiqliyi, arxivləşdirilməni və hüquqi etibarlılığı təmin etdiyi üçün",
+      "Emosional təsiri daha güclü olduğu üçün",
+      "Şəxsi münasibətləri daha çox əks etdirdiyi üçün",
+      "Danışıqları qeyri-rəsmi hala gətirdiyi üçün"
+    ],
+    "answer": "Dəqiqliyi, arxivləşdirilməni və hüquqi etibarlılığı təmin etdiyi üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "491",
+    "type": "mcq",
+    "question": "Akademik və peşəkar məktublarda obyektiv üslubun tətbiqi nə üçün vacibdir?",
+    "options": [
+      "Şəxsi fikirləri minimuma endirərək faktları ön plana çıxardığı üçün",
+      "Məktubun emosional təsirini qüvvətləndirdiyi üçün",
+      "Oxucu ilə qeyri-rəsmi kontakt yaratdığı üçün",
+      "Subyektiv yanaşmanı legitimləşdirdiyi üçün"
+    ],
+    "answer": "Şəxsi fikirləri minimuma endirərək faktları ön plana çıxardığı üçün",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "492",
+    "type": "mcq",
+    "question": "Elmi rəhbərlə əməkdaşlıqda etik davranışa nə daxildir?",
+    "options": [
+      "Məsuliyyətli, şəffaf və qarşılıqlı hörmətə əsaslanan ünsiyyət",
+      "Bütün işi rəhbərdən gözləmək",
+      "Rəhbərin qeyri-rəsmi tapşırıqlarını yerinə yetirmək",
+      "Rəhbərdən icazəsiz nəticələri paylaşmaq"
+    ],
+    "answer": "Məsuliyyətli, şəffaf və qarşılıqlı hörmətə əsaslanan ünsiyyət",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "493",
+    "type": "mcq",
+    "question": "Akademik cəzaların tətbiqi nəyi hədəfləyir?",
+    "options": [
+      "Qeyri-etik davranışların qarşısının alınmasını və akademik mühitin qorunmasını",
+      "Tələbələrin yazılarının qısaldılmasını",
+      "Elmi terminlərin düzgün yazılmasını",
+      "Tədqiqat prosesinin sadələşdirilməsini"
+    ],
+    "answer": "Qeyri-etik davranışların qarşısının alınmasını və akademik mühitin qorunmasını",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "494",
+    "type": "mcq",
+    "question": "Tədqiqatda maraqlar toqquşması (conflict of interest) nədir?",
+    "options": [
+      "Tədqiqatçının şəxsi maraqlarının elmi nəticələrə təsir göstərə biləcəyi hallar",
+      "Tədqiqatçının böyük həcmdə mənbə istifadə etməsi",
+      "İstinadların çox olması",
+      "Mənbələrin eyni ölkədən seçilməsi"
+    ],
+    "answer": "Tədqiqatçının şəxsi maraqlarının elmi nəticələrə təsir göstərə biləcəyi hallar",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "495",
+    "type": "mcq",
+    "question": "Elmi ekspertizanın əsas funksiyası nədir?",
+    "options": [
+      "Tədqiqatın etik prinsiplərə uyğunluğunu qiymətləndirmək",
+      "Tədqiqatın dil səviyyəsini müəyyən etmək",
+      "Mətnin strukturunu təkmilləşdirmək",
+      "Mənbələrin sayını artırmaq"
+    ],
+    "answer": "Tədqiqatın etik prinsiplərə uyğunluğunu qiymətləndirmək",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "496",
+    "type": "mcq",
+    "question": "Akademik yazıda etika ilə əxlaqın fərqi nədən ibarətdir?",
+    "options": [
+      "Etika nəzəri, əxlaq isə praktik davranış normalarıdır",
+      "Etika şəxsi seçimlərdən asılıdır, əxlaq isə deyil",
+      "Əxlaqın elmi tərəfi etikanı üstələyir",
+      "Etika yalnız dini qaydalarla əlaqəlidir"
+    ],
+    "answer": "Etika nəzəri, əxlaq isə praktik davranış normalarıdır",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "497",
+    "type": "mcq",
+    "question": "Etika ilə əxlaqın ortaq cəhəti hansıdır?",
+    "options": [
+      "insan davranışını düzgün istiqamətə yönəltməsi",
+      "həmişə bir-birinə zidd olması",
+      "yalnız yazılı şəkildə mövcud olması",
+      "ancaq hüquqi nəticələr doğurması"
+    ],
+    "answer": "insan davranışını düzgün istiqamətə yönəltməsi",
+    "category": "Akademik yazı və etika"
+  },
+  {
+    "id": "498",
+    "type": "mcq",
+    "question": "Akademik mühitdə etik davranışın əsas qaynağı nədir?",
+    "options": [
+      "etikada formalaşmış prinsiplərin tətbiqi",
+      "əxlaqi adətlərin təsadüfi seçimi",
+      "yalnız şəxsi inanc və duyğular",
+      "formal olmayan davranışlar"
+    ],
+    "answer": "etikada formalaşmış prinsiplərin tətbiqi",
+    "category": "Akademik yazı və etika"
+  }
+]

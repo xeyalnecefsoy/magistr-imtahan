@@ -1,0 +1,200 @@
+{
+  "subject": "Dizaynın fəaliyyət sahələri",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Beynəlxalq sənaye dizayn təşkilatının yaranması",
+      "answer": "1907-ci ildə Almaniyada Qabaqcıl rəssam və mühəndislərin ittifaqı yaradılmışdır. Avropanın ilk dizaynerlərindən H.Mutozius və P.Berens hesab olunurlar.\n\nÖtən əsrin 20-ci illərində istehsalat incəsənətinin iki dünyaca məşhur məktəbi meydana gəlib: BAUHAUS (Ali memarlıq-bədii məktəb) 1919-cu ildə Almaniyanın Veymar şəhərində və VHUTEMAS (Ali bədii-texniki emalatxanalar) 1920-ci ildə Moskva şəhərində.\n\nBəzi tarixçilər dizayner peşəsinin yaranma tarixini XX əsrin əvvəli ilə əlaqələndirirlər, bu zaman rəssamlar bir sıra sənaye müəssisələrində aparıcı vəzifələrə təyinat almışdılar. Bunun misalları qismində Almaniyanın AEQ adlı elektrotexnika şirkəti və Amerikanın 'Ford motors' avtomobil firmasının firma üslubları qeyd edilir.",
+      "source": "Mühazirə 1",
+      "category": "Dizaynın tarixi"
+    },
+    {
+      "id": 2,
+      "question": "Kostyum dizaynının əmələ gəlməsi və formalaşması",
+      "answer": "Kostyum (geyim) dizaynı sənaye inqilabı dövründə formalaşmağa başlamışdır. Sənətkar əməyi əşyanın formasının yaradılması prosesi ilə onun hazırlanması arasında qırılmaz bağlılığın olmasından ibarət idi. Sənaye istehsalı həmin əməyi iki hissəyə bölmüşdür: əşyanın orijinal formasının yaradılmasının birdəfəlik prosesi və onun həmin forma üzrə dəfələrlə kopyalanması.\n\nDizaynın pionerləri arasında olan Uilyam Morris (1834-1896) həyatın yeni üslubunun yaradılması proqramını təklif etmişdir. O, yüksək inkişafa malik texnikanın əl işi, sənətkarların əməyi ilə mümkün birləşmə mənzərəsini xalq yaradıcılığının xüsusi təzahürü kimi təqdim etmişdir.\n\nKostyum dizaynı da digər dizayn sahələri kimi XIX əsrin sonlarında 'İncəsənətin və sənətkarlığın bağlılığı uğrunda' hərəkatı ilə formalaşmağa başlamışdır.",
+      "source": "Mühazirə 1",
+      "category": "Geyim dizaynı"
+    },
+    {
+      "id": 3,
+      "question": "Dizaynın təsviri vasitələri",
+      "answer": "Dizayn layihə mədəniyyətinin bir neçə şaxələrinin kəsişməsində yaranır: bədii layihə proqramların, kütləvi sənayenin, mühəndis layihələndirmənin, elmin kəsişməsində.\n\nSənaye dizaynına mühəndis-konstruktorların (dizaynerlərin) fəaliyyət mərhələləri daxildir:\n- Məmulatların formasının təklif edilməsi\n- Modelləşdirilməsi\n- Eskizləşdirilməsi\n- Çertyojunun çəkilməsi\n- Maddi modellərinin yerinə yetirilməsi\n- Tədqiqatın aparılması və imkanların qiymətləndirilməsi\n\nDizaynın təsviri vasitələrinə həmçinin rəng və formanın tətbiqi, proporsiyalar, nizam-intizam, məkan anlayışları daxildir. Memarlıqda bədii obrazların yaradılmasında, interyer məkanın təşkil edilməsində, memarlıq kütləsinin qrupunda, hissə və bütövlüyün proporsional nisbətində, ritmik quruluşunda bu vasitələr tətbiq edilir.",
+      "source": "Mühazirə 1, 2, 4",
+      "category": "Dizayn əsasları"
+    },
+    {
+      "id": 4,
+      "question": "Art-dizaynın əsas xüsusiyyətləri",
+      "answer": "Art-dizayn incəsənət və dizaynın qovuşmasından yaranan yaradıcılıq sahəsidir. Dizayn – insan yaradıcılığının ali formalarından biridir, çünki həqiqi insanların həqiqi tələbatlarına xidmət edir.\n\nArt-dizaynın əsas xüsusiyyətləri:\n\n1. Funksionallıq: Dizayn hər zaman funksionaldır, həm də nəzərə almaq lazımdır ki, funksiya qismində hətta onun səbəb olduğu emosiya da çıxış edə bilər.\n\n2. Yenilikçilik: Bəzi obyektlər var ki, onlara funksional yaxud qənaətli olmaq heç də vacib deyil, lakin onlara nüfuz edilən ideya o dərəcədə müasir və yenilikçi olur ki, gələcəyin tendensiyalarını o qədər yaxşı duyur.\n\n3. Estetik dəyər: İstehsalçılar sanki cəmiyyətin adından və cəmiyyətin tapşırığı ilə sənayenin sosial sifarişini ifadə edir.\n\n4. Mədəni təsir: Bu obyektlər insanları onlardan istifadə etməyə, hətta düşünməyə, dərk etməyə və yaratmağa vadar edir.",
+      "source": "Mühazirə 1",
+      "category": "Art-dizayn"
+    },
+    {
+      "id": 5,
+      "question": "İnteryer dizaynı",
+      "answer": "Memarlıq – gündəlik xüsusi və ümumi həyatın ehtiyaclarını və insanların fəaliyyəti üçün nəzərdə tutulan bina və kompleksləri tikən incəsənətdir. İstənilən binanın özəyi var – bu interyerdir.\n\nİnteryerin əsas xüsusiyyətləri:\n\n1. Xarakterinin təyinatı: Binanın xarici formasında ifadə edilən xarakteri, həyat şəraiti, rahatlığı, genişliyi, hərəkət azadlığının tələbləri ilə öncədən müəyyən edilir.\n\n2. Məkan təşkili: Memarlığın mənası, onun məqsədəuyğunluğu, interyer məkanın təşkil edilməsində, memarlıq kütləsinin qrupunda, hissə və bütövlüyün proporsional nisbətində, ritmik quruluşunda aşkar olunur.\n\n3. İnteryer və binanın həcminin nisbəti: Memarlığın bədii dilinin özünəməxsusluğunu səciyyələndirir.\n\n4. Bədii tərtibat: Binanın xarici görünüşünün bədii tərtibatı böyük məna kəsb edir.\n\nEv interyeri bağ landşaftına yaxınlaşmağa başlamışdır, onları ayıran sərhədlər şəklini dəyişərək daha az gözə çarpırlar.",
+      "source": "Mühazirə 4, 5",
+      "category": "İnteryer dizaynı"
+    },
+    {
+      "id": 6,
+      "question": "Landşaft dizaynının dekorativ elementləri",
+      "answer": "Landşaft dizaynının dekorativ elementlərinə aşağıdakılar daxildir:\n\n1. Qazon: Xüsusi qurulmuş çim yaradan, yaxud döşənən alçaq boylu müxtəlif bitkilərlə əkilmiş, hamarlanmış sahədir. Qazon çiçəkliyin, kiçik memarlıq formalarının, hovuzların gözəlliyini nəzərə çarpdırır.\n\n2. Köşklər: İstirahət üçün nəzərdə tutulmuş bağ tikililəri. Qədim Misirdə b.e. çox əsrlər öncə taxta köşklər tikilirdi.\n\n3. Perqolalar: Üstdən bir-biri ilə taxta barmaqlıqlarla birləşən metal, daş, yaxud taxta arkalardan ibarət olan sarmaşan bitkili çardaqdır.\n\n4. Trelyajlar: Dekorativ sarmaşan və dırmaşan bitkilərlə sarınan barmaqlıqlı divarlardır.\n\n5. Hasarlar və darvazalar: Sərhədi keçdikdə sadə şəhərli, ağaya çevrilir. Darvaza firavanlıq və xoşbəxtlik rəmzi sayılır.\n\n6. Su elementləri: Fəvvarə, bulaq, süni göl. Su həyat mənbəyidir və susuz sahə öz gözəlliyinin yarısını itirir.\n\n7. Pilləkənlər: Bağ landşaftının ən əhəmiyyətli elementi.",
+      "source": "Mühazirə 5",
+      "category": "Landşaft dizaynı"
+    },
+    {
+      "id": 7,
+      "question": "Memarlıq dizaynın dekorativ elementləri",
+      "answer": "Memarlıq dizaynı - bədii əşya yaradıcılığının və sənaye istehsalatının elmi-əsaslı mühəndis praktikasını birləşdirən layihə fəaliyyətinin spesifik cərgəsidir.\n\nDekorativ elementlər:\n\n1. Bədii formalar: Bütün dizayn növlərindən fərqli olaraq, memarlıq dizaynı öz bədii və monumental formaları ilə mühitə və yaşayan insanlara daima təsir göstərir.\n\n2. Heykəltaraşlıq və təsviri incəsənət: Bədii yüksəliş dövrlərində memarlıq digər incəsənət növləri ilə birlikdə ahəngdar inkişaf edir. Heykəltəraşlıq, təsviri incəsənət, dekorativ incəsənətlər tikilinin əsasına daxil olan ideyaları konkret obrazlarda ifadə edirlər.\n\n3. Memarlığın əbədi qanunları: Nizam-intizam, məkan, proporsiyalar.\n\n4. Rəng və forma: Memarlıq, təşkil olunmuş məkani mühit kimi, əsasən rəng və formanın tətbiqi ilə formalaşır.\n\n5. Üzvi memarlıq: İtalyan dizayneri Frenk Llyod Rayt tərəfindən yaradılmış konsepsiya. Təbiətin davamı olan memarlıqdır. Onda olan bütün obrazlar və formalar üzvi təbiətdən götürülür.",
+      "source": "Mühazirə 4",
+      "category": "Memarlıq dizaynı"
+    },
+    {
+      "id": 8,
+      "question": "Kostyumun yaradılmasının əsas prinsipləri",
+      "answer": "Kostyumun yaradılmasının əsas prinsipləri Uilyam Morrisin həyatın yeni üslubunun yaradılması proqramına əsaslanır:\n\n1. Bədii sənətkarlıq və texnikanın birləşməsi: Yüksək inkişafa malik texnikanın əl işi, sənətkarların əməyi ilə mümkün birləşməsi xalq yaradıcılığının xüsusi təzahürü kimi təqdim edilir.\n\n2. Funksionallıq: Forma funksiyanın ardınca gedir – qanun belədir. Funksiya dəyişməz olduğu yerdə formanın özü də dəyişməz olur.\n\n3. Sadəlik və məqsədəuyğunluq: Sənaye məhsullarının və tikililərin idealı qismində həmin obyektlərin zahiri görünüşünün sadəliliyi və funksionallığı irəli sürülür.\n\n4. Material seçimi: Əl əməyi nəticəsində hazırlanan məhsullar özündə əsrlər boyu toplanılmış zəngin təcrübə və ənənələr daşıyır.\n\n5. Estetik görünüş: Dizaynerlər məhsulun estetik görünüşünə görə cavabdehlik daşıyır.\n\n6. Çoxfunksionallıq və mobillik: Transformasiya olunan, yığılan əşyaların layihələndirilməsi prinsipi.",
+      "source": "Mühazirə 1",
+      "category": "Geyim dizaynı"
+    },
+    {
+      "id": 9,
+      "question": "Mətbəə dizaynı",
+      "answer": "Mətbəə dizaynı qrafik dizaynın bir hissəsidir. Qrafik dizayn çoxəsrli adət və ənənələri davam etdirir, dizayn yaradıcılığının daha geniş yayılmış növlərindən biridir. Reklama tələbat yarandığı dövrdə (XX əsrin əvvəli) çox geniş yayılmışdır.\n\nMətbəə/Çap dizaynının əhatə sahəsi:\n\n1. Broşuralar\n2. Jurnallar\n3. Plakatlar\n4. Qablaşdırma\n5. Vizit kartları\n\nÇap dizaynerləri vizual cəhətdən cəlbedici və funksional dizaynlar yaratmaq üçün aşağıdakı amilləri nəzərə alırlar:\n- Tərtibat (layout)\n- Tipoqrafiya\n- Rəng sxemləri\n- Çap xüsusiyyətləri\n\nQrafik dizaynın ümumi istifadə sferası böyükdür: qablaşdırma dizaynı, etiket dizaynı, firma nişanların işlənib hazırlanması, şriftlərin hazırlanması, reklam şitləri, elanlar, afişalar və sair.",
+      "source": "Mühazirə 3",
+      "category": "Qrafik dizayn"
+    },
+    {
+      "id": 10,
+      "question": "Vizual Veb dizaynı",
+      "answer": "Vizual Veb dizaynı qrafik dizaynın mühüm sahəsidir.\n\nVeb və UI/UX Dizaynının əsas xüsusiyyətləri:\n\n1. Vizual cəlbedicilik: Veb dizaynerləri vebsaytlar üçün vizual cəlbedici və istifadəçi dostu dizaynlar yaratmağa diqqət yetirirlər.\n\n2. İstifadəçi təcrübəsi: Veb saytlardan mobil tətbiqetmələrə qədər qrafik dizayn istifadəçi təcrübəsinə əhəmiyyətli dərəcədə təsir göstərir.\n\n3. Dizayn elementləri:\n   - Düzən (layout)\n   - Naviqasiya\n   - Tipoqrafiya\n   - Rəng sxemləri\n   - Təsvirlər\n\n4. UI/UX (İstifadəçi İnterfeysi/İstifadəçi Təcrübəsi): Dizaynerləri intuitiv, istifadəçi mərkəzli və vizual cəlbedici olan interfeyslərin və qarşılıqlı əlaqələrin dizaynında ixtisaslaşırlar.\n\n5. İntuitiv interfeyslər: Düşünülmüş planlar və vizual görüntülər istifadəçinin qarşılıqlı əlaqəsini artırır, təcrübəni xoş və yaddaqalan edir.",
+      "source": "Mühazirə 3",
+      "category": "Qrafik dizayn"
+    },
+    {
+      "id": 11,
+      "question": "Sərgi Dizaynı",
+      "answer": "Sərgi dizaynı ətraf mühit və ekoloji dizaynın bir hissəsidir.\n\nƏtraf Mühit və Sərgi Dizaynının xüsusiyyətləri:\n\n1. Fiziki məkanlar üçün vizual təcrübələr: Ekoloji dizaynerlər sərgilər, ticarət şouları, pərakəndə satış mağazaları və muzeylər kimi fiziki məkanlar üçün vizual təcrübələr yaradırlar.\n\n2. Nəzərə alınan amillər:\n   - Məkan tərtibatı\n   - İşarələr (signage)\n   - Yol tapma (wayfinding)\n   - Qrafika\n\n3. Məqsədlər:\n   - Ümumi atmosferi yaxşılaşdırmaq\n   - Məlumatı effektiv şəkildə çatdırmaq\n\n4. Vizual ünsiyyət: Qrafik dizayn fikir və anlayış arasındakı boşluğu aradan qaldırmağa kömək edir. Mürəkkəb məlumatları asanlaşdırır, hekayə izahını artırır və müxtəlif mühitlərdə effektiv ünsiyyəti asanlaşdırır.",
+      "source": "Mühazirə 3",
+      "category": "Qrafik dizayn"
+    },
+    {
+      "id": 12,
+      "question": "Hazırki dövrdə dizaynın inkişafının tendensiyaları",
+      "answer": "Müasir dövrdə dizaynın inkişafının əsas tendensiyaları:\n\n1. Üzvi memarlıq: 'Üzvi memarlıq' anlayışının yaradıcısı italyan dizayneri Frenk Llyod Raytın konsepsiyasına əsaslanır. Üzvi memarlıq, təbiətin davamı olan memarlığın, bəşəriyyəti tam azad edən əsas güclü vasitələrdən biridir.\n\n2. Funksionalizm: XX əsrin əvvəllərində memarlıq sahəsində formalaşdırılmış yeni cərəyan. Liderləri bədii formanın funksional məqsədəuyğunluğunda onun gözəlliyini görürdü.\n\n3. Yeni texnologiyalar: Məişət əşyaları, pop-mədəniyyətin cərəyanları, sənaye dizaynına güclü təsir göstərir.\n\n4. İnteryer və landşaftın birləşməsi: Ev interyeri bağ landşaftına yaxınlaşmağa başlamışdır, onları ayıran sərhədlər daha az gözə çarpır.\n\n5. Müasir materiallar: Plastmas və alüminium profillər, müasir dam örtüyünün müxtəlif növləri tikintidə inqilabi tərəqqiyə səbəb olur.\n\n6. Fərdi layihələndirmə: Üzvi layihələndirmə son dərəcə fərdi layihələndirmədir.",
+      "source": "Mühazirə 1, 4, 5",
+      "category": "Dizayn tendensiyaları"
+    },
+    {
+      "id": 13,
+      "question": "Sənaye dizaynı",
+      "answer": "Sənaye dizaynı - Obyektlərin son dərəcə geniş bir çevrəsini əhatə edir - ən əhəmiyyətsiz obyektlərdən başlayaraq qlobal və son dərəcə mürəkkəb obyektlərə qədər.\n\nBirinci qrup: Elm tutumlu, texniki cəhətdən mürəkkəb, dövlətin təsərrüfat-iqtisadi potensialını müəyyənləşdirən məhsullar (maşınqayırma və dəzgah istehsalı məhsulları, nəqliyyat vasitələri, silah).\n\nİkinci qrup: Ümumi istehlak əşyaları – istifadə təyinatına və xarakterinə görə bir neçə altqrupa bölünür (mebel, qab-qacaq, məişət cihazları, aparatura və s.).\n\nÜmumdünya təsnifatında əsl dizayn sənaye dizaynı sayılır, çünki onun əsas məqsədi - sənaye məmulatlarının kütləvi istehsalının layihə hazırlığıdır.\n\nSənaye dizaynı - yaradıcılıq üsuludur, sənaye məmulatlarının, onların kompleks və sistemlərinin bədii-texniki layihələndirməsinin proses və nəticəsidir.\n\nSənaye dizaynı, avtomobil istehsalatından başlayaraq yazı ləvazimatlarının istehsalına qədər məhsulun bütün növlərində tətbiq edilə bilər.",
+      "source": "Mühazirə 2",
+      "category": "Sənaye dizaynı"
+    },
+    {
+      "id": 14,
+      "question": "Geyim dizaynın konsepsiyası",
+      "answer": "Geyim dizaynın konsepsiyası aşağıdakı prinsiplərə əsaslanır:\n\n1. İstehlakçı yönümlülük: Sənayedə dizayn istehlakçıların tələbatına uyğun istiqamətlənir və ona görə də onun işi müəyyən arzulara və gələcəkdə yaranan əşyanın xüsusiyyətlərinə tabedir.\n\n2. Layihələndirmə amilləri:\n   - Konstruktorun şəxsiyyəti (istedadı, təxəyyülü, zövqü)\n   - Müəssisə (məqsəd, iş şəraiti, iqtisadi amillər)\n   - İstehlakçıların kəmiyyəti (maliyyə imkanları, normalar, mənbələr, ehtiyac)\n   - İstehsalat (texnoloji prosesi, əhatə edən mühit)\n   - İstismar ilə bağlı olanlar (istehsalın təşkili)\n   - Satışlar (qablaşdırma, daşınma, satış bazası)\n\n3. Forma və funksiya vəhdəti: 'Hər yerdə və həmişə forma funksiyanın ardınca gedir – qanun belədir.'\n\n4. Bədii sənətkarlıq ənənələri: Əl əməyi nəticəsində hazırlanan məhsullar özündə əsrlər boyu toplanılmış zəngin təcrübə və ənənələr daşıyır.",
+      "source": "Mühazirə 1, 2",
+      "category": "Geyim dizaynı"
+    },
+    {
+      "id": 15,
+      "question": "Sənaye dizaynının yaranması",
+      "answer": "Sənaye dizaynının yaranması XIX əsrin sonlarına təsadüf edir:\n\n1. XIX əsr inanılmaz və son dərəcə heyrətləndirən tərəqqi əsri kimi tarixə düşmüşdür. Dilijans və qaz qələmucu ilə başlanmış əsr avtomobil və yazı makinası ilə bitmişdir.\n\n2. Sənayeləşmə əsrinin qədəm qoyması ilə çertyojlar, modellər və sınaq nümunələri şəklində prototiplərdən məmulatların çoxsaylı tirajlanmasına başlanılmışdır.\n\n3. Sənaye istehsalı sənətkar əməyini iki hissəyə bölmüşdür: əşyanın orijinal formasının yaradılmasının birdəfəlik prosesi və onun həmin forma üzrə dəfələrlə kopyalanması. Beləcə yeni peşə - dizayner yaranmışdır.\n\n4. AEQ adlı Avropada ən iri elektrotexniki konsernin bədii direktoru vəzifəsində çalışan Peter Berens layihə fəaliyyəti ilə aktiv surətdə məşğul olub - elektrik avadanlıqlar əşyalarından fabrik binalarına qədər.\n\n5. 'Memarlığın Çikaqo məktəbi'ndə çoxmərtəbəli ofis binalarının yeni tikinti prinsipləri işlənib hazırlanmışdır.",
+      "source": "Mühazirə 1",
+      "category": "Sənaye dizaynı"
+    },
+    {
+      "id": 16,
+      "question": "Landşaft dizaynının fəaliyyət sahəsi",
+      "answer": "Landşaft dizaynının başlanğıcı Yer üzündə cənnətin təsəvvürü ilə bağlıdır.\n\nFəaliyyət sahələri:\n\n1. Bağ planlaşdırması: Bağ planlaşdırmasının əsas məqsədi - yaşıllıqların və rəngarəng kompozisiya ansambllarının yaradılması üçün dekorativ bitkiləri məkani, bədii və kolorit cəhətdən birləşdirməkdir.\n\n2. Əsas faktorlar: Torpaq, iqlim, mühit.\n\n3. Dörd əsas prinsip:\n   - Üçölçülü məkanın tətbiqi\n   - Tətbiq edilən materialların sərfəli istifadəsi\n   - İstehlakçıların tələbatı\n   - Yerli faunanın nəzərə alınması\n\n4. Kompozisiya elementləri: Dekorativ bitkilər (ağaclar, kollar, çiçəkaçan və dekorativ-yarpaqlı ot bitkiləri), relyefin xüsusiyyətləri, torpağın tərkibi, su elementləri.\n\n5. Fen-şuy prinsipi: Təbiətlə harmoniyada yaşama qədim çin incəsənətidir. Beş əsas element: od, torpaq, su, ağac, metal.\n\n6. Bağ tikililəri: Köşklər, perqolalar, trelyajlar, hasarlar, darvazalar, pilləkənlər.",
+      "source": "Mühazirə 5",
+      "category": "Landşaft dizaynı"
+    },
+    {
+      "id": 17,
+      "question": "İnteryer dizaynda universal paylaşdırma",
+      "answer": "İnteryer dizaynda universal paylaşdırma memarlığın əsas prinsiplərinə əsaslanır:\n\n1. İnteryer və binanın həcminin nisbəti memarlığın bədii dilinin özünəməxsusluğunu səciyyələndirir.\n\n2. Memarlığın mənası interyer məkanın təşkil edilməsində, memarlıq kütləsinin qrupunda, hissə və bütövlüyün proporsional nisbətində, ritmik quruluşunda aşkar olunur.\n\n3. Memarlığın əbədi qanunları: nizam-intizam, məkan, proporsiyalar.\n\n4. Memarlıq, təşkil olunmuş məkani mühit kimi, əsasən rəng və formanın tətbiqi ilə formalaşır.\n\n5. İnsanın ictimai tələbatının müxtəlifliyi memarlıq növlərinin çeşidliliyini yaradır: yaşayış, ictimai-mülki, sənaye, özəl, klub, teatr və s.\n\n6. Şəhərsalma yerin, iqtisadiyyatın xüsusiyyətini, nəqliyyat şəraitlərini, əhalinin yerləşdirilməsini nəzərə alır.\n\n7. Bədii yüksəliş dövrlərində memarlıq digər incəsənət növləri ilə birlikdə ahəngdar inkişaf edir.",
+      "source": "Mühazirə 4",
+      "category": "İnteryer dizaynı"
+    },
+    {
+      "id": 18,
+      "question": "Mətbəə dizaynın fəaliyyət sahəsi",
+      "answer": "Mətbəə (çap) dizaynın fəaliyyət sahəsi qrafik dizaynın geniş əhatə dairəsini təşkil edir:\n\n1. Çap məhsulları:\n   - Broşuralar\n   - Jurnallar\n   - Plakatlar\n   - Qablaşdırma\n   - Vizit kartları\n\n2. Qrafik dizaynın növ mütəlifliyi:\n   - Qablaşdırma dizaynı\n   - Etiket dizaynı\n   - Firma nişanların işlənib hazırlanması\n   - Şriftlərin hazırlanması\n   - Reklam şitləri\n   - Elanlar, afişalar\n\n3. Brendləşdirmə və kimlik dizaynı: Loqolar, rəng palitraları, mətbəə və brend qaydaları daxil olmaqla biznes üçün vizual şəxsiyyətlərin yaradılması.\n\n4. Qrafik dizaynın əhəmiyyəti:\n   - Vizual ünsiyyət: Mürəkkəb məlumatları asanlaşdırır\n   - Marka kimliyi: İstehlakçılar arasında tanınma və etimad yaradır\n   - Vizual müraciət: İzləyicilərin diqqətini cəlb edir",
+      "source": "Mühazirə 3",
+      "category": "Qrafik dizayn"
+    },
+    {
+      "id": 19,
+      "question": "Geyim və aksesuarların dizaynı",
+      "answer": "Geyim və aksesuarların dizaynı sənaye dizaynının ikinci qrupuna - ümumi istehlak əşyalarına daxildir.\n\nƏsas prinsiplər:\n\n1. İstehlakçı tələbatı: Sənayedə dizayn istehlakçıların tələbatına uyğun istiqamətlənir.\n\n2. Layihələndirmə amilləri:\n   - Konstruktorun istedadı və zövqü\n   - İqtisadi amillər\n   - İstehsalat texnoloji prosesi\n   - Qablaşdırma və satış\n\n3. Bədii sənətkarlıq: Uilyam Morrisin prinsiplərinə görə, yüksək inkişafa malik texnikanın əl işi ilə birləşməsi xalq yaradıcılığının xüsusi təzahürü kimi təqdim edilir.\n\n4. Forma və funksiya: 'Hər bir əşyanın təbiətdə öz forması, başqa sözlə desək – öz zahiri xüsusiyyəti mövcuddur ki, o, məhz həmin əşyanın nə olduğunu bizə göstərir.'\n\n5. Estetik görünüş: Dizaynerlər məhsulun estetik görünüşünə görə cavabdehlik daşıyır.\n\n6. Yeni texnologiyaların təsiri: Məişət əşyaları, pop-mədəniyyətin cərəyanları sənaye dizaynına güclü təsir göstərir.",
+      "source": "Mühazirə 1, 2",
+      "category": "Geyim dizaynı"
+    },
+    {
+      "id": 20,
+      "question": "Memarlıq dizaynın fəaliyyəti",
+      "answer": "Memarlıq dizaynı - bədii əşya yaradıcılığının və sənaye istehsalatının elmi-əsaslı mühəndis praktikasını birləşdirən layihə fəaliyyətinin spesifik cərgəsidir.\n\nFəaliyyət sahələri:\n\n1. Bina və komplekslərin tikilməsi: Gündəlik xüsusi və ümumi həyatın ehtiyaclarını və insanların fəaliyyəti üçün nəzərdə tutulan strukturlar.\n\n2. İnteryer layihələndirmə: İstənilən binanın özəyi olan interyerin yaradılması.\n\n3. Memarlıq növləri: Yaşayış, ictimai-mülki, sənaye, özəl, klub, teatr və s.\n\n4. Şəhərsalma: Yerin, iqtisadiyyatın xüsusiyyətini, nəqliyyat şəraitlərini, əhalinin yerləşdirilməsini nəzərə alır.\n\n5. Üzvi memarlıq: Frenk Llyod Raytın konsepsiyası - təbiətin davamı olan memarlıq.\n\n6. Sintez: Heykəltaraşlıq, təsviri incəsənət, dekorativ incəsənətlərlə birləşmə.\n\n7. Əbədi qanunlar: Nizam-intizam, məkan, proporsiyalar.\n\n8. Rəng və forma tətbiqi: Memarlıq təşkil olunmuş məkani mühit kimi formalaşır.",
+      "source": "Mühazirə 4",
+      "category": "Memarlıq dizaynı"
+    },
+    {
+      "id": 21,
+      "question": "Reklam dizaynı",
+      "answer": "Reklam dizaynı qrafik dizaynın mühüm sahələrindən biridir.\n\nReklam və Marketinq Dizaynının xüsusiyyətləri:\n\n1. Vizual materiallar hazırlanması:\n   - Reklamlar\n   - Bannerlər\n   - Sosial media qrafikası\n   - E-poçt xəbər bülletenləri\n\n2. Qrafik dizayn istehsalçı və istehlakçılar arasında şərti vizual vasitəçi rolunu oynayır.\n\n3. Tarixçə: Reklama tələbat yarandığı dövrdə (XX əsrin əvvəli) çox geniş yayılmışdır.\n\n4. Məqsədlər:\n   - İstənilən mesajı effektiv şəkildə çatdırmaq\n   - Hədəf auditoriyanı cəlb etmək\n   - Marka kimliyi yaratmaq\n\n5. Hərəkətli qrafika və animasiya: Vizual olaraq dinamik və cəlbedici məzmun yaratmaq üçün qrafik dizayn animasiya ilə birləşdirilir.\n\n6. Əməkdaşlıq: Reklam dizaynerləri marketinq qrupları ilə əməkdaşlıq edirlər.",
+      "source": "Mühazirə 3",
+      "category": "Qrafik dizayn"
+    },
+    {
+      "id": 22,
+      "question": "Reklamın bədii elementləri",
+      "answer": "Reklamın bədii elementləri qrafik dizaynın əsas prinsiplərinə əsaslanır:\n\n1. Vizual ünsiyyət: İnsanlar vizual varlıqlardır və qrafik dizayn fikir və anlayış arasındakı boşluğu aradan qaldırmağa kömək edir. Mürəkkəb məlumatları asanlaşdırır.\n\n2. Marka kimliyi:\n   - Loqotip\n   - Rəng palitrası\n   - Marka aktivləri\n   - Vizual şəxsiyyət\n\n3. Vizual estetika:\n   - Vizual elementlərin uyğunlaşması\n   - Cazibədar və vahid kompozisiya\n   - Tamaşaçıda müsbət təəssürat yaratmaq\n\n4. Tipoqrafiya: Şriftlərin düzgün seçimi və tətbiqi.\n\n5. Rəng sxemləri: Rənglərin psixoloji təsirinin nəzərə alınması.\n\n6. Hərəkətli qrafika: Vizual məzmunu dinamik etmək üçün animasiya elementləri.\n\n7. Effektiv ünsiyyət: Müxtəlif mühitlərdə effektiv ünsiyyəti asanlaşdırma.",
+      "source": "Mühazirə 3",
+      "category": "Qrafik dizayn"
+    },
+    {
+      "id": 23,
+      "question": "Dizaynın müəyyən olunması və XX əsrin dizaynı",
+      "answer": "Dizayn – insan yaradıcılığının ali formalarından biridir, çünki həqiqi insanların həqiqi tələbatlarına xidmət edir.\n\nXX əsrin dizaynının inkişafı:\n\n1. 1907-ci il: Almaniyada Qabaqcıl rəssam və mühəndislərin ittifaqı yaradılmışdır.\n\n2. 1919-cu il: BAUHAUS - Ali memarlıq-bədii məktəb Almaniyanın Veymar şəhərində açılmışdır.\n\n3. 1920-ci il: VHUTEMAS - Ali bədii-texniki emalatxanalar Moskva şəhərində yaradılmışdır.\n\n4. Funksionalizm: XX əsrin əvvəllərində formalaşdırılmış yeni cərəyan. 'Forma funksiyanın ardınca gedir.'\n\n5. Konstruktivizm: İnqilabdan sonrakı Rusiyada memarlıqda yaranan cərəyan.\n\n6. İstehsalat incəsənəti: Köhnə dəzgah incəsənətini inkar edərək 'praktiki fəaliyyətin yeni forması' kimi yeni incəsənəti bəyan edirdi.\n\n7. 1939-1940: Nyu-York şəhərində Ümumdünya sərgisi - Amerika dizaynerlik hərəkatının ilk pik nöqtəsi.",
+      "source": "Mühazirə 1",
+      "category": "Dizaynın tarixi"
+    },
+    {
+      "id": 24,
+      "question": "Memarlıq dizaynı",
+      "answer": "Memarlıq dizaynı - bədii əşya yaradıcılığının və sənaye istehsalatının elmi-əsaslı mühəndis praktikasını birləşdirən layihə fəaliyyətinin spesifik cərgəsidir.\n\nƏsas xüsusiyyətlər:\n\n1. Memarlıq – gündəlik xüsusi və ümumi həyatın ehtiyaclarını və insanların fəaliyyəti üçün nəzərdə tutulan bina və kompleksləri tikən incəsənətdir.\n\n2. Bütün dizayn növlərindən fərqli olaraq, memarlıq dizaynı öz bədii və monumental formaları ilə mühitə və yaşayan insanlara daima təsir göstərir.\n\n3. Memarlıq dizaynı insanı əhatə edən təbiətin özünəməxsusluğunu aşkar edir.\n\n4. Memarlığın köməyi ilə şəhərlər təkrarsız simaya, tarixə, həyata malikdirlər.\n\n5. Memarlığın əbədi qanunları: nizam-intizam, məkan, proporsiyalar.\n\n6. Üzvi memarlıq konsepsiyası: Frenk Llyod Rayt tərəfindən yaradılıb. Təbiətin davamı olan memarlıqdır.",
+      "source": "Mühazirə 4",
+      "category": "Memarlıq dizaynı"
+    },
+    {
+      "id": 25,
+      "question": "Landşaft dizaynı",
+      "answer": "Landşaft dizaynının başlanğıcı Yer üzündə cənnətin təsəvvürü ilə bağlıdır. İnsanın öz yaşadığı yerin yanında cənnət guşəsi yaratmaq səyləri tükənmir.\n\nƏsas prinsiplər:\n\n1. Bağ planlaşdırmasının əsas məqsədi: Yaşıllıqların və rəngarəng kompozisiya ansambllarının yaradılması üçün dekorativ bitkiləri məkani, bədii və kolorit cəhətdən birləşdirmək.\n\n2. Əsas faktorlar: Torpaq, iqlim, mühit.\n\n3. Dörd əsas prinsip: Üçölçülü məkanın tətbiqi, materialların sərfəli istifadəsi, istehlakçıların tələbatı, yerli faunanın nəzərə alınması.\n\n4. Fen-şuy: Təbiətlə harmoniyada yaşama qədim çin incəsənətidir. Beş əsas element: od, torpaq, su, ağac, metal.\n\n5. Stillərin tarixi inkişafı: Qotik, İntibah (Renessans), Barokko, Klassisizm, Modern.\n\n6. Sudan istifadə: Su həyat mənbəyidir, susuz sahə öz gözəlliyinin yarısını itirir.\n\n7. Dekorativ elementlər: Qazon, köşklər, perqolalar, trelyajlar, hasarlar, pilləkənlər.",
+      "source": "Mühazirə 5",
+      "category": "Landşaft dizaynı"
+    },
+    {
+      "id": 26,
+      "question": "Dizaynın layihələndirilməsinə sistemli yanaşma",
+      "answer": "Dizaynın layihələndirilməsinə sistemli yanaşma aşağıdakı prinsipləri əhatə edir:\n\n1. Dizayn layihə mədəniyyətinin kəsişməsində yaranır:\n   - Bədii layihə proqramları\n   - Kütləvi sənaye\n   - Mühəndis layihələndirmə\n   - Elm\n\n2. Sənaye dizaynına daxil olan mərhələlər:\n   - Məmulatların formasının təklif edilməsi\n   - Modelləşdirilməsi\n   - Eskizləşdirilməsi\n   - Çertyojunun çəkilməsi\n   - Maddi modellərinin yerinə yetirilməsi\n   - Tədqiqatın aparılması və imkanların qiymətləndirilməsi\n\n3. Layihələndirmə amilləri:\n   - Konstruktorun şəxsiyyəti\n   - Müəssisə\n   - İstehlakçıların kəmiyyəti\n   - İstehsalat\n   - İstismar\n   - Satışlar\n\n4. İnsan tələbatına uyğunluq: Bizi əhatə edən mühitin insan tələbatına maksimal dərəcədə uyğun şəkildə layihələndirməsi.\n\n5. Rasionalizm: Forma yaradıcı proseslərin mərkəzidir.",
+      "source": "Mühazirə 1, 2",
+      "category": "Dizayn əsasları"
+    }
+  ],
+  "categories": [
+    "Dizaynın tarixi",
+    "Geyim dizaynı",
+    "Dizayn əsasları",
+    "Art-dizayn",
+    "İnteryer dizaynı",
+    "Landşaft dizaynı",
+    "Memarlıq dizaynı",
+    "Qrafik dizayn",
+    "Sənaye dizaynı",
+    "Dizayn tendensiyaları"
+  ]
+}
