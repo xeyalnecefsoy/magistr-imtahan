@@ -30,7 +30,7 @@ const erqonomikaQuestions = erqonomikaSuallariData.questions.map(q => ({
   id: `erqonomika-${q.id}`,
   type: "flashcard" as const,
   question: q.question,
-  answer: q.answer,
+  answer: q.answer || "",
   category: "Erqonomika və texniki dizayn"
 }))
 
@@ -155,6 +155,19 @@ export default function Home() {
     setMode("home")
     setSelectedCategory(null)
     setPendingMode(null)
+  }
+
+  const handleExamClick = (subject: string, type: "test" | "written") => {
+    setSelectedCategory(subject)
+    
+    // Choose mode based on exam type
+    if (type === "test") {
+      setPendingMode("blitz")
+      setMode("blitz")
+    } else {
+      setPendingMode("flashcards")
+      setMode("flashcards")
+    }
   }
 
   const renderContent = () => {
@@ -429,7 +442,7 @@ export default function Home() {
             </div>
 
             {/* Exam Schedule */}
-            <ExamSchedule />
+            <ExamSchedule onExamClick={handleExamClick} />
 
             {/* Mode Cards - Only show if not accessed from hero */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

@@ -3,6 +3,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { CalendarDays, Clock, FileText, PenTool } from "lucide-react"
+import { cn } from "@/lib/utils"
 
 interface Exam {
   id: string
@@ -16,8 +17,8 @@ const exams: Exam[] = [
   {
     id: "1",
     subject: "Akademik yazı və etika",
-    date: "2026-01-08", // Correcting assumed typo from 2025 to 2026 based on other dates
-    type: "test",
+    date: "2026-01-08",
+    type: "test", // MCQ
     teacher: "Əhmədova Mətanət"
   },
   {
@@ -50,7 +51,11 @@ const exams: Exam[] = [
   }
 ]
 
-export function ExamSchedule() {
+interface ExamScheduleProps {
+  onExamClick?: (subject: string, type: "test" | "written") => void
+}
+
+export function ExamSchedule({ onExamClick }: ExamScheduleProps) {
   const calculateDaysLeft = (dateStr: string) => {
     const examDate = new Date(dateStr)
     const today = new Date()
@@ -72,14 +77,22 @@ export function ExamSchedule() {
           const isPast = daysLeft < 0
 
           return (
-            <Card key={exam.id} className={`border-l-4 ${isUrgent ? 'border-l-red-500 animate-pulse' : 'border-l-primary'} ${isPast ? 'opacity-60' : ''}`}>
+            <Card 
+              key={exam.id} 
+              className={cn(
+                "border-l-4 transition-all hover:bg-slate-900/50 cursor-pointer overflow-hidden transform hover:scale-[1.02]",
+                isUrgent ? 'border-l-red-500 animate-pulse' : 'border-l-primary',
+                isPast ? 'opacity-60' : ''
+              )}
+              onClick={() => onExamClick?.(exam.subject, exam.type)}
+            >
               <CardHeader className="pb-2">
                 <div className="flex justify-between items-start">
                   <Badge variant={exam.type === 'test' ? 'default' : 'secondary'}>
                     {exam.type === 'test' ? 'Test (MCQ)' : 'Yazılı (Written)'}
                   </Badge>
                   {daysLeft >= 0 ? (
-                    <span className={`text-xs font-mono font-bold ${isUrgent ? 'text-red-500' : 'text-muted-foreground'}`}>
+                    <span className={cn("text-xs font-mono font-bold", isUrgent ? 'text-red-500' : 'text-muted-foreground')}>
                       {daysLeft} gün qalıb
                     </span>
                   ) : (
