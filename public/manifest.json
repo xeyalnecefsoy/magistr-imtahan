@@ -1,0 +1,22 @@
+{
+  "name": "Magistr Hazırlığı - İmtahan Simulyatoru",
+  "short_name": "Magistr Hazırlığı",
+  "description": "Magistraturaya hazırlıq üçün sürətli və effektiv imtahan simulyatoru. Test və yazılı imtahan rejimləri.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020817",
+  "theme_color": "#020817",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
