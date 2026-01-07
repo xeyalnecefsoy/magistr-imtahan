@@ -20,6 +20,7 @@ interface BlitzModeProps {
   selectedCategory: string | null
   shuffleMode?: boolean
   questionLimit?: number
+  examDuration?: number
   onComplete: (score: number, total: number) => void
   onExit: () => void
 }
@@ -31,29 +32,48 @@ interface AnswerState {
   isSkipped: boolean
 }
 
-export function BlitzMode({ questions, selectedCategory, shuffleMode = true, questionLimit = 25, onComplete, onExit }: BlitzModeProps) {
+export function BlitzMode({ questions, selectedCategory, shuffleMode = true, questionLimit = 25, examDuration = 300, onComplete, onExit }: BlitzModeProps) {
   const [isPlaying, setIsPlaying] = useState(false)
   const [timeLeft, setTimeLeft] = useState(300)
   const [currentQIndex, setCurrentQIndex] = useState(0)
   const [answers, setAnswers] = useState<Record<string, AnswerState>>({})
   const [showReview, setShowReview] = useState(false)
   
-  // Filter MCQs by category and apply limit
-  const mcqQuestions = useMemo(() => {
+  const [internalDuration, setInternalDuration] = useState(examDuration)
+  const [internalLimit, setInternalLimit] = useState(questionLimit)
+
+  useEffect(() => {
+    setInternalDuration(examDuration)
+  }, [examDuration])
+
+  useEffect(() => {
+    setInternalLimit(questionLimit)
+  }, [questionLimit])
+
+  // Filter MCQs by category (without limit)
+  const availableQuestions = useMemo(() => {
     let filtered = questions.filter(q => q.type === 'mcq' && q.options && q.options.length >= 2)
     if (selectedCategory) {
       filtered = filtered.filter(q => q.category === selectedCategory)
     }
+    return filtered
+  }, [questions, selectedCategory])
+
+  // Apply shuffle and limit
+  const mcqQuestions = useMemo(() => {
+    let filtered = [...availableQuestions]
+    
     // Shuffle or keep sequential based on mode
     if (shuffleMode) {
-      filtered = [...filtered].sort(() => Math.random() - 0.5)
+      filtered.sort(() => Math.random() - 0.5)
     }
+    
     // Apply question limit (0 means no limit)
-    if (questionLimit > 0 && filtered.length > questionLimit) {
-      filtered = filtered.slice(0, questionLimit)
+    if (internalLimit > 0 && filtered.length > internalLimit) {
+      filtered = filtered.slice(0, internalLimit)
     }
     return filtered
-  }, [questions, selectedCategory, shuffleMode, questionLimit])
+  }, [availableQuestions, shuffleMode, internalLimit])
 
   // Shuffle options for each question so correct answer isn't always first
   const shuffledOptionsMap = useMemo(() => {
@@ -93,6 +113,8 @@ export function BlitzMode({ questions, selectedCategory, shuffleMode = true, que
     return { correct, wrong, skipped, answered, unanswered: mcqQuestions.length - answered - skipped }
   }, [answers, mcqQuestions])
   
+
+
   useEffect(() => {
     let timer: NodeJS.Timeout
     if (isPlaying && timeLeft > 0 && !showReview) {
@@ -111,7 +133,7 @@ export function BlitzMode({ questions, selectedCategory, shuffleMode = true, que
       return
     }
     setIsPlaying(true)
-    setTimeLeft(300)
+    setTimeLeft(internalDuration)
     setCurrentQIndex(0)
     setAnswers({})
     setShowReview(false)
@@ -186,10 +208,40 @@ export function BlitzMode({ questions, selectedCategory, shuffleMode = true, que
             BLITZ MODE
           </CardTitle>
           <p className="text-muted-foreground mt-2">
-            5 dəqiqəniz var. Suallar arasında gəzə, boş keçə və geri qayıda bilərsiniz.
+            {Math.floor(internalDuration / 60)} dəqiqəniz avtomatik seçildi. Aşağıdan tənzimləyə bilərsiniz.
           </p>
+          
+          <div className="grid grid-cols-2 gap-4 mt-6">
+            <div className="space-y-2">
+              <label className="text-sm font-medium text-slate-300">İmtahan Müddəti</label>
+              <select 
+                value={internalDuration}
+                onChange={(e) => setInternalDuration(Number(e.target.value))}
+                className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all font-sans"
+              >
+                {[5, 15, 30, 45, 60, 90, 120].map((mins) => (
+                  <option key={mins} value={mins * 60}>{mins} dəqiqə</option>
+                ))}
+              </select>
+            </div>
+
+            <div className="space-y-2">
+              <label className="text-sm font-medium text-slate-300">Sual Sayı</label>
+              <select 
+                value={internalLimit}
+                onChange={(e) => setInternalLimit(Number(e.target.value))}
+                className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all font-sans"
+              >
+                {[10, 25, 50, 100].map((limit) => (
+                  <option key={limit} value={limit}>{limit} sual</option>
+                ))}
+                <option value={0}>Hamısı ({availableQuestions.length})</option>
+              </select>
+            </div>
+          </div>
+
           {selectedCategory && (
-            <p className="text-primary font-semibold mt-2">
+            <p className="text-primary font-semibold mt-4">
               Fənn: {selectedCategory}
             </p>
           )}
@@ -210,7 +262,7 @@ export function BlitzMode({ questions, selectedCategory, shuffleMode = true, que
             className="w-full text-lg font-bold py-8 animate-pulse"
             disabled={mcqQuestions.length === 0}
           >
-            {timeLeft === 0 || timeLeft < 300 ? "YENİDƏN OYNA" : "BAŞLA"}
+            {timeLeft === 0 || timeLeft < examDuration ? "YENİDƏN OYNA" : "BAŞLA"}
           </Button>
           <Button variant="ghost" onClick={onExit}>
             Geri Qayıt
@@ -254,29 +306,31 @@ export function BlitzMode({ questions, selectedCategory, shuffleMode = true, que
           {/* Question grid */}
           <div className="space-y-2">
             <p className="text-sm font-medium text-muted-foreground">Suallara keçid:</p>
-            <div className="flex flex-wrap gap-2">
-              {mcqQuestions.map((q, idx) => {
-                const answer = answers[q.id]
-                let bgClass = "bg-slate-800 hover:bg-slate-700" // unanswered
-                if (answer) {
-                  if (answer.isSkipped) {
-                    bgClass = "bg-yellow-500/30 hover:bg-yellow-500/50"
-                  } else if (answer.isCorrect === true) {
-                    bgClass = "bg-green-500/30 hover:bg-green-500/50"
-                  } else if (answer.isCorrect === false) {
-                    bgClass = "bg-red-500/30 hover:bg-red-500/50"
+            <div className="max-h-[300px] overflow-y-auto p-2 border rounded-lg border-slate-800 bg-slate-900/30 custom-scrollbar">
+              <div className="flex flex-wrap gap-2 justify-center">
+                {mcqQuestions.map((q, idx) => {
+                  const answer = answers[q.id]
+                  let bgClass = "bg-slate-800 hover:bg-slate-700" // unanswered
+                  if (answer) {
+                    if (answer.isSkipped) {
+                      bgClass = "bg-yellow-500/30 hover:bg-yellow-500/50"
+                    } else if (answer.isCorrect === true) {
+                      bgClass = "bg-green-500/30 hover:bg-green-500/50"
+                    } else if (answer.isCorrect === false) {
+                      bgClass = "bg-red-500/30 hover:bg-red-500/50"
+                    }
                   }
-                }
-                return (
-                  <button
-                    key={q.id}
-                    onClick={() => goToQuestion(idx)}
-                    className={`w-10 h-10 rounded-lg font-bold transition-colors ${bgClass}`}
-                  >
-                    {idx + 1}
-                  </button>
-                )
-              })}
+                  return (
+                    <button
+                      key={q.id}
+                      onClick={() => goToQuestion(idx)}
+                      className={`w-10 h-10 rounded-lg font-bold transition-colors ${bgClass}`}
+                    >
+                      {idx + 1}
+                    </button>
+                  )
+                })}
+              </div>
             </div>
           </div>
 
@@ -319,17 +373,32 @@ export function BlitzMode({ questions, selectedCategory, shuffleMode = true, que
   return (
     <div className="w-full max-w-2xl mx-auto relative space-y-4">
       {/* Header with timer and stats */}
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center bg-slate-900/50 p-3 rounded-lg border border-slate-800 backdrop-blur-sm shadow-sm">
         <div className="flex items-center gap-4">
-          <div className={`flex items-center gap-2 font-bold text-lg ${timeLeft <= 60 ? 'text-red-500 animate-pulse' : 'text-yellow-500'}`}>
+          <div className={`flex items-center gap-2 font-bold text-lg tabular-nums ${timeLeft <= 60 ? 'text-red-500 animate-pulse' : 'text-yellow-500'}`}>
             <Timer className="w-5 h-5" />
             {formatTime(timeLeft)}
           </div>
         </div>
-        <div className="flex items-center gap-4 text-sm">
-          <span className="text-green-500">✓ {stats.correct}</span>
-          <span className="text-red-500">✗ {stats.wrong}</span>
-          <span className="text-yellow-500">⊘ {stats.skipped}</span>
+        
+        <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 text-sm font-medium bg-slate-950/50 px-3 py-1.5 rounded-md border border-slate-800">
+            <span className="text-green-500 flex items-center gap-1">
+              <CheckCircle className="w-3 h-3" /> {stats.correct}
+            </span>
+            <span className="text-red-500 flex items-center gap-1">
+              <XCircle className="w-3 h-3" /> {stats.wrong}
+            </span>
+          </div>
+          
+          <Button 
+            variant="destructive" 
+            size="sm" 
+            onClick={handleFinish}
+            className="h-8 px-3 text-xs font-bold uppercase tracking-wider"
+          >
+            Bitir
+          </Button>
         </div>
       </div>
 
@@ -338,33 +407,35 @@ export function BlitzMode({ questions, selectedCategory, shuffleMode = true, que
         <motion.div 
           className="h-full bg-primary"
           initial={{ width: "100%" }}
-          animate={{ width: `${(timeLeft / 300) * 100}%` }}
+          animate={{ width: `${(timeLeft / internalDuration) * 100}%` }}
           transition={{ duration: 1, ease: "linear" }}
         />
       </div>
 
-      {/* Question navigation dots */}
-      <div className="flex flex-wrap gap-1 justify-center">
-        {mcqQuestions.map((q, idx) => {
-          const answer = answers[q.id]
-          let bgClass = "bg-slate-700" // unanswered
-          if (answer) {
-            if (answer.isSkipped) {
-              bgClass = "bg-yellow-500"
-            } else if (answer.selectedAnswer) {
-              bgClass = answer.isCorrect ? "bg-green-500" : "bg-red-500"
+      {/* Question navigation dots - Scrollable container for large sets */}
+      <div className="max-h-[80px] overflow-y-auto px-2 py-2 border rounded-lg border-slate-800 bg-slate-900/30 custom-scrollbar">
+        <div className="flex flex-wrap gap-1 justify-center">
+          {mcqQuestions.map((q, idx) => {
+            const answer = answers[q.id]
+            let bgClass = "bg-slate-700" // unanswered
+            if (answer) {
+              if (answer.isSkipped) {
+                bgClass = "bg-yellow-500"
+              } else if (answer.selectedAnswer) {
+                bgClass = answer.isCorrect ? "bg-green-500" : "bg-red-500"
+              }
             }
-          }
-          const isActive = idx === currentQIndex
-          return (
-            <button
-              key={q.id}
-              onClick={() => setCurrentQIndex(idx)}
-              className={`w-3 h-3 rounded-full transition-all ${bgClass} ${isActive ? 'ring-2 ring-white ring-offset-2 ring-offset-slate-900 scale-125' : 'hover:scale-110'}`}
-              title={`Sual ${idx + 1}`}
-            />
-          )
-        })}
+            const isActive = idx === currentQIndex
+            return (
+              <button
+                key={q.id}
+                onClick={() => setCurrentQIndex(idx)}
+                className={`w-3 h-3 rounded-full transition-all flex-shrink-0 ${bgClass} ${isActive ? 'ring-2 ring-white ring-offset-2 ring-offset-slate-900 scale-125 z-10' : 'hover:scale-110'}`}
+                title={`Sual ${idx + 1}`}
+              />
+            )
+          })}
+        </div>
       </div>
 
       {/* Question Card */}

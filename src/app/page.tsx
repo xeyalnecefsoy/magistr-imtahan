@@ -51,6 +51,7 @@ export default function Home() {
   const [pendingMode, setPendingMode] = useState<"blitz" | "flashcards" | null>(null)
   const [shuffleMode, setShuffleMode] = useState<boolean>(true) // true = qarışıq, false = ardıcıl
   const [questionLimit, setQuestionLimit] = useState<number>(25) // sessiya başına sual limiti
+  const [examDuration, setExamDuration] = useState<number>(300) // 5 dəqiqə (saniyə ilə)
   const [showResultModal, setShowResultModal] = useState(false)
   const [resultData, setResultData] = useState({ correct: 0, total: 0 })
    /* 
@@ -244,6 +245,33 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+            {/* Exam Duration Selection - Only for Blitz Mode */}
+            {pendingMode === "blitz" && (
+              <div className="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
+                <div className="space-y-3">
+                  <div>
+                    <p className="font-semibold text-white">İmtahan Müddəti</p>
+                    <p className="text-sm text-slate-400">
+                      İmtahan üçün ayrılan vaxtı seçin
+                    </p>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {[5, 15, 30, 60, 90, 120].map((mins) => (
+                      <Button 
+                        key={mins}
+                        variant={examDuration === mins * 60 ? "default" : "outline"}
+                        size="sm"
+                        onClick={() => setExamDuration(mins * 60)}
+                        className={examDuration === mins * 60 ? "bg-primary" : ""}
+                      >
+                        {mins} dəq
+                      </Button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
             
             <div className="space-y-2">
               <p className="text-sm font-medium text-slate-400 uppercase tracking-wide">Mövzu Seçin</p>
@@ -323,6 +351,7 @@ export default function Home() {
             selectedCategory={selectedCategory}
             shuffleMode={shuffleMode}
             questionLimit={questionLimit}
+            examDuration={examDuration}
             onComplete={(correctCount, answeredCount) => {
                 setResultData({ correct: correctCount, total: answeredCount })
                 updateStats(correctCount)
