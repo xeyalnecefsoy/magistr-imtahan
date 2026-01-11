@@ -2,11 +2,12 @@
 
 import { useState, useMemo, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Zap, Layers, BookOpen, BrainCircuit, ChevronRight } from "lucide-react"
+import { Zap, Layers, BookOpen, BrainCircuit, ChevronRight, SortAsc, Calendar } from "lucide-react"
 
 import questionsData from "@/data/questions.json"
 import akademikYaziData from "@/data/akademik-yazi.json"
 import dizaynSuallariData from "@/data/dizayn-suallari.json"
+import muhendisYaradiciliqData from "@/data/muhendis-yaradiciliq-suallari.json"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { BlitzMode } from "@/components/BlitzMode"
@@ -14,6 +15,7 @@ import { FlashcardMode } from "@/components/FlashcardMode"
 import { CircularProgress } from "@/components/CircularProgress"
 import { ExamSchedule } from "@/components/ExamSchedule"
 import { ResultModal } from "@/components/ResultModal"
+import { WriteMode } from "@/components/WriteMode"
 import erqonomikaSuallariData from "@/data/erqonomika-suallari.json"
 
 // Transform dizayn questions to match the app format - all under ONE category
@@ -34,21 +36,31 @@ const erqonomikaQuestions = erqonomikaSuallariData.questions.map(q => ({
   category: "Erqonomika və texniki dizayn"
 }))
 
+// Transform muhendis questions to match the app format - all under ONE category
+const muhendisQuestions = muhendisYaradiciliqData.questions.map(q => ({
+  id: `muhendis-${q.id}`,
+  type: "flashcard" as const,
+  question: q.question,
+  answer: q.answer,
+  category: "Mühəndis yaradıcılıq prinsipləri"
+}))
+
 // Merge all question sources
 const initialQuestions = [
   ...questionsData.map(q => ({ ...q, id: `general-${q.id}`, answer: q.answer || "" })),
   ...akademikYaziData.map(q => ({ ...q, id: `akademik-${q.id}`, answer: q.answer || "" })),
   ...dizaynQuestions,
-  ...erqonomikaQuestions
+  ...erqonomikaQuestions,
+  ...muhendisQuestions
 ]
 
-type AppMode = "home" | "select-category" | "blitz" | "flashcards"
+type AppMode = "home" | "select-category" | "blitz" | "flashcards" | "write"
 
 export default function Home() {
   const [questions, setQuestions] = useState(initialQuestions)
   const [mode, setMode] = useState<AppMode>("home")
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
-  const [pendingMode, setPendingMode] = useState<"blitz" | "flashcards" | null>(null)
+  const [pendingMode, setPendingMode] = useState<"blitz" | "flashcards" | "write" | null>(null)
   const [shuffleMode, setShuffleMode] = useState<boolean>(true) // true = qarışıq, false = ardıcıl
   const [questionLimit, setQuestionLimit] = useState<number>(25) // sessiya başına sual limiti
   const [examDuration, setExamDuration] = useState<number>(300) // 5 dəqiqə (saniyə ilə)
@@ -118,12 +130,32 @@ export default function Home() {
     ? Math.min(100, Math.round((stats.learned / questions.length) * 100)) 
     : 0
 
-  // Get unique categories
-  const categories = useMemo(() => {
-    const cats = new Set(questions.map(q => q.category))
-    return Array.from(cats).sort()
-  }, [questions])
+  const [sortMethod, setSortMethod] = useState<"alphabetical" | "date">("alphabetical")
 
+  // Exam dates from the official schedule
+  const EXAM_DATES: Record<string, string> = {
+    "Akademik yazı və etika": "2025-01-08", // Keçmiş tarix (cədvələ əsasən)
+    "Mühəndis yaradıcılıq prinsipləri": "2026-01-14",
+    "Sənaye dizaynında fəaliyyət sahələri": "2026-01-19",
+    "Erqonomika və texniki dizayn": "2026-01-23",
+    "Sənaye dizaynında kompüter layihələndirilməsi-1": "2026-01-28"
+  }
+
+  // Get unique categories and sort them
+  const categories = useMemo(() => {
+    const cats = Array.from(new Set(questions.map(q => q.category)))
+    
+    return cats.sort((a, b) => {
+      if (sortMethod === "date") {
+        const dateA = EXAM_DATES[a] || "9999-12-31" // Put unknown dates at the end
+        const dateB = EXAM_DATES[b] || "9999-12-31"
+        return dateA.localeCompare(dateB)
+      }
+      // Default alphabetical (Azerbaijani locale)
+      return a.localeCompare(b, "az")
+    })
+  }, [questions, sortMethod])
+  
   // Count questions per category
   const categoryCounts = useMemo(() => {
     const counts: Record<string, { mcq: number; flashcard: number }> = {}
@@ -140,7 +172,7 @@ export default function Home() {
     return counts
   }, [questions])
 
-  const handleModeSelect = (targetMode: "blitz" | "flashcards") => {
+  const handleModeSelect = (targetMode: "blitz" | "flashcards" | "write") => {
     setPendingMode(targetMode)
     setMode("select-category")
   }
@@ -179,7 +211,7 @@ export default function Home() {
             <div className="text-center space-y-2">
               <h2 className="text-3xl font-bold">Hazırlıq Parametrləri</h2>
               <p className="text-muted-foreground">
-                {pendingMode === "blitz" ? "Test rejimi" : "Flashcard rejimi"} üçün seçim edin
+                {pendingMode === "blitz" ? "Test rejimi" : pendingMode === "write" ? "Yazı rejimi" : "Flashcard rejimi"} üçün seçim edin
               </p>
             </div>
 
@@ -274,7 +306,29 @@ export default function Home() {
             )}
             
             <div className="space-y-2">
+            <div className="flex items-center justify-between">
               <p className="text-sm font-medium text-slate-400 uppercase tracking-wide">Mövzu Seçin</p>
+              <div className="flex bg-slate-800/50 rounded-lg p-1 gap-1">
+                 <Button
+                    variant={sortMethod === "alphabetical" ? "secondary" : "ghost"}
+                    size="icon"
+                    className="h-7 w-7"
+                    onClick={() => setSortMethod("alphabetical")}
+                    title="Əlifba sırası"
+                 >
+                    <SortAsc className="h-4 w-4" />
+                 </Button>
+                 <Button
+                    variant={sortMethod === "date" ? "secondary" : "ghost"}
+                    size="icon"
+                    className="h-7 w-7"
+                    onClick={() => setSortMethod("date")}
+                    title="İmtahan tarixi"
+                 >
+                    <Calendar className="h-4 w-4" />
+                 </Button>
+              </div>
+            </div>
               <div className="grid gap-3">
                 {/* All categories option */}
                 <motion.div whileHover={{ scale: 1.01 }} whileTap={{ scale: 0.99 }}>
@@ -369,10 +423,20 @@ export default function Home() {
             shuffleMode={shuffleMode}
             questionLimit={questionLimit}
             onExit={() => {
-                // Flashcardda konkret 'öyrəndim' sayı yoxdursa, sadəcə baxdıqlarımızı qeyd edə bilərik
-                // Amma indi onExit-ə heçnə ötürmürük. 
-                // Gələcəkdə FlashcardMode-dan 'learnedCount' qaytarmaq olar.
-                // İndilik sadəcə streak yenilənsin deyə dummy update
+                updateStats(0)
+                handleBackToHome()
+            }}
+          />
+        )
+
+      case "write":
+        return (
+          <WriteMode 
+            questions={questions} 
+            selectedCategory={selectedCategory}
+            shuffleMode={shuffleMode}
+            questionLimit={questionLimit}
+            onExit={() => {
                 updateStats(0)
                 handleBackToHome()
             }}
@@ -504,6 +568,24 @@ export default function Home() {
                             <div>
                                 <CardTitle className="text-lg">Flashcard</CardTitle>
                                 <CardDescription className="text-sm">Aktiv yaddaş metodu</CardDescription>
+                            </div>
+                        </CardHeader>
+                    </Card>
+
+                </motion.div>
+
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} className="sm:col-span-2 lg:col-span-1">
+                    <Card 
+                        className="cursor-pointer border-l-4 border-l-emerald-500 hover:bg-emerald-500/5 transition-all"
+                        onClick={() => handleModeSelect("write")}
+                    >
+                        <CardHeader className="flex flex-row items-center gap-4 p-4">
+                            <div className="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center shrink-0">
+                                <BookOpen className="w-5 h-5 text-emerald-500" />
+                            </div>
+                            <div>
+                                <CardTitle className="text-lg">Yazı Modu</CardTitle>
+                                <CardDescription className="text-sm">Aktiv xatırlama və yazılı təcrübə</CardDescription>
                             </div>
                         </CardHeader>
                     </Card>

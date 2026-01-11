@@ -1,0 +1,313 @@
+{
+  "subject": "Mühəndis yaradıcılıq prinsipləri",
+  "totalQuestions": 45,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Elm insanın sahəsi kimi",
+      "answer": "Elm – təbiət, cəmiyyət və təfəkkürün inkişaf qanunauyğunluqları haqqında obyektiv biliklər sistemi və bu biliklərin əldə edilməsi üzrə fəaliyyət sahəsidir. O, faktların toplanması, təhlili, sistemləşdirilməsi və nəzəri ümumiləşdirilməsi yolu ilə həqiqəti aşkara çıxarır.",
+      "category": "Elmşünaslıq"
+    },
+    {
+      "id": 2,
+      "question": "“Mühəndis yaradıcılığı prinsipləri” fənninin predmeti və vəzifələri",
+      "answer": "Fənnin predmeti mühəndis fəaliyyətində yaradıcılıq proseslərinin qanunauyğunluqlarını, texniki problemlərin həlli metodlarını və yeni texnikanın yaradılması prinsiplərini öyrənməkdir. Vəzifələri: mühəndis təfəkkürünü inkişaf etdirmək, ixtiraçılıq metodlarını (evristika, TRIZ) mənimsətmək və texniki sistemlərin inkişaf qanunlarını öyrətməkdir.",
+      "category": "Fənnə giriş"
+    },
+    {
+      "id": 3,
+      "question": "Mühəndislik bir peşə sahəsi kimi",
+      "answer": "Mühəndislik – elmi biliklərin və təcrübənin texniki problemlərin həllinə, yeni cihazların, sistemlərin və proseslərin yaradılmasına tətbiq edildiyi peşə fəaliyyətidir. Mühəndis cəmiyyətin tələbatlarını ödəmək üçün resursları səmərəli şəkildə istifadə edərək məhsul və xidmətlər yaradır.",
+      "category": "Mühəndislik peşəsi"
+    },
+    {
+      "id": 4,
+      "question": "Mühəndislik növlərini sadalayın",
+      "answer": "Əsas mühəndislik növləri: Mülki (inşaat), Mexanika, Elektrik, Kimya, Sənaye, Mədən, Neft, Metallurgiya, Kompüter, Aerokosmik, Biotibb və Kənd təsərrüfatı mühəndisliyi.",
+      "category": "Mühəndislik sahələri"
+    },
+    {
+      "id": 5,
+      "question": "Mühəndislik sözünün ilk tərifi",
+      "answer": "“Mühəndis” (ing. engineer) sözü latınca “ingenium” (istedad, qabiliyyət, ixtira) sözündən yaranmışdır. İlkin mənada hərbi maşınları idarə edən və ya quraşdıran şəxs kimi işlənmiş, sonradan mülki tikililəri (yollar, körpülər) layihələndirən mütəxəssislərə şamil edilmişdir.",
+      "category": "Mühəndislik tarixi"
+    },
+    {
+      "id": 6,
+      "question": "Mülki mühəndislik sahəsi",
+      "answer": "Mülki mühəndislik (Civil Engineering) – binaların, yolların, körpülərin, bəndlərin, tunellərin, su təchizatı və kanalizasiya sistemlərinin layihələndirilməsi, tikintisi və istismarı ilə məşğul olan ən qədim mühəndislik sahəsidir.",
+      "category": "Mülki mühəndislik"
+    },
+    {
+      "id": 7,
+      "question": "Mineral mühəndisliyi sahəsi",
+      "answer": "Mineral mühəndisliyi – faydalı qazıntıların axtarışı, hasilatı, emalı və zənginləşdirilməsi proseslərini əhatə edir. Bura geoloji kəşfiyyat və mineral resursların səmərəli istifadəsi daxildir.",
+      "category": "Mədən mühəndisliyi"
+    },
+    {
+      "id": 8,
+      "question": "Mədən mühəndisliyi sahəsi",
+      "answer": "Mədən mühəndisliyi – yerin təkindən bərk (kömür, filiz), maye (neft) və qaz halında olan faydalı qazıntıların çıxarılması texnologiyası və təhlükəsizliyi ilə məşğul olur.",
+      "category": "Mədən mühəndisliyi"
+    },
+    {
+      "id": 9,
+      "question": "Metallurgiya mühəndisliyi sahəsi",
+      "answer": "Metallurgiya mühəndisliyi – metalların filizlərdən ayrılması (hasilatı), ərintilərin alınması, metalların emalı və xassələrinin yaxşılaşdırılması ilə məşğul olan sahədir.",
+      "category": "Materialşünaslıq"
+    },
+    {
+      "id": 10,
+      "question": "Neft mühəndisliyi sahəsi",
+      "answer": "Neft mühəndisliyi – neft və qaz yataqlarının kəşfiyyatı, qazılması, istismarı və hasilatın optimallaşdırılması ilə məşğul olan xüsusi mühəndislik sahəsidir.",
+      "category": "Neft mühəndisliyi"
+    },
+    {
+      "id": 11,
+      "question": "Seramik mühəndisliyi sahəsi",
+      "answer": "Seramik mühəndisliyi – qeyri-metal və qeyri-üzvi materiallardan (gil, silikatlar) yüksək temperatura davamlı məmulatların, elektronika komponentlərinin və xüsusi örtüklərin hazırlanması texnologiyasıdır.",
+      "category": "Materialşünaslıq"
+    },
+    {
+      "id": 12,
+      "question": "Kimya mühəndisliyi",
+      "answer": "Kimya mühəndisliyi – xammalın kimyəvi və fiziki proseslər vasitəsilə faydalı məhsullara (dərmanlar, yanacaq, plastik, gübrə) çevrilməsini sənaye miqyasında həyata keçirən sahədir.",
+      "category": "Kimya mühəndisliyi"
+    },
+    {
+      "id": 13,
+      "question": "Mexanika mühəndisliyi",
+      "answer": "Mexanika mühəndisliyi – maşınların, mexanizmlərin, enerji sistemlərinin və hərəkət edən hissələrin layihələndirilməsi, istehsalı və istismarı ilə məşğul olan geniş mühəndislik sahəsidir.",
+      "category": "Mexanika mühəndisliyi"
+    },
+    {
+      "id": 14,
+      "question": "Elektrik mühəndisliyi",
+      "answer": "Elektrik mühəndisliyi – elektrik enerjisinin istehsalı, ötürülməsi və paylanması, həmçinin elektrik avadanlıqlarının (mühərriklər, generatorlar) layihələndirilməsi ilə məşğul olur.",
+      "category": "Elektrik mühəndisliyi"
+    },
+    {
+      "id": 15,
+      "question": "Elektron mühəndisliyi",
+      "answer": "Elektron mühəndisliyi – zəif cərəyan sistemləri, elektron dövrələr, mikroçiplər, rabitə vasitələri və kompüter avadanlıqlarının yaradılması ilə məşğul olan sahədir.",
+      "category": "Elektrik mühəndisliyi"
+    },
+    {
+      "id": 16,
+      "question": "Qida mühəndisliyi",
+      "answer": "Qida mühəndisliyi – qida məhsullarının istehsalı, emalı, qablaşdırılması və saxlanması proseslərinin təhlükəsizliyi və səmərəliliyi ilə məşğul olan sahədir.",
+      "category": "Qida sənayesi"
+    },
+    {
+      "id": 17,
+      "question": "Sənaye mühəndisliyi",
+      "answer": "Sənaye mühəndisliyi (Industrial Engineering) – istehsalat proseslərinin optimallaşdırılması, səmərəliliyin artırılması, resursların (insan, zaman, material) idarə olunması və keyfiyyətə nəzarət ilə məşğul olur.",
+      "category": "Sənaye mühəndisliyi"
+    },
+    {
+      "id": 18,
+      "question": "Səs mühəndisliyi",
+      "answer": "Səs mühəndisliyi (Acoustical Engineering) – səsin və vibrasiyanın ölçülməsi, idarə olunması, səs izolyasiyası və səs keyfiyyətinin yaxşılaşdırılması ilə məşğul olan sahədir.",
+      "category": "Fizika və mühəndislik"
+    },
+    {
+      "id": 19,
+      "question": "Hərbi mühəndislik",
+      "answer": "Hərbi mühəndislik – hərbi məqsədlər üçün silahların, texnikanın, istehkamların layihələndirilməsi, həmçinin hərbi əməliyyatların logistik və texniki təminatı ilə məşğul olur.",
+      "category": "Hərbi sənaye"
+    },
+    {
+      "id": 20,
+      "question": "Sistem mühəndisliyi",
+      "answer": "Sistem mühəndisliyi – mürəkkəb sistemlərin layihələndirilməsi və idarə olunmasına fənlərarası yanaşmadır. O, sistemin bütün komponentlərinin (insan, texnika, proqram) vahid məqsəd üçün səmərəli işləməsini təmin edir.",
+      "category": "Sistem mühəndisliyi"
+    },
+    {
+      "id": 21,
+      "question": "Hasilat sənayesinin təsnifatı",
+      "answer": "Hasilat sənayesi təbiətdən xammalın çıxarılması ilə məşğul olan sahələri əhatə edir: Mədənçıxarma (filiz, kömür), Neft-qaz hasilatı, Balıqçılıq, Meşə təsərrüfatı və Ovçuluq.",
+      "category": "Sənaye iqtisadiyyatı"
+    },
+    {
+      "id": 22,
+      "question": "Emal sənayesinin təsnifatı",
+      "answer": "Emal sənayesi xammalı hazır məhsula çevirən sahələri əhatə edir: Metallurgiya, Maşınqayırma, Kimya sənayesi, Yüngül sənaye (toxuculuq), Yeyinti sənayesi və Ağac emalı.",
+      "category": "Sənaye iqtisadiyyatı"
+    },
+    {
+      "id": 23,
+      "question": "Elmi-texniki tərəqqi",
+      "answer": "Elmi-texniki tərəqqi (ETT) – elmin və texnikanın qarşılıqlı əlaqəli inkişafı, istehsalatın daim yeniləşməsi, əmək məhsuldarlığının yüksəldilməsi və yeni texnologiyaların tətbiqi prosesidir. ETT təkamül və inqilabi (elmi-texniki inqilab) yolla baş verir.",
+      "category": "Elm və texnika"
+    },
+    {
+      "id": 24,
+      "question": "Elmi-texniki informasiya",
+      "answer": "Elmi-texniki informasiya – elmi tədqiqatlar, layihələndirmə və istehsalat fəaliyyəti nəticəsində alınan, sənədləşdirilmiş məlumatlar toplusudur (məqalələr, patentlər, hesabatlar, çertyojlar).",
+      "category": "İnformasiya təminatı"
+    },
+    {
+      "id": 25,
+      "question": "Elmi kəşf haqqında anlayış",
+      "answer": "Elmi kəşf – təbiətin, cəmiyyətin və təfəkkürün əvvəllər məlum olmayan obyektiv qanunauyğunluqlarının, xassələrinin və ya hadisələrinin aşkar edilməsidir. Kəşf, dünyanı dərk etmə səviyyəsini köklü şəkildə dəyişir.",
+      "category": "Elmşünaslıq"
+    },
+    {
+      "id": 26,
+      "question": "İxtira (patent) barədə anlayış",
+      "answer": "İxtira – hər hansı bir texniki problemin yeni və səmərəli həllidir. Patent isə ixtiraçıya dövlət tərəfindən verilən, onun ixtira üzərində müstəsna hüququnu təsdiq edən hüquqi sənəddir. İxtira sənayedə tətbiq oluna bilən və yenilik daşıyan texniki həll olmalıdır.",
+      "category": "Patentşünaslıq"
+    },
+    {
+      "id": 27,
+      "question": "Elmi-tədqiqatın təşkilinin strukturu",
+      "answer": "Elmi-tədqiqatın təşkili adətən aşağıdakı mərhələləri əhatə edir: Problemin qoyuluşu, Mövzunun seçilməsi və əsaslandırılması, İnformasiya axtarışı, Nəzəri və ya eksperimental tədqiqatın aparılması, Nəticələrin təhlili və tətbiqi.",
+      "category": "Tədqiqat metodologiyası"
+    },
+    {
+      "id": 28,
+      "question": "Elmi-tədqiqatın hazırda məqsədi təyinat təsnifatı",
+      "answer": "Məqsədinə görə elmi tədqiqatlar üç qrupa bölünür: 1. Fundamental tədqiqatlar (yeni qanunauyğunluqların kəşfi), 2. Tətbiqi tədqiqatlar (elmi biliklərin praktiki məsələlərə tətbiqi), 3. İşləmələr (yeni konstruksiya və texnologiyaların yaradılması).",
+      "category": "Tədqiqat növləri"
+    },
+    {
+      "id": 29,
+      "question": "Elmi nəzəriyyə nədir?",
+      "answer": "Elmi nəzəriyyə – obyektiv reallığın müəyyən sahəsi haqqında biliklərin ən yüksək formasıdır. O, hadisələri izah edən, gələcəyi proqnozlaşdırmağa imkan verən və təcrübədə təsdiqlənmiş anlayışlar, qanunlar və prinsiplər sistemidir.",
+      "category": "Elmşünaslıq"
+    },
+    {
+      "id": 30,
+      "question": "Elmin metodologiyası nədir?",
+      "answer": "Elmin metodologiyası – elmi idrakın metodları, strukturu və inkişaf qanunauyğunluqları haqqında təlimdir. O, tədqiqatçının hansı üsullardan istifadə etməli olduğunu və biliyin necə əldə edildiyini öyrənir.",
+      "category": "Tədqiqat metodologiyası"
+    },
+    {
+      "id": 31,
+      "question": "Elmi metod (üsul)",
+      "answer": "Elmi metod – həqiqəti əldə etmək üçün istifadə olunan nizamlanmış fəaliyyət yollarıdır. Bura müşahidə, eksperiment, müqayisə, analiz, sintez, induksiya və deduksiya kimi üsullar daxildir.",
+      "category": "Tədqiqat metodları"
+    },
+    {
+      "id": 32,
+      "question": "Tədqiqat üsullarının təsnifatı",
+      "answer": "Tədqiqat üsulları iki əsas qrupa bölünür: 1. Nəzəri üsullar (abstraktlaşdırma, rəsmiləşdirmə, modelləşdirmə), 2. Empirik üsullar (müşahidə, ölçmə, eksperiment). Həmçinin ümumi (fəlsəfi) və xüsusi (konkret elm sahəsinə aid) üsullar da var.",
+      "category": "Tədqiqat metodları"
+    },
+    {
+      "id": 33,
+      "question": "Ümumelmi metodları (üsulları) sadalayın",
+      "answer": "Ümumelmi metodlara: Analiz, Sintez, İnduksiya, Deduksiya, Analogiya, Modelləşdirmə, Abstraktlaşdırma, Tarixi və Məntiqi metodlar aiddir.",
+      "category": "Tədqiqat metodları"
+    },
+    {
+      "id": 34,
+      "question": "Tədqiqat işinin dialektikasını izah edin",
+      "answer": "Tədqiqat işinin dialektikası inkişafın ümumi qanunlarına (ziddiyyətlərin vəhdəti və mübarizəsi, kəmiyyət dəyişikliklərinin keyfiyyət dəyişikliklərinə keçməsi, inkarı inkar) əsaslanır. Tədqiqat sadədən mürəkkəbə, məlumdan naməluma doğru gedən ziddiyyətli və inkişaf edən bir prosesdir.",
+      "category": "Fəlsəfə və elm"
+    },
+    {
+      "id": 35,
+      "question": "Yaradıcılıq fəaliyyətinin səviyyələrini izah edin",
+      "answer": "Yaradıcılıq fəaliyyəti adətən 5 səviyyəyə bölünür (Altşullerə görə): 1. Elementar (məlum həll), 2. Təkmilləşdirmə (kiçik dəyişiklik), 3. İxtiraçılıq (ziddiyyətin aradan qaldırılması), 4. Yeni prinsip (tamamilə yeni texnologiya), 5. Kəşf (yeni elmi qanunauyğunluq).",
+      "category": "Yaradıcılıq psixologiyası"
+    },
+    {
+      "id": 36,
+      "question": "Erqonomikanın yaranma və meydana çıxması haqqında məlumat",
+      "answer": "Erqonomika termini ilk dəfə 1857-ci ildə V.Yastşembovski tərəfindən işlədilsə də, müstəqil elm kimi II Dünya Müharibəsindən sonra (1949-cu ildə İngiltərədə Erqonomika Tədqiqat Cəmiyyətinin yaradılması ilə) formalaşmışdır. Səbəb mürəkkəb hərbi texnikanın idarə edilməsində insan amilinin yetərsizliyinin dərk edilməsi idi.",
+      "category": "Erqonomika tarixi"
+    },
+    {
+      "id": 37,
+      "question": "Erqonomika elm kimi",
+      "answer": "Erqonomika (“erqon” - iş, “nomos” - qanun) – insan-maşın-mühit sistemində insanın fəaliyyətinin səmərəliliyini, təhlükəsizliyini və rahatlığını təmin etmək məqsədilə onun fiziki və psixoloji imkanlarını öyrənən elmdir.",
+      "category": "Erqonomika əsasları"
+    },
+    {
+      "id": 38,
+      "question": "Erqonomika fənlərarası elm sahəsi kimi hansı fənlərlə əlaqəlidir",
+      "answer": "Erqonomika texniki elmlər (mühəndislik, dizayn), psixologiya (mühəndis psixologiyası), fiziologiya (əmək fiziologiyası), gigiyena və antropometriya ilə sıx əlaqəlidir.",
+      "category": "Erqonomika əlaqələri"
+    },
+    {
+      "id": 39,
+      "question": "Erqonomika tədqiqat sahəsi kimi",
+      "answer": "Tədqiqat sahəsi kimi erqonomika iş yerlərinin təşkili, idarəetmə pultlarının dizaynı, informasiyanın qavranılması, iş mühitinin (işıq, səs, temperatur) insana təsiri və iş rejimlərinin optimallaşdırılmasını öyrənir.",
+      "category": "Erqonomika tədqiqatları"
+    },
+    {
+      "id": 40,
+      "question": "Midierqonomikada “insan tədqiqatdır və sistemlərin planlaşdırılmasıdır”",
+      "answer": "Midierqonomika “insan-kollektiv-maşın” və ya “insan-iş yeri” səviyyəsində qarşılıqlı əlaqələri öyrənir. Burada əsas məqsəd iş yerinin və əmək prosesinin insanın fərdi və qrup xüsusiyyətlərinə uyğun planlaşdırılmasıdır.",
+      "category": "Erqonomika səviyyələri"
+    },
+    {
+      "id": 41,
+      "question": "Leonardo Da Vinçi – “Erqonomikanın fizioloji və estetik tələblər ilə əlaqəsi” əsəsri barədə",
+      "answer": "Leonardo Da Vinçi “Vitruvi adamı” əsəri ilə insan bədəninin ideal proporsiyalarını göstərmişdir. Bu, erqonomikanın estetik və fizioloji (antropometrik) əsaslarının ilk elmi təsvirlərindən biridir və müasir dizaynda insan ölçülərinin nəzərə alınması prinsipinin təməlidir.",
+      "category": "Erqonomika tarixi"
+    },
+    {
+      "id": 42,
+      "question": "Erqonomik sistem – erqonomikanın əsas tədqiqat obyekti kimi",
+      "answer": "Erqonomikanın əsas tədqiqat obyekti “İnsan-Maşın-Mühit” (İMM) sistemidir. Bu sistemdə insan (operator), texniki vasitə (maşın) və onların yerləşdiyi mühit vahid, qarşılıqlı təsir edən kompleks kimi baxılır.",
+      "category": "Sistem analizi"
+    },
+    {
+      "id": 43,
+      "question": "Bir elm kimi erqonomikanın əsas məsələləri",
+      "answer": "Əsas məsələlər: insan amilini texnikaya uyğunlaşdırmaq (və əksinə), əmək məhsuldarlığını artırmaq, yorğunluğu və peşə xəstəliklərini azaltmaq, qəzaların qarşısını almaq üçün təhlükəsizlik tədbirlərini işləyib hazırlamaq.",
+      "category": "Erqonomika məsələləri"
+    },
+    {
+      "id": 44,
+      "question": "Erqonomikanın əsas tədqiqat sahələri hansılardır?",
+      "answer": "Fiziki erqonomika (antropometriya, iş duruşu), Koqnitiv erqonomika (yaddaş, qavrayış, qərar qəbulu) və Təşkilati erqonomika (iş rejimi, kommunikasiya, komanda işi).",
+      "category": "Erqonomika sahələri"
+    },
+    {
+      "id": 45,
+      "question": "Erqonomikada “informasiya modeli” nələri təmin etməlidir?",
+      "answer": "İnformasiya modeli operatora idarə olunan obyektin vəziyyəti haqqında dəqiq, vaxtında və anlaşıqlı məlumat verməlidir. O, insanın qavrama imkanlarına uyğun olmalı və qərar qəbul etməni asanlaşdırmalıdır.",
+      "category": "İnformasiya erqonomikası"
+    }
+  ],
+  "categories": [
+    "Fənnə giriş",
+    "Mühəndislik peşəsi",
+    "Mühəndislik sahələri",
+    "Mühəndislik tarixi",
+    "Mülki mühəndislik",
+    "Mədən mühəndisliyi",
+    "Materialşünaslıq",
+    "Neft mühəndisliyi",
+    "Kimya mühəndisliyi",
+    "Mexanika mühəndisliyi",
+    "Elektrik mühəndisliyi",
+    "Qida sənayesi",
+    "Sənaye mühəndisliyi",
+    "Fizika və mühəndislik",
+    "Hərbi sənaye",
+    "Sistem mühəndisliyi",
+    "Sənaye iqtisadiyyatı",
+    "Elm və texnika",
+    "İnformasiya təminatı",
+    "Elmşünaslıq",
+    "Patentşünaslıq",
+    "Tədqiqat metodologiyası",
+    "Tədqiqat növləri",
+    "Tədqiqat metodları",
+    "Fəlsəfə və elm",
+    "Yaradıcılıq psixologiyası",
+    "Erqonomika tarixi",
+    "Erqonomika əsasları",
+    "Erqonomika əlaqələri",
+    "Erqonomika tədqiqatları",
+    "Erqonomika səviyyələri",
+    "Sistem analizi",
+    "Erqonomika məsələləri",
+    "Erqonomika sahələri",
+    "İnformasiya erqonomikası"
+  ]
+}

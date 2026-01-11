@@ -104,9 +104,14 @@ export function FlashcardMode({ questions, selectedCategory, shuffleMode = true,
       </div>
 
       {selectedCategory && (
-        <p className="text-primary font-semibold text-sm">
-          {selectedCategory}
-        </p>
+        <div className="flex flex-col items-center gap-1 mb-2">
+          <p className="text-primary font-semibold text-sm text-center">
+            {selectedCategory}
+          </p>
+          <p className="text-xs text-muted-foreground animate-pulse">
+            (Çevirmək üçün klikləyin)
+          </p>
+        </div>
       )}
 
       <div className="relative w-full min-h-[400px]" style={{ perspective: "1000px" }}>
@@ -125,9 +130,6 @@ export function FlashcardMode({ questions, selectedCategory, shuffleMode = true,
                 <Card className="w-full h-full min-h-[400px] flex flex-col items-center justify-center p-6 sm:p-8 text-center bg-card border-l-4 border-l-primary shadow-xl">
                     <span className="text-sm uppercase tracking-widest text-muted-foreground mb-4">Sual</span>
                     <h3 className="text-lg sm:text-xl font-bold leading-relaxed">{currentCard.question}</h3>
-                    <p className="absolute bottom-4 text-xs text-muted-foreground animate-pulse">
-                        Çevirmək üçün klikləyin
-                    </p>
                 </Card>
             </div>
 
