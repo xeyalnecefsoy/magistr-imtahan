@@ -2,7 +2,8 @@
 
 import { useState, useMemo, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Zap, Layers, BookOpen, BrainCircuit, ChevronRight, SortAsc, Calendar } from "lucide-react"
+import { Zap, Layers, BookOpen, BrainCircuit, ChevronRight, SortAsc, Calendar, Database } from "lucide-react"
+import { useRouter } from "next/navigation"
 
 import questionsData from "@/data/questions.json"
 import akademikYaziData from "@/data/akademik-yazi.json"
@@ -57,6 +58,7 @@ const initialQuestions = [
 type AppMode = "home" | "select-category" | "blitz" | "flashcards" | "write"
 
 export default function Home() {
+  const router = useRouter()
   const [questions, setQuestions] = useState(initialQuestions)
   const [mode, setMode] = useState<AppMode>("home")
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
@@ -574,7 +576,7 @@ export default function Home() {
 
                 </motion.div>
 
-                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} className="sm:col-span-2 lg:col-span-1">
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                     <Card 
                         className="cursor-pointer border-l-4 border-l-emerald-500 hover:bg-emerald-500/5 transition-all"
                         onClick={() => handleModeSelect("write")}
@@ -586,6 +588,23 @@ export default function Home() {
                             <div>
                                 <CardTitle className="text-lg">Yazı Modu</CardTitle>
                                 <CardDescription className="text-sm">Aktiv xatırlama və yazılı təcrübə</CardDescription>
+                            </div>
+                        </CardHeader>
+                    </Card>
+                </motion.div>
+
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                    <Card 
+                        className="cursor-pointer border-l-4 border-l-purple-500 hover:bg-purple-500/5 transition-all"
+                        onClick={() => router.push("/bank")}
+                    >
+                        <CardHeader className="flex flex-row items-center gap-4 p-4">
+                            <div className="w-10 h-10 rounded-lg bg-purple-500/20 flex items-center justify-center shrink-0">
+                                <Database className="w-5 h-5 text-purple-500" />
+                            </div>
+                            <div>
+                                <CardTitle className="text-lg">Sual Bankı</CardTitle>
+                                <CardDescription className="text-sm">Bütün sualları axtar</CardDescription>
                             </div>
                         </CardHeader>
                     </Card>
