@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Zap, Layers, BookOpen, BrainCircuit, ChevronRight, SortAsc, Calendar, Database, Key, FileText } from "lucide-react"
+import { Zap, Layers, BookOpen, BrainCircuit, ChevronRight, SortAsc, Calendar, Database, Key, FileText, Sparkles, Timer, Flame } from "lucide-react"
 import { useRouter } from "next/navigation"
 
 import questionsData from "@/data/questions.json"
@@ -536,6 +536,24 @@ export default function Home() {
                                 <Zap className="mr-2 h-5 w-5 fill-current" />
                                 BLITZ BAŞLA
                             </Button>
+
+                             <Button 
+                                size="lg"
+                                className="h-12 px-8 bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-500 hover:to-pink-400 text-white font-bold shadow-[0_0_20px_rgba(168,85,247,0.3)] transition-all transform hover:scale-105 cursor-pointer border-0"
+                                onClick={() => router.push("/cram")}
+                            >
+                                <Sparkles className="mr-2 h-5 w-5" />
+                                SON PROQNOZ
+                            </Button>
+
+                            <Button 
+                                size="lg"
+                                className="h-12 px-8 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-400 hover:to-red-400 text-white font-bold shadow-[0_0_20px_rgba(249,115,22,0.3)] transition-all transform hover:scale-105 cursor-pointer border-0"
+                                onClick={() => router.push("/focus")}
+                            >
+                                <Flame className="mr-2 h-5 w-5" />
+                                FOKUS OYUN
+                            </Button>
                         </div>
                     </div>
 
@@ -674,6 +692,40 @@ export default function Home() {
                             <div>
                                 <CardTitle className="text-lg">Bilet İmtahanı</CardTitle>
                                 <CardDescription className="text-sm">Real imtahan simulyasiyası (5 sual)</CardDescription>
+                            </div>
+                        </CardHeader>
+                    </Card>
+                </motion.div>
+
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                    <Card 
+                        className="cursor-pointer border border-purple-500/50 hover:bg-purple-500/10 transition-all bg-gradient-to-r from-purple-900/10 to-pink-900/10"
+                        onClick={() => router.push("/cram")}
+                    >
+                        <CardHeader className="flex flex-row items-center gap-4 p-4">
+                            <div className="w-10 h-10 rounded-lg bg-purple-500/20 flex items-center justify-center shrink-0">
+                                <Timer className="w-5 h-5 text-purple-400" />
+                            </div>
+                            <div>
+                                <CardTitle className="text-lg bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Sürətli Hazırlıq</CardTitle>
+                                <CardDescription className="text-sm">4-5 saatlıq xüsusi rejim</CardDescription>
+                            </div>
+                        </CardHeader>
+                    </Card>
+                </motion.div>
+
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                    <Card 
+                        className="cursor-pointer border border-orange-500/50 hover:bg-orange-500/10 transition-all bg-gradient-to-r from-orange-900/10 to-red-900/10"
+                        onClick={() => router.push("/focus")}
+                    >
+                        <CardHeader className="flex flex-row items-center gap-4 p-4">
+                            <div className="w-10 h-10 rounded-lg bg-orange-500/20 flex items-center justify-center shrink-0">
+                                <Flame className="w-5 h-5 text-orange-400" />
+                            </div>
+                            <div>
+                                <CardTitle className="text-lg bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Fokus Oyun</CardTitle>
+                                <CardDescription className="text-sm">Pomodoro + Oyunlaşdırma</CardDescription>
                             </div>
                         </CardHeader>
                     </Card>

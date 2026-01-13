@@ -15,6 +15,7 @@ const fontMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("http://localhost:3000"),
   title: "Magistr Hazırlığı - İmtahan Simulyatoru",
   description: "Magistraturaya hazırlıq üçün sürətli və effektiv imtahan simulyatoru. Test və yazılı imtahan rejimləri.",
   manifest: "/manifest.json",
@@ -22,7 +23,6 @@ export const metadata: Metadata = {
     icon: "/icon.png",
     apple: "/apple-icon.png",
   },
-  themeColor: "#020817",
   openGraph: {
     title: "Magistr Hazırlığı - İmtahan Simulyatoru",
     description: "Sürətli imtahan simulyasiyası ilə magistraturaya hazırlaşın.",
