@@ -13,6 +13,7 @@ interface Question {
   question: string
   answer: string
   category: string
+  keywords?: string[]
 }
 
 interface WriteModeProps {
@@ -99,11 +100,17 @@ export function WriteMode({ questions, selectedCategory, shuffleMode = true, que
   }
 
   const getHintText = () => {
-    const words = currentQuestion.answer.split(" ")
     if (hintLevel === 1) {
-      // Show first letter of each word
+      // Priority: Keywords
+      if (currentQuestion.keywords && currentQuestion.keywords.length > 0) {
+        return "Açar sözlər: " + currentQuestion.keywords.join(", ")
+      }
+      // Fallback to first letters if no keywords
+      const words = currentQuestion.answer.split(" ")
       return words.map(w => w[0] + (w.length > 1 ? "_".repeat(w.length - 1) : "")).join(" ")
     }
+    
+    const words = currentQuestion.answer.split(" ")
     if (hintLevel === 2) {
       // Show 50% of words
       return words.map((w, i) => i % 2 === 0 ? w : "_".repeat(w.length)).join(" ")

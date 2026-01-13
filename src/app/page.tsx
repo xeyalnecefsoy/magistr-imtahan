@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Zap, Layers, BookOpen, BrainCircuit, ChevronRight, SortAsc, Calendar, Database } from "lucide-react"
+import { Zap, Layers, BookOpen, BrainCircuit, ChevronRight, SortAsc, Calendar, Database, Key, FileText } from "lucide-react"
 import { useRouter } from "next/navigation"
 
 import questionsData from "@/data/questions.json"
@@ -17,6 +17,8 @@ import { CircularProgress } from "@/components/CircularProgress"
 import { ExamSchedule } from "@/components/ExamSchedule"
 import { ResultModal } from "@/components/ResultModal"
 import { WriteMode } from "@/components/WriteMode"
+import { KeywordMode } from "@/components/KeywordMode"
+import { TicketMode } from "@/components/TicketMode"
 import erqonomikaSuallariData from "@/data/erqonomika-suallari.json"
 
 // Transform dizayn questions to match the app format - all under ONE category
@@ -25,7 +27,8 @@ const dizaynQuestions = dizaynSuallariData.questions.map(q => ({
   type: "flashcard" as const,
   question: q.question,
   answer: q.answer,
-  category: "Sənaye dizaynında fəaliyyət sahələri"
+  category: "Sənaye dizaynında fəaliyyət sahələri",
+  keywords: []
 }))
 
 // Transform erqonomika questions to match the app format - all under ONE category
@@ -34,7 +37,8 @@ const erqonomikaQuestions = erqonomikaSuallariData.questions.map(q => ({
   type: "flashcard" as const,
   question: q.question,
   answer: q.answer || "",
-  category: "Erqonomika və texniki dizayn"
+  category: "Erqonomika və texniki dizayn",
+  keywords: []
 }))
 
 // Transform muhendis questions to match the app format - all under ONE category
@@ -43,26 +47,29 @@ const muhendisQuestions = muhendisYaradiciliqData.questions.map(q => ({
   type: "flashcard" as const,
   question: q.question,
   answer: q.answer,
-  category: "Mühəndis yaradıcılıq prinsipləri"
+  category: "Mühəndis yaradıcılıq prinsipləri",
+  keywords: (q as any).keywords || []
 }))
 
 // Merge all question sources
 const initialQuestions = [
-  ...questionsData.map(q => ({ ...q, id: `general-${q.id}`, answer: q.answer || "" })),
-  ...akademikYaziData.map(q => ({ ...q, id: `akademik-${q.id}`, answer: q.answer || "" })),
+  ...questionsData
+    .filter(q => q.category !== "Mühəndis yaradıcılıq prinsipləri")
+    .map(q => ({ ...q, id: `general-${q.id}`, answer: q.answer || "", keywords: [] })),
+  ...akademikYaziData.map(q => ({ ...q, id: `akademik-${q.id}`, answer: q.answer || "", keywords: [] })),
   ...dizaynQuestions,
   ...erqonomikaQuestions,
   ...muhendisQuestions
 ]
 
-type AppMode = "home" | "select-category" | "blitz" | "flashcards" | "write"
+type AppMode = "home" | "select-category" | "blitz" | "flashcards" | "write" | "keywords" | "ticket"
 
 export default function Home() {
   const router = useRouter()
   const [questions, setQuestions] = useState(initialQuestions)
   const [mode, setMode] = useState<AppMode>("home")
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
-  const [pendingMode, setPendingMode] = useState<"blitz" | "flashcards" | "write" | null>(null)
+  const [pendingMode, setPendingMode] = useState<"blitz" | "flashcards" | "write" | "keywords" | "ticket" | null>(null)
   const [shuffleMode, setShuffleMode] = useState<boolean>(true) // true = qarışıq, false = ardıcıl
   const [questionLimit, setQuestionLimit] = useState<number>(25) // sessiya başına sual limiti
   const [examDuration, setExamDuration] = useState<number>(300) // 5 dəqiqə (saniyə ilə)
@@ -160,21 +167,27 @@ export default function Home() {
   
   // Count questions per category
   const categoryCounts = useMemo(() => {
-    const counts: Record<string, { mcq: number; flashcard: number }> = {}
+    // Counts: { categoryName: { mcq: number, flashcard: number, keyword: number } }
+    const counts: Record<string, { mcq: number; flashcard: number; keyword: number }> = {}
     for (const q of questions) {
       if (!counts[q.category]) {
-        counts[q.category] = { mcq: 0, flashcard: 0 }
+        counts[q.category] = { mcq: 0, flashcard: 0, keyword: 0 }
       }
       if (q.type === 'mcq' && q.options && q.options.length >= 2) {
         counts[q.category].mcq++
       } else {
         counts[q.category].flashcard++
       }
+      
+      // Check for keywords
+      if (q.keywords && q.keywords.length > 0) {
+        counts[q.category].keyword++
+      }
     }
     return counts
   }, [questions])
 
-  const handleModeSelect = (targetMode: "blitz" | "flashcards" | "write") => {
+  const handleModeSelect = (targetMode: "blitz" | "flashcards" | "write" | "keywords" | "ticket") => {
     setPendingMode(targetMode)
     setMode("select-category")
   }
@@ -213,7 +226,11 @@ export default function Home() {
             <div className="text-center space-y-2">
               <h2 className="text-3xl font-bold">Hazırlıq Parametrləri</h2>
               <p className="text-muted-foreground">
-                {pendingMode === "blitz" ? "Test rejimi" : pendingMode === "write" ? "Yazı rejimi" : "Flashcard rejimi"} üçün seçim edin
+                {pendingMode === "blitz" ? "Test rejimi" : 
+                 pendingMode === "write" ? "Yazı rejimi" : 
+                 pendingMode === "keywords" ? "Açar Söz rejimi" :
+                 pendingMode === "ticket" ? "Bilet İmtahanı" :
+                 "Flashcard rejimi"} üçün seçim edin
               </p>
             </div>
 
@@ -348,6 +365,8 @@ export default function Home() {
                           <p className="text-sm text-muted-foreground">
                             {pendingMode === "blitz" 
                               ? `${questions.filter(q => q.type === 'mcq' && q.options).length} test sualı`
+                              : pendingMode === "keywords"
+                              ? `${questions.filter(q => q.keywords && q.keywords.length > 0).length} açar sözlü sual`
                               : `${questions.length} sual`
                             }
                           </p>
@@ -359,8 +378,16 @@ export default function Home() {
                 </motion.div>
 
                 {categories.map((cat) => {
-                  const counts = categoryCounts[cat] || { mcq: 0, flashcard: 0 }
-                  const relevantCount = pendingMode === "blitz" ? counts.mcq : counts.mcq + counts.flashcard
+                  const counts = categoryCounts[cat] || { mcq: 0, flashcard: 0, keyword: 0 }
+                  let relevantCount = 0
+                  
+                  if (pendingMode === "blitz") {
+                    relevantCount = counts.mcq
+                  } else if (pendingMode === "keywords") {
+                     relevantCount = counts.keyword
+                  } else {
+                    relevantCount = counts.mcq + counts.flashcard
+                  }
                   
                   if (relevantCount === 0) return null
                   
@@ -380,6 +407,8 @@ export default function Home() {
                               <p className="text-sm text-muted-foreground">
                                 {pendingMode === "blitz" 
                                   ? `${counts.mcq} test sualı`
+                                  : pendingMode === "keywords"
+                                  ? `${counts.keyword} açar sözlü sual`
                                   : `${counts.mcq + counts.flashcard} sual`
                                 }
                               </p>
@@ -442,6 +471,29 @@ export default function Home() {
                 updateStats(0)
                 handleBackToHome()
             }}
+          />
+        )
+
+      case "keywords":
+        return (
+          <KeywordMode 
+            questions={questions} 
+            selectedCategory={selectedCategory}
+            shuffleMode={shuffleMode}
+            questionLimit={questionLimit}
+            onExit={() => {
+                updateStats(0)
+                handleBackToHome()
+            }}
+          />
+        )
+
+      case "ticket":
+        return (
+          <TicketMode 
+            questions={questions} 
+            selectedCategory={selectedCategory}
+            onExit={handleBackToHome}
           />
         )
 
@@ -523,13 +575,13 @@ export default function Home() {
                         <div className="grid grid-cols-2 gap-3">
                             <div className="bg-slate-900/50 p-3 rounded-xl border border-slate-800 text-center">
                                 <div className="text-2xl font-bold text-white">{questions.length}</div>
-                                <div className="text-[10px] text-slate-500 font-bold uppercase">Toplam Sual</div>
+                                <div className="text-xs text-slate-500 font-bold uppercase">Toplam Sual</div>
                             </div>
                             <div className="bg-slate-900/50 p-3 rounded-xl border border-slate-800 text-center">
                                 <div className="text-2xl font-bold text-yellow-500 flex items-center justify-center gap-1">
                                     {stats.streak} <span className="text-xs text-slate-500">gün</span>
                                 </div>
-                                <div className="text-[10px] text-slate-500 font-bold uppercase">Streak</div>
+                                <div className="text-xs text-slate-500 font-bold uppercase">Streak</div>
                             </div>
                         </div>
                     </div>
@@ -588,6 +640,40 @@ export default function Home() {
                             <div>
                                 <CardTitle className="text-lg">Yazı Modu</CardTitle>
                                 <CardDescription className="text-sm">Aktiv xatırlama və yazılı təcrübə</CardDescription>
+                            </div>
+                        </CardHeader>
+                    </Card>
+                </motion.div>
+
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                    <Card 
+                        className="cursor-pointer border-l-4 border-l-amber-500 hover:bg-amber-500/5 transition-all"
+                        onClick={() => handleModeSelect("keywords")}
+                    >
+                        <CardHeader className="flex flex-row items-center gap-4 p-4">
+                            <div className="w-10 h-10 rounded-lg bg-amber-500/20 flex items-center justify-center shrink-0">
+                                <Key className="w-5 h-5 text-amber-500" />
+                            </div>
+                            <div>
+                                <CardTitle className="text-lg">Açar Sözlər</CardTitle>
+                                <CardDescription className="text-sm">Sözlərlə assosiasiya</CardDescription>
+                            </div>
+                        </CardHeader>
+                    </Card>
+                </motion.div>
+
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                    <Card 
+                        className="cursor-pointer border-l-4 border-l-orange-500 hover:bg-orange-500/5 transition-all"
+                        onClick={() => handleModeSelect("ticket")}
+                    >
+                        <CardHeader className="flex flex-row items-center gap-4 p-4">
+                            <div className="w-10 h-10 rounded-lg bg-orange-500/20 flex items-center justify-center shrink-0">
+                                <FileText className="w-5 h-5 text-orange-500" />
+                            </div>
+                            <div>
+                                <CardTitle className="text-lg">Bilet İmtahanı</CardTitle>
+                                <CardDescription className="text-sm">Real imtahan simulyasiyası (5 sual)</CardDescription>
                             </div>
                         </CardHeader>
                     </Card>

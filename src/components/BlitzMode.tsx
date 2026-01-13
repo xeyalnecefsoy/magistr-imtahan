@@ -13,6 +13,7 @@ interface Question {
   options?: string[]
   answer: string
   category: string
+  keywords?: string[]
 }
 
 interface BlitzModeProps {
