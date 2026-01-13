@@ -17,8 +17,8 @@ import { CircularProgress } from "@/components/CircularProgress"
 import { ExamSchedule } from "@/components/ExamSchedule"
 import { ResultModal } from "@/components/ResultModal"
 import { WriteMode } from "@/components/WriteMode"
-import { KeywordMode } from "@/components/KeywordMode"
 import { TicketMode } from "@/components/TicketMode"
+import { StructuredKeywords } from "@/components/StructuredKeywords"
 import erqonomikaSuallariData from "@/data/erqonomika-suallari.json"
 
 // Transform dizayn questions to match the app format - all under ONE category
@@ -62,14 +62,14 @@ const initialQuestions = [
   ...muhendisQuestions
 ]
 
-type AppMode = "home" | "select-category" | "blitz" | "flashcards" | "write" | "keywords" | "ticket"
+type AppMode = "home" | "select-category" | "blitz" | "flashcards" | "write" | "keywords" | "ticket" | "structured-keywords"
 
 export default function Home() {
   const router = useRouter()
   const [questions, setQuestions] = useState(initialQuestions)
   const [mode, setMode] = useState<AppMode>("home")
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
-  const [pendingMode, setPendingMode] = useState<"blitz" | "flashcards" | "write" | "keywords" | "ticket" | null>(null)
+  const [pendingMode, setPendingMode] = useState<"blitz" | "flashcards" | "write" | "keywords" | "ticket" | "structured-keywords" | null>(null)
   const [shuffleMode, setShuffleMode] = useState<boolean>(true) // true = qarışıq, false = ardıcıl
   const [questionLimit, setQuestionLimit] = useState<number>(25) // sessiya başına sual limiti
   const [examDuration, setExamDuration] = useState<number>(300) // 5 dəqiqə (saniyə ilə)
@@ -187,7 +187,7 @@ export default function Home() {
     return counts
   }, [questions])
 
-  const handleModeSelect = (targetMode: "blitz" | "flashcards" | "write" | "keywords" | "ticket") => {
+  const handleModeSelect = (targetMode: "blitz" | "flashcards" | "write" | "keywords" | "ticket" | "structured-keywords") => {
     setPendingMode(targetMode)
     setMode("select-category")
   }
@@ -230,6 +230,7 @@ export default function Home() {
                  pendingMode === "write" ? "Yazı rejimi" : 
                  pendingMode === "keywords" ? "Açar Söz rejimi" :
                  pendingMode === "ticket" ? "Bilet İmtahanı" :
+                 pendingMode === "structured-keywords" ? "Struktur Açar Sözlər" :
                  "Flashcard rejimi"} üçün seçim edin
               </p>
             </div>
@@ -383,7 +384,7 @@ export default function Home() {
                   
                   if (pendingMode === "blitz") {
                     relevantCount = counts.mcq
-                  } else if (pendingMode === "keywords") {
+                  } else if (pendingMode === "keywords" || pendingMode === "structured-keywords") {
                      relevantCount = counts.keyword
                   } else {
                     relevantCount = counts.mcq + counts.flashcard
@@ -407,7 +408,7 @@ export default function Home() {
                               <p className="text-sm text-muted-foreground">
                                 {pendingMode === "blitz" 
                                   ? `${counts.mcq} test sualı`
-                                  : pendingMode === "keywords"
+                                  : pendingMode === "keywords" || pendingMode === "structured-keywords"
                                   ? `${counts.keyword} açar sözlü sual`
                                   : `${counts.mcq + counts.flashcard} sual`
                                 }
@@ -476,21 +477,25 @@ export default function Home() {
 
       case "keywords":
         return (
-          <KeywordMode 
+          <StructuredKeywords 
             questions={questions} 
             selectedCategory={selectedCategory}
-            shuffleMode={shuffleMode}
-            questionLimit={questionLimit}
-            onExit={() => {
-                updateStats(0)
-                handleBackToHome()
-            }}
+            onExit={handleBackToHome}
           />
         )
 
       case "ticket":
         return (
           <TicketMode 
+            questions={questions} 
+            selectedCategory={selectedCategory}
+            onExit={handleBackToHome}
+          />
+        )
+
+      case "structured-keywords":
+        return (
+          <StructuredKeywords 
             questions={questions} 
             selectedCategory={selectedCategory}
             onExit={handleBackToHome}
@@ -692,6 +697,23 @@ export default function Home() {
                             <div>
                                 <CardTitle className="text-lg">Bilet İmtahanı</CardTitle>
                                 <CardDescription className="text-sm">Real imtahan simulyasiyası (5 sual)</CardDescription>
+                            </div>
+                        </CardHeader>
+                    </Card>
+                </motion.div>
+
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                    <Card 
+                        className="cursor-pointer border-l-4 border-l-cyan-500 hover:bg-cyan-500/5 transition-all"
+                        onClick={() => handleModeSelect("structured-keywords")}
+                    >
+                        <CardHeader className="flex flex-row items-center gap-4 p-4">
+                            <div className="w-10 h-10 rounded-lg bg-cyan-500/20 flex items-center justify-center shrink-0">
+                                <Layers className="w-5 h-5 text-cyan-500" />
+                            </div>
+                            <div>
+                                <CardTitle className="text-lg">Struktur Açar Sözlər</CardTitle>
+                                <CardDescription className="text-sm">Biletlər üzrə açar sözlər</CardDescription>
                             </div>
                         </CardHeader>
                     </Card>
