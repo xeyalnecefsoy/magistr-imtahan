@@ -610,7 +610,7 @@ export default function Home() {
                     </div>
                     <div className="prose prose-invert max-w-none text-muted-foreground leading-relaxed text-lg">
                       {categoryQuestions[currentQuestionIndex]?.answer ? (
-                        categoryQuestions[currentQuestionIndex]?.answer.split('\n').map((para, i) => (
+                        categoryQuestions[currentQuestionIndex]?.answer.split('\n').map((para: string, i: number) => (
                            para.trim() && <p key={i} className="mb-4">{para}</p>
                         ))
                       ) : (
