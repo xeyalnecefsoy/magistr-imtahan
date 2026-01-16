@@ -12,8 +12,12 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import muhendisData from "@/data/muhendis-yaradiciliq-suallari.json"
+import dizaynData from "@/data/dizayn-suallari.json"
+import erqonomikaData from "@/data/erqonomika-suallari.json"
 
-type GameState = "menu" | "focus" | "break" | "question" | "answer" | "session-complete" | "all-complete"
+type Subject = "all" | "muhendis" | "dizayn" | "erqonomika"
+
+type GameState = "menu" | "select-subject" | "focus" | "break" | "question" | "answer" | "session-complete" | "all-complete"
 
 type Question = {
   id: number
@@ -33,6 +37,7 @@ export default function FocusPage() {
   
   // Game state
   const [gameState, setGameState] = useState<GameState>("menu")
+  const [selectedSubject, setSelectedSubject] = useState<Subject>("all")
   const [questions, setQuestions] = useState<Question[]>([])
   const [currentIndex, setCurrentIndex] = useState(0)
   const [sessionQuestions, setSessionQuestions] = useState<Question[]>([])
@@ -57,11 +62,10 @@ export default function FocusPage() {
   // Speech synthesis
   const [isSpeaking, setIsSpeaking] = useState(false)
   
-  // Initialize questions
-  useEffect(() => {
-    const shuffled = [...muhendisData.questions].sort(() => Math.random() - 0.5)
-    setQuestions(shuffled)
-  }, [])
+
+  
+  // NOTE: Initial loading useEffect removed to prevent race conditions.
+  // Questions are now loaded directly when starting the game.
   
   // Timer logic
   useEffect(() => {
@@ -213,17 +217,46 @@ export default function FocusPage() {
     }
   }
   
-  // Start session
-  const startSession = () => {
-    const startIndex = sessionsCompleted * QUESTIONS_PER_SESSION
-    const endIndex = Math.min(startIndex + QUESTIONS_PER_SESSION, questions.length)
+  // Start game with specific subject
+  const handleStart = (subject: Subject) => {
+    setSelectedSubject(subject)
     
-    if (startIndex >= questions.length) {
+    let allQuestions: Question[] = []
+    
+    if (subject === "all" || subject === "muhendis") {
+      allQuestions = [...allQuestions, ...muhendisData.questions.map(q => ({...q, category: "Mühəndis yaradıcılığı"}))]
+    }
+    if (subject === "all" || subject === "dizayn") {
+       // @ts-ignore
+      allQuestions = [...allQuestions, ...dizaynData.questions.map(q => ({...q, category: "Dizayn fəaliyyət sahələri", answer: q.answer || ""}))]
+    }
+    if (subject === "all" || subject === "erqonomika") {
+       // @ts-ignore
+      allQuestions = [...allQuestions, ...erqonomikaData.questions.map(q => ({...q, category: "Erqonomika", answer: q.answer || ""}))]
+    }
+    
+    // Filter out questions with empty answers
+    allQuestions = allQuestions.filter(q => q.answer && q.answer.trim().length > 0)
+    
+    const shuffled = allQuestions.sort(() => Math.random() - 0.5)
+    setQuestions(shuffled)
+    
+    // Trigger start logic immediately with the new shuffled list
+    startSession(shuffled)
+  }
+
+  // Start session (can optionally take questions list if newly created)
+  const startSession = (specificQuestions?: Question[]) => {
+    const currentQuestions = specificQuestions || questions
+    const startIndex = sessionsCompleted * QUESTIONS_PER_SESSION
+    const endIndex = Math.min(startIndex + QUESTIONS_PER_SESSION, currentQuestions.length)
+    
+    if (startIndex >= currentQuestions.length) {
       setGameState("all-complete")
       return
     }
     
-    setSessionQuestions(questions.slice(startIndex, endIndex))
+    setSessionQuestions(currentQuestions.slice(startIndex, endIndex))
     setCurrentIndex(0)
     setGameState("question")
     setIsTimerRunning(true)
@@ -363,7 +396,7 @@ export default function FocusPage() {
               <Button 
                 size="lg" 
                 className="w-full h-14 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-400 hover:to-red-400 text-white font-bold text-lg"
-                onClick={startSession}
+                onClick={() => setGameState("select-subject")}
               >
                 <Play className="w-5 h-5 mr-2" />
                 BAŞLA
@@ -372,6 +405,83 @@ export default function FocusPage() {
               <p className="text-center text-xs text-slate-600">
                 Hazırladı: Fokus sistemi ilə diqqəti itirmə, xal qazan!
               </p>
+            </motion.div>
+          )}
+
+          {/* SELECT SUBJECT STATE */}
+          {gameState === "select-subject" && (
+            <motion.div
+              key="select-subject"
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -20 }}
+              className="max-w-md w-full space-y-4"
+            >
+              <h2 className="text-2xl font-bold text-center mb-6">Fənn Seç</h2>
+              
+              <div className="grid gap-3">
+                <Button 
+                  variant="outline" 
+                  className="h-16 justify-start px-6 border-slate-700 hover:bg-slate-800 hover:border-orange-500/50 group"
+                  onClick={() => handleStart("muhendis")}
+                >
+                  <div className="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center mr-4 group-hover:bg-blue-500/30 transition-colors">
+                    <Brain className="w-5 h-5 text-blue-400" />
+                  </div>
+                  <div className="text-left">
+                    <div className="font-bold text-white">Mühəndis yaradıcılığı</div>
+                    <div className="text-xs text-slate-500">{muhendisData.questions.length} sual</div>
+                  </div>
+                </Button>
+
+                <Button 
+                  variant="outline" 
+                  className="h-16 justify-start px-6 border-slate-700 hover:bg-slate-800 hover:border-orange-500/50 group"
+                  onClick={() => handleStart("dizayn")}
+                >
+                  <div className="w-10 h-10 rounded-full bg-purple-500/20 flex items-center justify-center mr-4 group-hover:bg-purple-500/30 transition-colors">
+                    <Sparkles className="w-5 h-5 text-purple-400" />
+                  </div>
+                  <div className="text-left">
+                    <div className="font-bold text-white">Dizayn fəaliyyət sahələri</div>
+                    <div className="text-xs text-slate-500">{dizaynData.questions.length} sual</div>
+                  </div>
+                </Button>
+
+                <Button 
+                  variant="outline" 
+                  className="h-16 justify-start px-6 border-slate-700 hover:bg-slate-800 hover:border-orange-500/50 group"
+                  onClick={() => handleStart("erqonomika")}
+                >
+                  <div className="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center mr-4 group-hover:bg-green-500/30 transition-colors">
+                    <Coffee className="w-5 h-5 text-green-400" />
+                  </div>
+                  <div className="text-left">
+                    <div className="font-bold text-white">Erqonomika və texniki dizayn</div>
+                    <div className="text-xs text-slate-500">{erqonomikaData.questions.length} sual (Bilet)</div>
+                  </div>
+                </Button>
+
+                <div className="relative my-2">
+                  <div className="absolute inset-0 flex items-center"><span className="w-full border-t border-slate-800"></span></div>
+                  <div className="relative flex justify-center text-xs uppercase"><span className="bg-[#020817] px-2 text-slate-500">və ya</span></div>
+                </div>
+
+                <Button 
+                  className="h-16 bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-400 hover:to-purple-400 text-white"
+                  onClick={() => handleStart("all")}
+                >
+                  <Flame className="w-5 h-5 mr-3" />
+                  <div className="text-left">
+                    <div className="font-bold">Qarışıq Rejim</div>
+                    <div className="text-xs opacity-80">Bütün fənlərdən suallar</div>
+                  </div>
+                </Button>
+              </div>
+
+              <Button variant="ghost" className="w-full mt-4" onClick={() => setGameState("menu")}>
+                Geri
+              </Button>
             </motion.div>
           )}
           
@@ -625,7 +735,7 @@ export default function FocusPage() {
                 </Button>
                 <Button 
                   className="flex-1 bg-gradient-to-r from-orange-500 to-red-500"
-                  onClick={startSession}
+                  onClick={() => startSession()}
                 >
                   <ChevronRight className="w-4 h-4 mr-2" />
                   Davam Et

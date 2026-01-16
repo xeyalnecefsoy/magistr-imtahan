@@ -2,13 +2,23 @@
 
 import { useState, useMemo, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Zap, Layers, BookOpen, BrainCircuit, ChevronRight, SortAsc, Calendar, Database, Key, FileText, Sparkles, Timer, Flame } from "lucide-react"
+import { 
+  Zap, Layers, BookOpen, BrainCircuit, ChevronRight, SortAsc, 
+  Calendar, Database, Key, FileText, Sparkles, Timer, Flame, 
+  ArrowLeft, ArrowRight, Brain, Clock, Dumbbell, GraduationCap, 
+  History, Home as HomeIcon, Library, Lightbulb, Play, RotateCcw, Search, 
+  Settings, Shuffle, Star, Trophy, Users, PenTool, Layout
+} from "lucide-react"
 import { useRouter } from "next/navigation"
+import { Separator } from "@/components/ui/separator"
+import { Textarea } from "@/components/ui/textarea"
+import { cn } from "@/lib/utils"
 
 import questionsData from "@/data/questions.json"
 import akademikYaziData from "@/data/akademik-yazi.json"
 import dizaynSuallariData from "@/data/dizayn-suallari.json"
 import muhendisYaradiciliqData from "@/data/muhendis-yaradiciliq-suallari.json"
+import komputerDizaynData from "@/data/komputer-dizayn-suallari.json"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { BlitzMode } from "@/components/BlitzMode"
@@ -51,6 +61,16 @@ const muhendisQuestions = muhendisYaradiciliqData.questions.map(q => ({
   keywords: (q as any).keywords || []
 }))
 
+// Transform komputer questions to match the app format - all under ONE category
+const komputerQuestions = komputerDizaynData.questions.map(q => ({
+  id: `komputer-${q.id}`,
+  type: "flashcard" as const,
+  question: q.question,
+  answer: q.answer || "",
+  category: "Sənaye dizaynında kompüter layihələndirilməsi-1",
+  keywords: []
+}))
+
 // Merge all question sources
 const initialQuestions = [
   ...questionsData
@@ -59,22 +79,33 @@ const initialQuestions = [
   ...akademikYaziData.map(q => ({ ...q, id: `akademik-${q.id}`, answer: q.answer || "", keywords: [] })),
   ...dizaynQuestions,
   ...erqonomikaQuestions,
-  ...muhendisQuestions
+  ...muhendisQuestions,
+  ...komputerQuestions
 ]
 
-type AppMode = "home" | "select-category" | "blitz" | "flashcards" | "write" | "keywords" | "ticket" | "structured-keywords"
+type AppMode = "home" | "select-category" | "blitz" | "flashcards" | "write" | "keywords" | "ticket" | "structured-keywords" | "written-prep"
 
 export default function Home() {
   const router = useRouter()
   const [questions, setQuestions] = useState(initialQuestions)
   const [mode, setMode] = useState<AppMode>("home")
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
-  const [pendingMode, setPendingMode] = useState<"blitz" | "flashcards" | "write" | "keywords" | "ticket" | "structured-keywords" | null>(null)
+  const [pendingMode, setPendingMode] = useState<"blitz" | "flashcards" | "write" | "keywords" | "ticket" | "structured-keywords" | "written-prep" | null>(null)
   const [shuffleMode, setShuffleMode] = useState<boolean>(true) // true = qarışıq, false = ardıcıl
   const [questionLimit, setQuestionLimit] = useState<number>(25) // sessiya başına sual limiti
   const [examDuration, setExamDuration] = useState<number>(300) // 5 dəqiqə (saniyə ilə)
   const [showResultModal, setShowResultModal] = useState(false)
   const [resultData, setResultData] = useState({ correct: 0, total: 0 })
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
+
+  // Filter questions based on selected category
+  const categoryQuestions = useMemo(() => {
+    if (!selectedCategory) return []
+    if (selectedCategory === "all") return initialQuestions
+    // Filter questions that actually belong to the selected category
+    // Note: Some categories might slightly mismatch, so basic filtering
+    return initialQuestions.filter(q => q.category === selectedCategory)
+  }, [selectedCategory, initialQuestions])
    /* 
      State for Real Stats 
   */
@@ -187,7 +218,7 @@ export default function Home() {
     return counts
   }, [questions])
 
-  const handleModeSelect = (targetMode: "blitz" | "flashcards" | "write" | "keywords" | "ticket" | "structured-keywords") => {
+  const handleModeSelect = (targetMode: "blitz" | "flashcards" | "write" | "keywords" | "ticket" | "structured-keywords" | "written-prep") => {
     setPendingMode(targetMode)
     setMode("select-category")
   }
@@ -203,6 +234,7 @@ export default function Home() {
     setMode("home")
     setSelectedCategory(null)
     setPendingMode(null)
+    setCurrentQuestionIndex(0)
   }
 
   const handleExamClick = (subject: string, type: "test" | "written") => {
@@ -223,6 +255,12 @@ export default function Home() {
       case "select-category":
         return (
           <div className="space-y-6 max-w-2xl mx-auto">
+            <div className="flex items-center justify-between">
+              <Button variant="ghost" onClick={handleBackToHome} className="text-muted-foreground hover:text-white p-0">
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Ana Səhifə
+              </Button>
+            </div>
             <div className="text-center space-y-2">
               <h2 className="text-3xl font-bold">Hazırlıq Parametrləri</h2>
               <p className="text-muted-foreground">
@@ -231,6 +269,7 @@ export default function Home() {
                  pendingMode === "keywords" ? "Açar Söz rejimi" :
                  pendingMode === "ticket" ? "Bilet İmtahanı" :
                  pendingMode === "structured-keywords" ? "Struktur Açar Sözlər" :
+                 pendingMode === "written-prep" ? "Yazılı Hazırlıq" :
                  "Flashcard rejimi"} üçün seçim edin
               </p>
             </div>
@@ -502,6 +541,107 @@ export default function Home() {
           />
         )
 
+      case "written-prep":
+        return (
+        <div className="space-y-6">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <Button variant="ghost" onClick={() => setMode("select-category")} className="text-muted-foreground hover:text-white">
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Geri
+              </Button>
+              <Button variant="ghost" onClick={handleBackToHome} className="text-muted-foreground hover:text-white">
+                <HomeIcon className="w-4 h-4 mr-2" />
+                Ana Səhifə
+              </Button>
+            </div>
+            <div className="text-center">
+              <h2 className="text-xl font-bold">Yazılı İmtahan Məşqi</h2>
+              <p className="text-xs text-muted-foreground">Uzun cavablar üçün məşq (Gopçu Modu)</p>
+            </div>
+            <div className="w-20" /> {/* Spacer */}
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-[300px_1fr] h-[calc(100vh-200px)]">
+            {/* Question List Sidebar */}
+            <Card className="flex flex-col h-full overflow-hidden border-orange-500/20">
+              <div className="p-3 border-b bg-muted/50 font-medium text-sm">Suallar</div>
+              <div className="flex-1 overflow-y-auto">
+                <div className="p-2 space-y-1">
+                  {categoryQuestions.map((q, idx) => (
+                    <Button
+                      key={q.id}
+                      variant={currentQuestionIndex === idx ? "secondary" : "ghost"}
+                      className={cn(
+                        "w-full justify-start text-left h-auto py-3 text-sm whitespace-normal",
+                        currentQuestionIndex === idx && "bg-orange-500/10 text-orange-500 hover:bg-orange-500/20"
+                      )}
+                      onClick={() => setCurrentQuestionIndex(idx)}
+                    >
+                      <span className="mr-2 opacity-50">{idx + 1}.</span>
+                      <span className="line-clamp-2">{q.question}</span>
+                    </Button>
+                  ))}
+                </div>
+              </div>
+            </Card>
+
+            {/* Answer Display & Practice Area */}
+            <Card className="flex flex-col h-full overflow-hidden border-orange-500/20">
+              <div className="flex-1 p-6 overflow-y-auto">
+                <div className="max-w-3xl mx-auto space-y-8">
+                  {/* Current Question */}
+                  <div className="space-y-4">
+                    <div className="inline-block px-3 py-1 rounded-full bg-orange-500/10 text-orange-500 text-xs font-medium">
+                      Sual {currentQuestionIndex + 1}
+                    </div>
+                    <h3 className="text-2xl font-bold leading-tight">
+                      {categoryQuestions[currentQuestionIndex]?.question}
+                    </h3>
+                  </div>
+
+                  <Separator />
+
+                  {/* The "Ideal" Long Answer */}
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-2 text-green-500 font-medium">
+                      <BookOpen className="w-4 h-4" />
+                      Mühazirə Cavabı (Uzun Versiya)
+                    </div>
+                    <div className="prose prose-invert max-w-none text-muted-foreground leading-relaxed text-lg">
+                      {categoryQuestions[currentQuestionIndex]?.answer ? (
+                        categoryQuestions[currentQuestionIndex]?.answer.split('\n').map((para, i) => (
+                           para.trim() && <p key={i} className="mb-4">{para}</p>
+                        ))
+                      ) : (
+                        <p className="italic opacity-50">Bu sual üçün geniş cavab tapılmadı.</p>
+                      )}
+                    </div>
+                  </div>
+
+                  <Separator />
+
+                  {/* Practice Area */}
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-2 text-blue-500 font-medium">
+                      <PenTool className="w-4 h-4" />
+                      Öz Cavabını Yaz (Məşq et)
+                    </div>
+                    <Textarea 
+                      placeholder="Burada uzun-uzadı yazmağı məşq et..." 
+                      className="min-h-[200px] text-lg p-4 resize-y bg-background/50 focus:bg-background transition-colors"
+                    />
+                    <p className="text-xs text-muted-foreground text-right">
+                      Tövsiyə: Mümkün qədər çox söz istifadə etməyə çalışın.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Card>
+          </div>
+        </div>
+        )
+
       default:
         return (
           <div className="space-y-8 max-w-4xl mx-auto pb-12">
@@ -721,6 +861,40 @@ export default function Home() {
 
                 <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                     <Card 
+                        className="cursor-pointer border-l-4 border-l-pink-500 hover:bg-pink-500/5 transition-all"
+                        onClick={() => handleModeSelect("written-prep")}
+                    >
+                        <CardHeader className="flex flex-row items-center gap-4 p-4">
+                            <div className="w-10 h-10 rounded-lg bg-pink-500/20 flex items-center justify-center shrink-0">
+                                <PenTool className="w-5 h-5 text-pink-500" />
+                            </div>
+                            <div>
+                                <CardTitle className="text-lg">Yazılı Hazırlıq (Gopçu)</CardTitle>
+                                <CardDescription className="text-sm">Uzun cavablar üçün simulyasiya</CardDescription>
+                            </div>
+                        </CardHeader>
+                    </Card>
+                </motion.div>
+
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                    <Card 
+                        className="cursor-pointer border-l-4 border-l-red-500 hover:bg-red-500/5 transition-all"
+                        onClick={() => router.push("/focus")}
+                    >
+                        <CardHeader className="flex flex-row items-center gap-4 p-4">
+                            <div className="w-10 h-10 rounded-lg bg-red-500/20 flex items-center justify-center shrink-0">
+                                <Flame className="w-5 h-5 text-red-500" />
+                            </div>
+                            <div>
+                                <CardTitle className="text-lg">Fokus Oyun</CardTitle>
+                                <CardDescription className="text-sm">Pomodoro + Oyunlaşdırma</CardDescription>
+                            </div>
+                        </CardHeader>
+                    </Card>
+                </motion.div>
+
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                    <Card 
                         className="cursor-pointer border border-purple-500/50 hover:bg-purple-500/10 transition-all bg-gradient-to-r from-purple-900/10 to-pink-900/10"
                         onClick={() => router.push("/cram")}
                     >
@@ -736,22 +910,7 @@ export default function Home() {
                     </Card>
                 </motion.div>
 
-                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-                    <Card 
-                        className="cursor-pointer border border-orange-500/50 hover:bg-orange-500/10 transition-all bg-gradient-to-r from-orange-900/10 to-red-900/10"
-                        onClick={() => router.push("/focus")}
-                    >
-                        <CardHeader className="flex flex-row items-center gap-4 p-4">
-                            <div className="w-10 h-10 rounded-lg bg-orange-500/20 flex items-center justify-center shrink-0">
-                                <Flame className="w-5 h-5 text-orange-400" />
-                            </div>
-                            <div>
-                                <CardTitle className="text-lg bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Fokus Oyun</CardTitle>
-                                <CardDescription className="text-sm">Pomodoro + Oyunlaşdırma</CardDescription>
-                            </div>
-                        </CardHeader>
-                    </Card>
-                </motion.div>
+
 
                 <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                     <Card 
@@ -803,6 +962,7 @@ export default function Home() {
             setMode("select-category")
           }}
         />
+
     </main>
   )
 }
