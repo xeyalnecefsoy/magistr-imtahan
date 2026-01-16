@@ -62,7 +62,7 @@ const muhendisQuestions = muhendisYaradiciliqData.questions.map(q => ({
 }))
 
 // Transform komputer questions to match the app format - all under ONE category
-const komputerQuestions = komputerDizaynData.questions.map(q => ({
+const komputerQuestions = (komputerDizaynData.questions as any[]).map(q => ({
   id: `komputer-${q.id}`,
   type: "flashcard" as const,
   question: q.question,
