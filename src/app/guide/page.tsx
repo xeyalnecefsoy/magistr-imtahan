@@ -178,7 +178,7 @@ export default function GuidePage() {
             </div>
           ) : !selectedTicket ? (
             // Ticket List View
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
               {Array.from({ length: totalTickets }).map((_, idx) => {
                 const ticketNum = idx + 1
                 return (
@@ -204,10 +204,10 @@ export default function GuidePage() {
             </div>
           ) : (
             // Detail View (Guide)
-            <div className="grid lg:grid-cols-[300px_1fr] gap-8">
+            <div className="flex flex-col lg:grid lg:grid-cols-[280px_1fr] gap-6 lg:gap-8">
               
-              {/* Sidebar: Question Navigation */}
-              <div className="space-y-4">
+              {/* Sidebar: Question Navigation - Hidden on mobile, sticky on desktop */}
+              <div className="hidden lg:block space-y-4">
                  <Card className="bg-slate-900 border-slate-800 sticky top-4">
                     <CardContent className="p-4 space-y-2">
                          <div className="text-sm font-medium text-slate-400 uppercase mb-4 pl-2 border-l-2 border-emerald-500">
@@ -217,7 +217,7 @@ export default function GuidePage() {
                              <a 
                                 href={`#q-${q.id}`} 
                                 key={q.id}
-                                className="block p-3 rounded-lg hover:bg-white/5 text-sm text-slate-300 hover:text-white transition-colors truncate"
+                                className="block p-2 rounded-lg hover:bg-white/5 text-xs font-medium text-slate-300 hover:text-white transition-colors truncate"
                              >
                                 <span className="mr-2 text-emerald-500 font-bold">{idx + 1}.</span>
                                 {q.question}
@@ -227,44 +227,61 @@ export default function GuidePage() {
                  </Card>
 
                  <Card className="bg-gradient-to-br from-emerald-900/20 to-teal-900/20 border-emerald-500/20">
-                    <CardContent className="p-6">
-                        <h3 className="font-bold text-emerald-400 mb-2 flex items-center gap-2">
+                    <CardContent className="p-4">
+                        <h3 className="font-bold text-emerald-400 mb-2 flex items-center gap-2 text-sm">
                             <Star className="w-4 h-4" /> Ümumi Məsləhət
                         </h3>
-                        <p className="text-sm text-slate-300 leading-relaxed">
-                            Bu biletdəki suallar əsasən <strong>{ticketQuestions[0]?.category}</strong> mövzusuna aiddir. Cavablayarkən terminlərin dəqiq tərifini verməyə və nümunələrlə əsaslandırmağa çalışın.
+                        <p className="text-xs text-slate-300 leading-relaxed">
+                            Bu biletdəki suallar əsasən <strong>{ticketQuestions[0]?.category}</strong> mövzusuna aiddir.
                         </p>
                     </CardContent>
                  </Card>
               </div>
 
-              {/* Main: Guides */}
-              <div className="space-y-8">
+              {/* Mobile Navigation Dropdown could go here, but for now simple scroll is fine */}
+
+              {/* Main Content Area */}
+              <div className="min-w-0 w-full space-y-6 lg:space-y-8">
+                
+                {/* Mobile Ticket Tip - Visible only on small screens */}
+                <div className="block lg:hidden">
+                    <Card className="bg-gradient-to-br from-emerald-900/20 to-teal-900/20 border-emerald-500/20">
+                        <CardContent className="p-4">
+                            <h3 className="font-bold text-emerald-400 mb-2 flex items-center gap-2 text-sm">
+                                <Star className="w-4 h-4" /> Bilet {selectedTicket} — Ümumi Məsləhət
+                            </h3>
+                            <p className="text-xs text-slate-300 leading-relaxed">
+                                Bu biletdəki suallar əsasən <strong>{ticketQuestions[0]?.category}</strong> mövzusuna aiddir. İmtahan zamanı əvvəlcə ən yaxşı bildiyiniz sualdan başlayın.
+                            </p>
+                        </CardContent>
+                    </Card>
+                </div>
+
                 {ticketQuestions.map((q, idx) => (
                     <div 
                         key={q.id} 
                         id={`q-${q.id}`} 
-                        className="scroll-mt-8"
+                        className="scroll-mt-24"
                     >
-                        <Card className="bg-slate-900/80 border-slate-800 overflow-hidden">
+                        <Card className="bg-slate-900/80 border-slate-800 overflow-hidden w-full">
                             <div className="h-1 bg-gradient-to-r from-emerald-500 to-teal-500" />
-                            <CardContent className="p-6 md:p-8 space-y-6">
+                            <CardContent className="p-4 md:p-8 space-y-6">
                                 {/* Question Header */}
                                 <div>
                                     <div className="flex items-center gap-2 text-emerald-500 text-xs font-bold uppercase tracking-widest mb-2">
                                         <Badge variant="outline" className="border-emerald-500/30 text-emerald-400">Sual {idx + 1}</Badge>
                                         <span className="text-slate-500">•</span>
-                                        <span className="text-slate-400">{q.category}</span>
+                                        <span className="text-slate-400 truncate max-w-[200px]">{q.category}</span>
                                     </div>
-                                    <h2 className="text-xl md:text-2xl font-bold text-white leading-tight">
+                                    <h2 className="text-lg md:text-2xl font-bold text-white leading-tight">
                                         {q.question}
                                     </h2>
                                 </div>
 
                                 {/* Dynamic Guide / Structure */}
-                                <div className="grid md:grid-cols-2 gap-6">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                                     {/* Left: What to write (Structure) */}
-                                    <div className="space-y-4 bg-black/20 p-5 rounded-xl border border-white/5">
+                                    <div className="space-y-4 bg-black/20 p-4 rounded-xl border border-white/5">
                                         <h3 className="text-sm font-bold text-slate-300 flex items-center gap-2">
                                             <Layout className="w-4 h-4 text-emerald-400" />
                                             Cavab Strukturu
@@ -292,7 +309,7 @@ export default function GuidePage() {
                                     </div>
 
                                     {/* Right: Keywords & Tips */}
-                                    <div className="space-y-4 bg-emerald-900/10 p-5 rounded-xl border border-emerald-500/10">
+                                    <div className="space-y-4 bg-emerald-900/10 p-4 rounded-xl border border-emerald-500/10">
                                         <h3 className="text-sm font-bold text-slate-300 flex items-center gap-2">
                                             <Lightbulb className="w-4 h-4 text-yellow-400" />
                                             Açar Məqamlar & İpucular
