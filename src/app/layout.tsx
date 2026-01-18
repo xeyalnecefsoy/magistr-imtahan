@@ -31,6 +31,17 @@ export const metadata: Metadata = {
     locale: "az_AZ",
     type: "website",
   },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Magistr Hazırlığı",
+    startupImage: [
+      "/apple-icon.png",
+    ],
+  },
+  formatDetection: {
+    telephone: false,
+  },
 };
 
 export const viewport = {

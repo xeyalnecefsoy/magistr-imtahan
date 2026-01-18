@@ -878,6 +878,23 @@ export default function Home() {
 
                 <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                     <Card 
+                        className="cursor-pointer border-l-4 border-l-teal-500 hover:bg-teal-500/5 transition-all"
+                        onClick={() => router.push("/guide")}
+                    >
+                        <CardHeader className="flex flex-row items-center gap-4 p-4">
+                            <div className="w-10 h-10 rounded-lg bg-teal-500/20 flex items-center justify-center shrink-0">
+                                <Lightbulb className="w-5 h-5 text-teal-500" />
+                            </div>
+                            <div>
+                                <CardTitle className="text-lg">İmtahan Bələdçisi</CardTitle>
+                                <CardDescription className="text-sm">Biletlər üzrə ipucular</CardDescription>
+                            </div>
+                        </CardHeader>
+                    </Card>
+                </motion.div>
+
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                    <Card 
                         className="cursor-pointer border-l-4 border-l-red-500 hover:bg-red-500/5 transition-all"
                         onClick={() => router.push("/focus")}
                     >
