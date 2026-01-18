@@ -10,6 +10,7 @@ import {
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import Markdown from "react-markdown"
 
 import muhendisData from "@/data/muhendis-yaradiciliq-suallari.json"
 import dizaynData from "@/data/dizayn-suallari.json"
@@ -101,6 +102,74 @@ export default function GuidePage() {
       keywords: q.keywords || []
     })) as GuideQuestion[]
   }, [selectedTicket, questions, selectedSubject])
+
+  const ticketAdvice = useMemo(() => {
+    if (!ticketQuestions.length) return null
+    
+    // 1. Extract Terms & Categories FIRST
+    const categories = Array.from(new Set(ticketQuestions.map(q => q.category))).filter(Boolean)
+    const STOP_WORDS = ["xülasə", "qısaca", "məqsəd", "il", "tarix", "sual", "cavab", "hissə", "bölmə", "nədir", "haqqında", "əsas", "vacib", "olan", "üçün", "kimi"]
+    
+    const allTerms = ticketQuestions.flatMap(q => {
+        const explicit = q.keywords || []
+        const extracted = (q.answer.match(/\*\*(.*?)\*\*/g) || [])
+            .map(s => s.replace(/\*\*/g, '').replace(/:$/, '').trim())
+            .filter(s => {
+                const lower = s.toLowerCase()
+                return (
+                    s.length > 3 && 
+                    s.length < 35 && 
+                    !s.includes('?') && 
+                    !/^\d/.test(s) && 
+                    !STOP_WORDS.some(bad => lower.includes(bad))
+                )
+            })
+        return [...explicit, ...extracted]
+    })
+    
+    // Get unique terms
+    const uniqueTerms = Array.from(new Set(allTerms)).slice(0, 10)
+    
+    // 2. Construct Narrative
+    let narrative = ""
+    const catText = categories.length > 3 
+        ? `${categories.slice(0, 3).join(", ")} və digər` 
+        : categories.join(", ")
+        
+    const termText = uniqueTerms.length >= 2 
+        ? `**${uniqueTerms[0]}** və **${uniqueTerms[1]}**`
+        : "**əsas anlayışlar**"
+
+    narrative = `Bu bilet, ümumilikdə **${catText}** mövzularını əhatə edərək tələbənin geniş biliklərini yoxlayır. \n\nSizdən xüsusilə ${termText} kimi vacib məqamları dəqiq izah etmək, mövzunun mahiyyətini açmaq tələb olunur. \n\nCavablarınızı sadə cümlələr və real nümunələrlə zənginləşdirməyiniz tövsiyə olunur.`
+
+    return {
+        narrative,
+        terms: uniqueTerms
+    }
+  }, [ticketQuestions])
+
+  // Helper component for the advice content to avoid duplication
+  const AdviceContent = () => {
+    if (!ticketAdvice) return null
+    return (
+        <div className="space-y-3">
+             <p className="text-xs text-slate-300 leading-relaxed">
+                <Markdown components={{ strong: ({node, ...props}) => <span className="text-emerald-400 font-bold" {...props} /> }}>
+                    {ticketAdvice.narrative}
+                </Markdown>
+             </p>
+             {ticketAdvice.terms.length > 0 && (
+                <div className="flex flex-wrap gap-2">
+                    {ticketAdvice.terms.map((t, i) => (
+                        <span key={i} className="text-[10px] uppercase font-bold text-emerald-400 bg-emerald-950/50 border border-emerald-500/20 px-2 py-1 rounded-md">
+                            {t}
+                        </span>
+                    ))}
+                </div>
+             )}
+        </div>
+    )
+  }
 
   // Navigation handlers
   const handleBack = () => {
@@ -229,11 +298,9 @@ export default function GuidePage() {
                  <Card className="bg-gradient-to-br from-emerald-900/20 to-teal-900/20 border-emerald-500/20">
                     <CardContent className="p-4">
                         <h3 className="font-bold text-emerald-400 mb-2 flex items-center gap-2 text-sm">
-                            <Star className="w-4 h-4" /> Ümumi Məsləhət
+                            <Star className="w-4 h-4" /> Bilet Strategiyası
                         </h3>
-                        <p className="text-xs text-slate-300 leading-relaxed">
-                            Bu biletdəki suallar əsasən <strong>{ticketQuestions[0]?.category}</strong> mövzusuna aiddir.
-                        </p>
+                        <AdviceContent />
                     </CardContent>
                  </Card>
               </div>
@@ -248,11 +315,9 @@ export default function GuidePage() {
                     <Card className="bg-gradient-to-br from-emerald-900/20 to-teal-900/20 border-emerald-500/20">
                         <CardContent className="p-4">
                             <h3 className="font-bold text-emerald-400 mb-2 flex items-center gap-2 text-sm">
-                                <Star className="w-4 h-4" /> Bilet {selectedTicket} — Ümumi Məsləhət
+                                <Star className="w-4 h-4" /> Bilet Strategiyası
                             </h3>
-                            <p className="text-xs text-slate-300 leading-relaxed">
-                                Bu biletdəki suallar əsasən <strong>{ticketQuestions[0]?.category}</strong> mövzusuna aiddir. İmtahan zamanı əvvəlcə ən yaxşı bildiyiniz sualdan başlayın.
-                            </p>
+                            <AdviceContent />
                         </CardContent>
                     </Card>
                 </div>
@@ -279,61 +344,90 @@ export default function GuidePage() {
                                 </div>
 
                                 {/* Dynamic Guide / Structure */}
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                                    {/* Left: What to write (Structure) */}
-                                    <div className="space-y-4 bg-black/20 p-4 rounded-xl border border-white/5">
-                                        <h3 className="text-sm font-bold text-slate-300 flex items-center gap-2">
-                                            <Layout className="w-4 h-4 text-emerald-400" />
-                                            Cavab Strukturu
-                                        </h3>
-                                        <ul className="space-y-3">
-                                            <li className="flex gap-3 text-sm text-slate-300">
-                                                <span className="flex-none w-6 h-6 rounded-full bg-emerald-500/10 text-emerald-500 flex items-center justify-center text-xs font-bold">1</span>
-                                                <span>
-                                                    <strong className="text-white">Giriş:</strong> Termin və ya anlayışın {q.keywords && q.keywords.length > 0 ? 'tərifini verin' : 'mahiyyətini açın'}.
-                                                </span>
-                                            </li>
-                                            <li className="flex gap-3 text-sm text-slate-300">
-                                                <span className="flex-none w-6 h-6 rounded-full bg-emerald-500/10 text-emerald-500 flex items-center justify-center text-xs font-bold">2</span>
-                                                <span>
-                                                    <strong className="text-white">İzah:</strong> {q.keywords && q.keywords.length > 0 ? q.keywords.slice(0, 2).join(", ") : "Əsas məqamlar"} haqqında ətraflı danışın.
-                                                </span>
-                                            </li>
-                                            <li className="flex gap-3 text-sm text-slate-300">
-                                                <span className="flex-none w-6 h-6 rounded-full bg-emerald-500/10 text-emerald-500 flex items-center justify-center text-xs font-bold">3</span>
-                                                <span>
-                                                    <strong className="text-white">Nümunə:</strong> Real həyatdan və ya mühəndislik təcrübəsindən nümunə gətirin.
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    {/* Dynamic Guide / Structure */}
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                                        {/* Left: What to write (Structure) */}
+                                        <div className="space-y-4 bg-black/20 p-4 rounded-xl border border-white/5">
+                                            <h3 className="text-sm font-bold text-slate-300 flex items-center gap-2">
+                                                <Layout className="w-4 h-4 text-emerald-400" />
+                                                Cavab Planı
+                                            </h3>
+                                            
+                                            {/* Auto-generated structure from headings/bold parts */}
+                                            <ul className="space-y-3">
+                                                {(q.answer.match(/\*\*(.*?)\*\*/g) || [])
+                                                    .map(s => s.replace(/\*\*/g, '').trim())
+                                                    .filter(s => 
+                                                        s.length > 3 && 
+                                                        !s.includes('?') && // Exclude explicit questions headers
+                                                        !s.toLowerCase().includes('nədir') // Exclude "What is X" headers
+                                                    )
+                                                    .map(s => s.replace(/:$/, '')) // Remove trailing colons
+                                                    .slice(0, 5) // Take top 5 points
+                                                    .map((header, i) => (
+                                                    <li key={i} className="flex gap-3 text-sm text-slate-300">
+                                                        <span className="flex-none w-6 h-6 rounded-full bg-emerald-500/10 text-emerald-500 flex items-center justify-center text-xs font-bold">{i + 1}</span>
+                                                        <span className="font-medium text-white">{header}</span>
+                                                    </li>
+                                                ))}
+                                                
+                                                {/* Fallback if no specific points found */}
+                                                {(!q.answer.match(/\*\*(.*?)\*\*/g) || 
+                                                  (q.answer.match(/\*\*(.*?)\*\*/g) || [])
+                                                    .map(s => s.replace(/\*\*/g, ''))
+                                                    .filter(s => !s.includes('?') && !s.toLowerCase().includes('nədir')).length === 0
+                                                ) && (
+                                                    <>
+                                                        <li className="flex gap-3 text-sm text-slate-300">
+                                                            <span className="flex-none w-6 h-6 rounded-full bg-emerald-500/10 text-emerald-500 flex items-center justify-center text-xs font-bold">1</span>
+                                                            <span>Mövzunun əsas mahiyyəti</span>
+                                                        </li>
+                                                        <li className="flex gap-3 text-sm text-slate-300">
+                                                            <span className="flex-none w-6 h-6 rounded-full bg-emerald-500/10 text-emerald-500 flex items-center justify-center text-xs font-bold">2</span>
+                                                            <span>Vurulğalanmalı açar məqamlar</span>
+                                                        </li>
+                                                        <li className="flex gap-3 text-sm text-slate-300">
+                                                            <span className="flex-none w-6 h-6 rounded-full bg-emerald-500/10 text-emerald-500 flex items-center justify-center text-xs font-bold">3</span>
+                                                            <span>Nümunə və ya tətbiq sahəsi</span>
+                                                        </li>
+                                                    </>
+                                                )}
+                                            </ul>
+                                        </div>
 
-                                    {/* Right: Keywords & Tips */}
-                                    <div className="space-y-4 bg-emerald-900/10 p-4 rounded-xl border border-emerald-500/10">
-                                        <h3 className="text-sm font-bold text-slate-300 flex items-center gap-2">
-                                            <Lightbulb className="w-4 h-4 text-yellow-400" />
-                                            Açar Məqamlar & İpucular
-                                        </h3>
-                                        
-                                        {q.keywords && q.keywords.length > 0 ? (
+                                        {/* Right: Keywords & Tips */}
+                                        <div className="space-y-4 bg-emerald-900/10 p-4 rounded-xl border border-emerald-500/10">
+                                            <h3 className="text-sm font-bold text-slate-300 flex items-center gap-2">
+                                                <Lightbulb className="w-4 h-4 text-yellow-400" />
+                                                Açar Sözlər
+                                            </h3>
+                                            
                                             <div className="flex flex-wrap gap-2">
-                                                {q.keywords.map((kw, i) => (
+                                                {/* Combine explicit keywords + extracted bold terms */}
+                                                {Array.from(new Set([
+                                                    ...(q.keywords || []),
+                                                    ...(q.answer.match(/\*\*(.*?)\*\*/g) || [])
+                                                        .map(s => s.replace(/\*\*/g, '').replace(/:$/, ''))
+                                                        .filter(s => s.length < 20) // Only keep short terms as keywords
+                                                        .slice(0, 6)
+                                                ])).map((kw, i) => (
                                                     <span key={i} className="text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-1 rounded">
                                                         {kw}
                                                     </span>
                                                 ))}
+                                                
+                                                {(!q.keywords?.length && !q.answer.match(/\*\*(.*?)\*\*/g)) && (
+                                                    <span className="text-xs text-slate-500 italic">Mətndəki əsas terminlərə diqqət yetirin.</span>
+                                                )}
                                             </div>
-                                        ) : (
-                                            <p className="text-xs text-slate-500 italic">Açar sözlər mövcud deyil, amma sualın mətninə diqqət yetirin.</p>
-                                        )}
-                                        
-                                        <div className="pt-2 border-t border-white/5 mt-2">
-                                            <p className="text-sm text-slate-300 italic">
-                                                "Bu sual üzrə ən vacib olan {q.keywords?.[0] || 'əsas anlayışı'} düzgün ifadə etməkdir."
-                                            </p>
+                                            
+                                            <div className="pt-2 border-t border-white/5 mt-2">
+                                                <p className="text-sm text-slate-300 italic">
+                                                    "Cavabı bu açar sözlər ətrafında qurun."
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
                                 
                                 {/* Revealable Answer Content */}
                                 <div className="pt-4">
@@ -343,9 +437,18 @@ export default function GuidePage() {
                                             Tam Cavaba Bax
                                         </summary>
                                         <div className="mt-4 pl-6 border-l-2 border-slate-800">
-                                            <p className="text-slate-300 leading-relaxed whitespace-pre-line">
-                                                {q.answer}
-                                            </p>
+                                            <div className="text-slate-300 leading-relaxed text-sm">
+                                                <Markdown
+                                                    components={{
+                                                        strong: ({node, ...props}) => <span className="font-bold text-emerald-400" {...props} />,
+                                                        ul: ({node, ...props}) => <ul className="space-y-2 mt-2" {...props} />,
+                                                        li: ({node, ...props}) => <li className="flex gap-2" {...props} />,
+                                                        p: ({node, ...props}) => <p className="mb-4 last:mb-0" {...props} />
+                                                    }}
+                                                >
+                                                    {q.answer}
+                                                </Markdown>
+                                            </div>
                                         </div>
                                      </details>
                                 </div>
