@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { ArrowLeft, Check, FileText, Shuffle, RefreshCcw, Eye, BookOpen } from "lucide-react"
+import { MarkdownText } from "@/components/MarkdownText"
 
 interface Question {
   id: string | number
@@ -38,7 +39,7 @@ export function TicketMode({ questions, selectedCategory, onExit }: TicketModePr
   const sortedQuestions = useMemo(() => {
     let filtered = questions
     if (selectedCategory) {
-      filtered = filtered.filter(q => q.category === selectedCategory || (selectedCategory === "Mühəndis yaradıcılıq prinsipləri" && q.category.includes("Yaradıcılıq")))
+      filtered = filtered.filter(q => q.category === selectedCategory)
     }
     // Sort by ID is CRITICAL here to match the real physical tickets (1-5, 6-10, etc.)
     return filtered.sort((a, b) => {
@@ -226,9 +227,11 @@ export function TicketMode({ questions, selectedCategory, onExit }: TicketModePr
                                         <div className="absolute top-0 right-0 p-1 px-3 bg-amber-200/50 text-amber-800 text-[10px] font-bold uppercase rounded-bl-lg">
                                             Cavab
                                         </div>
-                                        <p className="font-serif text-slate-800 leading-relaxed whitespace-pre-line text-justify">
-                                            {q.answer}
-                                        </p>
+                                        <div className="font-serif text-slate-800 leading-relaxed text-justify">
+                                            <MarkdownText size="base" theme="light">
+                                                {q.answer}
+                                            </MarkdownText>
+                                        </div>
                                         {(q as any).keywords && (q as any).keywords.length > 0 && (
                                             <div className="pt-4 border-t border-amber-200/50">
                                                 <span className="text-xs font-bold text-amber-600 uppercase mb-2 block flex items-center gap-1">
@@ -265,9 +268,11 @@ export function TicketMode({ questions, selectedCategory, onExit }: TicketModePr
                                             
                                             <div className="bg-green-50 p-4 rounded border border-green-200">
                                                 <span className="text-xs font-bold uppercase text-green-700 mb-1 block">Doğru Cavab:</span>
-                                                <p className="font-serif text-slate-800">
-                                                    {q.answer}
-                                                </p>
+                                                <div className="font-serif text-slate-800">
+                                                    <MarkdownText size="base" theme="light">
+                                                        {q.answer}
+                                                    </MarkdownText>
+                                                </div>
                                             </div>
 
                                             <div className="flex justify-end items-center gap-2">

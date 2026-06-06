@@ -1,0 +1,851 @@
+{
+  "subject": "Layihələrin idarə olunması",
+  "teacher": "Qarayev Maarif",
+  "examDate": "2026-06-08",
+  "examType": "Yazılı",
+  "totalQuestions": 60,
+  "questionsPerTicket": 5,
+  "totalTickets": 12,
+  "questions": [
+    {
+      "id": 1,
+      "category": "Bilet 1",
+      "question": "Layihə menecmentində liderlik",
+      "answer": "Liderlik layihə menecmentinin ən vacib komponentlərindən biridir. Layihə meneceri komandanı istiqamətləndirmək, motivasiya etmək və ümumi məqsədə çatmaq üçün onlara ilham vermək bacarığına malik olmalıdır. Yaxşı lider aşağıdakı keyfiyyətlərə malikdir: strateji düşünmə, qərar qəbuletmə, ünsiyyət bacarığı, problemləri həll etmə, komanda üzvlərinə inam və hörmət. Lider formal (rəsmi səlahiyyət) və qeyri-formal (şəxsi nüfuz) ola bilər. Transformativ liderlik layihələrdə daha effektivdir - belə lider komandanı dəyişikliklərə hazırlayır, onların potensialını artırır və ümumi uğur üçün birgə işləməyə sövq edir. Lider həmçinin riskləri qiymətləndirməli, prioritetləri müəyyən etməli və resursları düzgün bölüşdürməlidir.",
+      "keywords": [
+        "liderlik",
+        "menecer",
+        "motivasiya",
+        "komanda",
+        "transformativ lider",
+        "qərar qəbulu"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Bilet 1",
+      "question": "Layihə menecerinin vəzifələri",
+      "answer": "Layihə meneceri layihənin uğurla başa çatdırılması üçün bütün əsas funksiyaları yerinə yetirir:\n\n1) **Planlaşdırma** — iş bölgüsü, resursların ayrılması, vaxt cədvəlinin tərtibi\n2) **Təşkilati** — komandanın formalaşdırılması, rolların bölüşdürülməsi, kommunikasiya kanallarının qurulması\n3) **Rəhbərlik** — komandanın motivasiyası, problemlərin həlli, münaqişələrin idarə olunması\n4) **Nəzarət** — işin gedişatının izlənməsi, keyfiyyətin yoxlanılması, dəyişikliklərin idarə olunması\n5) **Hesabatlılıq** — maraqlı tərəflərə (steykholder) mütəmadi məlumat verilməsi\n6) **Risklərin idarə olunması** — mümkün risklərin aşkar edilməsi və onlara qarşı tədbirlərin görülməsi\n\nMenecer həmçinin layihənin əhatə dairəsi, büdcə və vaxt çərçivəsində qalmasını təmin etməlidir.",
+      "keywords": [
+        "planlaşdırma",
+        "təşkilati",
+        "nəzarət",
+        "hesabatlılıq",
+        "risk",
+        "layihə meneceri"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Bilet 1",
+      "question": "Layihə komandasında kadrların planlaşdırılması",
+      "answer": "Kadrların planlaşdırılması layihənin uğuru üçün həyati əhəmiyyətə malikdir. Bu proses aşağıdakı mərhələləri əhatə edir:\n\n1) **Tələblərin müəyyən edilməsi** — layihə üçün hansı ixtisas və bacarıqlara ehtiyac olduğunun təhlili\n2) **Rolların müəyyənləşdirilməsi** — hər bir üzvün vəzifə və məsuliyyətlərinin dəqiq təsviri (məs: analitik, dizayner, proqramçı, testçi)\n3) **Komandanın formalaşdırılması** — uyğun namizədlərin seçilməsi və işə götürülməsi\n4) **BACİ matrisi** — Bacarıqlar (Skills), Bacarıq səviyyəsi (Ability), Təcrübə (Competency), İstifadə (Utilization) — komanda üzvlərinin ixtisas xəritəsi\n5) **Təlim və inkişaf** — komandanın bilik və bacarıqlarının artırılması\n6) **Motivasiya və saxlanılması** — yaxşı işçilərin layihədə qalmasının təmin edilməsi\n\nDüzgün planlaşdırma olmadan layihədə əsas ixtisas çatışmazlığı yarana bilər ki, bu da vaxt və büdcəyə mənfi təsir göstərir.",
+      "keywords": [
+        "kadr planlaması",
+        "rollar",
+        "BACİ",
+        "komanda formalaşdırma",
+        "təlim",
+        "motivasiya"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Bilet 1",
+      "question": "Layihə menecmentinin tarixi",
+      "answer": "Layihə menecmenti qədim tarixə malikdir:\n\n- **Qədim dövr** — Misir piramidalarının, Böyük Çin Səddinin tikintisi böyük layihələrin idarə olunmasını tələb edirdi\n- **XX əsrin əvvəlləri** — Henri Qantt (Gantt diaqramı), Frederik Teylor (elmi idarəetmə), Henri Ford (kütləvi istehsal) prinsipləri\n- **1950-60-cı illər** — PERT (Program Evaluation and Review Technique) və CPM (Critical Path Method) metodları yaradıldı (ABŞ kosmik proqramları üçün)\n- **1969** — PMI (Project Management Institute) təsis edildi\n- **1980-90-cı illər** — kompüter texnologiyalarının inkişafı layihə idarəetmə proqramlarının yaranmasına səbəb oldu (MS Project, Primavera)\n- **1987** — ilk PMBOK (Project Management Body of Knowledge) nəşr olundu\n- **2000-ci illərdən** — Agile, Scrum, PRINCE2 kimi çevik metodologiyalar geniş yayıldı\n- **Müasir dövr** — rəqəmsallaşma, süni intellekt və uzaqdan idarəetmə layihə menecmentini yeni səviyyəyə qaldırdı",
+      "keywords": [
+        "tarix",
+        "PMI",
+        "PMBOK",
+        "PERT",
+        "CPM",
+        "Gantt",
+        "Agile",
+        "Scrum"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Bilet 1",
+      "question": "Layihələrin təsnifatı",
+      "answer": "Layihələr müxtəlif meyarlara görə təsnif edilir:\n\n**1) Miqyasına görə:**\n- Kiçik layihələr (bir neçə həftə, 2-5 nəfər)\n- Orta layihələr (bir neçə ay, 10-30 nəfər)\n- Böyük layihələr (illər, 100+ nəfər)\n- Mega-layihələr (dövlət səviyyəli, milyardlıq büdcə)\n\n**2) Sahəsinə görə:**\n- Tikinti, İT, istehsal, səhiyyə, təhsil, sosial, ekoloji\n\n**3) Mürəkkəblik dərəcəsinə görə:**\n- Sadə (standart, təkrarlanan)\n- Mürəkkəb (yeni texnologiyalar, çoxsaylı maraqlı tərəflər)\n- Çox mürəkkəb (transformativ, yüksək riskli)\n\n**4) Müddətinə görə:**\n- Qısamüddətli (< 1 il)\n- Ortamüddətli (1-3 il)\n- Uzunmüddətli (3+ il)\n\n**5) İdarəetmə strukturuna görə:**\n- Fərdi, komanda, proqram, portfel layihələri\n\n**6) Məqsədinə görə:**\n- Kommersiya, sosial, elmi-tədqiqat, dövlət layihələri",
+      "keywords": [
+        "miqyas",
+        "sahə",
+        "mürəkkəblik",
+        "müddət",
+        "təsnifat",
+        "kommersiya",
+        "sosial"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Bilet 2",
+      "question": "Uğurlu layihə təklifinin hazırlanması üçün atılan addımlar",
+      "answer": "Uğurlu layihə təklifi aşağıdakı ardıcıl addımlarla hazırlanır:\n\n1) **Problemin müəyyən edilməsi** — mövcud vəziyyətin təhlili və həll tələb edən məsələnin dəqiq ifadəsi\n2) **Məqsədin formalaşdırılması** — SMART (Spesifik, Ölçüləbilən, Əldə oluna bilən, Realistik, Vaxtında) məqsədlərin qoyulması\n3) **Maraqlı tərəflərin analizi** — layihədən təsirlənən və təsir edən şəxslərin/qurumların müəyyən edilməsi\n4) **Bazar araşdırması** — oxşar layihələrin təcrübəsinin öyrənilməsi, rəqiblərin analizi\n5) **Resursların qiymətləndirilməsi** — maliyyə, insan, texniki resursların təyini\n6) **Risk analizi** — mümkün risklər və onların həlli yolları\n7) **Büdcə layihəsinin hazırlanması** — xərclərin smeta şəklində tərtibi\n8) **İş planının yaradılması** — mərhələlər, tapşırıqlar, son tarixlər\n9) **Gözlənilən nəticələr** — ölçülə bilən göstəricilərin (KPI) müəyyən edilməsi\n10) **Təsdiq prosesi** — rəhbərliyin və ya maliyyəçilərin təsdiqi",
+      "keywords": [
+        "layihə təklifi",
+        "addımlar",
+        "SMART",
+        "maraqlı tərəflər",
+        "risk",
+        "büdcə"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Bilet 2",
+      "question": "Komandanın təşkilinin əhəmiyyəti",
+      "answer": "Düzgün təşkil olunmuş komanda layihənin uğurlu tamamlanmasının əsas şərtidir. Komandanın təşkili aşağıdakı üstünlükləri təmin edir:\n\n1) **Səmərəlilik** — vəzifə bölgüsü aydın olduqda iş daha sürətlə və dəqiq yerinə yetirilir\n2) **Motivasiya** — hər bir üzv öz rolunu və əhəmiyyətini bildikdə daha həvəslə işləyir\n3) **Məsuliyyət** — kim nəyə görə cavabdehdir, dəqiq bilinir\n4) **Ünsiyyət** — komanda daxili kommunikasiya asanlaşır\n5) **İnnovasiya** — müxtəlif bacarıqlı insanlar birgə daha yaradıcı həllər tapır\n6) **Risklərin azaldılması** — problemlər komanda şəklində daha tez həll olunur\n\nKomanda təşkil edilərkən nəzərə alınmalıdır: üzvlərin ixtisası, təcrübəsi, şəxsi keyfiyyətləri, qarşılıqlı uyğunluq. Tuckman modelinə görə komanda 5 mərhələdən keçir: formalaşma, qarışıqlıq, normallaşma, fəaliyyət, dağılma.",
+      "keywords": [
+        "komanda",
+        "təşkil",
+        "səmərəlilik",
+        "motivasiya",
+        "Tuckman",
+        "məsuliyyət"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Bilet 2",
+      "question": "Layihə menecmentinin proses qrupları",
+      "answer": "PMBOK standartına görə layihə menecmenti 5 proses qrupuna bölünür:\n\n1) **Başlanğıc (Initiating)** — layihənin rəsmi olaraq təsdiqlənməsi, əsas maraqlı tərəflərin müəyyən edilməsi, layihə xartiyasının (charter) hazırlanması\n\n2) **Planlaşdırma (Planning)** — layihənin bütün aspektlərini əhatə edən planların hazırlanması: əhatə dairəsi, vaxt cədvəli, büdcə, keyfiyyət, resurs, risk, kommunikasiya planları\n\n3) **İcra/İcrası (Executing)** — planların həyata keçirilməsi, komandanın idarə olunması, işlərin görülməsi, tədarük, keyfiyyətin təmin edilməsi\n\n4) **Monitorinq və Nəzarət (Monitoring & Controlling)** — işin gedişatının izlənməsi, dəyişikliklərin idarə olunması, keyfiyyətin yoxlanılması, risklərin yenidən qiymətləndirilməsi\n\n5) **Bağlanma/Yekunlaşdırma (Closing)** — layihənin rəsmi bitirilməsi, nəticələrin təsdiqi, dərslərin çıxarılması, sənədləşmə\n\nHər proses qrupu özündə müəyyən prosesləri birləşdirir və onlar bir-biri ilə sıx əlaqəlidir.",
+      "keywords": [
+        "proses qrupları",
+        "başlanğıc",
+        "planlaşdırma",
+        "icra",
+        "monitorinq",
+        "bağlanma",
+        "PMBOK"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Bilet 2",
+      "question": "Layihə hazırlanması üçün üç vacib addım",
+      "answer": "Layihənin hazırlanmasında üç ən vacib addım bunlardır:\n\n1) **Konseptualizasiya (Anlayışın formalaşdırılması)**\n- Problemin dəqiq müəyyən edilməsi\n- Məqsədin və gözlənilən nəticələrin təsviri\n- Əsas maraqlı tərəflərlə ilkin razılaşma\n\n2) **Planlaşdırma**\n- Layihənin mərhələlərə və tapşırıqlara bölünməsi (WBS - İş Bölgüsü Strukturu)\n- Vaxt cədvəlinin tərtibi (Gantt diaqramı, Kritik Yol Metodu)\n- Resursların və büdcənin təyini\n- Risk planının hazırlanması\n\n3) **İcra və Nəzarət**\n- Komandanın işə salınması\n- Planın reallaşdırılması, işlərin görülməsi\n- Mütəmadi monitorinq, dəyişikliklərin idarə olunması\n- Nəticələrin ölçülməsi və hesabatlılıq\n\nBu üç addımın hər biri digəri üçün zəruridir — konsept olmadan plan qurulmur, plansız icra mümkün deyil, nəzarətsiz icra layihəni uğursuz edə bilər.",
+      "keywords": [
+        "konseptualizasiya",
+        "planlaşdırma",
+        "icra",
+        "WBS",
+        "monitorinq"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Bilet 2",
+      "question": "Layihələrin idarə olunması üçbucağı",
+      "answer": "Layihələrin idarə olunması üçbucağı (Project Management Triangle, \"Dəmir Üçbucaq\") layihənin üç əsas məhdudiyyətini əks etdirir:\n\n1) **Əhatə dairəsi (Scope)** — nə edilməlidir, hansı nəticələr əldə olunmalıdır\n2) **Vaxt (Time)** — nə qədər müddətə tamamlanmalıdır\n3) **Maliyyə / Büdcə (Cost)** — nə qədər vəsait ayrılıb\n\n**Mərkəz: Keyfiyyət** — bütün tərəflər keyfiyyətə yönəlib. Üçbucağın bir tərəfi dəyişdirilərsə, digər tərəflər mütləq təsirlənir:\n\n- Vaxt azaldılarsa → büdcə artır və ya əhatə daralır\n- Büdcə azaldılarsa → vaxt uzanır və ya əhatə daralır\n- Əhatə genişləndirilirsə → vaxt və büdcə artır\n\nMenecerin əsas vəzifəsi bu üç parametr arasında optimal balansı qorumaqdır. Bəzi müasir modellərə risk və resurs kimi əlavə tərəflər də əlavə olunur (beşbucaqlı model).",
+      "keywords": [
+        "üçbucaq",
+        "əhatə dairəsi",
+        "vaxt",
+        "büdcə",
+        "keyfiyyət",
+        "dəmir üçbucaq"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Bilet 3",
+      "question": "Layihənin həyat dövrü haqqında ümumi məlumat",
+      "answer": "Layihənin həyat dövrü (Project Life Cycle) layihənin başlanğıcından bitməsinə qədər olan bütün mərhələləri əhatə edir. Əsas mərhələlər:\n\n1) **Başlanğıc/İdeya mərhələsi**\n- Problemin müəyyən edilməsi\n- İlkin konsepsiya, maliyyə mənbələrinin axtarışı\n- Layihə xartiyasının hazırlanması\n\n2) **Planlaşdırma mərhələsi**\n- Detallı planların hazırlanması\n- Büdcə, vaxt cədvəli, resurs planı\n- Risklərin təhlili\n\n3) **İcra mərhələsi**\n- Komandanın işə salınması\n- Tapşırıqların yerinə yetirilməsi\n- Mütəmadi hesabatlar, dəyişikliklərin idarəsi\n\n4) **Monitorinq və Nəzarət**\n- Gedişatın izlənməsi\n- Keyfiyyətin yoxlanılması\n- Sapmaların düzəldilməsi\n\n5) **Bağlanma mərhələsi**\n- Nəticələrin təhvil verilməsi\n- Dərslərin çıxarılması\n- Layihənin rəsmi bağlanması\n\nHər mərhələdə resurs səviyyəsi, risk və maraqlı tərəflərin təsiri fərqlidir.",
+      "keywords": [
+        "həyat dövrü",
+        "mərhələlər",
+        "başlanğıc",
+        "planlaşdırma",
+        "icra",
+        "bağlanma"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Bilet 3",
+      "question": "Şəxslərarası kommunikasiyanın layihə menecmentində rolu",
+      "answer": "Şəxslərarası kommunikasiya layihənin bütün sahələrində həlledici rol oynayır:\n\n**Əsas funksiyaları:**\n1) **Məlumat mübadiləsi** — komanda üzvləri, maraqlı tərəflər və rəhbərlik arasında vaxtında, dəqiq məlumat ötürülməsi\n2) **Əməkdaşlıq** — müxtəlif ixtisaslı insanların birgə işləməsinin təmin edilməsi\n3) **Münaqişələrin həlli** — fikir ayrılıqlarının açıq müzakirə ilə aradan qaldırılması\n4) **Qərar qəbulu** — düzgün qərarların verilməsi üçün effektiv müzakirə\n5) **Motivasiya** — komanda üzvlərinin söhbət, geri əlaqə vasitəsilə həvəsləndirilməsi\n\n**Effektiv kommunikasiya üçün:**\n- Aktiv dinləmə\n- Aydın və qısa ifadə\n- Empatiya\n- Qeyri-verbal siqnalların düzgün oxunması\n- Müvafiq kanalın seçilməsi (yazılı, şifahi, rəqəmsal)\n\nPMBOK-a görə layihə menecerinin vaxtının təxminən 90%-i kommunikasiyaya sərf olunur. Pis kommunikasiya layihələrin uğursuzluğunun əsas səbəblərindən biridir.",
+      "keywords": [
+        "kommunikasiya",
+        "şəxslərarası",
+        "əməkdaşlıq",
+        "münaqişə",
+        "dinləmə",
+        "qərar qəbulu"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Bilet 3",
+      "question": "İqtisadi sistem haqqında anlayış",
+      "answer": "İqtisadi sistem cəmiyyətin iqtisadi resurslarının (torpaq, əmək, kapital, sahibkarlıq) istehsalı, bölüşdürülməsi, mübadiləsi və istehlakını tənzimləyən qarşılıqlı əlaqəli prinsiplər, qurumlar və mexanizmlər toplusudur.\n\n**İqtisadi sistemlərin tipləri:**\n1) **Ənənəvi iqtisadiyyat** — adət-ənənələrə əsaslanan, texnoloji inkişaf zəif\n2) **Planlı (mərkəzləşdirilmiş) iqtisadiyyat** — dövlət bütün resursları və istehsalı idarə edir (keçmiş SSRİ, Şimali Koreya)\n3) **Bazar iqtisadiyyatı** — tələb və təklif qanunları ilə tənzimlənir, özəl mülkiyyət üstünlük təşkil edir\n4) **Qarışıq iqtisadiyyat** — bazar və dövlət mexanizmləri birləşir (ABŞ, Avropa ölkələri)\n\n**Layihə menecmentində rolu:**\n- İqtisadi sistem layihənin maliyyələşmə mənbələrini müəyyən edir\n- Vergi, qanunvericilik, tənzimləmə qaydaları təsir göstərir\n- Risk mühiti formalaşır (valyuta, inflyasiya, faiz dərəcələri)\n- Tələb-təklif proqnozları layihənin kommersiya potensialını qiymətləndirməyə kömək edir",
+      "keywords": [
+        "iqtisadi sistem",
+        "planlı",
+        "bazar",
+        "qarışıq",
+        "resurslar",
+        "tələb-təklif"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Bilet 3",
+      "question": "Layihə menecerinin sosial məsuliyyəti",
+      "answer": "Layihə menecerinin sosial məsuliyyəti geniş anlayışdır və aşağıdakıları əhatə edir:\n\n1) **Cəmiyyətə qarşı məsuliyyət**\n- Layihənin ətraf mühitə təsirini minimuma endirmək\n- Yerli icmaların maraqlarını nəzərə almaq\n- Mədəni və sosial dəyərlərə hörmət\n\n2) **İşçilərə qarşı məsuliyyət**\n- Təhlükəsiz əmək şəraitinin yaradılması\n- Əmək haqqının vaxtında ödənilməsi\n- Peşəkar inkişaf imkanlarının təmin edilməsi\n- İş-şəxsi həyat balansının qorunması\n\n3) **Etik davranış**\n- Dürüstlük və şəffaflıq\n- Maraq toqquşmalarının açıqlanması\n- Rüşvətxorluq və korrupsiyaya qarşı mübarizə\n\n4) **Davamlılıq**\n- Resurslardan səmərəli istifadə\n- Ekoloji təmiz texnologiyaların tətbiqi\n- Gələcək nəsillərin ehtiyaclarını nəzərə almaq\n\n5) **Maraqlı tərəflərlə düzgün münasibət**\n- Bütün tərəflərin hüquqlarının qorunması\n- Qərar qəbulunda inklüzivlik\n\nSosial məsuliyyət yalnız qanunvericiliyə deyil, etik normalara da əsaslanır.",
+      "keywords": [
+        "sosial məsuliyyət",
+        "etika",
+        "davamlılıq",
+        "təhlükəsizlik",
+        "şəffaflıq"
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Bilet 3",
+      "question": "Layihə təklifinin tərkib hissələri",
+      "answer": "Yaxşı hazırlanmış layihə təklifi aşağıdakı əsas hissələrdən ibarət olmalıdır:\n\n1) **Xülasə** — layihənin qısa təsviri, əsas məqsəd, gözlənilən nəticələr\n2) **Problemin təsviri** — mövcud vəziyyətin təhlili, həll tələb edən məsələ\n3) **Məqsəd və vəzifələr** — ümumi məqsəd, spesifik vəzifələr, SMART kriteriyaları\n4) **Maraqlı tərəflər** — layihədən təsirlənən şəxslər, təşkilatlar, qruplar\n5) **Metodologiya** — layihənin necə həyata keçiriləcəyi, istifadə olunan metodlar, alətlər\n6) **İş planı** — mərhələlər, tapşırıqlar, vaxt cədvəli (Gantt diaqramı)\n7) **Büdcə** — ümumi xərc, xərc maddələri, maliyyə mənbələri\n8) **Gözlənilən nəticələr** — ölçülə bilən göstəricilər, çıxışlar (deliverables)\n9) **Risk analizi** — mümkün risklər və onların idarə olunması strategiyası\n10) **Monitorinq və qiymətləndirmə** — gedişatın necə izləniləcəyi, uğur kriteriyaları\n11) **Davamlılıq planı** — layihə başa çatdıqdan sonra nəticələrin necə qorunacağı\n12) **Əlavələr** — sənədlər, razılaşmalar, sertifikatlar",
+      "keywords": [
+        "layihə təklifi",
+        "xülasə",
+        "məqsəd",
+        "büdcə",
+        "iş planı",
+        "risk"
+      ]
+    },
+    {
+      "id": 16,
+      "category": "Bilet 4",
+      "question": "Layihə təklifinin ilkin təhlili",
+      "answer": "Layihə təklifinin ilkin təhlili (Feasibility Study) layihəyə başlamazdan əvvəl aparılan kompleks qiymətləndirmədir:\n\n**1) Texniki təhlil**\n- Mövcud texnologiya və resurslar\n- İxtisaslı kadrların mövcudluğu\n- Texniki risklər və məhdudiyyətlər\n- Alternativ texniki həllərin müqayisəsi\n\n**2) Maliyyə təhlili**\n- Təxmini büdcə və maliyyələşmə mənbələri\n- ROI (Investisiya gəlirliliyi)\n- NPV (Xalis cari dəyər), IRR (Daxili gəlir dərəcəsi)\n- Xərc-fayda analizi\n- Ödəmə müddəti (Payback Period)\n\n**3) Bazar təhlili**\n- Tələb və təklif proqnozu\n- Rəqabət mühiti\n- Hədəf auditoriya\n- Marketinq strategiyası\n\n**4) Hüquqi təhlil**\n- Qanunvericilik tələbləri\n- Lisenziya və razılaşmalar\n- Əqli mülkiyyət hüquqları\n\n**5) Ekoloji və sosial təhlil**\n- Ətraf mühitə təsir\n- Yerli icmaların mövqeyi\n- Sosial risklər\n\n**6) Təşkilati təhlil**\n- Layihə komandasının hazırlığı\n- Təşkilati strukturun uyğunluğu\n\nİlkin təhlil layihənin realizə oluna bilib-bilməyəcəyini müəyyən edir.",
+      "keywords": [
+        "ilkin təhlil",
+        "texniki",
+        "maliyyə",
+        "bazar",
+        "ROI",
+        "NPV",
+        "feasibility"
+      ]
+    },
+    {
+      "id": 17,
+      "category": "Bilet 4",
+      "question": "Məqsədin təhlili və məqsəd ağacının yaradılması",
+      "answer": "Məqsəd ağacı (Objective Tree) layihənin məqsədlərini vizual olaraq strukturlaşdıran metoddur. Problemin ağacının əksidir.\n\n**Yaradılma mərhələləri:**\n1) **Problemin ağacının təhlili** — əsas problem, onun səbəbləri və nəticələri müəyyən edilir\n2) **Məqsəd ağacına çevrilmə** — problem səbəbləri → məqsədlərə, nəticələr → nəticə göstəricilərinə çevrilir\n3) **Strukturun yoxlanılması** — \"nə üçün\" və \"necə\" sualları ilə əlaqələr yoxlanır\n\n**Məqsəd ağacının səviyyələri:**\n- **Yuxarı səviyyə** — uzunmüddətli strateji məqsəd (impact)\n- **Orta səviyyə** — layihənin əsas məqsədləri (outcomes)\n- **Aşağı səviyyə** — konkret çıxışlar/nəticələr (outputs)\n\n**Məqsəd təhlilində SMART prinsipi:**\n- **S**pesifik — dəqiq, aydın\n- **M**easurable — ölçülə bilən\n- **A**chievable — əldə oluna bilən\n- **R**elevant — əhəmiyyətli\n- **T**ime-bound — vaxtında\n\nMəqsəd ağacı layihənin bütün iştirakçıları üçün ortaq anlayış yaradır, prioritetləri aydınlaşdırır və göstəricilərin təyinini asanlaşdırır.",
+      "keywords": [
+        "məqsəd ağacı",
+        "SMART",
+        "problem ağacı",
+        "məqsəd təhlili",
+        "impact",
+        "outcome"
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Bilet 4",
+      "question": "Planlaşdırma bacarığının layihələrin idarə edilməsində rolu",
+      "answer": "Planlaşdırma layihə menecmentinin ən fundamental bacarıqlarından biridir:\n\n**Əsas rolları:**\n1) **İstiqamətin müəyyən edilməsi** — haraya getdiyimizi və necə çatacağımızı dəqiq göstərir\n2) **Resursların səmərəli bölüşdürülməsi** — vaxt, maliyyə, insan resursları optimal istifadə olunur\n3) **Risklərin azaldılması** — potensial problemlər əvvəlcədən görülür\n4) **Komanda koordinasiyası** — hər kəs öz rolunu və ümumi məqsədi bilir\n5) **Vaxt itkisinin qarşısının alınması** — ardıcıllıq və prioritetlər aydın olur\n6) **Keyfiyyətin təmin edilməsi** — standartlar əvvəlcədən müəyyən edilir\n\n**Planlaşdırma səviyyələri:**\n- **Strateji plan** — uzunmüddətli istiqamət (illər)\n- **Taktik plan** — orta müddətli (aylar)\n- **Əməliyyat planı** — qısamüddətli, konkret (həftələr, günlər)\n\n**Planlaşdırma bacarığının komponentləri:**\n- Analitik düşünmə\n- Gələcəyi proqnozlaşdırma\n- Prioritetləri təyin etmə\n- Realistik qiymətləndirmə\n- Çeviklik (dəyişikliklərə hazırlıq)\n\nYaxşı plan çevik olmalıdır — sərt planlar uğursuz ola bilər, çünki reallıqda hər şey dəyişə bilər.",
+      "keywords": [
+        "planlaşdırma",
+        "strategiya",
+        "taktika",
+        "resurslar",
+        "risk",
+        "çeviklik"
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Bilet 4",
+      "question": "Kritik yol metodu",
+      "answer": "Kritik Yol Metodu (Critical Path Method - CPM) layihələrin planlaşdırılmasında istifadə olunan əsas texnikalardan biridir. 1957-ci ildə Du Pont şirkəti tərəfindən işlənib hazırlanmışdır.\n\n**Əsas anlayışlar:**\n1) **Kritik yol** — layihənin ən uzun müddətli ardıcıl tapşırıqlar zənciridir. Bu yoldakı bütün tapşırıqlar geciksə, layihə də gecikir.\n2) **Kritik tapşırıqlar** — kritik yolda olan, gecikdirmə halında layihəni də gecikdərən tapşırıqlar\n3) **Qeyri-kritik tapşırıqlar** — müəyyən vaxt ehtiyatı (float/slack) olan tapşırıqlar\n\n**Hesablama addımları:**\n1) Bütün tapşırıqları müəyyən etmək\n2) Asılılıqları (dependencies) qurmaq\n3) Şəbəkə diaqramı çəkmək\n4) Hər tapşırığın ən erkən başlama (ES) və bitmə (EF) vaxtını hesablamaq\n5) Ən gec başlama (LS) və bitmə (LF) vaxtını hesablamaq\n6) Float-u (ehtiyat) tapmaq: Float = LS - ES\n7) Float-u sıfır olan tapşırıqlar kritik yolu müəyyən edir\n\n**Üstünlükləri:**\n- Layihənin minimum müddətini göstərir\n- Prioritetləri müəyyən edir\n- Resurs bölgüsünü optimallaşdırır\n- Riskləri aşkar edir\n\n**Çatışmazlığı:**\n- Sadə layihələr üçün mürəkkəb ola bilər\n- Resurs məhdudiyyətlərini nəzərə almır (buna görə RCPS istifadə olunur)",
+      "keywords": [
+        "kritik yol",
+        "CPM",
+        "şəbəkə diaqramı",
+        "float",
+        "ES",
+        "EF",
+        "LS",
+        "LF"
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Bilet 4",
+      "question": "İdarəetmədə özünə güvən və liderlik",
+      "answer": "Özünə güvən və liderlik keyfiyyətləri layihə meneceri üçün vacib şəxsi kompetensiyalardır.\n\n**Özünə güvənin tərkib hissələri:**\n1) **Öz bacarıqlarına inam** — qarşıya çıxan çətinlikləri öhdəsindən gələ biləcəyinə əmin olma\n2) **Qərar qəbuletmə cəsarəti** — risk altında da düzgün qərar vermə bacarığı\n3) **Səhvlərdən öyrənmə** — uğursuzluqları inkişaf üçün stimul hesab etmə\n4) **Stressə dözümlülük** — təzyiq altında soyuqqanlılığı qoruma\n5) **Emosional zəka** — öz emosiyalarını idarə etmə\n\n**Liderliyin təzahür formaları:**\n- **Vizyoner lider** — gələcəyi görür, komandanı ilhamlandırır\n- **Demokratik lider** — qərarları komanda ilə birgə verir\n- **Avtokratik lider** — tək başına qərar verir (böhran vəziyyətlərində effektiv)\n- **Transformativ lider** — dəyişiklikləri aparır, inkişaf etdirir\n- **Servant (xidmətkar) lider** — komandaya xidmət edir\n\n**Effektiv lider üçün vacibdir:**\n- Açıq kommunikasiya\n- Ədalətli qərar qəbulu\n- Komanda üzvlərinə inam və səlahiyyət verilməsi\n- Şəxsi nümunə (lead by example)\n\nÖzünə güvənən lider çətin vəziyyətlərdə belə komandaya sabitlik verir.",
+      "keywords": [
+        "özünə güvən",
+        "liderlik",
+        "emosional zəka",
+        "vizyoner",
+        "transformativ lider"
+      ]
+    },
+    {
+      "id": 21,
+      "category": "Bilet 5",
+      "question": "Layihədə iştirak edən insanların roluna görə təsnifləşdirilməsi",
+      "answer": "Layihədə iştirak edən şəxslər müxtəlif rollara malikdir:\n\n**1) Daxili iştirakçılar:**\n- **Layihə sahibi/sponsor** — layihəni maliyyələşdirir, ümumi nəzarəti həyata keçirir\n- **Layihə meneceri** — layihənin gündəlik idarə olunmasını təmin edir\n- **Layihə komandası** — tapşırıqları bilavasitə icra edən mütəxəssislər\n- **Funksional menecerlər** — resursları təmin edən şöbə rəhbərləri\n\n**2) Xarici iştirakçılar:**\n- **Müştəri** — layihənin nəticəsini istifadə edən tərəf\n- **Təchizatçılar/podratçılar** — mallar və xidmətlər təqdim edən\n- **Tənzimləyici orqanlar** — dövlət qurumları, lisenziya verənlər\n- **Yerli icmalar** — layihənin təsir dairəsində olan əhali\n\n**3) Maraqlı tərəflər (Stakeholders):**\n- **Birbaşa maraqlı tərəflər** — layihədə fəal iştirak edən\n- **Dolayı maraqlı tərəflər** — layihədən təsirlənən, lakin birbaşa iştirak etməyən\n\n**Təsir gücünə görə:**\n- **Yüksək təsir + yüksək maraq** — yaxından idarə et\n- **Yüksək təsir + aşağı maraq** — məmnun et\n- **Aşağı təsir + yüksək maraq** — məlumat ver\n- **Aşağı təsir + aşağı maraq** — izlə\n\nHər bir rolun öz gözləntisi, məsuliyyəti və kommunikasiya strategiyası var.",
+      "keywords": [
+        "maraqlı tərəflər",
+        "layihə sahibi",
+        "layihə meneceri",
+        "komanda",
+        "təsnifat"
+      ]
+    },
+    {
+      "id": 22,
+      "category": "Bilet 5",
+      "question": "Delfi texnikasının tətbiqi metodologiyası",
+      "answer": "Delfi texnikası qrup şəklində qərar qəbulu üçün istifadə olunan strukturlaşdırılmış kommunikasiya metodudur. 1950-60-cı illərdə RAND korporasiyası tərəfindən işlənib hazırlanmışdır.\n\n**Əsas xüsusiyyətləri:**\n1) **Mütəxəssislər anonim şəkildə iştirak edir** — bir-birinin təzyiqinə məruz qalmır\n2) **Çoxmərhələli prosesdir** — bir neçə tur keçirilir\n3) **Hər turdan sonra ekspertlərə ümumiləşdirilmiş nəticələr təqdim olunur**\n4) **Konsensusa (ortaq rəyə) nail olmağa çalışılır**\n\n**Tətbiq mərhələləri:**\n1) **Məsələnin müəyyən edilməsi** və sual formalarının hazırlanması\n2) **Ekspertlərin seçilməsi** (8-15 nəfər adətən kifayətdir)\n3) **Birinci tur** — ekspertlər fərdi şəkildə cavab verir\n4) **Cavabların təhlili və ümumiləşdirilməsi**\n5) **İkinci tur** — ekspertlər əvvəlki cavabları nəzərə alaraq yenidən cavab verir\n6) **Üçüncü və daha çox turlar** — konsensusa yaxınlaşana qədər\n7) **Yekun nəticə**\n\n**Üstünlükləri:**\n- Sərbəst və açıq fikir mübadiləsi\n- Coğrafi cəhətdən uzaq ekspertləri cəlb etmək mümkündür\n- Qrup düşüncəsinin (groupthink) qarşısı alınır\n- Mürəkkəb problemlər üçün effektivdir\n\n**Çatışmazlığı:**\n- Vaxt aparan prosesdir\n- Düzgün ekspert seçimi çətindir",
+      "keywords": [
+        "Delfi",
+        "ekspert",
+        "konsensus",
+        "anonim",
+        "RAND",
+        "qərar qəbulu"
+      ]
+    },
+    {
+      "id": 23,
+      "category": "Bilet 5",
+      "question": "Layihə büdcəsinin hazırlanması",
+      "answer": "Layihə büdcəsinin hazırlanması layihənin maliyyə planının tərtib olunmasıdır:\n\n**Əsas addımlar:**\n1) **Fəaliyyətlərin siyahısı** — WBS (İş Bölgüsü Strukturu) hazırlanır\n2) **Resurs tələbatının müəyyən edilməsi** — hər tapşırıq üçün lazım olan resurslar (işçi, material, avadanlıq)\n3) **Qiymətlərin toplanması** — bazar qiymətləri, əvvəlki təcrübə, tender məlumatları\n4) **Xərc maddələrinin hesablanması** — birbaşa və dolayı xərclər\n5) **Ehtiyat (contingency) fondu** — 5-15% risk ehtiyatı əlavə olunur\n6) **Maliyyələşmə mənbələrinin təyini** — özəl, dövlət, qrant, kredit\n7) **Nağd pul axını (cash flow) proqnozu** — xərclərin vaxta görə bölüşdürülməsi\n\n**Xərc kateqoriyaları:**\n- **Birbaşa xərclər** — əmək haqqı, materiallar, avadanlıq\n- **Dolayı xərclər** — ofis, kommunal, inzibati\n- **Sabit xərclər** — kirayə, sığorta\n- **Dəyişən xərclər** — material, yanacaq\n- **Birdəfəlik xərclər** — avadanlıq alınması\n- **Müntəzəm xərclər** — aylıq əmək haqqı\n\n**Büdcə nəzarəti:**\n- Earned Value Management (Qazanılmış Dəyər İdarəetməsi) — CPI, SPI göstəriciləri\n- Mütəmadi hesabatlar\n- Dəyişikliklərə nəzarət\n\nDüzgün büdcə layihənin maliyyə dayanıqlığını təmin edir.",
+      "keywords": [
+        "büdcə",
+        "WBS",
+        "xərc",
+        "ehtiyat fondu",
+        "cash flow",
+        "EVM"
+      ]
+    },
+    {
+      "id": 24,
+      "category": "Bilet 5",
+      "question": "İcra prosesləri haqqında məlumat verin",
+      "answer": "İcra prosesləri (Executing Processes) layihənin planlarının reallaşdırıldığı ən böyük proses qrupudur. PMBOK-a görə 8 əsas icra prosesi var:\n\n1) **Layihə planının icrasına rəhbərlik** — işlərin görülməsi, planın reallaşdırılması\n2) **Keyfiyyətin təmin edilməsi** — standartlara uyğunluğun yoxlanılması\n3) **Komandanın inkişaf etdirilməsi** — təlim, mentorluq, komanda quruculuğu\n4) **Komandanın idarə olunması** — tapşırıqların bölüşdürülməsi, performansın izlənməsi\n5) **Kommunikasiyanın idarə olunması** — məlumat axınının təmin edilməsi\n6) **Risklərin idarə olunması** — risk planlarının həyata keçirilməsi\n7) **Tədarükün idarə olunması** — satınalma, müqavilələr\n8) **Maraqlı tərəflərin idarə olunması** — onlarla münasibətin qurulması\n\n**İcra prosesinin uğuru üçün vacibdir:**\n- Effektiv kommunikasiya\n- Güclü liderlik\n- Aktiv risk idarəetməsi\n- Davamlı keyfiyyət nəzarəti\n- Çeviklik (plan dəyişikliklərinə hazırlıq)\n- Maraqlı tərəflərlə münasibət\n\nİcra prosesində əsas diqqət \"insanlar\" və \"proseslər\" arasında balansın qorunmasına yönəlir.",
+      "keywords": [
+        "icra prosesləri",
+        "keyfiyyət",
+        "komanda",
+        "kommunikasiya",
+        "tədarük"
+      ]
+    },
+    {
+      "id": 25,
+      "category": "Bilet 5",
+      "question": "Qeyri-hökumət təşkilatı haqqında məlumat verin",
+      "answer": "Qeyri-Hökumət Təşkilatları (QHT) — dövlət orqanlarından asılı olmayan, ictimai, sosial, humanitar, ekoloji, mədəni və digər sahələrdə fəaliyyət göstərən könüllü birliklərdir.\n\n**Əsas xüsusiyyətləri:**\n1) **Müstəqillik** — dövlət orqanlarından asılı deyillər\n2) **Qeyri-kommersiya məqsədi** — mənfəət güdülmür\n3) **Könüllülük** — üzvlər könüllü qoşulur\n4) **Özünüidarə** — öz daxili qaydalarını özləri müəyyən edir\n5) **Şəffaflıq** — fəaliyyəti haqqında ictimaiyyətə hesabat verir\n\n**QHT növləri (Azərbaycanda):**\n- **İctimai birliklər** — üzvlərin birliyi (məs: peşəkar assosiasiyalar)\n- **Fondlar** — müəyyən məqsəd üçün maliyyə toplayan (məs: xeyriyyə fondu)\n- **QHT-lər** — beynəlxalq təşkilatların yerli nümayəndəlikləri\n- **İcma əsaslı təşkilatlar** — yerli problemləri həll edən\n- **Hüquq müdafiə təşkilatları** — insan hüquqlarını qoruyan\n\n**Layihə menecmentində rolu:**\n- Sosial layihələrin icraçısı kimi\n- Qrant alan kimi (yerli və xarici)\n- Əhalinin maarifləndirilməsi\n- Dövlət-vətəndaş əməkdaşlığında vasitəçi\n- Ekoloji, gender, sağlamlıq layihələri\n\nAzərbaycanda QHT-lər Ədliyyə Nazirliyində qeydiyyatdan keçir.",
+      "keywords": [
+        "QHT",
+        "ictimai birlik",
+        "fond",
+        "qrant",
+        "könüllü",
+        "müstəqil"
+      ]
+    },
+    {
+      "id": 26,
+      "category": "Bilet 6",
+      "question": "\"Beyin fırtınası\" metodu haqqında məlumat",
+      "answer": "Beyin fırtınası (Brainstorming) yaradıcı düşünmə və ideya generasiyası üçün istifadə olunan qrup metodudur. 1953-cü ildə Alex Osborn tərəfindən təklif edilmişdir.\n\n**Əsas prinsipləri:**\n1) **Miqdarlılıq** — nə qədər çox ideya, bir o qədər yaxşı\n2) **Tənqidin qadağan edilməsi** — heç bir ideya tənqid olunmur\n3) **Qeyri-standart düşüncə** — unikal, hətta çılğın ideyalar da xoş qarşılanır\n4) **Kombinasiya** — ideyaları birləşdirmək, inkişaf etdirmək\n\n**Aparılma qaydası:**\n1) **Hazırlıq** — iştirakçıların seçilməsi (6-12 nəfər), moderator təyini\n2) **Problemin təqdimatı** — aydın, dəqiq izah\n3) **İdeya generasiyası** — 15-30 dəqiqəlik sessiya, bütün ideyalar yazılır\n4) **Qeyd etmə** — lövhədə/kağızda bütün ideyalar qeyd olunur\n5) **Təhlil və qiymətləndirmə** — sonrakı mərhələdə ideyalar seçilir, prioritetləşdirilir\n\n**Variantları:**\n- **Fərdi beyin fırtınası** — tək şəxs\n- **Qrup beyin fırtınası** — komanda şəklində\n- **Yazılı beyin fırtınası** — 6-3-5 metodu (6 iştirakçı, 3 ideya, 5 dəq)\n- **Elektron beyin fırtınası** — rəqəmsal platformalarda\n- **Səssiz beyin fırtınası** — ideyalar yazı ilə bildirilir\n\n**Üstünlükləri:**\n- Çoxlu sayda ideya qısa müddətdə əldə olunur\n- Komanda iştirakı motivasiya artırır\n- Qeyri-standart həllər meydana çıxır\n\n**Çatışmazlığı:**\n- Dominant şəxsiyyətlər digərlərini üstələyə bilər\n- Hər ideya realizə oluna bilməz",
+      "keywords": [
+        "beyin fırtınası",
+        "brainstorming",
+        "yaradıcılıq",
+        "ideya",
+        "Osborn",
+        "qrup"
+      ]
+    },
+    {
+      "id": 27,
+      "category": "Bilet 6",
+      "question": "Layihə menecmentinin idarəetmə sahələri",
+      "answer": "PMBOK standartına görə layihə menecmenti 10 idarəetmə sahəsini əhatə edir:\n\n**1) İnteqrasiya idarəetməsi** — bütün sahələrin əlaqələndirilməsi, layihə xartiyası, layihə planı, dəyişikliklərin idarəsi\n\n**2) Əhatə dairəsinin idarəetməsi** — nə edilməli və nə edilməməli, WBS, əhatə dairəsinin təsdiqi, nəzarət\n\n**3) Vaxtın (cədvəlin) idarəetməsi** — fəaliyyətlərin müəyyən edilməsi, ardıcıllıq, müddət, Gantt diaqramı, CPM\n\n**4) Xərclərin idarəetməsi** — büdcə, EVM, xərc nəzarəti\n\n**5) Keyfiyyətin idarəetməsi** — keyfiyyət planlaması, təminatı, nəzarət (QA/QC)\n\n**6) Resursların idarəetməsi** — komanda formalaşdırma, inkişaf, idarəetmə\n\n**7) Kommunikasiyanın idarəetməsi** — kommunikasiya planı, məlumat paylanması, performans hesabatları\n\n**8) Risklərin idarəetməsi** — risk planlaması, identifikasiyası, təhlili, cavab strategiyaları, monitorinq\n\n**9) Tədarükün idarəetməsi** — satınalma planlaması, təchizatçı seçimi, müqavilə idarəetməsi\n\n**10) Maraqlı tərəflərin idarəetməsi** — steykholder identifikasiyası, analizi, cəlb edilməsi, monitorinq\n\nBu 10 sahə bir-biri ilə sıx əlaqəlidir və layihənin uğurlu idarə olunması üçün hamısı eyni dərəcədə vacibdir.",
+      "keywords": [
+        "idarəetmə sahələri",
+        "PMBOK",
+        "inteqrasiya",
+        "əhatə dairəsi",
+        "risk",
+        "keyfiyyət"
+      ]
+    },
+    {
+      "id": 28,
+      "category": "Bilet 6",
+      "question": "Layihə haqqında anlayış",
+      "answer": "Layihə müəyyən bir məqsədə nail olmaq üçün planlaşdırılmış, müvəqqəti (temporary) və unikal (unique) işlər toplusudur.\n\n**Layihənin əsas xüsusiyyətləri:**\n1) **Müvəqqətilik** — müəyyən başlanğıc və son tarixi var\n2) **Unikallıq** — oxşarı olmayan, bir dəfəlik məhsul/xidmət/nəticə istehsal edir\n3) **Məqsədyönlülük** — dəqiq müəyyən edilmiş məqsədi var\n4) **Resurs məhdudiyyəti** — büdcə, vaxt, insan resursları məhduddur\n5) **Mütərəqqi detallandırma (Progressive Elaboration)** — başlanğıcda ümumi, sonra detallı planlaşdırma\n6) **Maraqlı tərəflərin iştirakı** — müxtəlif tərəflər təsir göstərir və təsirlənir\n\n**Layihə vs. Əməliyyat:**\n- Layihə: unikal, müvəqqəti, sonu var\n- Əməliyyat: təkrarlanan, daimi, davam edən\n\n**Layihələrin kateqoriyaları:**\n- **İnvestisiya layihələri** — yeni obyekt, avadanlıq\n- **İnnovasiya layihələri** — yeni məhsul, texnologiya\n- **Sosial layihələr** — cəmiyyətin rifahı üçün\n- **Tədqiqat layihələri** — elmi araşdırmalar\n- **İnformasiya texnologiyaları layihələri** — proqram təminatı, sistem\n- **Təşkilati dəyişiklik layihələri** — struktur və proses islahatları\n\nHər layihənin həyat dövrü, əhatə dairəsi, risk profili var.",
+      "keywords": [
+        "layihə",
+        "müvəqqəti",
+        "unikal",
+        "məqsəd",
+        "əməliyyat",
+        "kateqoriya"
+      ]
+    },
+    {
+      "id": 29,
+      "category": "Bilet 6",
+      "question": "Layihənin keyfiyyətinin idarə edilməsi",
+      "answer": "Keyfiyyətin idarə edilməsi (Quality Management) layihənin tələblərə uyğun yerinə yetirilməsini təmin edir.\n\n**Əsas anlayışlar:**\n1) **Keyfiyyət planlaması** — keyfiyyət standartlarının və meyarlarının müəyyən edilməsi\n2) **Keyfiyyətin təmin edilməsi (QA — Quality Assurance)** — proseslərin düzgünlüyünün təmin edilməsi\n3) **Keyfiyyətin nəzarəti (QC — Quality Control)** — nəticələrin yoxlanılması, ölçülməsi, defektlərin aşkar edilməsi\n\n**Keyfiyyət alətləri:**\n- **Tələblərin izlənməsi matrisi (RTM)** — tələblərin testlərlə əlaqəsi\n- **Yoxlama siyahıları (Checklists)**\n- **Paretto analizi (80/20 qaydası)** — əsas problemlərin 20%-i nəticələrin 80%-inə səbəb olur\n- **Diaqram (Ishikawa, balıq sümüyü)** — səbəblərin təhlili\n- **Nəzarət qrafikləri (Control Charts)** — variasiyaların izlənməsi\n- **Tarix diaqramı (Histogram)**\n\n**Keyfiyyət fəlsəfələri:**\n- **Deming (PDCA)** — Planlaşdır-Həyata keçir-Yoxla-Təsir göstər\n- **Juran** — keyfiyyət uyğunluq, keyfiyyət planlaması\n- **Crosby** — \"sıfır qüsur\" konsepsiyası\n- **Six Sigma** — statistik metod, 3.4 qüsur/milyon imkan\n- **ISO 9001** — beynəlxalq keyfiyyət standartı\n\n**Keyfiyyətin maya dəyəri:**\n- Qarşısının alınması xərci < Qiymətləndirmə xərci < Daxili/arıza xərci < Xarici/uğursuzluq xərci\n\nYüksək keyfiyyət müştəri məmnuniyyətini, təkrarlanan müştərini və layihənin uğurunu təmin edir.",
+      "keywords": [
+        "keyfiyyət",
+        "QA",
+        "QC",
+        "Six Sigma",
+        "Paretto",
+        "PDCA",
+        "ISO 9001"
+      ]
+    },
+    {
+      "id": 30,
+      "category": "Bilet 6",
+      "question": "Problemlərin təhlili və \"problem ağacı\"nın yaradılması",
+      "answer": "Problem ağacı (Problem Tree) layihə menecmentində problemlərin strukturlaşdırılmış şəkildə təhlili üçün istifadə olunan vizual alətdir. Məntiqi çərçivə (Logical Framework) yanaşmasının bir hissəsidir.\n\n**Strukturu:**\n- **Kökləri (aşağı hissə)** — problemin səbəbləri\n- **Gövdə (orta hissə)** — əsas problem\n- **Budaqları (yuxarı hissə)** — problemin nəticələri/təzahürləri\n\n**Yaradılma mərhələləri:**\n1) **Əsas problemin müəyyən edilməsi** — dəqiq, aydın ifadə\n2) **Səbəblərin müəyyən edilməsi** — \"Niyə bu problem yaranır?\" sualı ilə\n3) **Nəticələrin müəyyən edilməsi** — \"Bu problem nəyə gətirib çıxarır?\" sualı ilə\n4) **Səbəb-nəticə əlaqələrinin qurulması** — əlaqələr şəbəkə şəklində göstərilir\n5) **Səbəblərin prioritetləşdirilməsi** — ən vacib səbəblər seçilir\n\n**Problem ağacından məqsəd ağacına keçid:**\n- Səbəblər → məqsədlərə (həll yolları)\n- Nəticələr → gözlənilən nəticələrə (outcomes)\n- Əsas problem → layihənin əsas məqsədinə\n\n**Üstünlükləri:**\n- Mürəkkəb problemləri sadələşdirir\n- Vizual anlayış asanlaşır\n- Komanda üçün ortaq dil yaradır\n- Prioritetləri aydınlaşdırır\n\nProblem ağacı layihənin məqsədlərinin dəqiq müəyyən edilməsində mühüm rol oynayır.",
+      "keywords": [
+        "problem ağacı",
+        "səbəb-nəticə",
+        "məntiqi çərçivə",
+        "məqsəd ağacı",
+        "təhlil"
+      ]
+    },
+    {
+      "id": 31,
+      "category": "Bilet 7",
+      "question": "Həllə fokuslanmaq keyfiyyətlərinin layihə meneceri üçün önəmi",
+      "answer": "Həllə fokuslanmaq (Solution-focused thinking) layihə meneceri üçün vacib düşüncə tərzidir. Bu yanaşma problemi deyil, onun həllini ön plana çəkir.\n\n**Əsas prinsipləri:**\n1) **İndiyə deyil, gələcəyə baxmaq** — \"nə olacaq\" sualı əvəzinə \"necə olacaq\" sualı\n2) **Mövcud resurslardan başlamaq** — olmayana fokuslanmamaq\n3) **Kiçik addımlarla irəliləmək** — böyük dəyişiklikləri kiçik hissələrə bölmək\n4) **Müsbət güclərə diqqət** — problemi deyil, potensialı görmək\n5) **Suallarla yönləndirmək** — həll yollarını suallarla açmaq\n\n**Layihə menecerinə faydaları:**\n1) **Stressi azaldır** — problemdə yox, həll yolunda fokuslanmaq\n2) **Kreativliyi artırır** — alternativ yollar axtarışına sövq edir\n3) **Komanda motivasiyasını yüksəldir** — \"bacarırıq\" hissi yaradır\n4) **Effektiv qərar qəbulu** — hərəkətə keçməyə təşviq edir\n5) **Dəyişikliklərə açıqlıq** — \"necə edə bilərik\" yanaşması\n\n**Tətbiq texnikaları:**\n- **Möcüzə sualı** — \"Əgər möcüzə baş versəydi, nə dəyişərdi?\"\n- **Miqyas sualları** — \"0-dan 10-a qədər haradasınız?\"\n- **İstisna sualı** — \"Problem olmayan vaxtlar nə baş verir?\"\n- **Gələcəyə baxış** — \"Hədəfinizə çatanda nə görəcəksiniz?\"\n\nHəll yönümlü düşüncə problemləri maneələr kimi deyil, inkişaf imkanları kimi görür.",
+      "keywords": [
+        "həll yönümlü",
+        "fokus",
+        "möcüzə sualı",
+        "kreativlik",
+        "dəyişiklik"
+      ]
+    },
+    {
+      "id": 32,
+      "category": "Bilet 7",
+      "question": "Başlanğıc (açılış) prosesləri haqqında məlumat verin",
+      "answer": "Başlanğıc prosesləri (Initiating Processes) layihənin rəsmi başlanğıcını qeyd edən və əsas sənədlərin hazırlandığı mərhələdir. PMBOK-a görə 2 əsas proses var:\n\n**1) Layihə xartiyasının (Project Charter) hazırlanması**\n- Layihənin rəsmi mövcudluğunu təsdiq edən sənəd\n- Layihə menecerinə səlahiyyət verir\n- Tərkibində: layihənin məqsədi, əhatə dairəsi, əsas maraqlı tərəflər, ümumi büdcə, ümumi cədvəl, sponsor məlumatı\n\n**2) Maraqlı tərəflərin identifikasiyası (Identify Stakeholders)**\n- Layihədən təsirlənən və təsir edən şəxslərin siyahısı\n- Onların maraqları, təsir gücü, gözləntiləri\n- Maraqlı tərəflərin registri (Stakeholder Register)\n\n**Başlanğıc prosesinin məqsədləri:**\n- Layihənin legitimliyini təmin etmək\n- Maraqlı tərəflərlə ilkin əlaqə qurmaq\n- İlkin əhatə dairəsini müəyyən etmək\n- Sponsor və rəhbərlikdən dəstək almaq\n\n**Əsas çıxış sənədləri:**\n- Layihə xartiyası\n- Maraqlı tərəflərin registri\n- İlkin əhatə dairəsi sənədi\n- Layihə təşəbbüsü sənədləri (business case)\n\nBaşlanğıc prosesindən sonra layihə planlaşdırma mərhələsinə keçir. Bəzi hallarda, xüsusilən Agile layihələrdə, başlanğıc iterativ şəkildə aparılır.",
+      "keywords": [
+        "başlanğıc",
+        "layihə xartiyası",
+        "stakeholder",
+        "maraqlı tərəflər",
+        "sponsor"
+      ]
+    },
+    {
+      "id": 33,
+      "category": "Bilet 7",
+      "question": "Layihə büdcəsinin idarə edilməsi",
+      "answer": "Layihə büdcəsinin idarə edilməsi (Cost Management) büdcənin planlaşdırılması, təsdiqi və nəzarəti prosesidir. 4 əsas prosesdən ibarətdir:\n\n**1) Xərclərin planlaşdırılması**\n- Bütün xərc maddələrinin müəyyən edilməsi\n- Xərc qiymətləndirmə metodları: analoji, parametrik, əsaslı, yuxarıdan-aşağı, aşağıdan-yuxarı\n\n**2) Xərclərin qiymətləndirilməsi**\n- Hər fəaliyyətin təxmini dəyəri\n- Toplam büdcənin formalaşdırılması\n- Ehtiyat (contingency) və idarəedici (management) ehtiyat fondları\n\n**3) Büdcənin təsdiqi**\n- Xərclərin vaxta görə bölüşdürülməsi (S-curve)\n- Nağd pul axını (cash flow) proqnozu\n- Maliyyələşmə planı\n\n**4) Xərclərin nəzarəti**\n- EVM (Earned Value Management) göstəriciləri:\n  - **PV (Planned Value)** — planlaşdırılmış dəyər\n  - **EV (Earned Value)** — qazanılmış dəyər\n  - **AC (Actual Cost)** — faktiki xərc\n  - **CV = EV - AC** — xərc sapması (mənfi = büdcə aşımı)\n  - **SV = EV - PV** — cədvəl sapması\n  - **CPI = EV/AC** — xərc performansı indeksi (>1 yaxşı)\n  - **SPI = EV/PV** — cədvəl performansı indeksi (>1 yaxşı)\n- **EAC (Estimate at Completion)** — tamamlanma qiyməti\n- **ETC (Estimate to Complete)** — qalan xərc\n- **VAC (Variance at Completion)** — son sapma\n\n**Effektiv büdcə idarəetməsi üçün:**\n- Mütəmadi hesabatlar (həftəlik/aylıq)\n- Sapmaların tez aşkar edilməsi\n- Düzəldici tədbirlərin vaxtında görülməsi\n- Maliyyə ehtiyatının düzgün idarəsi",
+      "keywords": [
+        "büdcə idarəsi",
+        "EVM",
+        "CPI",
+        "SPI",
+        "PV",
+        "EV",
+        "AC",
+        "EAC"
+      ]
+    },
+    {
+      "id": 34,
+      "category": "Bilet 7",
+      "question": "Maraqlı tərəflərin (steykholder) təhlili haqqında məlumat verin",
+      "answer": "Maraqlı tərəflərin təhlili layihənin uğuru üçün kritik əhəmiyyətə malikdir.\n\n**Maraqlı tərəf (Stakeholder) anlayışı:**\n- Layihədən təsirlənən və ya layihəyə təsir edə bilən hər bir şəxs, qrup və ya təşkilat\n\n**Təhlil mərhələləri:**\n\n1) **İdentifikasiya**\n- Daxili maraqlı tərəflər (komanda, sponsor, rəhbərlik)\n- Xarici maraqlı tərəflər (müştəri, təchizatçı, icma, dövlət)\n- Beyin fırtınası, ekspert müsahibələri, sənəd təhlili\n\n2) **Analiz**\n- **Maraq səviyyəsi** — layihəyə nə dərəcədə maraqlıdır\n- **Təsir gücü** — layihəyə nə dərəcədə təsir edə bilər\n- **Münasibət** — dəstəkləyici, neytral, müxalif\n- **Gözləntilər** — layihədən nə gözləyirlər\n\n3) **Strateji planlaşdırma**\n- **Təsir-Maraq Matrisi:**\n  - Yüksək təsir + yüksək maraq = yaxından idarə et\n  - Yüksək təsir + aşağı maraq = məmnun et\n  - Aşağı təsir + yüksək maraq = məlumat ver\n  - Aşağı təsir + aşağı maraq = izlə\n\n4) **Cəlb etmə (Engagement)**\n- Kommunikasiya planı\n- Müntəzəm görüşlər\n- Gözləntilərin idarə olunması\n- Münaqişələrin həlli\n\n5) **Monitorinq**\n- Maraqlı tərəflərin münasibətinin izlənməsi\n- Strategiyanın tənzimlənməsi\n\nDüzgün maraqlı tərəf təhlili layihənin risklərini azaldır və uğur şansını artırır.",
+      "keywords": [
+        "stakeholder",
+        "maraqlı tərəflər",
+        "təsir-maraq",
+        "identifikasiya",
+        "cəlb etmə"
+      ]
+    },
+    {
+      "id": 35,
+      "category": "Bilet 7",
+      "question": "Azərbaycanda Qeyri-Hökumət Təşkilatlarının növləri barədə məlumat",
+      "answer": "Azərbaycanda QHT-lər müxtəlif formalarda fəaliyyət göstərir və qanunvericiliklə tənzimlənir.\n\n**Əsas hüquqi baza:**\n- \"Qeyri-hökumət təşkilatları (ictimai birliklər və fondlar) haqqında\" Azərbaycan Respublikasının Qanunu (2000)\n- QHT-lər Ədliyyə Nazirliyində dövlət qeydiyyatından keçir\n\n**Azərbaycanda QHT növləri:**\n\n1) **İctimai birliklər**\n- Üzvlərin könüllü birliyi\n- Nümunələr: Veteranlar Şurası, Gənclər Təşkilatları, Peşəkar Birliklər\n\n2) **Fondlar**\n- Müəyyən məqsəd üçün maliyyə toplayan qurumlar\n- Nümunələr: Xeyriyyə fondları, Mükafat fondları, Sosial yardım fondları\n\n3) **Xarici QHT-lərin nümayəndəlikləri**\n- Beynəlxalq təşkilatların Azərbaycandakı filialları\n- Nümunələr: UNDP, UNICEF, Qırmızı Xaç\n\n4) **İcma əsaslı təşkilatlar (İƏT)**\n- Yerli problemləri həll etmək üçün yaradılan\n- Məhəllə, kənd, rayon səviyyəsində\n\n5) **Hüquq müdafiə təşkilatları**\n- İnsan hüquqlarının qorunması\n\n6) **Ekoloji təşkilatlar**\n- Ətraf mühitin qorunması\n\n7) **Gender təşkilatları**\n- Qadın hüquqları, gender bərabərliyi\n\n**Fəaliyyət sahələri:**\n- Sosial müdafiə\n- Təhsil və elm\n- Səhiyyə\n- Mədəniyyət\n- İdman\n- Ekologiya\n- Hüquq müdafiəsi\n\n**Dövlət dəstəyi:**\n- QHT-lərə Dövlət Dəstəyi Agentliyi (2021)\n- Qrant müsabiqələri\n- Vergi güzəştləri\n\nQHT-lər cəmiyyətin demokratik inkişafında mühüm rol oynayır.",
+      "keywords": [
+        "QHT növləri",
+        "Azərbaycan",
+        "fond",
+        "ictimai birlik",
+        "qanunvericilik"
+      ]
+    },
+    {
+      "id": 36,
+      "category": "Bilet 8",
+      "question": "Layihə hesab edilməyən və hesab edilməyən fəaliyyətlər",
+      "answer": "Layihə anlayışı bütün fəaliyyətləri əhatə etmir. Bəzi işlər layihə hesab olunmur, bəziləri isə qismən layihə xüsusiyyəti daşıyır.\n\n**Layihə hesab OLUNMAYAN fəaliyyətlər:**\n\n1) **Daimi əməliyyat işləri**\n- Məs: gündəlik satış, istehsal xətti\n- Təkrarlanan, eyni xarakterli, sonu yoxdur\n\n2) **Şəxsi və ev işləri**\n- Məs: ailə büdcəsinin idarəsi\n- Müəyyən struktur və təşkilati çərçivəsi yoxdur\n\n3) **Rutin administrativ işlər**\n- Məs: hesabatların hazırlanması, arxiv işləri\n- Standart, qəlib halında\n\n4) **Daimi xidmət fəaliyyətləri**\n- Məs: poçt, nəqliyyat, kommunal xidmət\n- Davamlı, fasiləsiz\n\n**Layihə hesab EDİLƏN fəaliyyətlər:**\n\n1) **Yeni məhsul/xidmət yaradılması**\n- Məs: yeni proqram təminatı işlənməsi\n\n2) **Yeni prosesin tətbiqi**\n- Məs: keyfiyyət idarəetmə sisteminin tətbiqi\n\n3) **İnfrastruktur qurulması**\n- Məs: yol, körpü, bina tikintisi\n\n4) **Təşkilati dəyişikliklər**\n- Məs: struktur islahatı, birləşmə\n\n5) **Tədqiqat və inkişaf**\n- Məs: yeni dərman işlənməsi\n\n6) **Tədbirlər**\n- Məs: konfrans, festival, sərgi\n\n7) **Sosial proqramlar**\n- Məs: icma layihələri, maarifləndirmə\n\n**Qarışıq nümunələr (Proqramlar):**\n- Bəzi fəaliyyətlər həm layihə, həm əməliyyat xüsusiyyəti daşıyır\n- Bu halda onları layihə kimi idarə etmək faydalıdır\n\nFərqi anlamaq düzgün metodologiya seçimi üçün vacibdir.",
+      "keywords": [
+        "layihə",
+        "əməliyyat",
+        "fərqləndirmə",
+        "müvəqqəti",
+        "daimi"
+      ]
+    },
+    {
+      "id": 37,
+      "category": "Bilet 8",
+      "question": "Qapanış prosesləri haqqında məlumat verin",
+      "answer": "Qapanış prosesləri (Closing Processes) layihənin rəsmi bitirilməsi mərhələsidir. PMBOK-a görə 2 əsas proses var:\n\n**1) Layihənin və ya fazanın bağlanması**\n\n**2) Tədarükün bağlanması** (müqavilələrin sona çatdırılması)\n\n**Əsas fəaliyyətlər:**\n\n1) **Son nəticələrin təhvil verilməsi**\n- Məhsul/xidmətin müştəriyə təqdim edilməsi\n- Qəbul sənədlərinin imzalanması\n\n2) **Dərs alınması (Lessons Learned)**\n- Uğurlu təcrübələrin sənədləşdirilməsi\n- Səhvlərin və onların həll yollarının qeydi\n- Gələcək layihələr üçün tövsiyələr\n\n3) **Maliyyə hesablaşmaları**\n- Son xərclərin hesablanması\n- Bütün ödənişlərin tamamlanması\n- Maliyyə hesabatının hazırlanması\n\n4) **Sənədlərin arxivləşdirilməsi**\n- Bütün layihə sənədlərinin təşkilati arxivə verilməsi\n- Elektron və kağız daşıyıcılarda\n\n5) **Resursların azad edilməsi**\n- Komanda üzvlərinin yeni layihələrə və ya əvvəlki vəzifələrinə qayıtması\n- Avadanlıq və materialların qaytarılması\n\n6) **Maraqlı tərəflərin məlumatlandırılması**\n- Layihənin uğurla başa çatdığının rəsmi elanı\n- Son hesabatın təqdimi\n\n7) **Tədbirlərin keçirilməsi**\n- Komanda ilə qeyd etmə\n- Təşəkkür mərasimi\n\n8) **Müqavilələrin bağlanması**\n- Təchizatçılarla hesablaşma\n- Zəmanət öhdəliklərinin sənədləşməsi\n\nDüzgün qapanış prosesi gələcək layihələrin uğuru üçün təcrübə bazası yaradır.",
+      "keywords": [
+        "qapanış",
+        "təhvil",
+        "dərs alınması",
+        "arxıvləşmə",
+        "bağlama"
+      ]
+    },
+    {
+      "id": 38,
+      "category": "Bilet 8",
+      "question": "Kənd təsərrüfatı layihələrinin özünəməxsus cətinlikləri",
+      "answer": "Kənd təsərrüfatı (aqrar) layihələri digər sahələrdən fərqli olaraq bir sıra unikal çətinliklərə malikdir:\n\n1) **Təbiət və iqlim asılılığı**\n- Fəsillər, hava şəraiti, temperatur, yağıntı\n- Proqnozlaşdırma çətinliyi\n- Məhsul itkisi riski (quraqlıq, sel, şaxta)\n- İqlim dəyişikliyinin təsiri\n\n2) **Mövsümi xarakter**\n- Müəyyən fəsildə kəskin iş yükü\n- Digər vaxtlarda boş qalma\n- İşçi qüvvəsinin idarə olunması çətinliyi\n\n3) **Torpaq və təbii resurslar**\n- Torpaq mülkiyyətinin mürəkkəbliyi\n- Suvarma, meliorasiya problemləri\n- Torpaq deqradasiyası\n\n4) **Bazar qeyri-müəyyənliyi**\n- Qiymət dalğalanmaları\n- Tələb-təklif dəyişkənliyi\n- İxrac bazarlarına çıxışın məhdudluğu\n\n5) **Texnoloji çətinliklər**\n- Mexanizasiya səviyyəsinin aşağı olması\n- Müasir aqrar texnologiyaların tətbiqi\n- İnformasiya texnologiyalarının yayılması\n\n6) **Sosial-mədəni amillər**\n- Ənənəvi istehsal üsulları\n- Yaşlı fermerlərin yeni yanaşmalara müqaviməti\n- Gender məsələləri (qadınların əməyi)\n\n7) **Maliyyə çətinlikləri**\n- Yüksək risk səbəbindən kredit əldə etmək çətinliyi\n- Sığorta imkanlarının məhdudluğu\n- Kiçik fermerlərin maliyyə vəsaitinə çıxışı\n\n8) **Ekoloji tələblər**\n- Davamlı kənd təsərrüfatı prinsipləri\n- Pestisid və gübrə istifadəsinin tənzimlənməsi\n- Biomüxtəlifliyin qorunması\n\n9) **İnfrastruktur problemləri**\n- Yolların pis vəziyyəti\n- Soyuducu, anbar, emal müəssisələrinin çatışmazlığı\n- Logistika xərcləri\n\nBu çətinlikləri nəzərə alaraq, aqrar layihələrdə risklərin idarə olunması, çevik planlaşdırma və yerli şəraitə uyğunlaşma xüsusilə vacibdir.",
+      "keywords": [
+        "kənd təsərrüfatı",
+        "iqlim",
+        "mövsümi",
+        "torpaq",
+        "risk",
+        "bazar"
+      ]
+    },
+    {
+      "id": 39,
+      "category": "Bilet 8",
+      "question": "Korporativ sosial məsuliyyət layihələri barəsində məlumat verin",
+      "answer": "Korporativ Sosial Məsuliyyət (KSM/CSR) — şirkətin fəaliyyətində iqtisadi, sosial və ekoloji məsələləri könüllü olaraq nəzərə almasıdır.\n\n**KSM layihələrinin əsas istiqamətləri:**\n\n1) **Sosial istiqamət**\n- Təhsil dəstəyi (məktəb, təqaüd, təlim)\n- Səhiyyə proqramları (pulsuz müayinə, maarifləndirmə)\n- Yoxsulluqla mübarizə\n- Sosial müdafiə layihələri\n- Mədəniyyət və incəsənətə dəstək\n- İdman və sağlam həyat tərzi\n\n2) **Ekoloji istiqamət**\n- Ətraf mühitin qorunması\n- Yaşıl texnologiyaların tətbiqi\n- Tullantıların azaldılması\n- Enerji səmərəliliyi\n- Ağacəkmə, biomüxtəliflik\n\n3) **İqtisadi istiqamət**\n- Yerli istehsalın dəstəklənməsi\n- Sahibkarlığın inkişafı\n- Ədalətli ticarət\n\n4) **İşçilərə qarşı məsuliyyət**\n- Təhlükəsiz iş şəraiti\n- Əmək haqqının ədalətliliyi\n- Peşəkar inkişaf\n- İş-şəxsi həyat balansı\n- Müxtəliflik və inklüzivlik\n\n**KSM layihələrinin xüsusiyyətləri:**\n- Könüllü xarakter daşıyır\n- Uzunmüddətli nəticələrə yönəlir\n- Maraqlı tərəflərlə əməkdaşlıq (hökumət, QHT, icmalar)\n- Ölçülə bilən sosial təsir\n- Şəffaf hesabatlılıq\n\n**Standartlar və çərçivələr:**\n- **ISO 26000** — sosial məsuliyyət standartı\n- **GRI (Global Reporting Initiative)** — hesabatlılıq\n- **BMT-nin Davamlı İnkişaf Məqsədləri (SDG)**\n- **ESG** — Ekoloji, Sosial, İdarəetmə\n\n**KSM-in faydaları:**\n- Şirkət imicinin güclənməsi\n- Müştəri loyallığının artması\n- İşçi motivasiyasının yüksəlməsi\n- İctimaiyyətlə yaxşı münasibət\n- Risklərin azalması\n\nKSM kommersiya uğuru ilə sosial faydanı birləşdirmə vasitəsidir.",
+      "keywords": [
+        "KSM",
+        "CSR",
+        "sosial məsuliyyət",
+        "ekoloji",
+        "standartlar",
+        "davamlılıq"
+      ]
+    },
+    {
+      "id": 40,
+      "category": "Bilet 8",
+      "question": "Layihələrin təsnifatı haqqında ümumi məlumat",
+      "answer": "Layihələr müxtəlif meyarlara görə təsnif edilir. Hər təsnifat layihənin idarə olunması xüsusiyyətlərini müəyyən edir.\n\n**Əsas təsnifat meyarları:**\n\n1) **Sahəsinə görə**\n- Tikinti və infrastruktura\n- İnformasiya texnologiyalarına\n- İstehsal və sənayeyə\n- Kənd təsərrüfatına\n- Səhiyyəyə\n- Təhsilə\n- Sosial sahəyə\n- Elmi-tədqiqata\n- Mədəniyyətə\n- Müdafiə və təhlükəsizliyə\n\n2) **Miqyasına görə**\n- Mikro (kiçik komanda, günlər)\n- Kiçik (həftələr, 5-10 nəfər)\n- Orta (aylar, 10-30 nəfər)\n- Böyük (illər, 30-100 nəfər)\n- Mega (illər, 1000+ nəfər, milyardlıq büdcə)\n\n3) **Müddətinə görə**\n- Qısamüddətli (< 6 ay)\n- Ortamüddətli (6 ay — 2 il)\n- Uzunmüddətli (2-5 il)\n- Çox uzunmüddətli (5+ il)\n\n4) **Mürəkkəbliyinə görə**\n- Sadə (standart, təkrarlanan)\n- Orta (bəzi unikal elementlər)\n- Mürəkkəb (yeni texnologiyalar, çoxsaylı maraqlı tərəflər)\n- Çox mürəkkəb (transformativ, yüksək riskli)\n\n5) **Mənbəyinə görə**\n- Dövlət layihələri\n- Özəl layihələr\n- Qarışıq (dövlət-özəl)\n- Beynəlxalq layihələr\n- Qeyri-kommersiya / QHT layihələri\n\n6) **Məqsədinə görə**\n- Kommersiya (mənfəət)\n- Sosial (cəmiyyətin rifahı)\n- Ekoloji (ətraf mühit)\n- Elmi (bilik)\n- Strateji (dövlət maraqları)\n\n7) **Həyata keçirilmə üsuluna görə**\n- Daxili (öz komanda)\n- Xarici (podratçı)\n- Qarışıq\n- Klasterli (birgə)\n\n8) **Risk səviyyəsinə görə**\n- Aşağı riskli\n- Orta riskli\n- Yüksək riskli\n- Çox yüksək riskli\n\nDüzgün təsnifat uyğun metodologiya və idarəetmə yanaşmasının seçilməsinə kömək edir.",
+      "keywords": [
+        "təsnifat",
+        "miqyas",
+        "mürəkkəblik",
+        "sahə",
+        "mənbə",
+        "məqsəd"
+      ]
+    },
+    {
+      "id": 41,
+      "category": "Bilet 9",
+      "question": "Görüləcək işlər və fəaliyyət planı haqqında məlumat verin",
+      "answer": "Görüləcək işlər planı (Work Breakdown Structure - WBS) və fəaliyyət planı layihənin əsas planlaşdırma sənədləridir.\n\n**WBS (İş Bölgüsü Strukturu):**\n\n**Anlayışı:**\n- Layihənin bütün işlərinin iyerarxik şəkildə bölünməsi\n- Bütün işlərin görünməsini təmin edir\n- 100% qaydası — bütün işlər əhatə olunur\n\n**Struktur səviyyələri:**\n1) **Layihə** (ən yuxarı)\n2) **Mərhələlər / Fazalar**\n3) **Çatdırılacaq nəticələr (Deliverables)**\n4) **İş paketləri (Work Packages)** — ən aşağı səviyyə, idarə oluna bilən\n5) **Fəaliyyətlər (Activities)** — iş paketlərinin tərkib hissələri\n\n**Bölgü formaları:**\n- Nəticə yönümlü (deliverable-based) — tövsiyə olunur\n- Fəaliyyət yönümlü (activity-based)\n- Funksional (şöbələrə görə)\n- Coğrafi (ərazilərə görə)\n\n**WBS şəkli:**\n- Ağac (tree) diaqramı\n- Outline (mətn) formatı\n- Sənəd forması\n\n**WBS Nömrələməsi:**\n- 1.0 Layihə, 1.1 Mərhələ 1, 1.1.1 İş paketi, 1.1.1.1 Fəaliyyət\n\n**Fəaliyyət planı:**\n\n**Məzmunu:**\n- WBS-dən alınan fəaliyyətlərin siyahısı\n- Hər fəaliyyətin təsviri, müddəti, asılılıqları\n- Resurs tələbləri\n- Məsul şəxs\n- Başlama və bitmə tarixləri\n\n**Asılılıq növləri:**\n- **FS (Finish-to-Start)** — bitmə-başlama (ən çox yayılmış)\n- **SS (Start-to-Start)** — başlama-başlama\n- **FF (Finish-to-Finish)** — bitmə-bitmə\n- **SF (Start-to-Finish)** — başlama-bitmə (nadir)\n\n**Fəaliyyət planının çıxışı:**\n- Şəbəkə diaqramı\n- Gantt diaqramı\n- CPM analizi\n- Resurs planı\n- Büdcə smetası",
+      "keywords": [
+        "WBS",
+        "iş bölgüsü",
+        "fəaliyyət planı",
+        "iş paketi",
+        "asılılıq",
+        "FS",
+        "Gantt"
+      ]
+    },
+    {
+      "id": 42,
+      "category": "Bilet 9",
+      "question": "Layihələrin idarə edilməsində motivasiya amilinin rolu",
+      "answer": "Motivasiya layihə komandasının məhsuldarlığını və layihənin uğurunu birbaşa müəyyən edən amildir.\n\n**Motivasiya nəzəriyyələri:**\n\n1) **Maslow ehtiyaclar iyerarxiyası**\n- Fizioloji ehtiyaclar (maaş)\n- Təhlükəsizlik (sabit iş)\n- Sosial mənsubiyyət (komanda)\n- Hörmət (tanınma)\n- Özünürealizasiya (potensialın reallaşdırılması)\n\n2) **Herzberq iki faktorlu nəzəriyyəsi**\n- **Higiyena faktorları** — mənfi davranışın qarşısını alır (maaş, şərait, siyasət)\n- **Motivatorlar** — müsbət davranışı stimullaşdırır (uğur, tanınma, məsuliyyət, inkişaf)\n\n3) **McGregor X və Y nəzəriyyəsi**\n- **X nəzəriyyəsi** — insanlar tənbəldir, nəzarət edilməlidir\n- **Y nəzəriyyəsi** — insanlar yaradıcıdır, öz-özünə idarə oluna bilər\n\n4) **Vroom gözlənti nəzəriyyəsi**\n- Motivasiya = Gözlənti × İnstrumentallıq × Valyentlik\n- Əməyinin nəticə verəcəyinə inam\n\n**Motivasiya üsulları layihələrdə:**\n\n**Maddi:**\n- Rəqabətqabiliyyətli əmək haqqı\n- Mükafat və bonuslar\n- Səhm opsiyaları (startaplarda)\n- Əlavə məzuniyyət, sosial paket\n\n**Qeyri-maddi:**\n- Tanınma və tərif\n- Peşəkar inkişaf imkanları\n- Maraqlı və mənalı iş\n- Sərbəstlik və səlahiyyət\n- Komanda mədəniyyəti\n- İş-şəxsi həyat balansı\n- Mentorluq\n\n**Demotivasiya səbəbləri:**\n- Ədalətsiz rəhbərlik\n- Aydın olmayan məqsədlər\n- Tənqid edilməmə, geri əlaqə olmaması\n- Monoton iş\n- Mikromenecment\n- Müvafiq olmayan iş şəraiti\n\nMotivasiya olunmuş komanda layihəni yüksək keyfiyyətlə və vaxtında tamamlayır.",
+      "keywords": [
+        "motivasiya",
+        "Maslow",
+        "Herzberq",
+        "McGregor",
+        "Vroom",
+        "mükafat",
+        "tanınma"
+      ]
+    },
+    {
+      "id": 43,
+      "category": "Bilet 9",
+      "question": "Şəffaflığın layihə menecerinin işinə təsiri",
+      "answer": "Şəffaflıq (Transparency) layihə menecmentində əsas etik prinsipdir və uğurlu layihələrin açarıdır.\n\n**Şəffaflığın təsir sahələri:**\n\n1) **Komanda daxilində**\n- Açıq kommunikasiya mühiti yaradır\n- Üzvlər problemləri gizlətmir, vaxtında bildirir\n- Qərar qəbulu prosesinə inam artır\n- \"Biz\" duyğusu güclənir\n- Etimad möhkəmlənir\n\n2) **Maraqlı tərəflərlə münasibətdə**\n- Sponsor və rəhbərlik gedişatı dəqiq bilir\n- Müştəri gözləntiləri düzgün formalaşır\n- Risk və problemlər vaxtında açıqlanır\n- Hesabatlılıq təmin olunur\n\n3) **Layihənin keyfiyyətinə təsiri**\n- Səhvlər tez aşkar olunur\n- Öyrənmə mühiti formalaşır\n- Təkrarlanan xətaların qarşısı alınır\n- Keyfiyyət standartlarına uyğunluq artır\n\n4) **Risk idarəetməsinə təsiri**\n- Gizli risklər üzə çıxır\n- Vaxtında tədbir görmək mümkün olur\n- Proaktiv yanaşma formalaşır\n\n5) **Təşkilati mədəniyyətə təsiri**\n- \"Günahlandırma mədəniyyəti\" əvəzinə \"öyrənmə mədəniyyəti\"\n- Psixoloji təhlükəsizlik mühiti\n- İnnovasiya təşviq olunur\n\n**Şəffaflığı təmin etmək vasitələri:**\n- Açıq hesabatlar (status, KPI)\n- Mütəmadi iclaslar (daily stand-up, sprint review)\n- Dashboard-lar, real-time göstəricilər\n- Sənədləşmə (dərslər alınması)\n- Əlçatan alətlər (kanban board, wiki)\n\n**Şəffaflığın çətinlikləri:**\n- Pis xəbəri çatdırmaq çətindir\n- Bəzi məlumatlar məxfi saxlanmalıdır (kommersiya sirri)\n- Şəxsi məlumatların qorunması\n\nŞəffaf menecer etibar qazanır, komandasını effektiv idarə edir və layihəni uğurla başa çatdırır.",
+      "keywords": [
+        "şəffaflıq",
+        "kommunikasiya",
+        "hesabatlılıq",
+        "etimad",
+        "maraqlı tərəflər"
+      ]
+    },
+    {
+      "id": 44,
+      "category": "Bilet 9",
+      "question": "Layihənin əhatə dairəsi haqqında məlumat verin",
+      "answer": "Layihənin əhatə dairəsi (Project Scope) layihənin nə edəcəyini və nə etməyəcəyini dəqiq müəyyən edən sənəddir.\n\n**Əsas komponentləri:**\n\n1) **Məhsulun əhatə dairəsi (Product Scope)**\n- Yaradılacaq məhsulun/xidmətin xüsusiyyətləri və funksiyaları\n- Texniki tələblər, keyfiyyət standartları\n- \"Nə\" yaradılacaq\n\n2) **Layihənin əhatə dairəsi (Project Scope)**\n- Hansı işlər görüləcək\n- Hansı işlər görülməyəcək\n- Sərhədlər, məhdudiyyətlər\n- \"Nə etməli\" və \"nə etməməli\"\n\n**Əhatə dairəsinin idarə edilməsi prosesi:**\n\n1) **Əhatə dairəsinin planlaşdırılması**\n- Əhatə dairəsi idarəetmə planının yaradılması\n- Tələblərin toplanması üsullarının seçilməsi\n\n2) **Tələblərin toplanması**\n- Müsahibələr, sorğular, müşahidə\n- Fokus-qruplar, ssenari analizi\n- Prototipləmə, benchmarking\n\n3) **Əhatə dairəsinin tərifi**\n- Layihə xartiyasının detallı tərtibi\n- Əhatə dairəsi bəyannaməsi (Scope Statement)\n- WBS yaradılması\n- WBS Lüğəti\n\n4) **Əhatə dairəsinin təsdiqi**\n- Müştəri və sponsorla razılaşdırma\n- Rəsmi qəbul sənədləri\n\n5) **Əhatə dairəsinə nəzarət**\n- Əhatə dəyişikliklərinin idarəsi\n- \"Scope creep\" (əhatə sürüşməsi) ilə mübarizə\n\n**Əhatə dairəsi bəyannaməsinin tərkibi:**\n- Məhsulün təsviri\n- Qəbul meyarları\n- Çatdırılacaq nəticələr (deliverables)\n- Layihə sərhədləri\n- Məhdudiyyətlər və istisnalar\n- Fərziyyələr\n\n**Scope Creep (Əhatə sürüşməsi):**\n- Nəzarətsiz əhatə genişlənməsi\n- Vaxt, büdcə və resurslara təsir\n- Qarşısının alınması üçün dəyişiklik idarəetmə prosesi",
+      "keywords": [
+        "əhatə dairəsi",
+        "scope",
+        "WBS",
+        "scope creep",
+        "tələblər",
+        "təsdiq"
+      ]
+    },
+    {
+      "id": 45,
+      "category": "Bilet 9",
+      "question": "Xeyriyyə fondreyzinqi barədə məlumat",
+      "answer": "Xeyriyyə fondreyzinqi (Charity Fundraising) qeyri-kommersiya təşkilatların, fondların və sosial layihələrin maliyyələşdirilməsi üçün vəsait toplama prosesidir.\n\n**Əsas anlayışlar:**\n- Vəsait toplama (fundraising) — maliyyə, material və ya xidmət əldə etmək\n- Donor — vəsait verən şəxs, şirkət və ya təşkilat\n- Benefisiar — yardımı alan tərəf\n\n**Vəsait toplama mənbələri:**\n\n1) **Fərdi donorlar**\n- Müntəzəm ianəçilər\n- Birdəfəlik ianələr\n- Telefon, SMS, onlayn kampaniyalar\n\n2) **Korporativ donorlar**\n- Şirkətlər (KSM proqramları)\n- Banklar, holdinqlər\n- Sponsorluq müqavilələri\n\n3) **Beynəlxalq təşkilatlar**\n- Qrant verən qurumlar (USAID, EU, World Bank)\n- BMT agentlikləri (UNDP, UNICEF)\n- Xarici fondlar\n\n4) **Dövlət dəstəyi**\n- Qrant müsabiqələri (QHT-lərə Dövlət Dəstəyi Agentliyi)\n- Vergi güzəştləri\n- Birbaşa maliyyələşmə\n\n5) **Yaradıcı üsullar**\n- Xeyriyyə konsertləri, auksionları\n- İdman tədbirləri, yarışlar\n- Məhsul satışı (məs: xüsusi dizayn)\n- Crowdfunding (kütləvi maliyyələşmə)\n\n**Fondreyzinq prosesi:**\n\n1) **Strateji planlaşdırma**\n- Məqsədli məbləğin müəyyən edilməsi\n- Hədəf donorların analizi\n- Strategiyanın hazırlanması\n\n2) **Kampaniyanın hazırlanması**\n- Təsirli hekayə və mesaj\n- Vizual materiallar, video\n- Onlayn platforma (sayt, sosial media)\n\n3) **Kampaniyanın aparılması**\n- PR və media ilə iş\n- Sosial media, e-poçt, SMS\n- Tədbirlərin təşkili\n\n4) **Donorlarla münasibət**\n- Təşəkkür məktubları\n- Hesabatların verilməsi\n- Donorların saxlanması (donor retention)\n\n5) **Şəffaf hesabatlılıq**\n- Toplanmış vəsaitin istifadəsi barədə hesabat\n- Nəticələrin paylaşılması\n\n**Effektiv fondreyzinqin prinsipləri:**\n- Şəffaflıq və hesabatlılıq\n- Donor məmnuniyyəti\n- Uzunmüddətli münasibətlər\n- Etik standartlara riayət\n- Təsirin ölçülməsi",
+      "keywords": [
+        "fondreyzinq",
+        "ianə",
+        "donor",
+        "qrant",
+        "korporativ",
+        "crowdfunding"
+      ]
+    },
+    {
+      "id": 46,
+      "category": "Bilet 10",
+      "question": "Layihəni gündəlik işlərdən fərqləndirən cəhətlər",
+      "answer": "Layihə və gündəlik əməliyyat işləri bir-birindən fundamental şəkildə fərqlənir.\n\n**Əsas fərqlər:**\n\n| Meyar | Layihə | Gündəlik əməliyyat |\n|---|---|---|\n| **Müddət** | Müvəqqəti, başlanğıc və sonu var | Daimi, davam edən |\n| **Xarakter** | Unikal, bir dəfəlik | Təkrarlanan, standart |\n| **Məqsəd** | Spesifik nəticə əldə etmək | Fəaliyyəti davam etdirmək |\n| **Resurslar** | Məhdud, təyin olunmuş | Davamlı, təkrarlanan |\n| **Risk** | Yüksək qeyri-müəyyənlik | Aşağı, proqnozlaşdırıla bilən |\n| **Müştəri** | Xüsusi, bir dəfəlik | Daimi, sabit |\n| **Komanda** | Müvəqqəti, layihə sonu bitir | Daimi heyət |\n| **Planlaşdırma** | Ətraflı, xüsusi | Standart əməliyyat planı |\n| **İdarəetmə** | Layihə meneceri | Funksional menecer |\n| **Nəticə** | Məhsul, xidmət, nəticə | Davam edən istehsal/xidmət |\n| **Nəzarət** | Mərhələli, dəyişikliklər | Sabit, performans göstəriciləri |\n| **Büdcə** | Birdəfəlik təsdiqlənmiş | İllik, dövri |\n| **Uğur** | Məqsədə çatma, vaxt, büdcə, əhatə | Səmərəlilik, keyfiyyət, davamlılıq |\n\n**Nümunələr:**\n\n**Layihə:**\n- Yeni bina tikintisi\n- Yeni proqram təminatının işlənməsi\n- Konfransın təşkili\n- Marketinq kampaniyası\n- Şirkətin yenidən qurulması\n\n**Gündəlik əməliyyat:**\n- Mağazada mal satışı\n- Bank əməliyyatlarının aparılması\n- Müştəri xidməti\n- İstehsal xəttinin fəaliyyəti\n- Mühasibat uçotu\n\n**Qarışıq nümunələr:**\nBəzi işlər həm layihə, həm əməliyyat xüsusiyyəti daşıyır. Bu hallarda layihə yanaşması (project approach) tətbiq olunur.",
+      "keywords": [
+        "layihə",
+        "əməliyyat",
+        "fərq",
+        "müvəqqəti",
+        "daimi",
+        "unikal"
+      ]
+    },
+    {
+      "id": 47,
+      "category": "Bilet 10",
+      "question": "Zamanın optimallaşdırılması barəsində məlumat verin",
+      "answer": "Vaxtın optimallaşdırılması (Time Optimization) layihənin müddətini minimuma endirmək üçün istifadə olunan üsullar toplusudur.\n\n**Əsas yanaşmalar:**\n\n1) **Sıxılma (Crashing)**\n- Layihənin müddətini azaltmaq üçün əlavə resurs əlavə etmək\n- Adətən əmək qüvvəsi və ya avadanlıq əlavə olunur\n- Xərc artır, lakin vaxt qısalır\n- Məhdudiyyət: hər fəaliyyətin \"sıxılma nöqtəsi\" var (nə qədər sıxlaşdırıla bilər)\n\n2) **Sürətləndirmə (Fast-Tracking)**\n- Normalda ardıcıl görülən işləri paralel həyata keçirmək\n- Məs: dizayn başa çatmamış proqramlaşdırmaya başlamaq\n- Vaxta qənaət, lakin risk artır (yenidən işləmə ehtimalı)\n- Effektiv kommunikasiya tələb edir\n\n3) **Pipelining**\n- Çoxsaylı oxşar fəaliyyətləri ardıcıl qruplaşdırmaq\n- Məs: çoxsaylı təlim modullarını eyni komanda ilə dalğavarı aparmaq\n- Keçid (transition) vaxtına qənaət\n\n4) **Scope reduction (Əhatənin azaldılması)**\n- Ən az əhəmiyyətli funksionallığı çıxarmaq\n- Məqsədə çatmaq üçün vacib olanı saxlamaq\n\n5) **Təkmil texnologiya**\n- Daha sürətli alətlər, maşınlar\n- Proseslərin avtomatlaşdırılması\n- Proqram təminatının tətbiqi\n\n6) **Resurs artımı**\n- İşçi sayının artırılması (müvəqqəti)\n- Növbəli iş qrafiki\n- Yaxşı mütəxəssislərin cəlb edilməsi\n\n7) **Yaxşı planlaşdırma**\n- Realistik müddət qiymətləndirməsi\n- Ehtiyat vaxtın (buffer) düzgün paylanması\n- Kritik yolun optimallaşdırılması\n- Asılılıqların aradan qaldırılması\n\n8) **Prioritetlərin idarə olunması**\n- Ən vacib işlərin əvvəl görülməsi\n- Pareto prinsipi (80/20)\n- Dəyər əsaslı prioritetləşdirmə\n\n**Tətbiq zamanı nəzərə alınmalı:**\n- Hər üsulun əlavə xərci var\n- Risklər arta bilər\n- Keyfiyyətə təsir qiymətləndirilməlidir\n- Maraqlı tərəflərlə razılaşdırma\n\n**Vaxt itkilərinin səbəbləri:**\n- Qeyri-realistik planlaşdırma\n- Dəyişikliklərin idarə olunmaması\n- Resurs çatışmazlığı\n- Zəif kommunikasiya\n- Lazımsız təsdiq prosesləri\n- Performans problemləri\n\nEffektiv vaxt optimallaşdırılması layihənin uğurlu və vaxtında tamamlanmasını təmin edir.",
+      "keywords": [
+        "vaxt optimallaşdırması",
+        "crashing",
+        "fast-tracking",
+        "Pareto",
+        "kritik yol",
+        "resurs"
+      ]
+    },
+    {
+      "id": 48,
+      "category": "Bilet 10",
+      "question": "Komanda, onun missiyası və komanda münasibətləri",
+      "answer": "Komanda layihənin əsas icra qüvvəsidir. Effektiv komanda uğurlu layihənin ən vacib amilidir.\n\n**Komanda anlayışı:**\n- Ümumi məqsəd ətrafında birləşmiş insanlar qrupu\n- Birgə işləmək, qərar qəbul etmək, nəticə əldə etmək üçün formalaşır\n- Üzvlər bir-birinə qarşılıqlı məsuliyyət daşıyır\n\n**Missiya (Mission) anlayışı:**\n- Komandanın mövcudluq səbəbi\n- Üzvlərin birgə çalışdığı əsas məqsəd\n- Komanda üçün ilhamverici və aydın olmalıdır\n- Missiya bəyannaməsi qısa, yaddaqalan, motivator olmalıdır\n\n**Yaxşı missiyanın xüsusiyyətləri:**\n- Aydın və anlaşılan\n- İlhamverici\n- Ölçülə bilən\n- Müştəri yönümlü\n- Vaxtında müəyyən edilmiş\n\n**Komanda münasibətləri:**\n\n1) **Ünsiyyət**\n- Açıq, şəffah, vaxtında\n- Qarşılıqlı hörmət\n- Aktiv dinləmə\n\n2) **Etimad**\n- Bir-birinə güvən\n- Səhv etməkdən qorxmama\n- Səmimiyyət və dürüstlük\n\n3) **Əməkdaşlıq**\n- Qarşılıqlı yardım\n- Bilik və təcrübə mübadiləsi\n- Sinergiya effekti\n\n4) **Münaqişələrin idarə olunması**\n- Fikir ayrılıqlarının sağlam ifadəsi\n- Kompromis və razılaşma\n- Problemin həlli, şəxsi hücuma keçməmə\n\n5) **Motivasiya və dəstək**\n- Uğurları qeyd etmə\n- Çətinliklərdə bir-birinə dəstək\n- Təşəkkür və tərif\n\n**Komanda münasibətlərinin pozulması səbəbləri:**\n- Zəif kommunikasiya\n- Etimadsızlıq\n- Ədalətsiz rəhbərlik\n- Rolların qeyri-müəyyənliyi\n- Resurs çatışmazlığı\n- Şəxsi ambisiyalar\n\n**Effektiv komanda yaratmaq üçün:**\n- Aydın məqsəd və missiya\n- Yaxşı kommunikasıya sistemi\n- Qarşılıqlı hörmət mühiti\n- Müntəzəm görüşlər (stand-up, retrospektiv)\n- Komanda quruculuğu tədbirləri (team building)\n- Performansın qiymətləndirilməsi\n- Mükafatlandırma sistemi\n\nGüclü komanda yalnız peşəkar bacarıqları deyil, həm də emosional zəkanı, qarşılıqlı dəstəyi və birgə öyrənməni tələb edir.",
+      "keywords": [
+        "komanda",
+        "missiya",
+        "münasibət",
+        "ünsiyyət",
+        "etimad",
+        "əməkdaşlıq"
+      ]
+    },
+    {
+      "id": 49,
+      "category": "Bilet 10",
+      "question": "Nəzarət və yoxlama (monitorinq) prosesləri haqqında məlumat verin",
+      "answer": "Monitorinq və nəzarət layihənin uğurla irəlilədiyini təmin edən əsas funksiyalardır.\n\n**Monitorinq (Monitoring) anlayışı:**\n- Layihənin gedişatının sistematik izlənməsi\n- Məlumatların toplanması, təhlili və hesabatlanması\n- Planla faktiki göstəricilərin müqayisəsi\n\n**Nəzarət (Control) anlayışı:**\n- Sapmaların aşkar edilməsi\n- Düzəldici tədbirlərin görülməsi\n- Layihənin plana uyğun saxlanması\n\n**Monitorinq prosesinin mərhələləri:**\n\n1) **Planın monitorinqi** — KPI və meyarların müəyyən edilməsi\n2) **Məlumatların toplanması** — mütəmadi hesabatlar, iclaslar, dashboard-lar\n3) **Məlumatların təhlili** — sapmaların və tendensiyaların müəyyən edilməsi\n4) **Hesabatların hazırlanması** — rəhbərlik, sponsor, komanda üçün\n5) **Düzəldici tədbirlər** — problemlərin aradan qaldırılması\n\n**Monitorinq formaları:**\n- **Gündəlik** — stand-up iclaslar (15 dəq)\n- **Həftəlik** — status iclasları, sprint review\n- **Aylıq** — ətraflı hesabatlar, performans iclasları\n- **Rüblük** — strateji baxış\n- **Faza sonu** — böyük yoxlamalar, milestone-lar\n\n**Monitorinq alətləri:**\n- **Gantt diaqramı** — vaxt izləmə\n- **Burndown/Burnup chart** — sürət və tamamlanma\n- **Kanban board** — iş axını\n- **EVM** — xərc və vaxt sapmaları\n- **RAG status (Red, Amber, Green)** — vəziyyətin rənglənməsi\n- **Risk register** — risklərin izlənməsi\n- **Issue log** — problemlərin qeydi\n\n**Effektiv monitorinqin prinsipləri:**\n- Müntəzəmlik\n- Dəqiqlik\n- Vaxtında məlumat\n- Vizuallıq\n- Kollektiv iştirak\n- Məqsədyönlülük\n\n**Monitorinq vs Nəzarət:**\n- Monitorinq: nə baş verir? (müşahidə)\n- Nəzarət: nə etməli? (tənzimləmə)\n\n**Monitorinqin faydaları:**\n- Vaxtında problem aşkarlama\n- Dəqiq qərar qəbulu\n- Maraqlı tərəflərin məlumatlandırılması\n- Layihənin uğur şansının artması\n- Resursların səmərəli istifadəsi\n\nYaxşı monitorinq olmadan layihə \"kor uçuş\" edir.",
+      "keywords": [
+        "monitorinq",
+        "nəzarət",
+        "KPI",
+        "EVM",
+        "hesabat",
+        "sapma"
+      ]
+    },
+    {
+      "id": 50,
+      "category": "Bilet 10",
+      "question": "Layihələrin idarə olunmasında istifadə edilən kompüter proqramları",
+      "answer": "Layihə menecmenti üçün müxtəlif proqram təminatları mövcuddur. Onları kateqoriyalara ayıra bilərik:\n\n**1) Peşəkar layihə idarəetmə proqramları:**\n- **Microsoft Project** — ən geniş yayılmış, Gantt diaqramı, resurs planlaması, kritik yol\n- **Primavera P6** — böyük tikinti və mühəndis layihələri üçün, ERP inteqrasiya\n- **Open Workbench** — açıq mənbəli alternativ\n- **OpenProject** — açıq mənbəli, komanda əməkdaşlığı\n\n**2) Bulud əsaslı platformalar:**\n- **Asana** — sadə interfeys, komanda işi\n- **Trello** — Kanban board, vizual\n- **Monday.com** — çevik, xüsusi panellər\n- **ClickUp** — çoxfunksiyalı\n- **Wrike** — korporativ həllər\n- **Jira** — İT və Agile layihələri üçün güclü\n- **Smartsheet** — cədvəl əsaslı\n\n**3) Komanda əməkdaşlığı:**\n- **Slack** — ani mesajlaşma, kanallar\n- **Microsoft Teams** — video konfrans, sənəd əməkdaşlığı\n- **Zoom** — video konfrans\n- **Notion** — sənəd, wiki, tapşırıq\n- **Confluence** — korporativ wiki\n- **Google Workspace** — Docs, Sheets, Drive\n\n**4) Kommunikasiya və hesabat:**\n- **Power BI / Tableau** — vizuallaşdırma, dashboard\n- **Google Data Studio** — pulsuz alternativ\n- **Excel** — sadə hesabatlar, qrafiklər\n- **PowerPoint / Google Slides** — təqdimatlar\n\n**5) Vaxt izləmə:**\n- **Toggl** — vaxt izləmə\n- **Harvest** — layihə + vaxt + hesabat\n- **Clockify** — pulsuz alternativ\n- **RescueTime** — məhsuldarlıq analizi\n\n**6) Sənəd və bilik idarəsi:**\n- **SharePoint** — korporativ sənəd sistemi\n- **Dropbox / Google Drive** — bulud saxlama\n- **Evernote / OneNote** — şəxsi qeydlər\n\n**7) Risk və problem idarəsi:**\n- **Active Risk Manager**\n- **Risk Register** alətləri\n- **IssueTrak** — problem izləmə\n\n**8) Büdcə və maliyyə:**\n- **QuickBooks** — kiçik biznes\n- **SAP** — korporativ ERP\n- **Excel** — sadə büdcə idarəsi\n\n**Proqram seçimi zamanı nəzərə alınmalı:**\n- Layihənin miqyası və mürəkkəbliyi\n- Büdcə imkanları\n- Komandanın texniki biliyi\n- İnteqrasiya ehtiyacları\n- Mobil əlçatanlıq\n- Hesabatlılıq tələbləri\n- Təhlükəsizlik\n\nMüasir layihə meneceri adətən 3-5 əsas aləti birgə istifadə edir.",
+      "keywords": [
+        "MS Project",
+        "Primavera",
+        "Jira",
+        "Asana",
+        "Trello",
+        "monitorinq",
+        "alət"
+      ]
+    },
+    {
+      "id": 51,
+      "category": "Bilet 11",
+      "question": "İctimai birliklər və fondlar haqqında məlumat verin",
+      "answer": "İctimai birliklər və fondlar QHT-lərin əsas hüquqi formalarıdır.\n\n**İctimai birlik (Public Association):**\n- Vətəndaşların ümumi maraqlar əsasında könüllü birləşməsi\n- Üzvlük prinsipi ilə fəaliyyət göstərir\n- Hüquqi şəxs statusu var\n- Nizamnamə əsasında idarə olunur\n- Üzvlərin ümumi yığıncağı ali idarəetmə orqanıdır\n\n**İctimai birliklərin növləri:**\n- **Peşəkar birliklər** — həkimlər, müəllimlər, mühəndislər\n- **Yaradıcı birliklər** — yazıçılar, rəssamlar, bəstəkarlar\n- **İdman birlikləri** — federasiyalar, klublar\n- **Gənclər təşkilatları** — skaut, tələbə birlikləri\n- **Veteran təşkilatları** — Qarabağ əlilləri, müharibə veteranları\n- **Qadın təşkilatları** — gender bərabərliyi\n- **Milli-mədəni birliklər** — azsaylı xalqların birlikləri\n\n**Fond (Foundation):**\n- Müəyyən məqsəd üçün maliyyə vəsaitinin toplanması və istifadəsi\n- Üzvlük yoxdur (təsisçilər var)\n- İdarə heyəti tərəfindən idarə olunur\n- Sosial, mədəni, elmi, xeyriyyə məqsədləri daşıyır\n\n**Fond növləri:**\n- **Xeyriyyə fondları** — kasıblara, xəstələrə yardım\n- **Sosial fondlar** — təqaüd, müavinət\n- **Mükafat fondları** — uğurlu insanları mükafatlandırma\n- **Təhsil fondları** — tələbə təqaüdləri, məktəb layihələri\n- **Mədəni fondlar** — mədəni irsin qorunması\n- **Elmi fondlar** — tədqiqat maliyyələşməsi\n- **Ekoloji fondlar** — təbiətin qorunması\n\n**İctimai birlik və fond arasındakı fərqlər:**\n\n| Meyar | İctimai birlik | Fond |\n|---|---|---|\n| **Üzvlük** | Var, könüllü | Yoxdur |\n| **Məqsəd** | Ümumi maraqların müdafiəsi | Vəsaitin idarə olunması |\n| **İdarəetmə** | Üzvlərin yığıncağı | İdarə heyəti |\n| **Gəlir mənbəyi** | Üzvlük haqları, qrantlar | Əsasən ianələr, qrantlar |\n| **Fəaliyyət** | Aktiv, kampaniyalar | Əsasən maliyyələşdirmə |\n\n**Qeydiyyat və hüquqi əsas:**\n- Ədliyyə Nazirliyində dövlət qeydiyyatı\n- Vergi orqanlarında uçota alınması\n- Bank hesabı açılması\n- Hesabatlılıq (illik maliyyə hesabatı)\n\nHər iki forma cəmiyyətin inkişafında, sosial problemlərin həllində mühüm rol oynayır.",
+      "keywords": [
+        "ictimai birlik",
+        "fond",
+        "üzvlük",
+        "xeyriyyə",
+        "QHT",
+        "qeydiyyat"
+      ]
+    },
+    {
+      "id": 52,
+      "category": "Bilet 11",
+      "question": "Layihə komandası daxilində münaqişələr və onların həlli yolları",
+      "answer": "Münaqişələr komanda işinin təbii hissəsidir. Düzgün idarə olunmadıqda layihəni uğursuz edə bilər.\n\n**Münaqişənin səbəbləri:**\n\n1) **Tapşırıqla bağlı (Task conflict)**\n- İşin məzmunu, prioritetlər haqqında fikir ayrılığı\n- Resurs bölgüsü mübahisəsi\n- Məqsədlərin fərqli başa düşülməsi\n\n2) **Prosessual (Process conflict)**\n- Necə işləmək barədə mübahisə\n- Metodologiya seçimi\n- Rol və məsuliyyətlərin bölgüsü\n\n3) **Şəxslərarası (Relationship conflict)**\n- Şəxsi uyğunsuzluq\n- Dəyər fərqləri\n- Keçmiş təcrübələr\n- Eqo və şəxsiyyət toqquşmaları\n\n**Münaqişənin mərhələləri (K.Thomas modeli):**\n1. Gizli münaqişə (latent) — hələ üzə çıxmayıb\n2. Hiss olunan (perceived) — tərəflər münaqişəni dərk edir\n3. Hiss olunan (felt) — emosional reaksiya\n4. Açıq (manifest) — mübahisə, müzakirə\n5. Nəticələr (outcomes) — həll və ya eskalasiya\n\n**Münaqişənin həlli üsulları:**\n\n1) **Yarışma (Competing)**\n- Bir tərəf qalib gəlir, digəri uduzur\n- Təcili qərarlar üçün\n- Risk: qalib gələn tərəfdə məyusluq\n\n2) **Uyğunlaşma (Accommodating)**\n- Bir tərəf geri çəkilir\n- Əhəmiyyətsiz məsələlərdə\n- Əlaqələri qorumaq üçün\n\n3) **Qarşılıqlı güzəşt (Compromising)**\n- Hər iki tərəf bir az güzəştə gedir\n- Vaxt məhdud olduqda\n- Orta yol tapılır\n\n4) **Qaçma (Avoiding)**\n- Münaqişədən yayınmaq\n- Əhəmiyyətsiz məsələlərdə\n- Tərəflər sakitləşənə qədər vaxt qazanmaq\n\n5) **Əməkdaşlıq (Collaborating)**\n- Hər iki tərəfin qalib gəldiyi həll\n- \"Hər kəs qalib gəlir\" (win-win)\n- İdealdır, amma vaxt aparır\n\n**Effektiv münaqişə idarəetməsi üçün:**\n- Vaxtında müdaxilə\n- Aktiv dinləmə\n- Empatiyanı qorumaq\n- Faktlara fokuslanmaq, şəxsiyyətə deyil\n- Qərəzsiz vasitəçi (mediator)\n- Yazılı razılaşma\n- İzləmə (nəticələri yoxlama)\n\n**Müsbət tərəfi:**\n- Münaqişə yaradıcılığa səbəb ola bilər\n- Gizli problemləri üzə çıxarır\n- Komanda üzvlərini daha yaxşı tanımağa kömək edir\n- Daha yaxşı həllər meydana çıxır\n\nMünaqişə düzgün idarə olunduqda komandanı gücləndirir.",
+      "keywords": [
+        "münaqişə",
+        "idarəetmə",
+        "əməkdaşlıq",
+        "kompromis",
+        "vasitəçi",
+        "həll"
+      ]
+    },
+    {
+      "id": 53,
+      "category": "Bilet 11",
+      "question": "Layihənin məqsədinin, ümumi məqsədlərin və nəticələrin planlaşdırılması",
+      "answer": "Layihənin məqsədyönlü planlaşdırması (Logical Framework / Logframe) layihənin əsasını təşkil edir.\n\n**Planlaşdırma səviyyələri (nəticə zənciri):**\n\n1) **İnputlar (Girişlər)**\n- Resurslar, maliyyə, insan qüvvəsi\n- Layihəyə daxil olan xammal\n\n2) **Fəaliyyətlər (Activities)**\n- Nə ediləcək işlər\n- Prosessual addımlar\n\n3) **Çıxışlar (Outputs)**\n- Birbaşa istehsal olunan nəticələr\n- Məhsullar, xidmətlər, sənədlər\n- Məs: 10 təlim keçirildi, 200 nəfər iştirak etdi\n\n4) **Nəticələr (Outcomes)**\n- Çıxışlardan yaranan dəyişikliklər\n- Davranış, bilik, bacarıq dəyişikliyi\n- Orta müddətli təsir\n- Məs: İştirakçıların 80%-i yeni biliklərini tətbiq etdi\n\n5) **Təsir (Impact)**\n- Uzunmüddətli, geniş dəyişikliklər\n- Cəmiyyətə, sektorlara təsir\n- Məs: Əhalinin 30%-i daha yaxşı qidalanma səviyyəsinə malikdir\n\n**Ümumi məqsəd (Goal) vs Xüsusi məqsəd (Objective):**\n\n- **Ümumi məqsəd** — layihənin ən yüksək səviyyəli məqsədi, cəmiyyətə/sektora təsir\n- **Xüsusi məqsəd** — layihə ilə əldə olunan konkret dəyişiklik\n- **Vəzifələr** — məqsədə çatmaq üçün yerinə yetirilən konkret addımlar\n\n**SMART məqsədlər:**\n- **S**pesifik — aydın, dəqiq\n- **M**easurable — ölçülə bilən\n- **A**chievable — əldə oluna bilən\n- **R**elevant — əlaqəli\n- **T**ime-bound — vaxtlı\n\n**Məntiqi çərçivə matrisi (Logframe):**\n- Müdaxilə məntiqi: Input → Activity → Output → Outcome → Impact\n- Göstəricilər (Indicators)\n- Doğrulama mənbələri (Means of Verification)\n- Fərziyyələr (Assumptions)\n\n**Planlaşdırma addımları:**\n1. Məqsədin dəqiq ifadəsi\n2. Nəticələrin müəyyən edilməsi\n3. Çıxışların planlaşdırılması\n4. Fəaliyyətlərin tərtibi\n5. Resursların təyini\n6. Göstəricilərin seçilməsi\n7. Risklərin və fərziyyələrin qeydi\n\n**Effektiv məqsəd planlaşdırması üçün:**\n- Maraqlı tərəflərlə konsultasiya\n- Əvvəlki təcrübələrin təhlili\n- Bazar / ehtiyac tədqiqatı\n- Çeviklik (dəyişən şəraitə uyğunlaşma)\n- Daimi monitorinq",
+      "keywords": [
+        "məqsəd",
+        "nəticə",
+        "çıxış",
+        "logframe",
+        "SMART",
+        "impact"
+      ]
+    },
+    {
+      "id": 54,
+      "category": "Bilet 11",
+      "question": "Layihənin təchizatının idarə edilməsi haqqında məlumat verin",
+      "answer": "Layihənin təchizatı (Procurement) — layihə üçün lazım olan malların, xidmətlərin və işlərin əldə edilməsi prosesidir.\n\n**Təchizat prosesi (PMBOK-a görə):**\n\n1) **Təchizatın planlaşdırılması**\n- Nə alınmalı, nə vaxt, necə\n- Satınalma vs öz istehsalı qərarı (make-or-buy)\n- Təchizat növləri: mallar, xidmətlər, tikinti işləri\n- Potensial satıcıların siyahısı\n\n2) **Təchizat planının hazırlanması**\n- Tələblər sənədi\n- Qiymətləndirmə meyarları\n- Müqavilə növü seçimi\n\n3) **Satınalma sorğusu (Request for Proposal/Quote/Tender)**\n- RFP (Request for Proposal) — təklif sorğusu\n- RFQ (Request for Quotation) — qiymət sorğusu\n- ITT (Invitation to Tender) — tender dəvəti\n\n4) **Satıcıların seçimi**\n- Təkliflərin qiymətləndirilməsi\n- Texniki və maliyyə qiymətləndirmə\n- Müsahibələr, referanslar\n- Qərar verilməsi\n\n5) **Müqavilənin idarə olunması**\n- Müqavilənin imzalanması\n- İcra prosesinin izlənməsi\n- Çatdırılma və qəbul\n- Ödənişlər\n- Dəyişikliklərin idarəsi\n- Mübahisələrin həlli\n\n6) **Təchizatın bağlanması**\n- Son qəbul\n- Ödənişin tamamlanması\n- Zəmanət sənədləri\n- Dərs alınması\n\n**Müqavilə növləri:**\n- **Sabit qiymət (Fixed Price / FFP)** — dəqiq əhatə dairəsi, sabit büdcə\n- **Xərc+ödəniş (Cost Plus / CPFF)** — faktiki xərc + mükafat\n- **Vaxt və material (Time & Material / T&M)** — saat/haqq + material\n- **Vahid qiymət (Unit Price)** — hər vahid üçün qiymət\n\n**Təchizat üsulları:**\n- **Birbaşa satınalma** — sadə, kiçik məbləğlər\n- **Müsabiqə/tender** — şəffaf, ədalətli\n- **Danışıqlar** — mürəkkəb, unikal layihələr\n- **Kataloq satınalması** — standart mallar\n- **Çərçivə sazişləri** — uzunmüddətli tərəfdaşlıq\n\n**Effektiv təchizat üçün:**\n- Aydın tələblər\n- Şəffaf qiymətləndirmə\n- Keyfiyyət standartları\n- Risk bölgüsü\n- Etik davranış (korrupsiyaya qarşı)\n- Yerli satıcılara üstünlük (mümkün olduqda)\n\nTəchizat çox vaxt layihənin ümumi dəyərinin əhəmiyyətli hissəsini təşkil edir və düzgün idarə olunmalıdır.",
+      "keywords": [
+        "təchizat",
+        "satınalma",
+        "müqavilə",
+        "tender",
+        "satıcı",
+        "RFP"
+      ]
+    },
+    {
+      "id": 55,
+      "category": "Bilet 11",
+      "question": "Layihə menementi sistemində rəhbərlik",
+      "answer": "Rəhbərlik (Leadership) layihə menecmenti sisteminin ən vacib komponentidir. O, bütün digər elementləri birləşdirir və layihəni uğura aparır.\n\n**Rəhbərliyin tərifləri:**\n- İnsanları müəyyən məqsədə çatmağa yönləndirmək bacarığı\n- Komandanı motivasiya etmək, ilhamlandırmaq\n- Qərar qəbul etmək və məsuliyyət daşımaq\n- Dəyişiklikləri idarə etmək\n\n**Rəhbərliyin funksiyaları layihələrdə:**\n\n1) **Vizyonun müəyyən edilməsi**\n- Layihənin məqsədini aydın görmə\n- Gələcək nəticələri təsəvvür etmə\n- Komanda ilə paylaşma\n\n2) **Strategiya qurmaq**\n- Uzunmüddətli plan\n- Resurs bölgüsü\n- Prioritetləri təyin etmək\n\n3) **Komandanı idarə etmək**\n- İşə götürmə, inkişaf, motivasiya\n- Performansın qiymətləndirilməsi\n- Münaqişələrin həlli\n\n4) **Kommunikasiya**\n- Açıq, şəffaf ünsiyyət\n- Aktiv dinləmə\n- Geri əlaqə\n\n5) **Qərar qəbulu**\n- Məlumatların təhlili\n- Alternativlərin qiymətləndirilməsi\n- Vaxtında düzgün qərar\n\n6) **Dəyişiklik idarəetməsi**\n- Yeni şəraitə uyğunlaşma\n- İnnovasiya təşviq\n- Çeviklik\n\n**Rəhbər üslubları:**\n- **Avtokratik** — təkbaşına qərar\n- **Demokratik** — komanda ilə müzakirə\n- **Laissez-faire** — sərbəst buraxma\n- **Transformativ** — dəyişiklik aparıcı\n- **Servant (xidmətkar)** — komandaya xidmət\n- **Situasion** — vəziyyətə görə üslub dəyişmə\n\n**Rəhbər üçün vacib kompetensiyalar:**\n- Strateji düşünmə\n- Emosional zəka\n- Qərar qəbuletmə\n- Kommunikasiya\n- Münaqişə həlli\n- Vaxt idarəetməsi\n- Risk idarəetməsi\n- Etik davranış\n\n**Rəhbərliyin təsir dairəsi:**\n- Komanda üzvlərinin motivasiyası\n- Layihənin uğur şansı\n- Təşkilati mədəniyyət\n- Maraqlı tərəflərlə münasibət\n- Nəticələrin keyfiyyəti\n\n**Yaxşı rəhbərin əlamətləri:**\n- Komanda üzvləri ona güvənir\n- Problem yarananda müraciət edirlər\n- Nəticələr yaxşıdır\n- Öyrənmə mühiti yaradır\n- Nümunə olur\n\nLayihə rəhbəri həm menecer, həm lider, həm də koordinator olmalıdır.",
+      "keywords": [
+        "rəhbərlik",
+        "lider",
+        "vizyon",
+        "komanda",
+        "motivasiya",
+        "qərar qəbulu"
+      ]
+    },
+    {
+      "id": 56,
+      "category": "Bilet 12",
+      "question": "Layihə təklifinin tərkib hissələri - problemin qoyuluşu",
+      "answer": "Layihə təklifinin ən vacib hissələrindən biri problemin düzgün qoyuluşudur. Bu, bütün layihənin əsasını təşkil edir.\n\n**Problemin qoyuluşunun əhəmiyyəti:**\n- Düzgün qoyulmuş problem → düzgün həll\n- Səhv qoyulmuş problem → səhv həll\n- Problemi dəqiq anlamaq layihənin uğurunun 50%-ni təşkil edir\n\n**Problemin qoyuluşunun komponentləri:**\n\n1) **Problemin adı**\n- Qısa, aydın, konkret\n- Məs: \"Kənd yerlərində içməli su çatışmazlığı\"\n\n2) **Problemin təsviri**\n- Mövcud vəziyyətin təhlili\n- Statistika, faktlar, rəqəmlər\n- Problem kəskin, aktual, həll oluna bilən olmalıdır\n\n3) **Problemin miqyası**\n- Neçə nəfər təsirlənir?\n- Hansı ərazidə?\n- Nə qədər müddətdir mövcuddur?\n\n4) **Problemin səbəbləri**\n- Birbaşa səbəblər\n- Dolayı səbəblər\n- Kök səbəblər (root causes)\n\n5) **Problemin nəticələri**\n- İqtisadi təsir\n- Sosial təsir\n- Ekoloji təsir\n- Sağlamlığa təsir\n\n6) **Maraqlı tərəflər**\n- Problem kimi qavrayır?\n- Maraqları nədir?\n- Həll yollarına münasibəti?\n\n7) **Mövcud həll cəhdləri**\n- Əvvəl nə edilib?\n- Niyə uğursuz olub?\n- Nəticələri nə olub?\n\n8) **Fərziyyələr və məhdudiyyətlər**\n- Nəzərə alınmayan amillər\n- Resurs məhdudiyyətləri\n- Vaxt çərçivəsi\n\n**Effektiv problem qoyuluşu üçün texnika:**\n\n1) **5 Niyə (5 Whys)**\n- Kök səbəbə çatmaq üçün 5 dəfə \"niyə?\" sualı vermək\n\n2) **Problem ağacı**\n- Vizual strukturlaşdırma\n- Səbəb-nəticə əlaqələri\n\n3) **Stakeholder analizi**\n- Kim təsirlənir, kim təsir edir\n\n4) **SWOT analizi**\n- Güclü tərəflər, zəif tərəflər, imkanlar, təhdidlər\n\n5) **Müsahibələr və sorğular**\n- Birbaşa məlumat toplama\n\n**Yaxşı problem bəyannaməsinin xüsusiyyətləri:**\n- Dəqiq və konkret\n- Ölçülə bilən\n- Həll oluna bilən\n- Vaxt çərçivəsi var\n- Mübahisəsiz qəbul edilir\n- Fərziyyələri ehtiva etmir\n\nProblemin düzgün qoyuluşu layihənin uğurlu başlanğıcıdır.",
+      "keywords": [
+        "problemin qoyuluşu",
+        "5 niyə",
+        "səbəb",
+        "miqyas",
+        "stakeholder",
+        "root cause"
+      ]
+    },
+    {
+      "id": 57,
+      "category": "Bilet 12",
+      "question": "MS Excel proqramından layihələrin idarə edilməsində istifadə",
+      "answer": "MS Excel layihə menecmentində ən geniş istifadə olunan alətlərdən biridir. Sadəliyi və elastikliyi onu populyar edir.\n\n**Excel-in layihə idarəetməsində istifadə sahələri:**\n\n1) **Büdcə və xərclərin izlənməsi**\n- Xərc kateqoriyaları üzrə bölgü\n- Faktiki vs planlaşdırılan\n- Formula ilə avtomatik hesablama\n- Pivot cədvəllərlə təhlil\n- Qrafiklərlə vizuallaşdırma\n\n2) **Vaxt cədvəli (Schedule)**\n- Sadə Gantt diaqramı (şərti formatla)\n- Başlama/bitmə tarixləri\n- Müddət\n- Asılılıqlar\n- Milestone-lar\n\n3) **Resurs planlaması**\n- İşçi adları, rolları\n- Tapşırıq bölgüsü\n- Yükləmə faizi\n- Əmək haqqı hesablamaları\n\n4) **Risk reyestri**\n- Risk siyahısı, ehtimal, təsir\n- Cavab strategiyaları\n- Risk sahibi\n- Status (bağlı, açıq, eskalasiya)\n\n5) **Məsələlər/Problemlər loqu**\n- Problem, prioritet, status\n- Məsul şəxs, son tarix\n- Həll üsulu\n\n6) **Maraqlı tərəflər analizi**\n- Maraq və təsir qiymətləndirmə\n- Kommunikasiya strategiyası\n- Əlaqə məlumatları\n\n7) **Performans izləmə (KPI)**\n- KPI dashboard\n- Trend analizi\n- Hədəf vs faktiki\n\n8) **Hesabatlar**\n- Vəziyyət hesabatları\n- Maliyyə hesabatları\n- İrəliləyiş hesabatları\n- Pivot cədvəllər və qrafiklər\n\n**Excel-in üstünlükləri:**\n- Hər yerdə mövcuddur\n- Öyrənmək asandır\n- Çevik, fərdiləşdirilə bilən\n- Güclü formullar (VLOOKUP, IF, SUMIF, və s.)\n- Qrafiklər və diaqramlar\n- Şərti formatlaşdırma\n- Makro ilə avtomatlaşdırma\n- Pivot cədvəllər\n\n**Çatışmazlıqları:**\n- Real-time əməkdaşlıq çətindir (köhnə versiyalarda)\n- Versiya idarəsi problemli\n- Böyük layihələr üçün mürəkkəbləşir\n- Mürəkkəb qrafiklər çətindir\n- Multi-user editing riskli\n\n**Excel ilə Gantt necə yaradılır:**\n- Sütun 1: Tapşırıq adı\n- Sütun 2: Başlama tarixi\n- Sütun 3: Müddət (gün)\n- Sütun 4: Bitmə tarixi (=B+C)\n- Şərti formatla: data bar ilə vizuallaşdırma\n\n**Excel şablonları:**\n- Layihə planı şablonları\n- Büdcə izləyicisi\n- Risk reyestri\n- KPI dashboard\n- Status hesabatı\n\nKiçik və orta layihələrdə MS Excel kifayət edə bilər. Böyük layihələrdə peşəkar alətlərlə (MS Project, Jira) birləşdirmək tövsiyə olunur.",
+      "keywords": [
+        "Excel",
+        "büdcə",
+        "Gantt",
+        "hesabat",
+        "formula",
+        "şablon"
+      ]
+    },
+    {
+      "id": 58,
+      "category": "Bilet 12",
+      "question": "Bazar iqtisadi sistemində menementin rolu",
+      "answer": "Bazar iqtisadi sistemində menementin rolu əhəmiyyətli dərəcədə artır, çünki rəqabət, müştəri seçimi və bazar qüvvələri fəaliyyəti şərtləndirir.\n\n**Bazar iqtisadiyyatının xüsusiyyətləri:**\n- Özəl mülkiyyət üstünlük təşkil edir\n- Qiymətlər tələb-təklif ilə formalaşır\n- Rəqabət mövcuddur\n- Sərbəst sahibkarlıq\n- Dövlət müdaxiləsi minimum\n- Mənfəət motivasiyası\n\n**Menementin əsas rolları bazar iqtisadiyyatında:**\n\n1) **Strateji planlaşdırma**\n- Bazar imkanlarının analizi\n- Rəqabət strategiyası\n- Uzunmüddətli mövqe\n\n2) **Marketinq və satış**\n- Müştəri tədqiqatı\n- Bazar seqmentləşməsi\n- Brendinq\n- Satış kanalları\n\n3) **Maliyyə idarəetməsi**\n- Mənfəət maksimallaşdırması\n- İnvestisiya qərarları\n- Maliyyə riskləri\n- Vergi planlaması\n\n4) **İstehsal/əməliyyat**\n- Səmərəlilik\n- Keyfiyyət\n- Xərclərin optimallaşdırılması\n- İnventar idarəetməsi\n\n5) **İnsan resursları**\n- Əmək bazarı\n- Rəqabətqabiliyyətli maaş\n- Təlim və inkişaf\n- Motivasiya sistemi\n\n6) **İnnovasiya**\n- Yeni məhsul/xidmət\n- Texnoloji inkişaf\n- Rəqabət üstünlüyü\n\n**Bazar iqtisadiyyatında menementin qarşılaşdığı çağırışlar:**\n\n- **Rəqabət** — hər zaman digər oyunçularla mübarizə\n- **Qloballaşma** — beynəlxalq rəqabət, ixrac\n- **Texnoloji dəyişikliklər** — sürətli uyğunlaşma\n- **Müştəri gözləntiləri** — daim artan tələblər\n- **Tənzimləmə** — qanunvericiliyə uyğunluq\n- **Etika** — sosial məsuliyyət, davamlılıq\n\n**Menecerin yeni bacarıqları:**\n- Analitik düşünmə\n- Rəqəmsal savadlılıq\n- Çevik qərar qəbulu\n- Xarici dil bilikləri (beynəlxalq bazar üçün)\n- Liderlik və kommunikasiya\n- Mədəniyyətlərarası idarəetmə\n\n**Layihə menecmenti ilə əlaqəsi:**\n- Layihələr bazar dəyişikliklərinə cavab olaraq yaradılır\n- İnvestisiya layihələri gəlirliliyə hesablanmalıdır\n- Rəqabət üstünlüyü layihələr vasitəsilə əldə edilir\n- Bazar araşdırması layihə planının əsas hissəsidir\n\nBazar iqtisadiyyatında menement — şirkətin həyat qabiliyyətinin təminatçısıdır.",
+      "keywords": [
+        "bazar iqtisadiyyatı",
+        "rəqabət",
+        "menement",
+        "strategiya",
+        "marketinq",
+        "mənfəət"
+      ]
+    },
+    {
+      "id": 59,
+      "category": "Bilet 12",
+      "question": "Özünə güvənən layihə meneceri üçün əhəmiyyəti",
+      "answer": "Özünə güvənən layihə meneceri (Confident PM) layihənin uğur şansını əhəmiyyətli dərəcədə artırır.\n\n**Özünə güvənin təzahürləri:**\n- Sərbəst qərar qəbulu\n- Risk altında soyuqqanlılıq\n- Çətin söhbətlərdə inamla iştirak\n- Komandanı inamla yönləndirmək\n- Müştəri və sponsor qarşısında güclü çıxış\n\n**Özünə güvənin faydaları:**\n\n1) **Qərar qəbulunun sürəti və keyfiyyəti**\n- Tərəddüd etmir, vaxtında qərar verir\n- Riskli, lakin vacib qərarlardan qaçmır\n- Məlumatı analiz edib irəli addım atır\n\n2) **Komanda motivasiyası**\n- İnamlı rəhbər komandaya güvən verir\n- \"Menecerimiz bacarır\" hissi\n- Risk altında belə sakit qalır\n\n3) **Maraqlı tərəflərlə effektiv münasibət**\n- Sponsor və müştəri qarşısında güclü təqdimat\n- Mübahisələrdə mövqeyini qoruyur\n- Etibar qazanır\n\n4) **Böhran idarəetməsi**\n- Problem yarananda panikaya qapılmır\n- Soyuqqanlılıqla həll yolları axtarır\n- Komandaya da sakitlik ötürür\n\n5) **Yaradıcılıq və innovasiya**\n- Yeni ideyaları sərbəst təklif edir\n- Uğursuzluqdan qorxmur\n- Çevik həll yolları tapır\n\n6) **Şəxsi nümunə**\n- Başqaları da inamla hərəkət etməyə başlayır\n- Komandada \"buna görə biz bacarırıq\" mədəniyyəti\n\n**Özünə güvəni gücləndirmək üsulları:**\n\n1) **Bilik və təcrübə artırma**\n- Peşəkar inkişaf\n- Sertifikatlar (PMP, PRINCE2)\n- Kitab oxuma, kurslar\n\n2) **Kiçik uğurlar**\n- Asan qələbələrlə başlama\n- Hər uğur özünə güvəni artırır\n\n3) **Müsbət self-talk**\n- Özünə \"bacarırsan\" demək\n- Uğursuzluqları dərs kimi qəbul etmək\n\n4) **Bədən dili**\n- Dik duruş, göz təması\n- Güclü səs tonu\n- Açıq jestlər\n\n5) **Risk sərhədlərini genişləndirmək**\n- Kiçik risklər götürmək\n- Hər dəfə bir az daha çoxunu sınamaq\n\n6) **Mentor və ya koach**\n- Təcrübəli məsləhətçi\n- Geri əlaqə və istiqamət\n\n7) **Hazırlıq**\n- Hər görüşə, təqdimata hazırlaşmaq\n- Bilmək inam yaradır\n\n**Özünə güvən eqo ilə səhv salınmamalıdır:**\n- Özünə güvən: \"Bacarmağım üçün səbəblər var\"\n- Eqo: \"Mən hər şeyi bilirəm, başqalarına ehtiyac yoxdur\"\n\nEffektiv layihə meneceri həm inamlı, həm də öyrənməyə açıq olmalıdır.",
+      "keywords": [
+        "özünə güvən",
+        "qərar qəbulu",
+        "motivasiya",
+        "liderlik",
+        "böhran",
+        "inkişaf"
+      ]
+    },
+    {
+      "id": 60,
+      "category": "Bilet 12",
+      "question": "Gantt sxemi və onun tətbiqi imkanları",
+      "answer": "Gantt sxemi (Gantt chart) layihə menecmentində ən geniş istifadə olunan vizual alətlərdən biridir. 1910-cu illərdə Henri Qantt tərəfindən işlənib hazırlanmışdır.\n\n**Gantt sxeminin strukturu:**\n- **Şaquli ox (Y)** — tapşırıqların siyahısı\n- **Üfüqi ox (X)** — zaman (günlər, həftələr, aylar)\n- **Barlar (zolaqlar)** — hər tapşırığın başlama/bitmə vaxtı və müddəti\n- **Milestone** — mühüm hadisələr (romb, üçbucaq)\n\n**Əsas komponentlər:**\n\n1) **Tapşırıq adı**\n2) **Başlama tarixi**\n3) **Bitmə tarixi**\n4) **Müddət**\n5) **Asılılıqlar** (FS, SS, FF, SF)\n6) **Məsul şəxs**\n7) **Tərəqqi (%)** — faktiki icra faizi\n8) **Kritik yol** — qırmızı rənglə göstərilir\n9) **Resurslar**\n10) **Büdcə**\n\n**Gantt sxeminin üstünlükləri:**\n\n1) **Vizuallıq** — bir baxışda bütün layihə aydın olur\n2) **Asan başa düşülmə** — texniki olmayan insanlar da anlayır\n3) **Əlaqələrin göstərilməsi** — tapşırıqlar arasındakı asılılıqlar\n4) **Vaxt izləmə** — nə vaxt nə baş verməli\n5) **Resurs planlaması** — kim nə vaxt nə edir\n6) **Kritik yolun müəyyən edilməsi**\n7) **Tərəqqi izləmə** — faktiki vs planlaşdırılan\n\n**Gantt sxeminin çatışmazlıqları:**\n- Mürəkkəb layihələrdə oxunması çətinləşir\n- Resurs məhdudiyyətlərini göstərmir\n- Riskləri əks etdirmir\n- 1000+ tapşırıq olduqda idarəolunmaz olur\n- Yalnız bir baxış açısı (vaxt)\n\n**Gantt sxeminin yaradılması addımları:**\n\n1) Layihənin məqsədini və əhatə dairəsini müəyyən et\n2) Tapşırıqları WBS ilə parçala\n3) Hər tapşırığın ardıcıllığını təyin et\n4) Müddəti qiymətləndir\n5) Asılılıqları qur\n6) Kritik yolu hesabla\n7) Resursları təyin et\n8) Proqram təminatında (MS Project, Excel, Smartsheet) yarat\n9) Mütəmadi yenilə\n\n**Proqram təminatı:**\n- **MS Project** — ən güclü, peşəkar\n- **Smartsheet** — bulud əsaslı, istifadəsi asan\n- **Asana** — komanda əməkdaşlığı\n- **Trello** — sadə, Kanban\n- **Excel** — əl ilə hazırlama\n- **TeamGantt** — onlayn, vizual\n- **GanttPRO** — xüsusi Gantt aləti\n\n**İstifadə sahələri:**\n- Tikinti layihələri\n- İT layihələri (cədvəl)\n- Tədbirlərin planlaşdırılması\n- Marketinq kampaniyaları\n- Məhsul inkişafı\n- Şəxsi hədəflər (karyera planlaması)\n\nGantt sxemi müasir layihə menecmentinin \"ən yaxşı dostu\" hesab olunur.",
+      "keywords": [
+        "Gantt",
+        "sxem",
+        "vaxt cədvəli",
+        "kritik yol",
+        "tapşırıq",
+        "asılılıq"
+      ]
+    }
+  ]
+}

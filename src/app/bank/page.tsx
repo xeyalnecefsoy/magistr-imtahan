@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { MarkdownText } from "@/components/MarkdownText"
 
 function BankCard({ q }: { q: Question }) {
     const [showVariants, setShowVariants] = useState(false)
@@ -75,9 +76,11 @@ function BankCard({ q }: { q: Question }) {
                              )}
                         </div>
                     ) : (
-                         <p className="text-sm text-slate-400 group-hover:text-slate-300 transition-colors">
-                            {q.answer}
-                        </p>
+                         <div className="text-sm text-slate-400 group-hover:text-slate-300 transition-colors">
+                            <MarkdownText size="sm">
+                              {q.answer}
+                            </MarkdownText>
+                        </div>
                     )}
                 </div>
             </CardContent>

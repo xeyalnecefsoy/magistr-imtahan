@@ -33,10 +33,7 @@ export function StructuredKeywords({ questions, selectedCategory, onExit }: Stru
   const filteredQuestions = useMemo(() => {
     let filtered = questions.filter(q => q.keywords && q.keywords.length > 0)
     if (selectedCategory) {
-      filtered = filtered.filter(q => 
-        q.category === selectedCategory || 
-        (selectedCategory === "Mühəndis yaradıcılıq prinsipləri" && q.category.includes("Yaradıcılıq"))
-      )
+      filtered = filtered.filter(q => q.category === selectedCategory)
     }
     // Sort by ID to maintain order
     return filtered.sort((a, b) => {

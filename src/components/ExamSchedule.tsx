@@ -2,57 +2,77 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { CalendarDays, Clock, FileText, PenTool } from "lucide-react"
+import { CalendarDays, Clock, FileText, PenTool, Brush } from "lucide-react"
 import { cn } from "@/lib/utils"
+
+type ExamType = "test" | "written" | "drawing"
 
 interface Exam {
   id: string
   subject: string
   date: string
-  type: "test" | "written"
+  type: ExamType
   teacher: string
 }
 
 const exams: Exam[] = [
   {
     id: "1",
-    subject: "Akademik yazı və etika",
-    date: "2026-01-08",
-    type: "test", // MCQ
-    teacher: "Əhmədova Mətanət"
+    subject: "Layihələrin idarə olunması",
+    date: "2026-06-08",
+    type: "written",
+    teacher: "Qarayev Maarif"
   },
   {
     id: "2",
-    subject: "Mühəndis yaradıcılıq prinsipləri",
-    date: "2026-01-14",
+    subject: "Təşkilati dizayn",
+    date: "2026-06-12",
     type: "written",
-    teacher: "Kərimov Tarıverdi"
+    teacher: "Kərimov Hüsnü"
   },
   {
     id: "3",
-    subject: "Sənaye dizaynında fəaliyyət sahələri",
-    date: "2026-01-19",
-    type: "written",
-    teacher: "Əliyev Şakir"
+    subject: "Sənaye dizaynında kompüter layihələndirilməsi-2",
+    date: "2026-06-17",
+    type: "drawing",
+    teacher: "Mirzəyev Razil"
   },
   {
     id: "4",
-    subject: "Erqonomika və texniki dizayn",
-    date: "2026-01-23",
-    type: "written",
+    subject: "Bədii layihələndirmədə texniki rəsm",
+    date: "2026-06-22",
+    type: "drawing",
     teacher: "Əliyev Şakir"
   },
   {
     id: "5",
-    subject: "Sənaye dizaynında kompüter layihələndirilməsi-1",
-    date: "2026-01-28",
+    subject: "İstehsal prosesinin texnoloji əsasları",
+    date: "2026-06-26",
     type: "written",
-    teacher: "Hacıyev İmaş"
+    teacher: "Hacıyev Cahangir"
   }
 ]
 
+const examTypeLabels: Record<ExamType, string> = {
+  test: "Test (MCQ)",
+  written: "Yazılı (Written)",
+  drawing: "Rəsm (Drawing)"
+}
+
+const examTypeIcons: Record<ExamType, typeof PenTool> = {
+  test: PenTool,
+  written: FileText,
+  drawing: Brush
+}
+
+const examTypeBadgeVariant: Record<ExamType, "default" | "secondary" | "outline"> = {
+  test: "default",
+  written: "secondary",
+  drawing: "outline"
+}
+
 interface ExamScheduleProps {
-  onExamClick?: (subject: string, type: "test" | "written") => void
+  onExamClick?: (subject: string, type: ExamType) => void
 }
 
 export function ExamSchedule({ onExamClick }: ExamScheduleProps) {
@@ -75,6 +95,7 @@ export function ExamSchedule({ onExamClick }: ExamScheduleProps) {
           const daysLeft = calculateDaysLeft(exam.date)
           const isUrgent = daysLeft >= 0 && daysLeft <= 3
           const isPast = daysLeft < 0
+          const TypeIcon = examTypeIcons[exam.type]
 
           return (
             <Card 
@@ -88,8 +109,8 @@ export function ExamSchedule({ onExamClick }: ExamScheduleProps) {
             >
               <CardHeader className="pb-2">
                 <div className="flex justify-between items-start">
-                  <Badge variant={exam.type === 'test' ? 'default' : 'secondary'}>
-                    {exam.type === 'test' ? 'Test (MCQ)' : 'Yazılı (Written)'}
+                  <Badge variant={examTypeBadgeVariant[exam.type]}>
+                    {examTypeLabels[exam.type]}
                   </Badge>
                   {daysLeft >= 0 ? (
                     <span className={cn("text-xs font-mono font-bold", isUrgent ? 'text-red-500' : 'text-muted-foreground')}>
@@ -109,7 +130,7 @@ export function ExamSchedule({ onExamClick }: ExamScheduleProps) {
                   {new Date(exam.date).toLocaleDateString('az-AZ', { day: 'numeric', month: 'long', year: 'numeric' })}
                 </div>
                 <div className="flex items-center gap-2">
-                  {exam.type === 'test' ? <PenTool className="w-4 h-4" /> : <FileText className="w-4 h-4" />}
+                  <TypeIcon className="w-4 h-4" />
                   {exam.teacher}
                 </div>
               </CardContent>

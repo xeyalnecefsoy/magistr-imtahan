@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft, Check, X, RotateCcw, ChevronRight } from "lucide-react"
+import { MarkdownText } from "@/components/MarkdownText"
 
 interface Question {
   id: string
@@ -188,9 +189,9 @@ export function FlashcardMode({ questions, selectedCategory, shuffleMode = true,
                       <span className="text-sm uppercase tracking-widest text-muted-foreground">Cavab</span>
                     </div>
                     <div className="flex-1 overflow-y-auto p-4 sm:p-6">
-                      <div className="text-sm sm:text-base leading-relaxed text-left whitespace-pre-line">
+                      <MarkdownText size="sm" className="text-left text-slate-100">
                         {currentCard.answer}
-                      </div>
+                      </MarkdownText>
                     </div>
                 </Card>
             </div>

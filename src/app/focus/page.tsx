@@ -11,13 +11,35 @@ import {
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
-import muhendisData from "@/data/muhendis-yaradiciliq-suallari.json"
-import dizaynData from "@/data/dizayn-suallari.json"
-import erqonomikaData from "@/data/erqonomika-suallari.json"
+import { MarkdownText } from "@/components/MarkdownText"
+import layiheIdareData from "@/data/layihe-idare-suallari.json"
+import teskilatiDizaynData from "@/data/teskilati-dizayn-suallari.json"
+import komputerDizayn2Data from "@/data/komputer-dizayn-2-suallari.json"
+import bediiResmData from "@/data/bedii-resm-suallari.json"
+import istehsalProsesiData from "@/data/istehsal-prosesi-suallari.json"
 
-type Subject = "all" | "muhendis" | "dizayn" | "erqonomika"
+type Subject = "all" | "layihe" | "teskilati" | "komputer2" | "bedii" | "istehsal"
 
 type GameState = "menu" | "select-subject" | "focus" | "break" | "question" | "answer" | "session-complete" | "all-complete"
+
+type RawQuestion = {
+  id: number
+  question: string
+  answer?: string
+  category?: string
+  keywords?: string[]
+}
+
+type SubjectFile = {
+  subject: string
+  questions: RawQuestion[]
+}
+
+const layiheFile = layiheIdareData as unknown as SubjectFile
+const teskilatiFile = teskilatiDizaynData as unknown as SubjectFile
+const komputer2File = komputerDizayn2Data as unknown as SubjectFile
+const bediiFile = bediiResmData as unknown as SubjectFile
+const istehsalFile = istehsalProsesiData as unknown as SubjectFile
 
 type Question = {
   id: number
@@ -223,16 +245,20 @@ export default function FocusPage() {
     
     let allQuestions: Question[] = []
     
-    if (subject === "all" || subject === "muhendis") {
-      allQuestions = [...allQuestions, ...muhendisData.questions.map(q => ({...q, category: "Mühəndis yaradıcılığı"}))]
+    if (subject === "all" || subject === "layihe") {
+      allQuestions = [...allQuestions, ...layiheFile.questions.map(q => ({...q, category: "Layihələrin idarə olunması", answer: q.answer || ""}))]
     }
-    if (subject === "all" || subject === "dizayn") {
-       // @ts-ignore
-      allQuestions = [...allQuestions, ...dizaynData.questions.map(q => ({...q, category: "Dizayn fəaliyyət sahələri", answer: q.answer || ""}))]
+    if (subject === "all" || subject === "teskilati") {
+      allQuestions = [...allQuestions, ...teskilatiFile.questions.map(q => ({...q, category: "Təşkilati dizayn", answer: q.answer || ""}))]
     }
-    if (subject === "all" || subject === "erqonomika") {
-       // @ts-ignore
-      allQuestions = [...allQuestions, ...erqonomikaData.questions.map(q => ({...q, category: "Erqonomika", answer: q.answer || ""}))]
+    if (subject === "all" || subject === "komputer2") {
+      allQuestions = [...allQuestions, ...komputer2File.questions.map(q => ({...q, category: "Sənaye dizaynında kompüter layihələndirilməsi-2", answer: q.answer || ""}))]
+    }
+    if (subject === "all" || subject === "bedii") {
+      allQuestions = [...allQuestions, ...bediiFile.questions.map(q => ({...q, category: "Bədii layihələndirmədə texniki rəsm", answer: q.answer || ""}))]
+    }
+    if (subject === "all" || subject === "istehsal") {
+      allQuestions = [...allQuestions, ...istehsalFile.questions.map(q => ({...q, category: "İstehsal prosesinin texnoloji əsasları", answer: q.answer || ""}))]
     }
     
     // Filter out questions with empty answers
@@ -423,42 +449,70 @@ export default function FocusPage() {
                 <Button 
                   variant="outline" 
                   className="h-16 justify-start px-6 border-slate-700 hover:bg-slate-800 hover:border-orange-500/50 group"
-                  onClick={() => handleStart("muhendis")}
+                  onClick={() => handleStart("layihe")}
                 >
                   <div className="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center mr-4 group-hover:bg-blue-500/30 transition-colors">
                     <Brain className="w-5 h-5 text-blue-400" />
                   </div>
                   <div className="text-left">
-                    <div className="font-bold text-white">Mühəndis yaradıcılığı</div>
-                    <div className="text-xs text-slate-500">{muhendisData.questions.length} sual</div>
+                    <div className="font-bold text-white">Layihələrin idarə olunması</div>
+                    <div className="text-xs text-slate-500">{layiheFile.questions.length} sual</div>
                   </div>
                 </Button>
 
                 <Button 
                   variant="outline" 
                   className="h-16 justify-start px-6 border-slate-700 hover:bg-slate-800 hover:border-orange-500/50 group"
-                  onClick={() => handleStart("dizayn")}
+                  onClick={() => handleStart("teskilati")}
                 >
-                  <div className="w-10 h-10 rounded-full bg-purple-500/20 flex items-center justify-center mr-4 group-hover:bg-purple-500/30 transition-colors">
-                    <Sparkles className="w-5 h-5 text-purple-400" />
+                  <div className="w-10 h-10 rounded-full bg-pink-500/20 flex items-center justify-center mr-4 group-hover:bg-pink-500/30 transition-colors">
+                    <Sparkles className="w-5 h-5 text-pink-400" />
                   </div>
                   <div className="text-left">
-                    <div className="font-bold text-white">Dizayn fəaliyyət sahələri</div>
-                    <div className="text-xs text-slate-500">{dizaynData.questions.length} sual</div>
+                    <div className="font-bold text-white">Təşkilati dizayn</div>
+                    <div className="text-xs text-slate-500">{teskilatiFile.questions.length} sual</div>
                   </div>
                 </Button>
 
                 <Button 
                   variant="outline" 
                   className="h-16 justify-start px-6 border-slate-700 hover:bg-slate-800 hover:border-orange-500/50 group"
-                  onClick={() => handleStart("erqonomika")}
+                  onClick={() => handleStart("komputer2")}
                 >
-                  <div className="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center mr-4 group-hover:bg-green-500/30 transition-colors">
-                    <Coffee className="w-5 h-5 text-green-400" />
+                  <div className="w-10 h-10 rounded-full bg-cyan-500/20 flex items-center justify-center mr-4 group-hover:bg-cyan-500/30 transition-colors">
+                    <Coffee className="w-5 h-5 text-cyan-400" />
                   </div>
                   <div className="text-left">
-                    <div className="font-bold text-white">Erqonomika və texniki dizayn</div>
-                    <div className="text-xs text-slate-500">{erqonomikaData.questions.length} sual (Bilet)</div>
+                    <div className="font-bold text-white">Kompüter layihələndirilməsi-2</div>
+                    <div className="text-xs text-slate-500">{komputer2File.questions.length} sual</div>
+                  </div>
+                </Button>
+
+                <Button 
+                  variant="outline" 
+                  className="h-16 justify-start px-6 border-slate-700 hover:bg-slate-800 hover:border-orange-500/50 group"
+                  onClick={() => handleStart("bedii")}
+                >
+                  <div className="w-10 h-10 rounded-full bg-violet-500/20 flex items-center justify-center mr-4 group-hover:bg-violet-500/30 transition-colors">
+                    <Flame className="w-5 h-5 text-violet-400" />
+                  </div>
+                  <div className="text-left">
+                    <div className="font-bold text-white">Bədii texniki rəsm</div>
+                    <div className="text-xs text-slate-500">{bediiFile.questions.length} sual</div>
+                  </div>
+                </Button>
+
+                <Button 
+                  variant="outline" 
+                  className="h-16 justify-start px-6 border-slate-700 hover:bg-slate-800 hover:border-orange-500/50 group"
+                  onClick={() => handleStart("istehsal")}
+                >
+                  <div className="w-10 h-10 rounded-full bg-emerald-500/20 flex items-center justify-center mr-4 group-hover:bg-emerald-500/30 transition-colors">
+                    <Star className="w-5 h-5 text-emerald-400" />
+                  </div>
+                  <div className="text-left">
+                    <div className="font-bold text-white">İstehsal prosesi</div>
+                    <div className="text-xs text-slate-500">{istehsalFile.questions.length} sual</div>
                   </div>
                 </Button>
 
@@ -620,11 +674,13 @@ export default function FocusPage() {
                         initial={{ opacity: 0, rotateX: -90 }}
                         animate={{ opacity: 1, rotateX: 0 }}
                         exit={{ opacity: 0, rotateX: 90 }}
-                        className="space-y-4"
+                        className="space-y-4 w-full"
                       >
-                        <p className="text-lg leading-relaxed text-slate-200">
-                          {currentQuestion.answer}
-                        </p>
+                        <div className="text-slate-200 text-left">
+                          <MarkdownText size="base">
+                            {currentQuestion.answer}
+                          </MarkdownText>
+                        </div>
                         
                         {currentQuestion.keywords && currentQuestion.keywords.length > 0 && (
                           <div className="flex flex-wrap gap-2 justify-center mt-4">
@@ -790,9 +846,7 @@ export default function FocusPage() {
                     setMaxCombo(0)
                     setSessionsCompleted(0)
                     setQuestionsAnswered(0)
-                    const shuffled = [...muhendisData.questions].sort(() => Math.random() - 0.5)
-                    setQuestions(shuffled)
-                    setGameState("menu")
+                    handleStart(selectedSubject)
                   }}
                 >
                   <RotateCcw className="w-4 h-4 mr-2" />

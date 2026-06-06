@@ -5,17 +5,18 @@ import { useRouter } from "next/navigation"
 import { motion } from "framer-motion"
 import { 
   ArrowLeft, Lightbulb, FileText, ChevronRight, 
-  Layout, Star, BookOpen, Layers, PenTool, Database, Cpu
+  Layout, Star, BookOpen, Layers, PenTool, Database, Cpu, Brush, Network
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import Markdown from "react-markdown"
 
-import muhendisData from "@/data/muhendis-yaradiciliq-suallari.json"
-import dizaynData from "@/data/dizayn-suallari.json"
-import erqonomikaData from "@/data/erqonomika-suallari.json"
-import komputerData from "@/data/komputer-dizayn-suallari.json"
+import layiheIdareData from "@/data/layihe-idare-suallari.json"
+import teskilatiDizaynData from "@/data/teskilati-dizayn-suallari.json"
+import komputerDizayn2Data from "@/data/komputer-dizayn-2-suallari.json"
+import bediiResmData from "@/data/bedii-resm-suallari.json"
+import istehsalProsesiData from "@/data/istehsal-prosesi-suallari.json"
 
 // Type definitions
 type GuideQuestion = {
@@ -36,32 +37,39 @@ type Subject = {
 
 const SUBJECTS: Subject[] = [
   {
-    id: "muhendis",
-    title: "Mühəndis yaradıcılıq prinsipləri",
+    id: "layihe",
+    title: "Layihələrin idarə olunması",
     icon: Lightbulb,
-    data: muhendisData,
+    data: layiheIdareData,
     color: "from-amber-500 to-orange-500"
   },
   {
-    id: "dizayn",
-    title: "Sənaye dizaynında fəaliyyət sahələri",
-    icon: Layers,
-    data: dizaynData,
+    id: "teskilati",
+    title: "Təşkilati dizayn",
+    icon: Network,
+    data: teskilatiDizaynData,
     color: "from-pink-500 to-rose-500"
   },
   {
-    id: "erqonomika",
-    title: "Erqonomika və texniki dizayn",
+    id: "komputer2",
+    title: "Sənaye dizaynında kompüter layihələndirilməsi-2",
     icon: Cpu,
-    data: erqonomikaData,
+    data: komputerDizayn2Data,
     color: "from-blue-500 to-cyan-500"
   },
   {
-    id: "komputer",
-    title: "Sənaye dizaynında kompüter layihələndirilməsi",
-    icon: Database,
-    data: komputerData,
+    id: "bedii",
+    title: "Bədii layihələndirmədə texniki rəsm",
+    icon: Brush,
+    data: bediiResmData,
     color: "from-purple-500 to-violet-500"
+  },
+  {
+    id: "istehsal",
+    title: "İstehsal prosesinin texnoloji əsasları",
+    icon: Database,
+    data: istehsalProsesiData,
+    color: "from-emerald-500 to-green-500"
   }
 ]
 

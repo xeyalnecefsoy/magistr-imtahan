@@ -14,11 +14,11 @@ import { Separator } from "@/components/ui/separator"
 import { Textarea } from "@/components/ui/textarea"
 import { cn } from "@/lib/utils"
 
-import questionsData from "@/data/questions.json"
-import akademikYaziData from "@/data/akademik-yazi.json"
-import dizaynSuallariData from "@/data/dizayn-suallari.json"
-import muhendisYaradiciliqData from "@/data/muhendis-yaradiciliq-suallari.json"
-import komputerDizaynData from "@/data/komputer-dizayn-suallari.json"
+import layiheIdareData from "@/data/layihe-idare-suallari.json"
+import teskilatiDizaynData from "@/data/teskilati-dizayn-suallari.json"
+import komputerDizayn2Data from "@/data/komputer-dizayn-2-suallari.json"
+import bediiResmData from "@/data/bedii-resm-suallari.json"
+import istehsalProsesiData from "@/data/istehsal-prosesi-suallari.json"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { BlitzMode } from "@/components/BlitzMode"
@@ -29,58 +29,46 @@ import { ResultModal } from "@/components/ResultModal"
 import { WriteMode } from "@/components/WriteMode"
 import { TicketMode } from "@/components/TicketMode"
 import { StructuredKeywords } from "@/components/StructuredKeywords"
-import erqonomikaSuallariData from "@/data/erqonomika-suallari.json"
+import { MarkdownText } from "@/components/MarkdownText"
 
-// Transform dizayn questions to match the app format - all under ONE category
-const dizaynQuestions = dizaynSuallariData.questions.map(q => ({
-  id: `dizayn-${q.id}`,
-  type: "flashcard" as const,
-  question: q.question,
-  answer: q.answer,
-  category: "Sənaye dizaynında fəaliyyət sahələri",
-  keywords: []
-}))
+type SubjectFile = {
+  subject: string
+  questions: Array<{
+    id: number | string
+    category: string
+    question: string
+    answer: string
+    keywords?: string[]
+  }>
+}
 
-// Transform erqonomika questions to match the app format - all under ONE category
-const erqonomikaQuestions = erqonomikaSuallariData.questions.map(q => ({
-  id: `erqonomika-${q.id}`,
-  type: "flashcard" as const,
-  question: q.question,
-  answer: q.answer || "",
-  category: "Erqonomika və texniki dizayn",
-  keywords: []
-}))
+type AppQuestion = {
+  id: string
+  type: "flashcard" | "mcq"
+  question: string
+  answer: string
+  category: string
+  keywords: string[]
+  options?: string[]
+}
 
-// Transform muhendis questions to match the app format - all under ONE category
-const muhendisQuestions = muhendisYaradiciliqData.questions.map(q => ({
-  id: `muhendis-${q.id}`,
-  type: "flashcard" as const,
-  question: q.question,
-  answer: q.answer,
-  category: "Mühəndis yaradıcılıq prinsipləri",
-  keywords: (q as any).keywords || []
-}))
+function buildSubjectQuestions(file: SubjectFile, prefix: string): AppQuestion[] {
+  return file.questions.map(q => ({
+    id: `${prefix}-${q.id}`,
+    type: "flashcard",
+    question: q.question,
+    answer: q.answer || "",
+    category: file.subject,
+    keywords: q.keywords || []
+  }))
+}
 
-// Transform komputer questions to match the app format - all under ONE category
-const komputerQuestions = (komputerDizaynData.questions as any[]).map(q => ({
-  id: `komputer-${q.id}`,
-  type: "flashcard" as const,
-  question: q.question,
-  answer: q.answer || "",
-  category: "Sənaye dizaynında kompüter layihələndirilməsi-1",
-  keywords: []
-}))
-
-// Merge all question sources
-const initialQuestions = [
-  ...questionsData
-    .filter(q => q.category !== "Mühəndis yaradıcılıq prinsipləri")
-    .map(q => ({ ...q, id: `general-${q.id}`, answer: q.answer || "", keywords: [] })),
-  ...akademikYaziData.map(q => ({ ...q, id: `akademik-${q.id}`, answer: q.answer || "", keywords: [] })),
-  ...dizaynQuestions,
-  ...erqonomikaQuestions,
-  ...muhendisQuestions,
-  ...komputerQuestions
+const initialQuestions: AppQuestion[] = [
+  ...buildSubjectQuestions(layiheIdareData as SubjectFile, "layihe"),
+  ...buildSubjectQuestions(teskilatiDizaynData as SubjectFile, "teskilati"),
+  ...buildSubjectQuestions(komputerDizayn2Data as SubjectFile, "komputer2"),
+  ...buildSubjectQuestions(bediiResmData as SubjectFile, "bedii"),
+  ...buildSubjectQuestions(istehsalProsesiData as SubjectFile, "istehsal")
 ]
 
 type AppMode = "home" | "select-category" | "blitz" | "flashcards" | "write" | "keywords" | "ticket" | "structured-keywords" | "written-prep"
@@ -174,11 +162,11 @@ export default function Home() {
 
   // Exam dates from the official schedule
   const EXAM_DATES: Record<string, string> = {
-    "Akademik yazı və etika": "2025-01-08", // Keçmiş tarix (cədvələ əsasən)
-    "Mühəndis yaradıcılıq prinsipləri": "2026-01-14",
-    "Sənaye dizaynında fəaliyyət sahələri": "2026-01-19",
-    "Erqonomika və texniki dizayn": "2026-01-23",
-    "Sənaye dizaynında kompüter layihələndirilməsi-1": "2026-01-28"
+    "Layihələrin idarə olunması": "2026-06-08",
+    "Təşkilati dizayn": "2026-06-12",
+    "Sənaye dizaynında kompüter layihələndirilməsi-2": "2026-06-17",
+    "Bədii layihələndirmədə texniki rəsm": "2026-06-22",
+    "İstehsal prosesinin texnoloji əsasları": "2026-06-26"
   }
 
   // Get unique categories and sort them
@@ -237,7 +225,7 @@ export default function Home() {
     setCurrentQuestionIndex(0)
   }
 
-  const handleExamClick = (subject: string, type: "test" | "written") => {
+  const handleExamClick = (subject: string, type: "test" | "written" | "drawing") => {
     setSelectedCategory(subject)
     
     // Choose mode based on exam type
@@ -608,11 +596,11 @@ export default function Home() {
                       <BookOpen className="w-4 h-4" />
                       Mühazirə Cavabı (Uzun Versiya)
                     </div>
-                    <div className="prose prose-invert max-w-none text-muted-foreground leading-relaxed text-lg">
+                    <div className="text-muted-foreground leading-relaxed text-lg">
                       {categoryQuestions[currentQuestionIndex]?.answer ? (
-                        categoryQuestions[currentQuestionIndex]?.answer.split('\n').map((para: string, i: number) => (
-                           para.trim() && <p key={i} className="mb-4">{para}</p>
-                        ))
+                        <MarkdownText size="base" className="text-slate-200">
+                          {categoryQuestions[currentQuestionIndex]?.answer}
+                        </MarkdownText>
                       ) : (
                         <p className="italic opacity-50">Bu sual üçün geniş cavab tapılmadı.</p>
                       )}

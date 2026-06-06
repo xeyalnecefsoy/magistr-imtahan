@@ -1,9 +1,9 @@
 
-import questionsData from "@/data/questions.json"
-import akademikYaziData from "@/data/akademik-yazi.json"
-import dizaynSuallariData from "@/data/dizayn-suallari.json"
-import muhendisYaradiciliqData from "@/data/muhendis-yaradiciliq-suallari.json"
-import erqonomikaSuallariData from "@/data/erqonomika-suallari.json"
+import layiheIdareData from "@/data/layihe-idare-suallari.json"
+import teskilatiDizaynData from "@/data/teskilati-dizayn-suallari.json"
+import komputerDizayn2Data from "@/data/komputer-dizayn-2-suallari.json"
+import bediiResmData from "@/data/bedii-resm-suallari.json"
+import istehsalProsesiData from "@/data/istehsal-prosesi-suallari.json"
 
 export type Question = {
   id: string | number
@@ -15,59 +15,58 @@ export type Question = {
   source?: string
 }
 
-export function getAllQuestions(): Question[] {
-  // Transform dizayn questions
-  const dizaynQuestions = dizaynSuallariData.questions.map(q => ({
-    id: `dizayn-${q.id}`,
-    type: "flashcard" as const,
-    question: q.question,
-    answer: q.answer,
-    category: "Sənaye dizaynında fəaliyyət sahələri",
-    source: q.source || "Dizayn Sualları"
-  }))
+type SubjectFile = {
+  subject: string
+  teacher?: string
+  examDate?: string
+  examType?: string
+  totalQuestions?: number
+  questionsPerTicket?: number
+  totalTickets?: number
+  questions: Array<{
+    id: number | string
+    category: string
+    question: string
+    answer: string
+    keywords?: string[]
+  }>
+}
 
-  // Transform erqonomika questions
-  const erqonomikaQuestions = erqonomikaSuallariData.questions.map(q => ({
-    id: `erqonomika-${q.id}`,
+function transformSubject(file: SubjectFile, source: string) {
+  return file.questions.map(q => ({
+    id: `${source}-${q.id}`,
     type: "flashcard" as const,
     question: q.question,
     answer: q.answer || "",
-    category: "Erqonomika və texniki dizayn",
-    source: "Erqonomika"
+    category: file.subject,
+    source
   }))
+}
 
-  // Transform muhendis questions
-  const muhendisQuestions = muhendisYaradiciliqData.questions.map(q => ({
-    id: `muhendis-${q.id}`,
-    type: "flashcard" as const,
-    question: q.question,
-    answer: q.answer,
-    category: "Mühəndis yaradıcılıq prinsipləri",
-    source: "Mühəndislik"
-  }))
-
-  // Merge all question sources
+export function getAllQuestions(): Question[] {
   const allQuestions: Question[] = [
-    ...questionsData.map(q => ({ 
-      ...q, 
-      id: `general-${q.id}`, 
-      type: (q.type === "mcq" || q.type === "flashcard" ? q.type : "flashcard") as "mcq" | "flashcard",
-      answer: q.answer || "",
-      category: q.category || "Ümumi",
-      source: "Suallar Bankı"
-    })),
-    ...akademikYaziData.map(q => ({ 
-      ...q, 
-      id: `akademik-${q.id}`,
-      type: (q.type === "mcq" ? "mcq" : "flashcard") as "mcq" | "flashcard", 
-      answer: q.answer || "",
-      category: "Akademik yazı və etika", 
-      source: "Akademik Yazı"
-    })),
-    ...dizaynQuestions,
-    ...erqonomikaQuestions,
-    ...muhendisQuestions
+    ...transformSubject(layiheIdareData as SubjectFile, "Layihələrin idarə olunması"),
+    ...transformSubject(teskilatiDizaynData as SubjectFile, "Təşkilati dizayn"),
+    ...transformSubject(komputerDizayn2Data as SubjectFile, "Sənaye dizaynında kompüter layihələndirilməsi-2"),
+    ...transformSubject(bediiResmData as SubjectFile, "Bədii layihələndirmədə texniki rəsm"),
+    ...transformSubject(istehsalProsesiData as SubjectFile, "İstehsal prosesinin texnoloji əsasları")
   ]
 
   return allQuestions
+}
+
+export const SUBJECT_LIST = [
+  "Layihələrin idarə olunması",
+  "Təşkilati dizayn",
+  "Sənaye dizaynında kompüter layihələndirilməsi-2",
+  "Bədii layihələndirmədə texniki rəsm",
+  "İstehsal prosesinin texnoloji əsasları"
+] as const
+
+export const EXAM_DATES_MAP: Record<string, string> = {
+  "Layihələrin idarə olunması": "2026-06-08",
+  "Təşkilati dizayn": "2026-06-12",
+  "Sənaye dizaynında kompüter layihələndirilməsi-2": "2026-06-17",
+  "Bədii layihələndirmədə texniki rəsm": "2026-06-22",
+  "İstehsal prosesinin texnoloji əsasları": "2026-06-26"
 }
